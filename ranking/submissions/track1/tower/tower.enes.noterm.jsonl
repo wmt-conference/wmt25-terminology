@@ -1,0 +1,500 @@
+{"en": "Why would you need to access HDI containers?", "es": "¿Por qué necesitaría acceder a los contenedores de HDI?"}
+{"en": "Decide if you want to use parallel processing for this job:", "es": "Decida si quiere usar procesamiento paralelo para esta tarea:"}
+{"en": "Displays in the list report billing elements with or without planned prepayments.", "es": "En el informe de lista, se muestran los elementos de facturación con o sin prepagos planificados."}
+{"en": "The KPI shows the average age in days of assets under construction, and individual items are listed below.", "es": "El KPI muestra la edad promedio en días de los activos en construcción, y a continuación se enumeran los elementos individuales."}
+{"en": "Once exported, an item stays in the software collection for its entire lifecycle.", "es": "Una vez exportado, un elemento permanece en la colección de software durante todo su ciclo de vida."}
+{"en": "If it's an assembly, the explosion continues to the lowest level.", "es": "Si se trata de una agrupación, la explosión continúa hasta el nivel más bajo."}
+{"en": "Add a New OAuth Client (Non-SAP Data Center)", "es": "Agregar un nuevo cliente OAuth (centro de datos que no es SAP)"}
+{"en": "Each compute block provides a certain number of vCPUs and a range of 60 to 64 GB of RAM, depending on the hyperscaler.", "es": "Cada bloque de cálculo proporciona un cierto número de vCPU y una gama de 60 a 64 GB de RAM, dependiendo del hiperescalador."}
+{"en": "Source systems connected to an SAP LT Replication Server are supported down to:", "es": "Los sistemas de origen conectados a un servidor de replicación SAP LT se admiten hasta:"}
+{"en": "After you create a new template, you will be directed to the template page, to add text blocks to the template.", "es": "Tras crear una nueva plantilla, se le dirigirá a la página de plantillas para agregar bloques de texto a la plantilla."}
+{"en": "Data is accessed directly from the source (federation) and read from the virtual table.", "es": "Se accede directamente a los datos desde la fuente (federación) y se leen desde la tabla virtual."}
+{"en": "Edit Default Waste Generator", "es": "Editar Generador de residuos predeterminado"}
+{"en": "Resets the filters.", "es": "Restablece los filtros."}
+{"en": "You can copy existing items or item sets to add new ones to the sourcing project.", "es": "Puede copiar elementos o conjuntos de elementos existentes para agregar nuevos al proyecto de aprovisionamiento."}
+{"en": "Access of this category is not based on individual support cases or incidents.", "es": "El acceso a esta categoría no se basa en casos o incidentes de apoyo individual."}
+{"en": "Use the dropdown list in the upper left corner of the dialog box to select the search template you want to use.", "es": "Use la lista desplegable en la esquina superior izquierda de la ventana de diálogo para seleccionar el plantilla de búsqueda que desea utilizar."}
+{"en": "To save and deploy your ER model to SAP HANA, choose Deploy.", "es": "Para guardar y desplegar su modelo ER en SAP HANA, seleccione “Deploy” (Desplegar)."}
+{"en": "Confirm the write-off action and verify that the selected items have moved from the To Be Billed tab to the To Be Written Off tab.", "es": "Confirme la acción de cancelación y verifique que los elementos seleccionados han pasado de la pestaña “Facturar” a la pestaña “Cancelar”."}
+{"en": "You create an installment plan, if there are one or more open items in the contract account of a business partner and the business partner cannot fulfill the payment obligation within the scope of the usual payment rules.", "es": "Creas un plan de cuotas si hay uno o más artículos pendientes en la cuenta de contrato de un socio comercial y el socio comercial no puede cumplir con el compromiso de pago dentro del ámbito de las normas de pago habituales."}
+{"en": "Defines when the valuation takes place and whether it is reset.", "es": "Define cuándo tiene lugar la valoración y si se reestablece."}
+{"en": "Choose Service Part Items as the item category from the Show dropdown list.", "es": "Escoja “Artículos de piezas de servicio” como la categoría de artículos en la lista desplegable “Mostrar”."}
+{"en": "To filter for order operations that are included in a specific schedule, add the Included in Schedule filter to the filter bar.", "es": "Para filtrar las operaciones de pedido incluidas en un programa específico, agregue el filtro “Incluido en programa” a la barra de filtros."}
+{"en": "You can only edit headers for Inactive units.", "es": "Solo puedes editar encabezados para unidades Inactivas."}
+{"en": "This overview contains all repair objects that have not been completed yet.", "es": "Este resumen contiene todos los objetos de reparación que aún no se han completado."}
+{"en": "Pause real-time replication to enable editing connection properties.", "es": "Ponga la replicación en tiempo real en pausa para permitir la edición de las propiedades de la conexión."}
+{"en": "Save your business entity to make it available for use in fact models and consumption models.", "es": "Guarde su entidad comercial para poder utilizarla en modelos de facturación y modelos de consumo."}
+{"en": "This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.", "es": "Esto significa que el cambio de centro de trabajo solo está visible en su programa y aún no se ha guardado en el pedido de mantenimiento."}
+{"en": "To delete an activation key, click the first column of the corresponding row and then Delete.", "es": "Para eliminar una clave de activación, haga clic en la primera columna de la fila correspondiente y luego en “Eliminar”."}
+{"en": "Modify your order schedules to prioritize overdue or late orders.", "es": "Modifique sus programaciones de pedidos para priorizar los pedidos atrasados o en retraso."}
+{"en": "Reviewers do not require any work center assignment.", "es": "Los revisores no necesitan asignación en ningún centro de trabajo."}
+{"en": "For correspondence with the customer/supplier", "es": "Para la correspondencia con el cliente/proveedor"}
+{"en": "Within a time range", "es": "Dentro de un rango de tiempo"}
+{"en": "Only one data delivery is provided without any additional corrections or updates.", "es": "Solo se proporciona una entrega de datos sin correcciones adicionales ni actualizaciones."}
+{"en": "If the credit memos are processed successfully, the system posts a document during the processing of the payment advice note by means of the amount credited and, if necessary, charges are posted.", "es": "Si los recibos de crédito se procesan con éxito, el sistema publica un documento durante el procesamiento del aviso de pago a través del importe creditado y, en caso necesario, se publican las cargas."}
+{"en": "Post-upgrade test processes", "es": "Procesos de prueba posterior a la actualización"}
+{"en": "You can see these items on the To Be Written Off  tab and verify that they're non-billable by looking at the Billing Control Category column.", "es": "Puede ver estos artículos en la pestaña “Quitar de la facturación” y verificar que no son facturables mirando la columna “Categoría de control de facturación”."}
+{"en": "Define Recurrence Pattern", "es": "Definir patrón de recurrencia"}
+{"en": "To directly consume data in data flows, the Oracle database must be available on the public internet.", "es": "Para consumir directamente los datos en los flujos de datos, el base de datos Oracle debe estar disponible en la red pública de Internet."}
+{"en": "Shows that the object will be activated automatically during the next scheduled data aging run for this object and the aging run is not scheduled for the selected data aging object.", "es": "Indica que el objeto se activará automáticamente durante la siguiente ejecución programada de envejecimiento de datos para este objeto y no se ha programado la ejecución de envejecimiento para el objeto de envejecimiento de datos seleccionado."}
+{"en": "Please note that date and time are not included when you save a filter variant.", "es": "Tenga en cuenta que cuando guarda una variante de filtro, no se incluyen la fecha ni la hora."}
+{"en": "The attribute can be used to identify bank accounts that belong to the same defaultable counterparty.", "es": "El atributo puede usarse para identificar cuentas bancarias que pertenecen a la misma contraparte con derecho a incumplimiento."}
+{"en": "Reset Availability Data", "es": "Restablecer los datos de disponibilidad"}
+{"en": "The signal for replenishment is issued by an indicator, that is sent by a demand source (consumer) to the supply source (supplier).", "es": "El señalizado de reabastecimiento es emitido por un indicador, que es enviado por una fuente de demanda (consumidor) a la fuente de suministro (proveedor)."}
+{"en": "Check the objects on the Business Builder and Data Builder tabs.", "es": "Compruebe los objetos en las pestañas Business Builder y Data Builder."}
+{"en": "You can create a new template by specifying the content type, governing law, and language.", "es": "Puede crear una plantilla nueva especificando el tipo de contenido, la ley aplicable y el idioma."}
+{"en": "You can define one or more preconditions that must be met before the credit memo request workflow can be processed.", "es": "Puede definir una o más precondiciones que deben cumplirse antes de que pueda procesarse el flujo de trabajo de solicitud de nota de crédito."}
+{"en": "To change scheduled jobs", "es": "Cambiar los trabajos programados"}
+{"en": "Define the recurrence pattern, such as daily or weekly", "es": "Dé una definición del patrón de reaparición, como diario o semanal"}
+{"en": "Use the tabs in the Data Preview panel to review and process the results.", "es": "Use las pestañas del panel Antecedentes de datos para revisar y procesar los resultados."}
+{"en": "When you're displaying service confirmations assigned to a standard service order, you can use this button to release service confirmations that have status Completed for billing.", "es": "Cuando se muestran las confirmaciones de servicio asignadas a una orden de servicio estándar, puede utilizar este botón para liberar las confirmaciones de servicio que tienen el estado “Completado” para facturación."}
+{"en": "It provides a consolidation view along this segment hierarchy by populating the Segment Eliminated reporting dimension.", "es": "Proporciona una vista de consolidación a lo largo de esta jerarquía de segmentos, rellenando la dimensión de informes Segmento eliminado."}
+{"en": "Save As New Version:(Available for templates and text blocks)", "es": "Guardar como nueva versión:(Disponible para plantillas y bloques de texto)"}
+{"en": "You can use this field to filter your search results for the latest bank statements that you have received from your house bank accounts.", "es": "Puede utilizar este campo para filtrar los resultados de su búsqueda en función de las últimas estados bancarios que haya recibido de sus cuentas bancarias habituales."}
+{"en": "A schedule task is defined for this data flow.", "es": "Se define una tarea programada para este flujo de datos."}
+{"en": "To change scheduled jobs, do the following:", "es": "Para cambiar los trabajos programados, realice los siguientes pasos:"}
+{"en": "Customer/supplier branch number", "es": "Número de la sucursal del cliente/proveedor"}
+{"en": "Define the recurrence pattern of the job.", "es": "Definir el patrón de reaparición del trabajo."}
+{"en": "Define your personal settings for email notifications and substitutes.", "es": "Dé una definición de sus ajustes personales para las notificaciones por correo electrónico y los sustitutos."}
+{"en": "Set fuzzy match scores to decide when to place input records in the Matched and Review results categories.", "es": "Establezca las puntuaciones de coincidencia vaga para decidir cuándo colocar los registros de entrada en las categorías de resultados Coincidencias y Revisión."}
+{"en": "Find further information on the Extended Statistics feature in the product assistance.", "es": "Encuentre más información sobre la función Estadísticas extendidas en la asistencia del producto."}
+{"en": "As a search criterion for items in the customer/supplier account", "es": "Como criterio de búsqueda para artículos en la cuenta de cliente/proveedor"}
+{"en": "The variables are different for the different data source called to for the charts of a tab.", "es": "Las variables son diferentes para la diferente fuente de datos llamada para los gráficos de una pestaña."}
+{"en": "Required Permissions for Oracle Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide", "es": "Permisos requeridos para la replicación basada en desencadenadores de Oracle en el Guía de instalación y configuración de SAP HANA Smart Data Integration y SAP HANA Smart Data Quality"}
+{"en": "If you lock a release which is not the latest release, all releases which have been published after the release of the locked release are also set to locked.", "es": "Si bloquea una versión que no es la última versión, todas las versiones que se han publicado después de la versión bloqueada también se establecen en bloqueado."}
+{"en": "You need to re-deploy your intelligent lookup each time your make a change to it.", "es": "Debe reimplementar su búsqueda inteligente cada vez que realice una modificación en ella."}
+{"en": "Delete an Activation Key", "es": "Suprimir una clave de activación"}
+{"en": "Click the Edit button to add or delete buttons or change column names and data types.", "es": "Haga clic en el botón Editar para agregar o eliminar botones o cambiar los nombres de columna y los tipos de datos."}
+{"en": "You specify a defaultable business partner for banks when using bank reconciliation accounts in G/L account assignment.", "es": "Cuando se usan cuentas de conciliación bancaria en asignación de cuenta de G/L, especifica un socio comercial que pueda ser asignado por defecto para los bancos."}
+{"en": "On the To Be Billed tab, select one or more items as required and choose Write Off.", "es": "En el cuadro “Facturar”, seleccione uno o más artículos según sea necesario y elija “Anular”."}
+{"en": "Select a type of measure and define the properties.", "es": "Seleccione un tipo de medida y defina las propiedades."}
+{"en": "Transaction number under which a controversial transaction is managed at the customer/supplier", "es": "Número de transacción bajo el cual se gestiona una transacción controversial en el cliente/proveedor"}
+{"en": "The RECORD COUNT type is a table-wide statistic.", "es": "El tipo RECORD COUNT es una estadística a nivel de tabla."}
+{"en": "Click the column header in the table area.", "es": "Haga clic en el encabezado de columna en el área de la tabla."}
+{"en": "At the performance obligation level they are calculated as follows:", "es": "A nivel de obligación de rendimiento se calculan de la siguiente manera:"}
+{"en": "Adds a selected settlement date with the settlement status Open, Due, Due Today, or Overdue to a scheduling worklist to schedule the settlement of the selected settlement date.", "es": "Agrega una fecha de liquidación seleccionada con el estado de liquidación Abierta, Vencida, Vencida hoy o En vencimiento a una lista de tareas de programación para programar el pago de la fecha de liquidación seleccionada."}
+{"en": "If you want the automated reprocessing rule to post your bank statement items in only one step, select 001 (One-Step Posting) as the value of the Procedure Type field.", "es": "Si quiere que la regla de reprocesamiento automatizado publique los elementos del estado de cuenta en solo una etapa, seleccione 001 (Publicación en una etapa) como el valor del campo Tipo de procedimiento."}
+{"en": "In the pane on the right, check the objects on the Business Builder and Data Builder tabs:", "es": "En el cuadro a la derecha, compruebe los objetos en las pestañas Business Builder y Data Builder:"}
+{"en": "If the operation is included in one schedule, the schedule opens directly.", "es": "Si la operación está incluida en una planificación, la planificación se abre directamente."}
+{"en": "The new Manage Fixed Assets card replaces the Asset Master Worklist card from previous versions.", "es": "La nueva tarjeta Gestión de activos fijos sustituye a la tarjeta Lista de tareas maestra de activos de las versiones anteriores."}
+{"en": "Add or remove columns to the overview", "es": "Agregar o quitar columnas en el resumen"}
+{"en": "Use this function to download a preformatted CSV file template that you can use to create new allocation cycles and segments or edit existing ones.", "es": "Utilice esta función para descargar un plantilla de archivo CSV preformateado que puede utilizar para crear nuevos ciclos y segmentos de asignación o editar los existentes."}
+{"en": "The data provider profile page provides additional information about the data provider and other products or product groups.", "es": "La página de perfil del proveedor de datos proporciona información adicional acerca del proveedor de datos y otros productos o grupos de productos."}
+{"en": "You can only use it with the cost center and profit center allocation contexts.", "es": "Solo se puede usar con los contextos de asignación de centro de costos y centro de beneficios."}
+{"en": "You can maintain Sales Area Details, Sales Taxes, and Partner Functions.", "es": "Puede mantener los detalles de área de ventas, los impuestos sobre ventas y las funciones de socio."}
+{"en": "The incident ID is empty for SAP support user access with the Operations access category.", "es": "El ID de incidente está vacío para el acceso de usuario de soporte de SAP con la categoría de acceso Operaciones."}
+{"en": "Displays data for allocation periods in which allocation consumption is below 20%.", "es": "Visualiza los datos de los periodos de asignación en los que el consumo de asignación es inferior al 20%."}
+{"en": "The Information icon appears if any or all of following exists for an assembly:", "es": "El icono de información aparece si para un conjunto existe alguno o todos los siguientes elementos:"}
+{"en": "To delete a mapping, click the link and then click the Delete tool.", "es": "Para eliminar una asignación, haga clic en el enlace y, a continuación, haga clic en la herramienta “Eliminar”."}
+{"en": "Using filters, search, or sorting, you can quickly find the connection type.", "es": "Con filtros, búsqueda o clasificación, puede encontrar rápidamente el tipo de conexión."}
+{"en": "The Number of Jobs and Package Size fields are deactivated and not relevant for this job.", "es": "Los campos Número de trabajos y Tamaño del paquete están desactivados y no son relevantes para esta tarea."}
+{"en": "Enter the system client number.", "es": "Introduzca el número de cliente del sistema."}
+{"en": "If you choose No, the system will exclude from the list report all billing elements with prepayment items.", "es": "Si elige No, el sistema excluirá de la lista informe todos los elementos de facturación con artículos con prepago."}
+{"en": "If you change the ID, a background job will be created.", "es": "Si cambia el ID, se creará una tarea en segundo plano."}
+{"en": "The update of the persistency has to be triggered again.", "es": "Es necesario activar de nuevo la actualización de la persistencia."}
+{"en": "For Process industry type:", "es": "Para el tipo de industria de procesos:"}
+{"en": "The advantage of this attribute is that you can refer to certain business partners in one condition by using the correct payment clearing group.", "es": "La ventaja de este atributo es que puede hacer referencia a ciertos socios comerciales en una condición usando el grupo de compensación de pago correcto."}
+{"en": "The default value is true.", "es": "El valor predeterminado es true."}
+{"en": "In the table you can use the inspector to solve the capacity issues.", "es": "En la tabla, puede usar el inspector para resolver los problemas de capacidad."}
+{"en": "Every month, you pay the defined monthly fee.", "es": "Cada mes, pagas la tarifa mensual definida."}
+{"en": "Cancel a service confirmation.", "es": "Cancelar una confirmación de servicio."}
+{"en": "On the Description sheet within the file, you can only use those values which are relevant to the context and universal allocation.", "es": "En la hoja Descripción dentro del archivo, solo se pueden utilizar los valores que sean relevantes para el contexto y la asignación universal."}
+{"en": "Enter the customer/supplier details which you need for subsequent processing according to your individual company's regulations.", "es": "Introduzca los detalles del cliente/proveedor que necesite para el procesamiento posterior de acuerdo con las normativas de su empresa individual."}
+{"en": "Indicates if an item or a step is specific to a localized version", "es": "Indica si un elemento o una etapa es específico de una versión localizada"}
+{"en": "For the Heath Check Support  access category, the incident ID references SAP internal incidents raised by automatic health checks.", "es": "Para la categoría de acceso Heath Check Support, el ID de incidente hace referencia a los incidentes internos de SAP generados por comprobaciones automáticas de la salud."}
+{"en": "In the value help of the new filter, all search results are restricted to the employees responsible for service contracts, excluding those with the business partner role Employment.", "es": "En la ayuda de valores del nuevo filtro, todos los resultados de búsqueda se restringen a los empleados responsables de los contratos de servicio, excluyendo a los que tengan el rol de socio comercial Empleo."}
+{"en": "In the purchase order item, you create a limit item with product type group Service.", "es": "En el elemento del pedido de compra, crea un elemento de límite con el grupo de tipos de producto Servicio."}
+{"en": "You can find all shared rules on the Shared Rules tab.", "es": "En el panel Reglas compartidas puede encontrar todas las reglas compartidas."}
+{"en": "Please note that for manual bank statements, the system uses the transaction type entered in the manual bank statement.", "es": "Tenga en cuenta que, en los estados bancarios manuales, el sistema utiliza el tipo de transacción introducido en el estado bancario manual."}
+{"en": "Choose Restrict and verify that the selected items have moved from the To Be Billed tab to the To Be Postponed tab.", "es": "Elija Restringir y verifique que los elementos seleccionados se han trasladado desde la pestaña Facturar a la pestaña Posponer."}
+{"en": "Check, if this mitigates the capacity issue and click Shift Top-Level Demand.", "es": "Compruebe si esto mitiga el problema de capacidad y haga clic en “Desplazar la demanda de nivel superior”."}
+{"en": "This function enables you to get required output from the left or right formula.", "es": "Esta función le permite obtener el resultado requerido a partir de la fórmula izquierda o derecha."}
+{"en": "You can save a text block as a new variant, to reuse it in different business scenarios.", "es": "Puede guardar un bloque de texto como una nueva variante, para reutilizarlo en diferentes escenarios comerciales."}
+{"en": "For a bank account that has been marked as deleted, you can choose the Unmark as Deleted button to reactivate it for use.", "es": "Si se ha marcado una cuenta bancaria como eliminada, puede seleccionar el botón “Desmarcar como eliminada” para reactivarla para su uso."}
+{"en": "To get data on a tab, you need to define the variables for the tabs.", "es": "Para obtener datos en una pestaña, necesita definir las variables para las pestañas."}
+{"en": "Request a checkup to perform a health diagnostic and better analyze what was wrong with your data flow.", "es": "Solicite una revisión para realizar un diagnóstico médico y analizar mejor qué estaba mal con su flujo de datos."}
+{"en": "That way, if one subsidiary only creates purchase orders for 20% of the total value or quantity agreed in the central contract, the other subsidiary would have the flexibility to order up to 80% if they need to.", "es": "De esa forma, si una filial solo crea pedidos de compra para el 20% del valor o cantidad total acordado en el contrato central, la otra filial tendría la flexibilidad de pedir hasta el 80% si necesitan hacerlo."}
+{"en": "Capacity consumed by the work center to dispatch the order", "es": "Capacidad consumida por el centro de trabajo para enviar el pedido"}
+{"en": "Custom communication users are created in the Maintain Communication Users app and are assigned to systems for inbound and outbound communication.", "es": "Los usuarios de comunicación personal se crean en la aplicación Maintain Communication Users y se asignan a los sistemas para la comunicación de entrada y de salida."}
+{"en": "Although you can activate individual features, you can use them only if the corresponding parent scope items are also enabled.", "es": "Aunque puede activar características individuales, solo puede utilizarlas si los correspondientes elementos de ámbito padre también están habilitados."}
+{"en": "On the To Be Billed tab, select one or more items as required and choose Restrict Date.", "es": "En el cuadro “Facturar”, seleccione uno o más artículos según sea necesario y elija “Restringir fecha”."}
+{"en": "You can select an allocation type when creating an allocation cycle in the Manage Allocations app.", "es": "Puede seleccionar un tipo de asignación al crear un ciclo de asignación en la aplicación Gestionar asignaciones."}
+{"en": "Provide and Sell Data Products with the Data Sharing Cockpit", "es": "Proporcionar y vender productos de datos con el cuadro de control de compartición de datos"}
+{"en": "The projected plant stock can be calculated from the current stock- or requirements situation for the start date of the reference object.", "es": "El stock de planta proyectado puede calcularse a partir del stock actual o la situación de requisitos para la fecha de inicio del objeto de referencia."}
+{"en": "Specifies the level on which you want to share the template.", "es": "Especifica el nivel en el que desea compartir el modelo."}
+{"en": "Choose this button if you want to download G/L account mappings into a spreadsheet.", "es": "Elija este botón si desea descargar los mapeos de cuentas G/L en una hoja de cálculo."}
+{"en": "Yes, to allow resources to post time only if they are staffed or assigned to a project.", "es": "Sí, para permitir que los recursos publiquen el tiempo solo si están dotados o asignados a un proyecto."}
+{"en": "To unshare the schedule, just remove the name of the person whose access you want to revoke.", "es": "Para dejar de compartir la programación, basta con quitar el nombre de la persona cuyo acceso desea revocar."}
+{"en": "If the panel is not visible, click the Source Browser button in the toolbar to show it.", "es": "Si el panel no está visible, haga clic en el botón Explorador de origen en la barra de herramientas para mostrarlo."}
+{"en": "The system enables the Usage and Availability button only if there's plant information.", "es": "El sistema habilita el botón Uso y Disponibilidad solo si hay información de planta."}
+{"en": "Based on the Semantic Usage of your entity, review and modify its Columns, Attributes, and/or Measures:", "es": "Basado en el Uso Semántico de su entidad, revise y modifique sus Columnas, Atributos y/o Medidas:"}
+{"en": "You can change the work center for order operations that have the processing status Due.", "es": "Puede cambiar el centro de trabajo para las operaciones de pedidos que tengan el estado de procesamiento “Pendiente”."}
+{"en": "You can even set the corresponding value for these file types while using the Assembly Automation Levels during the creation of virtual documents.", "es": "Incluso puede establecer el valor correspondiente para estos tipos de archivo mientras utiliza los niveles de automatización de ensamblaje durante la creación de documentos virtuales."}
+{"en": "Specify measures, if appropriate, and other aspects of your output structure in the output node.", "es": "Especifique las medidas, en caso apropiado, y otros aspectos de su estructura de salida en el nodo de salida."}
+{"en": "Displays the conditions-related information for a template.", "es": "Visualiza la información relacionada con las condiciones para un modelo."}
+{"en": "You can then save your current progress even if there are errors due to incomplete entry fields.", "es": "Puede guardar entonces su progreso actual incluso si hay errores debidos a campos de entrada incompletos."}
+{"en": "By default, you see your object’s business name.", "es": "Por defecto, ve el nombre comercial de su objeto."}
+{"en": "You can check the amount of planned prepayments by choosing the Prepayment Details in the billing element column.", "es": "Puede comprobar el importe de los prepagos planificados seleccionando los Detalles de prepago en la columna del elemento de facturación."}
+{"en": "Replace an existing process step", "es": "Reemplazar una etapa del proceso existente"}
+{"en": "Reviewers have read-only access to the schedule and cannot see the utilization forecast shown when the schedule is in Scoping or Refinement.", "es": "Los revisores tienen acceso de solo lectura al programa y no pueden ver la previsión de utilización que se muestra cuando el programa está en el estado Definición o Perfeccionamiento."}
+{"en": "The selection criteria is configured using a condition statement defined in the Requirement Filter.", "es": "Los criterios de selección se configuran usando una declaración de condición definida en el Filtro de requisitos."}
+{"en": "You can assign a currency or unit to your measure.", "es": "Puede asignar una moneda o unidad a su medida."}
+{"en": "Checking Delivery Details", "es": "Comprobar los detalles de la entrega"}
+{"en": "In general, you should consider whether it is useful to select the Supplement auto. posting option in the master record of the G/L account at all.", "es": "En general, debería considerar si resulta útil seleccionar la opción Publicar automáticamente complementos en el registro maestro de la cuenta de G/L en general."}
+{"en": "You can use parallel processing if you want to make changes to a large number of Business partners.", "es": "Puede usar el procesamiento paralelo si desea realizar cambios en un gran número de socios comerciales."}
+{"en": "The amounts displayed are calculated at the revenue contract level and are the sum of the amounts of all performance obligations.", "es": "Los importes mostrados se calculan a nivel del contrato de ingresos y son la suma de los importes de todas las obligaciones de rendimiento."}
+{"en": "You run allocation cycles in the Run Allocations app.", "es": "Realiza ciclos de asignación en la aplicación “Realizar asignaciones”."}
+{"en": "Select one or multiple purchase requisition items and from the Add to Document drop-down list choose Add to Sourcing Project.", "es": "Seleccione uno o varios artículos de solicitud de compra y en la lista desplegable “Agregar a documento”, elija “Agregar a proyecto de adquisición”."}
+{"en": "Check the syntax of the system variable for validity by using the Check syntax of system variable for validity button next to the Value field.", "es": "Compruebe la sintaxis de la variable de sistema para comprobar su validez usando el botón Compruebe la sintaxis de la variable de sistema para comprobar su validez junto al campo Valor."}
+{"en": "You do not have to actively check the data before importing it.", "es": "No es necesario comprobar activamente los datos antes de importarlos."}
+{"en": "Add to Scheduling Worklist", "es": "Agregar a la lista de tareas de programación"}
+{"en": "Joint Venture Partner", "es": "Socio en joint venture"}
+{"en": "Furthermore, any advertisements or other content hosted on these platforms (for example, suggested videos or by navigating to other videos hosted on the same site), are not within the control or responsibility of SAP.", "es": "Por otra parte, cualquier publicidad u otro contenido alojado en estas plataformas (por ejemplo, vídeos sugeridos o al navegar hacia otros vídeos alojados en el mismo sitio) no están bajo el control ni son responsabilidad de SAP."}
+{"en": "Select the corresponding checkbox for demand-driven MRP components and/or top-level materials.", "es": "Seleccione la casilla de verificación correspondiente para los componentes MRP dirigidos por la demanda y/o los materiales de nivel superior."}
+{"en": "If the action is optional, its execution status does not affect the process step status.", "es": "Si la acción es opcional, su estado de ejecución no afecta el estado de la etapa del proceso."}
+{"en": "SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries.", "es": "SAP y otros productos y servicios de SAP mencionados en este documento, así como sus respectivos logotipos, son marcas comerciales o marcas comerciales registradas de SAP SE (o una empresa afiliada de SAP) en Alemania y otros países."}
+{"en": "Click to open the Columns popup in which you can do the following:", "es": "Haga clic para abrir el cuadro emergente “Columnas” en el que puede realizar lo siguiente:"}
+{"en": "Use the Search field in the popup to search for all business partners or you can use the list available.", "es": "Use el campo Buscar en el cuadro emergente para buscar todos los socios comerciales o puede usar la lista disponible."}
+{"en": "You can add items of different types to your sourcing projects.", "es": "Puede agregar artículos de diferentes tipos a sus proyectos de aprovisionamiento."}
+{"en": "To delete a relationship or to add, edit, or delete an offset for a relationship, right-click the relationship in the chart and select the relevant entry from the context menu.", "es": "Para eliminar una relación o añadir, editar o eliminar un desfase para una relación, haz clic en la relación en el gráfico con el botón derecho del ratón y selecciona la entrada relevante en el menú desplegable."}
+{"en": "If you choose a business partner in the Issuing Authority field, this value will be copied into the Issuing Organization field.", "es": "Si elige un socio comercial en el campo Autoridad emisora, este valor se copiará en el campo Organización emisora."}
+{"en": "Before blocking or deleting of personal data, you must define the residence time and retention periods in SAP Information Lifecycle Management (ILM) for the corresponding ILM objects.", "es": "Antes del bloqueo o la eliminación de datos personales, debe definir el tiempo de residencia y los periodos de conservación en SAP Information Lifecycle Management (ILM) para los objetos ILM correspondientes."}
+{"en": "Download and upload template for cycle and segment definitions.", "es": "Descargar y subir plantilla para definiciones de ciclo y segmento."}
+{"en": "Cycle ID, Allocation Context, Ledger, Valid From.", "es": "ID de ciclo, Contexto de asignación, Libro mayor, Valido a partir."}
+{"en": "Allocation types are a summary of the processes that can take place during allocation.", "es": "Los tipos de asignación son un resumen de los procesos que pueden tener lugar durante la asignación."}
+{"en": "You can predefine the renewal and termination clauses for legal transactions at the context level.", "es": "Puede predefinir las cláusulas de renovación y terminación para transacciones legales a nivel de contexto."}
+{"en": "Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.", "es": "Los espacios son entornos que reúnen modelos de datos, conexiones, recursos informáticos y de almacenamiento para una línea específica de negocio o caso de uso."}
+{"en": "Then you can simply delete it from this menu.", "es": "Luego puede eliminarlo simplemente desde este menú."}
+{"en": "In the Import Users dialog, choose Select Source File to upload your CSV file.", "es": "En la ventana Importar usuarios, elija Seleccionar archivo de origen para cargar su archivo CSV."}
+{"en": "Specify a data range, which is the time period for the data.", "es": "Especifique un intervalo de datos, que es el período de tiempo para los datos."}
+{"en": "After verifying the business process step execution manually and finding it compatible, you can set the status to Verified by User.", "es": "Tras verificar la ejecución de la etapa del proceso de negocio manualmente y comprobar que es compatible, puede establecer el estado en Verificado por usuario."}
+{"en": "By default, Yes is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.", "es": "Por defecto, se selecciona Sí para este campo, lo que significa que se muestran flujos de efectivo cuyo elemento de liquidez real es diferente de los propuestos por el servicio de aprendizaje automático."}
+{"en": "If you copy an item set, all subordinate items are copied as well.", "es": "Si copia un conjunto de elementos, también se copian todos los elementos subordinados."}
+{"en": "On choosing the Summarized Explosion tab, the table provides the following details:", "es": "Al seleccionar la pestaña Explosión resumida, la tabla proporciona los siguientes detalles:"}
+{"en": "Choose Add to Scheduling Worklist to add a settlement date to a scheduling worklist.", "es": "Elija “Agregar a la lista de tareas de programación” para añadir una fecha de liquidación a una lista de tareas de programación."}
+{"en": "You can then decide to choose an existing scheduling worklist or create a new one.", "es": "Puede entonces decidir elegir una lista de tareas de programación existente o crear una nueva."}
+{"en": "The personal data used to complete the process is predefined in a purpose, which is defined by the data controller.", "es": "Los datos personales utilizados para completar el proceso están predefinidos en una finalidad, que es definida por el controlador de datos."}
+{"en": "If you are using OAuth 2.0 you must provide the following information to your client application:", "es": "Si está usando OAuth 2.0, debe proporcionar la siguiente información a su aplicación cliente:"}
+{"en": "The lower-level bars visible in expanded view always show assignment information, regardless of the view type you set for the top-level bars.", "es": "Las barras de nivel inferior visibles en vista expandida siempre muestran información de asignación, independientemente del tipo de vista que establezca para las barras de nivel superior."}
+{"en": "If needed, you can change a team's global ID before you save a team's definition.", "es": "Si es necesario, puede cambiar el ID global de una plantilla antes de guardar la definición de una plantilla."}
+{"en": "Activate this field to run this job in online mode.", "es": "Active este campo para ejecutar esta tarea en modo en línea."}
+{"en": "You need to select a measure type.", "es": "Es necesario seleccionar un tipo de medida."}
+{"en": "Read the messages to understand if there are any errors or warnings, if the actions you performed on the template were successful, if further action is required from you, and so on.", "es": "Lea los mensajes para comprender si hay errores o advertencias, si las acciones que realizó en el plantilla tuvieron éxito, si le requieren más acciones, etc."}
+{"en": "Summary of processes that take place during allocation.", "es": "Resumen de los procesos que tienen lugar durante la asignación."}
+{"en": "The JOA has different development stages, such as engineering and design, construction, and production.", "es": "La JOA tiene diferentes etapas de desarrollo, como ingeniería y diseño, construcción y producción."}
+{"en": "Select this checkbox to allocate costs in the original posted transaction currency during an allocation run.", "es": "Active esta casilla para asignar costos en la moneda de la transacción publicada original durante una ejecución de asignación."}
+{"en": "Choose either one of the scheduling controls to realign your work center schedules:", "es": "Elija uno de los controles de programación para reajustar las programaciones de su centro de trabajo:"}
+{"en": "Add other operators to remove or create columns and filter or aggregate data.", "es": "Agregue otros operadores para eliminar o crear columnas y filtrar o agregar datos."}
+{"en": "The period of time between the end of the last business activity involving a specific object (for example, a business partner) and the deletion of the corresponding data, subject to applicable laws.", "es": "El período de tiempo entre el final de la última actividad comercial que implica un objeto específico (por ejemplo, un socio comercial) y la eliminación de los datos correspondientes, sujeto a las leyes aplicables."}
+{"en": "Adding a control characteristic", "es": "Agregar una característica de control"}
+{"en": "You assign billable costs to the appropriate partners.", "es": "Asigna costos facturables a los socios apropiados."}
+{"en": "Shows acquisition and retirement information.", "es": "Muestra la información de adquisición y retiro."}
+{"en": "A condition contains expressions and resulting actions defined for a text block used in a template.", "es": "Una condición contiene expresiones y acciones resultantes definidas para un bloque de texto utilizado en una plantilla."}
+{"en": "However, there may be exceptions,for instance, when you create a dependency to an item in a different software collection.", "es": "Sin embargo, pueden existir excepciones, por ejemplo, cuando crea una dependencia con un elemento en una colección de software diferente."}
+{"en": "You can create different kinds of bonds by defining class data and the conditions accordingly:", "es": "Puede crear diferentes tipos de enlaces definiendo los datos de la clase y las condiciones en consecuencia:"}
+{"en": "Value changes are posted to the balance sheet account in inventory accounting", "es": "Los cambios en el valor se publican en la cuenta de balance en la contabilidad de inventario"}
+{"en": "On a specific tab, choose Edit Prompts at the right corner, and .", "es": "En una pestaña específica, elija Editar solicitudes en el rincón derecho y ."}
+{"en": "The categories Text Type, Number Type, and Data Time Type help to validate that the expression matches the chosen data type.", "es": "Las categorías Tipo de texto, Tipo de número y Tipo de fecha/hora de datos ayudan a validar que la expresión coincide con el tipo de datos seleccionado."}
+{"en": "Secure Text is sent only through secure communication channels such as the SAP Fiori launchpad.", "es": "El texto seguro se envía solo a través de canales de comunicación seguros, como el lanzador SAP Fiori."}
+{"en": "You need to fix the error to be able to complete the persistent view creation or update.", "es": "Es necesario corregir el error para poder completar la creación o actualización de la vista persistente."}
+{"en": "When choosing to edit, the requisition or item moves out of the Rejected status and enables resubmission.", "es": "Al elegir editar, la solicitud o el artículo deja el estado Rechazado y permite su nueva presentación."}
+{"en": "In this popup you can select different periods and change the available capacity of the work center.", "es": "En esta ventana emergente puede seleccionar diferentes periodos y cambiar la capacidad disponible del centro de trabajo."}
+{"en": "You can keep the default waste generator or choose the value help in the mandatory Waste Generator field and a dialog box will appear.", "es": "Puede mantener el generador de residuos predeterminado o seleccionar la opción “Ayuda con el valor” en el campo Obligatorio Generador de residuos y aparecerá una ventana de diálogo."}
+{"en": "Click Save to active the log access.", "es": "Haga clic en Guardar para activar el acceso al registro."}
+{"en": "Add run types by choosing Add and selecting run types from the list.", "es": "Agregue tipos de ejecución al seleccionar “Agregar” y seleccionar los tipos de ejecución en la lista."}
+{"en": "The Data Sharing Cockpit is the tool you use as a the data provider.", "es": "El Cockpit de compartición de datos es la herramienta que utiliza como proveedor de datos."}
+{"en": "An alternative text block is a released version of a text block that is assigned as a possible replacement for another text block used in the template.", "es": "Un bloque de texto alternativo es una versión publicada de un bloque de texto que se asigna como posible sustitución de otro bloque de texto utilizado en el modelo."}
+{"en": "Save as Tile", "es": "Guardar como mosaico"}
+{"en": "Click (Show or hide data preview) to open the Data Preview panel and select any table or view on the editor panel or in the Repository tab of the sources browser.", "es": "Haga clic en “(Mostrar o ocultar vista previa de datos)” para abrir el panel Vista previa de datos y seleccione cualquier tabla o vista en el panel editor o en la pestaña Repositorio del explorador de fuentes."}
+{"en": "If you lock a release that is not the latest release, all releases which have been published after the release of the marked release are also set to locked.", "es": "Si bloquea una versión que no es la versión más reciente, todas las versiones que se han publicado después de la versión marcada también se establecen en bloqueado."}
+{"en": "If you want to change the role template that your new custom role will be based on, select  (Select Template), and choose a role.", "es": "Si quiere cambiar el plantilla de rol en la que se basará su nuevo rol personalizado, seleccione “(Seleccionar plantilla)” y elija un rol."}
+{"en": "If you want to use a different template instead, click on the X to deselect the default template.", "es": "Si quiere usar un plantilla diferente en su lugar, haga clic en el signo de interrogación para desmarcar la plantilla predeterminada."}
+{"en": "If you want to publish a sourcing project with at least one item of type Project Item, you have to add at least one procurement project and the related information in the section Project Details.", "es": "Si quiere publicar un proyecto de adquisición con al menos un artículo del tipo Artículo del proyecto, tiene que añadir al menos un proyecto de adquisición y la información relacionada en la sección Detalles del proyecto."}
+{"en": "This is done to prevent over usage of the space.", "es": "Esto se hace para evitar el uso excesivo del espacio."}
+{"en": "AWS region in your Amazon Athena regional endpoint that you use to make your requests.", "es": "Región de AWS en su punto de extremo regional de Amazon Athena que utiliza para realizar sus solicitudes."}
+{"en": "In the side navigation area, click  and then click the My Content folder to display the list of packages that you have exported and those from other systems that you have permission to edit or delete.", "es": "En el área de navegación lateral, haga clic en  y luego haga clic en la carpeta Mi contenido para mostrar la lista de paquetes que ha exportado y los de otros sistemas en los que tiene permiso para editar o eliminar."}
+{"en": "The information retrieval framework (IRF) supports you to comply with the relevant legal requirements for data protection by allowing you to search for and retrieve all personal data of a specified data subject.", "es": "El marco de recuperación de información (IRF, Information Retrieval Framework) te permite cumplir con los requisitos legales aplicables en materia de protección de datos al permitir que busques y recuperes todos los datos personales de un sujeto de datos específico."}
+{"en": "Service Organization ID", "es": "Identificador de la organización de servicios"}
+{"en": "Item set is a collection of items.", "es": "El conjunto de artículos es una colección de artículos."}
+{"en": "Click in the Create Transform bar, select Filter, and complete the formula ().", "es": "Haga clic en la barra “Crear transformación”, seleccione “Filtrar” y complete la fórmula ()."}
+{"en": "If a schedule is set for the data flow, see by when the next run is scheduled.", "es": "Si se establece un programa para el flujo de datos, compruebe hasta cuando se programó la siguiente ejecución."}
+{"en": "This is now the default setting.", "es": "Ahora, esta es la configuración predeterminada."}
+{"en": "Select a task template.", "es": "Seleccione un plantilla de tarea."}
+{"en": "The union operator combines two data sets that share the same schema definition.", "es": "El operador unión combina dos conjuntos de datos que comparten la misma definición de esquema."}
+{"en": "When you create or edit a situation type, you can define the run type settings:", "es": "Cuando crea o edita un tipo de situación, puede definir las configuraciones del tipo de ejecución:"}
+{"en": "Define a recurrence pattern for the job.", "es": "Definir un patrón de reaparición para la tarea."}
+{"en": "[if Create Statement-level Insert Triggers = true] Create Statement-level Update Triggers", "es": "[si Create Statement-level Insert Triggers = true] Crear desencadenadores de actualización a nivel de declaración"}
+{"en": "This Feature Scope Description", "es": "Esta descripción del ámbito de funciones"}
+{"en": "Billing indicators are assigned to billable postings and identify the type of posting involved, including cash call, normal expenditure, and audit adjustment to a particular partner account.", "es": "Los indicadores de facturación se asignan a los registros facturables e identifican el tipo de registro involucrado, incluyendo solicitud de pago en efectivo, gasto normal y ajuste de auditoría en una cuenta de socio particular."}
+{"en": "To save your table in the local repository, choose Save.", "es": "Para guardar su tabla en el repositorio local, seleccione “Guardar”."}
+{"en": "In the connections list of your space, select the new connection and click  (Validate Connection) to check if you can use the connection or if it contains any errors.", "es": "En la lista de conexiones de su espacio, seleccione la nueva conexión y haga clic en （Validar conexión） para comprobar si puede usar la conexión o si contiene errores."}
+{"en": "Displays the current status of the statement.", "es": "Muestra el estado actual de la declaración."}
+{"en": "Displays data for allocation periods in which allocation consumption exceeds 100%.", "es": "Visualiza los datos de los periodos de asignación en los que el consumo de asignación supera el 100%."}
+{"en": "For more information, see Microsoft SQL Server Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.", "es": "Para obtener más información, consulte Replicación basada en desencadenadores de Microsoft SQL Server en el Guía de instalación y configuración de SAP HANA Smart Data Integration y SAP HANA Smart Data Quality."}
+{"en": "No Approval Required:", "es": "No se requiere aprobación:"}
+{"en": "In the Manage Your Solution app under Configure Your Solution make system settings under FinanceContract AccountingPosting and DocumentsDefine Short Assignment for Transfer Postings.", "es": "En la aplicación Gestionar su solución, en Configurar su solución, realice las configuraciones del sistema en FinanzasContrato Contabilización de transferencias y DocumentosDefinir asignación corta para contratos de transferencia."}
+{"en": "Go to the Parameters tab.", "es": "Vaya a la pestaña Parámetros."}
+{"en": "The Production Version:", "es": "La versión de producción:"}
+{"en": "Choose Publish to finalize the exclusion of fields, or the removal of excluded tables and fields before replication to the target SAP Cloud Platform system.", "es": "Elija Publicar para finalizar la exclusión de campos o la eliminación de tablas y campos excluidos antes de la replicación al sistema de SAP Cloud Platform de destino."}
+{"en": "Set Document Status", "es": "Establecer el estado del documento"}
+{"en": "It provides a consolidation view along this profit center hierarchy by populating the Profit Center Eliminated reporting dimension.", "es": "Proporciona una vista de consolidación a lo largo de esta jerarquía de centros de beneficio, rellenando la dimensión de informes Profit Center Eliminated."}
+{"en": "The authentication type to be used:", "es": "El tipo de autenticación que se va a usar:"}
+{"en": "The Save Model dialog opens.", "es": "Se abre la ventana de diálogo Guardar modelo."}
+{"en": "For implementaiton steps, you will see Go to App button instead of the Configure button.", "es": "En las etapas de implementación, verá el botón Ir a la app en lugar del botón Configurar."}
+{"en": "Complete the Business Purpose section to let others know what your view is about.", "es": "Complete la sección Objetivo comercial para permitir que otros conozcan cuál es tu punto de vista."}
+{"en": "Quantity Contract (MK)", "es": "Contrato de cantidad (MK)"}
+{"en": "You can use the Cancel button to cancel a service confirmation that has been set to completed.", "es": "Puede usar el botón Cancelar para cancelar una confirmación de servicio que se haya establecido como concluida."}
+{"en": "Task Template Status", "es": "Estado del modelo de tarea"}
+{"en": "Approval Process Flow", "es": "Flujo del proceso de aprobación"}
+{"en": "Fiscal Year and Fiscal Period of issue", "es": "Año fiscal y período fiscal de emisión"}
+{"en": "You can use this report to:", "es": "Puede usar este informe para:"}
+{"en": "You can perform the following actions on this tab:", "es": "En esta pestaña, puede realizar las siguientes acciones:"}
+{"en": "Withholding Tax tab.", "es": "Cuadro de impuestos retentados."}
+{"en": "Business Partner's IBAN", "es": "IBAN del socio comercial"}
+{"en": "Enter the network number.", "es": "Introduzca el número de red."}
+{"en": "Business Partner name", "es": "Nombre del socio comercial"}
+{"en": "Edit Service Contracts", "es": "Editar contratos de servicio"}
+{"en": "Select a template and click Delete.", "es": "Seleccione un modelo y haga clic en “Eliminar”."}
+{"en": "About Goods Issue", "es": "Sobre la emisión de mercancías"}
+{"en": "Business Partner Name", "es": "Nombre del socio comercial"}
+{"en": "Business Partner Role", "es": "Rol de socio comercial"}
+{"en": "Enter a description for the template in the Description field.", "es": "Ingrese una descripción para el modelo en el campo Descripción."}
+{"en": "SI Performance Management (SF)", "es": "Gestión del desempeño SI (SF)"}
+{"en": "Contract Account Check", "es": "Comprobación de la cuenta del contrato"}
+{"en": "Save User Settings", "es": "Guardar las configuraciones del usuario"}
+{"en": "Delivery Type Code", "es": "Código de tipo de entrega"}
+{"en": "You can edit the following UDQs:", "es": "Puede editar los siguientes UDQ:"}
+{"en": "Contains one or more expressions and resulting actions defined for a text block present in a template.", "es": "Contiene una o más expresiones y acciones resultantes definidas para un bloque de texto presente en una plantilla."}
+{"en": "Description of the tax type.", "es": "Descripción del tipo de impuesto."}
+{"en": "Add Usage Data", "es": "Agregar datos de uso"}
+{"en": "Approval in Progress", "es": "Aprobación en progreso"}
+{"en": "Business Content Hub", "es": "Centro de contenido empresarial"}
+{"en": "Asset Mass Processing", "es": "Procesamiento masivo de activos"}
+{"en": "Your role determines what you can do with a schedule.", "es": "Su rol determina lo que puede hacer con una programación."}
+{"en": "specify a limit to avoid excessive concurrent processing due to too many jobs.", "es": "especificar un límite para evitar el procesamiento concurrente excesivo debido a demasiados trabajos."}
+{"en": "Navigate to other targets", "es": "Dirigirse a otros objetivos"}
+{"en": "Select a role template.", "es": "Seleccione un plantilla de rol."}
+{"en": "Schedule Tax Jobs", "es": "Programar trabajos fiscales"}
+{"en": "About Purchase Order", "es": "Sobre el pedido de compra"}
+{"en": "Business Partner Event", "es": "Evento de socios comerciales"}
+{"en": "An item set can contain both standard items of types Material and Service and project items.", "es": "Un conjunto de elementos puede contener tanto elementos estándar de los tipos Material y Servicio como elementos de proyecto."}
+{"en": "Code List tab", "es": "Cuadro de lista de códigos"}
+{"en": "Displays the current status of the deployment.", "es": "Muestra el estado actual de la implementación."}
+{"en": "Pause and Restart Real-Time Replication", "es": "Pausar y reanudar la replicación en tiempo real"}
+{"en": "The system copies substances from the composition of the unpackaged product that is also part of the most recently activated Health and Safety Management regulation whose lists are assigned to the Safety Data Sheet Management regulation used for the compliance assessment.", "es": "El sistema copia sustancias de la composición del producto sin envasar que también forma parte de la normativa de Gestión de Salud y Seguridad activada más recientemente, cuyas listas se asignan a la normativa de Gestión de Folletos de Seguridad utilizada para la evaluación de conformidad."}
+{"en": "The package contains the following iFlows:", "es": "El paquete contiene los siguientes iFlows:"}
+{"en": "Aggregate Notifications shows whether the notifications to be sent are aggregated (Yes) or separate for each situation instance (No).", "es": "Notificaciones agregadas muestra si las notificaciones que se van a enviar están agregadas (Sí) o separadas para cada instancia de situación (No)."}
+{"en": "In the Data Access Controls section, you can add one or more data access controls to apply row-based security and control access to individual rows based on various criteria.", "es": "En la sección Control de acceso a datos, puede agregar uno o más controles de acceso a datos para aplicar seguridad basada en filas y controlar el acceso a filas individuales en función de diversos criterios."}
+{"en": "Billed Transaction Type", "es": "Tipo de transacción facturada"}
+{"en": "Click Save and Publish.", "es": "Haga clic en Guardar y publicar."}
+{"en": "Together with other layout settings, you can save board settings as variants by using the My Views dropdown at the top left of the Kanban Board.", "es": "Junto con otros ajustes de diseño, puede guardar los ajustes de tablero como variantes usando el menú desplegable Mis vistas en la parte superior izquierda del tablero Kanban."}
+{"en": "Select one of the following the shipment types:", "es": "Seleccione uno de los siguientes tipos de envío:"}
+{"en": "Choose Add Role.", "es": "Escoja “Agregar rol”."}
+{"en": "New Order Type", "es": "Nuevo tipo de orden"}
+{"en": "Remove an Item", "es": "Quitar un elemento"}
+{"en": "There are two templates:", "es": "Hay dos plantillas:"}
+{"en": "Choose Template Structure.", "es": "Elija “Estructura de plantilla”."}
+{"en": "This endpoint is optional.", "es": "Este punto final es opcional."}
+{"en": "Sharing a Schedule", "es": "Compartir una programación"}
+{"en": "Number of Grids", "es": "Número de cuadros"}
+{"en": "Adding these roles has the following effects:", "es": "Agregar estos roles tiene los siguientes efectos:"}
+{"en": "The goods receipt processing time is two days.", "es": "El tiempo de procesamiento de la recepción de mercancía es de dos días."}
+{"en": "Choose Connect Step.", "es": "Elija la opción “Conectar paso”."}
+{"en": "Select one of the following shipment types:", "es": "Seleccione uno de los siguientes tipos de envío:"}
+{"en": "Configure Condition Type", "es": "Configurar el tipo de condición"}
+{"en": "Choose Realign Schedules.", "es": "Elija “Reajustar horarios”."}
+{"en": "Select the Keys tab.", "es": "Seleccione la pestaña “Claves”."}
+{"en": "Business Partner Rating", "es": "Calificación de socio comercial"}
+{"en": "A recovery indicator (RI) is assigned to the cost object to indicate whether expenses posted using the cost object are billable to Joint Venture partners.", "es": "Se asigna un indicador de recuperación (RI) al objeto de coste para indicar si las despesas registradas utilizando el objeto de coste son facturables a los socios de la joint venture."}
+{"en": "The utilization of a facility is called a drawing.", "es": "La utilización de una instalación se denomina dibujo."}
+{"en": "Delete a user", "es": "Suprimir a un usuario"}
+{"en": "Central Business Partner", "es": "Socio comercial central"}
+{"en": "For more information, see Deletion of Bill Items.", "es": "Para obtener más información, consulte Borrado de artículos de factura."}
+{"en": "Check the forecasted work center utilization at week level", "es": "Comprobar la utilización prevista del centro de trabajo a nivel semanal"}
+{"en": "The Service Margins tab contains the following detail tabs where you can review the data:", "es": "La pestaña Servicio con márgenes contiene las siguientes pestañas de detalles en las que puede revisar los datos:"}
+{"en": "Report Contact Person", "es": "Informe la persona de contacto"}
+{"en": "The tool includes the following tabs:", "es": "La herramienta incluye las siguientes pestañas:"}
+{"en": "Edit an application", "es": "Editar una solicitud"}
+{"en": "Business partner name", "es": "Nombre del socio comercial"}
+{"en": "Contract Account Partner", "es": "Socio de cuenta de contrato"}
+{"en": "Bank Business Partner", "es": "Socio comercial del banco"}
+{"en": "Display Contract Account", "es": "Mostrar cuenta de contrato"}
+{"en": "Business partner item", "es": "Elemento de socio comercial"}
+{"en": "The goods receipt processing time is one day.", "es": "El tiempo de procesamiento de la recepción de mercancías es de un día."}
+{"en": "Situation Monitoring - MST Tab", "es": "Supervisión de situaciones — Cuadro MST"}
+{"en": "The following flow logic applies:", "es": "Se aplica la siguiente lógica de flujo:"}
+{"en": "You can select and deselect individual objects, or types of objects (for example, Models or Stories).", "es": "Puede seleccionar y deseleccionar objetos individuales o tipos de objetos (por ejemplo, modelos o historias)."}
+{"en": "If you update and redeploy an existing persistent view, the persistency is deleted and the data access is changed back to virtual.", "es": "Si actualiza y reimplementa una vista persistente existente, la persistencia se elimina y el acceso a los datos se cambia de nuevo a virtual."}
+{"en": "Icon on the tab indicates the following:", "es": "El icono en la pestaña indica lo siguiente:"}
+{"en": "Characteristic Value Combination per Requirement", "es": "Combinación de valores característicos por requisito"}
+{"en": "Lists all quotas that match your filter criteria.", "es": "Enumeran todas las cuotas que coinciden con sus criterios de filtro."}
+{"en": "Click to add a constraint.", "es": "Haga clic para agregar una restricción."}
+{"en": "The query provides the following measures:", "es": "La consulta proporciona las siguientes medidas:"}
+{"en": "Error Logs Tab", "es": "Tabla de registros de errores"}
+{"en": "Delete a Story", "es": "Eliminar una historia"}
+{"en": "Business Partner Address", "es": "Dirección del socio comercial"}
+{"en": "Editing a Card", "es": "Editar una tarjeta"}
+{"en": "Click Add Condition.", "es": "Haga clic en “Agregar condición”."}
+{"en": "Cash Pool Type", "es": "Tipo de pool de efectivo"}
+{"en": "Create a group using the Add button", "es": "Cree un grupo usando el botón “Agregar”"}
+{"en": "Business Partner, Trader", "es": "Socio comercial, comerciante"}
+{"en": "Predefined Reporting Activities", "es": "Actividades de informe predefinidas"}
+{"en": "To use this report, proceed as follows:", "es": "Para utilizar este informe, siga los pasos siguientes:"}
+{"en": "For more information, see Key User Extension.", "es": "Para obtener más información, consulte Extensión de usuario clave."}
+{"en": "Display User Operations", "es": "Mostrar operaciones de usuario"}
+{"en": "Delete a Scope", "es": "Eliminar un ámbito"}
+{"en": "Mass Processing - Start", "es": "Procesamiento en masa — Iniciar"}
+{"en": "Business Unit Key.", "es": "Clave de unidad de negocio."}
+{"en": "To define additional measures:", "es": "Para definir medidas adicionales:"}
+{"en": "The Maintenance Order Operations tab shows operations and suboperations that are included in the filtered orders, even if the performing work centers is a different one.", "es": "La pestaña Operaciones de órdenes de mantenimiento muestra las operaciones y suboperaciones que se incluyen en las órdenes filtradas, incluso si los centros de trabajo que realizan el trabajo son diferentes."}
+{"en": "You can use the Reset Cleared Items app to do the following:", "es": "Puede usar la aplicación Restablecer elementos borrados para realizar lo siguiente:"}
+{"en": "It is not possible to change a completed business document that contains a blocked business partner.", "es": "No es posible cambiar un documento comercial concluido que contenga a un socio comercial bloqueado."}
+{"en": "Expiration of Central Purchase Contract", "es": "Vencimiento del contrato de compra central"}
+{"en": "Provides additional information about the metering of usage.", "es": "Proporciona información adicional acerca de la medición del uso."}
+{"en": "Move an order operation to another date", "es": "Trasladar una operación de pedido a otra fecha"}
+{"en": "Use this for supplying materials in the production area itself.", "es": "Usalo para suministrar materiales en la propia área de producción."}
+{"en": "Transfer Step Description", "es": "Descripción del paso de transferencia"}
+{"en": "Supplier Approval Process", "es": "Proceso de aprobación de proveedores"}
+{"en": "Use of Payment Advices", "es": "Uso de los informes de pago"}
+{"en": "Then choose Delete.", "es": "Luego elija “Eliminar”."}
+{"en": "ID Business location", "es": "Ubicación del negocio"}
+{"en": "About Journal Entries", "es": "Sobre registros contables"}
+{"en": "On this tab you can check the status of your data deliveries.", "es": "En esta pestaña puede verificar el estado de sus entregas de datos."}
+{"en": "Run the report.", "es": "Ejecute el informe."}
+{"en": "Default value for", "es": "Valor predeterminado para"}
+{"en": "Creating the Job", "es": "Crear el trabajo"}
+{"en": "Creating a Scope", "es": "Crear un ámbito"}
+{"en": "Edit the business and/or technical names as appropriate and click Save.", "es": "Edite los nombres comerciales y/o técnicos según sea apropiado y haga clic en Guardar."}
+{"en": "You can use this report for the following purposes:", "es": "Puede utilizar este informe para los siguientes fines:"}
+{"en": "Click Add to save your comments.", "es": "Haga clic en Agregar para guardar sus comentarios."}
+{"en": "You can also choose to run the job immediately.", "es": "También puede elegir ejecutar el trabajo inmediatamente."}
+{"en": "Show configuration steps", "es": "Mostrar los pasos de configuración"}
+{"en": "Reuse Data Model", "es": "Reutilizar el modelo de datos"}
+{"en": "Choose Save to save the edited chart.", "es": "Elija “Guardar” para guardar el gráfico editado."}
+{"en": "If you want to save for future subscriptions you can use the bookmark feature contained in Data Marketplace.", "es": "Si quieres ahorrar para futuras suscripciones, puedes usar la función de marcador incluida en Data Marketplace."}
+{"en": "Enter a name and description for the line item.", "es": "Ingrese un nombre y una descripción para el elemento de línea."}
+{"en": "Deployment and Activation", "es": "Despliegue y activación"}
+{"en": "Facts need least one measure.", "es": "Los hechos necesitan al menos una medida."}
+{"en": "Administration in Spaces", "es": "Administración en espacios"}
+{"en": "Business Partner Approach", "es": "Enfoque de socios comerciales"}
+{"en": "Business Partner Position", "es": "Posición del socio comercial"}
+{"en": "Business Partner Overview", "es": "Visión general de los socios comerciales"}
+{"en": "ADU = Average daily usage", "es": "ADU = Uso diario promedio"}
+{"en": "Business Partner Category", "es": "Categoría de socios comerciales"}
+{"en": "For measures, proceed as follows:", "es": "Para las mediciones, proceda de la siguiente manera:"}
+{"en": "Data Warehouse Data Access Control", "es": "Control de acceso a datos en el almacenamiento de datos"}
+{"en": "Data Collection Status", "es": "Estado de recopilación de datos"}
+{"en": "Duplicate an Item", "es": "Duplicar un elemento"}
+{"en": "Remove an Account", "es": "Quitar una cuenta"}
+{"en": "Choose the Rating.", "es": "Escoja la Calificación."}
+{"en": "Choose (Remove) at the top right corner of the tile.", "es": "Elija “(Quitar)” en el cuadro superior derecho de la tarjeta."}
+{"en": "The default value here is DEFAULT.", "es": "El valor predeterminado aquí es DEFAULT."}
+{"en": "What are the event qualifiers?", "es": "¿Qué son los calificadores de evento?"}
+{"en": "Select the key and click on Delete.", "es": "Seleccione la clave y haga clic en “Eliminar”."}
+{"en": "The following options are available on the Advanced tab :", "es": "En la pestaña Avanzado, están disponibles las siguientes opciones:"}
+{"en": "You need the DW Administrator role to create a database user group.", "es": "Es necesario tener el rol de administrador de DW para crear un grupo de usuarios de base de datos."}
+{"en": "Total Business Partners:", "es": "Socios comerciales totales:"}
+{"en": "Edit purchase orders", "es": "Editar pedidos de compra"}
+{"en": "You use the UI Section tab to do the following:", "es": "Utilice el panel Sección de UI para realizar lo siguiente:"}
+{"en": "For more information, refer to the related links.", "es": "Para obtener más información, consulte los enlaces relacionados."}
+{"en": "Mapping Source Value", "es": "Asignar el valor de la fuente"}
+{"en": "The following document types are currently not supported in version 2:", "es": "Los siguientes tipos de documentos no se admiten actualmente en la versión 2:"}
+{"en": "Which fields are required for using the FS item in performing consolidation tasks, for example, the field Partner Unit is required for receivable and payable items to perform the elimination of interunit payables and receivables.", "es": "Qué campos son necesarios para usar el elemento FS al realizar tareas de consolidación, por ejemplo, el campo Unidad de la empresa es necesario para los elementos a pagar y a cobrar para realizar la eliminación de pasivos y activos entre unidades."}
+{"en": "The system creates these links automatically.", "es": "El sistema crea estos enlaces automáticamente."}
+{"en": "Input Parameters for the Data Sources of the Dashboard Tabs", "es": "Parámetros de entrada para las fuentes de datos de las pestañas del dashboard"}
+{"en": "Business Partner Integration", "es": "Integración con socios comerciales"}
+{"en": "You can then set the following parameters:", "es": "Puede establecer entonces los siguientes parámetros:"}
+{"en": "You can executed the report manually.", "es": "Puede ejecutar el informe manualmente."}
+{"en": "This provides the following benefits:", "es": "Esto proporciona los siguientes beneficios:"}
+{"en": "Creation of data controller - Using the self-service configuration app -The business Rule ID should be unique.", "es": "Creación de controlador de datos — Usando la aplicación de configuración de autoatendimiento — El ID de regla comercial debe ser único."}
+{"en": "You can restrict the selection by entering specific business partners.", "es": "Puede restringir la selección introduciendo socios comerciales específicos."}
+{"en": "The worklist area contains the following tabs:", "es": "El área de lista de tareas contiene las siguientes pestañas:"}
+{"en": "Choose Add Inside.", "es": "Escoja “Agregar dentro”."}
+{"en": "Partner End Point", "es": "Punto final del socio"}
+{"en": "Ready for Issue:", "es": "Listo para su publicación:"}
+{"en": "Identifies the type of the business partner.", "es": "Identifica el tipo de socio comercial."}
+{"en": "These tabs are described in the the following table.", "es": "Estas pestañas se describen en la siguiente tabla."}
+{"en": "Business partner number", "es": "Número del socio comercial"}
+{"en": "Business partner master", "es": "Maestro de socio comercial"}
+{"en": "BOM explosion rule", "es": "Regla de explosión de BOM"}
+{"en": "Business Purpose Completed", "es": "Objetivo comercial completado"}
+{"en": "Enter company role.", "es": "Introduzca el papel de la empresa."}
+{"en": "Selected Business Partners:", "es": "Socios comerciales seleccionados:"}
+{"en": "Address Communication Usage", "es": "Uso de la comunicación de direcciones"}
+{"en": "Create a new transaction template", "es": "Crear un nuevo plantilla de transacción"}
+{"en": "The new enhancements include the following:", "es": "Las nuevas mejoras incluyen lo siguiente:"}
+{"en": "It represents the difference between actual cost and target cost.", "es": "Representa la diferencia entre el costo real y el costo objetivo."}
+{"en": "By default, the start date of the Period Range selection takes the current date.", "es": "Por defecto, la fecha de inicio de la selección de rango de período toma la fecha actual."}
+{"en": "It is the name of the workflow.", "es": "Es el nombre del flujo de trabajo."}
+{"en": "Select a process template", "es": "Seleccione una plantilla de proceso"}
+{"en": "Benefits of SAP Analytics Cloud", "es": "Beneficios de SAP Analytics Cloud"}
+{"en": "Create rate tables", "es": "Crear tablas de tarifas"}
+{"en": "Review the schedule.", "es": "Revisar la programación."}
+{"en": "Delete a Term", "es": "Eliminar un término"}
+{"en": "Business entity (site)", "es": "Entidad comercial (sitio)"}
+{"en": "Purchase order history.", "es": "Historial de pedidos de compra."}
+{"en": "The following approval statuses are possible for tasks:", "es": "Los siguientes estatuses de aprobación son posibles para tareas:"}
+{"en": "This returns the job status, which can be one of the following:", "es": "Esto devuelve el estado del trabajo, que puede ser uno de los siguientes:"}
+{"en": "Use Case Types", "es": "Tipos de casos de uso"}
+{"en": "Impact on the Schedule", "es": "Impacto en el programa"}
+{"en": "Enter the term.", "es": "Introduzca el término."}
+{"en": "Describes the reason for a particular association of partners.", "es": "Describe el motivo de una asociación particular de socios."}
+{"en": "The template and text block are in Draft status.", "es": "El plantilla y el bloque de texto están en estado Borrador."}
+{"en": "Choose Save to save the docking location as a draft.", "es": "Elija “Guardar” para guardar la ubicación de acoplamiento como borrador."}
+{"en": "Pause Real-Time Replication for a Connection", "es": "Detener la replicación en tiempo real para una conexión"}
+{"en": "Description of Start Date Type", "es": "Descripción del tipo de fecha de inicio"}
+{"en": "Assign organizational units to the reporting entity:", "es": "Asignar unidades organizativas a la entidad informante:"}
+{"en": "Business Partner, Currency", "es": "Socio comercial, moneda"}
+{"en": "Select the job type", "es": "Seleccione el tipo de trabajo"}
+{"en": "Business Partner Core View", "es": "Visión central de socio comercial"}
+{"en": "Specifies the type of checklist assessment.", "es": "Specifica el tipo de evaluación de lista de verificación."}
+{"en": "Reprocess Dunning Notices", "es": "Procesar de nuevo los avisos de Dunning"}
+{"en": "Displays the time of the training duration.", "es": "Visualiza el tiempo de duración del entrenamiento."}
+{"en": "Delete a Template", "es": "Eliminar un plantilla"}
+{"en": "Save the template.", "es": "Guarde el modelo."}
+{"en": "An account member:", "es": "Un miembro de cuenta:"}
+{"en": "Select the template type from the Type drop-down list.", "es": "Seleccione el tipo de plantilla en la lista desplegable Tipo."}
+{"en": "Product name change", "es": "Cambio de nombre del producto"}
+{"en": "Select an attribute to add.", "es": "Seleccione un atributo para agregar."}
+{"en": "This is the default.", "es": "Este es el valor predeterminado."}
+{"en": "For more information, see Viewing User Feedback Charts.", "es": "Para obtener más información, consulte Visualizar gráficos de comentarios de los usuarios."}
+{"en": "Mass Processing of Assets", "es": "Procesamiento masivo de activos"}
+{"en": "Create Rule from Template", "es": "Crear regla a partir de plantilla"}
+{"en": "Confirm Production Order", "es": "Confirmar pedido de producción"}
+{"en": "Working with Items", "es": "Trabajar con elementos"}
+{"en": "Locking a Release", "es": "Bloquear una publicación"}
+{"en": "Running a Where-Used List", "es": "Ejecutar una lista de uso actualizado"}
+{"en": "Description of Business Location", "es": "Descripción de la ubicación comercial"}
+{"en": "For more information, refer to Run in the SAP Activate Roadmap.", "es": "Para obtener más información, consulte Ejecutar en el plan de activación de SAP."}
+{"en": "This is the file ID for which you need to schedule the job.", "es": "Este es el ID de archivo para el que necesita programar la tarea."}
+{"en": "Select the respective tab.", "es": "Seleccione la pestaña respectiva."}
+{"en": "Choose Save and Activate.", "es": "Escoja “Guardar y activar”."}
+{"en": "In the Teams table, locate the team that you want to delete.", "es": "En la tabla Equipos, busque el equipo que desea eliminar."}
+{"en": "You can click Add Constraint and select from the following options:", "es": "Puede hacer clic en Agregar restricción y seleccionar entre las siguientes opciones:"}
+{"en": "First Fixing Date", "es": "Primera fecha de fijación"}
+{"en": "Click the Open Picklist button.", "es": "Haga clic en el botón Abrir lista de opciones."}
+{"en": "See Attachment B", "es": "Vea el archivo B"}
+{"en": "See Attachment A", "es": "Vea el archivo adjunto A"}
+{"en": "Examples of use", "es": "Ejemplos de uso"}
+{"en": "See sample code:", "es": "Vea el código de muestra:"}
+{"en": "You can search for a text block and insert it from the library into a template.", "es": "Puede buscar un bloque de texto e insertarlo desde la biblioteca en un modelo."}
+{"en": "Go to the Exposed Dimension Sources tab.", "es": "Vaya a la pestaña “Origenes de dimensiones expuestas”."}
+{"en": "Remove the selected operations from the schedule.", "es": "Quitar las operaciones seleccionadas del programa."}
+{"en": "You can perform the following actions in the Local Members tab:", "es": "En la pestaña Miembros locales, puede realizar las siguientes acciones:"}
+{"en": "Group Management Tab", "es": "Ventana de gestión de grupos"}
+{"en": "What is the income of a business partner (person)?", "es": "¿Cuál es el ingreso de un socio comercial (persona)?”"}
+{"en": "Sub Agent Assignment", "es": "Asignación de agentes secundarios"}
+{"en": "Select Document Type", "es": "Seleccione el tipo de documento"}
+{"en": "Purchase Contract Type", "es": "Tipo de contrato de compra"}
+{"en": "Start date of the business partner role.", "es": "Fecha de inicio del rol de socio comercial."}
+{"en": "There are a two types of authorization groups:", "es": "Hay dos tipos de grupos de autorización:"}
+{"en": "Run Overhead Calculation", "es": "Ejecutar cálculo general"}
+{"en": "Then, choose Add or Delete.", "es": "Luego, seleccione “Agregar” o “Eliminar”."}
+{"en": "Paid by Business Partner", "es": "Pagado por socio comercial"}
+{"en": "Payment Approval Processing", "es": "Procesamiento de aprobación de pago"}
+{"en": "You can delete a connection.", "es": "Puede eliminar una conexión."}
+{"en": "Service Confirmation (SVC2)", "es": "Confirmación de servicio (SVC2)"}
+{"en": "With this app, you can schedule the following job templates:", "es": "Con esta aplicación, puede programar los siguientes plantillas de trabajo:"}
+{"en": "Click  Save to save your import.", "es": "Haga clic en “Guardar” para guardar su importación."}
+{"en": "International Business Partners", "es": "Socios comerciales internacionales"}
+{"en": "Choose the required layout section.", "es": "Escoja la sección de layout requerida."}

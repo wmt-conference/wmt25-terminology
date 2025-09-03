@@ -1,0 +1,500 @@
+The status of each individual space can be seen from the color code on the upper left corner.
+Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.
+share the URL link to other users with the proper editing rights
+Once you remove the constraint for the successor operation, the operation can be rescheduled automatically.
+As long as you have not configured the tenant, you can use only administration features of SAP Data Warehouse Cloud (but you cannot create spaces in the Space Management page).
+All resources in your area of responsibility will be displayed.
+Required Permissions for Oracle Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide
+Integrate an account with your space to be able to create connections for connector instances and use the connections for data flows.
+A payment clearing group is an attribute with which you can categorize your suppliers and customers into groups.
+Select the corresponding checkbox for demand-driven MRP components and/or top-level materials.
+Click Create License to create a license for one or multiple of your data products and generate activation keys that you can share with consumers to allow them to use the licensed scope of data products.
+Control your union in the Mappings section of its side panel:
+The performance of the model version is evaluated using two main indicators.
+The database then has to decide which job or query has to be dealt with first.
+Address, e-mail, phone number, etc of the provider
+The name should be unique within a space.
+Display the IDs of intercompany customer invoices, customer invoices, and intercompany supplier invoices
+To lock a specific release of a data product, open the release history of the selected product, select the release you want to lock and select the checkbox Locked.
+This varies depending on how the data provider offers their products.
+Create a data access control to filter data in views and business layer objects by one or more criteria.
+Retrieve your favorite data providers and data products.
+Choose Fuzzy Match to display the Match Thresholds section.
+You can see which products were last released by the provider.
+It’s maintained by the provider and the information might differs from one provider to another.
+To lock all the releases of a data product, select the product and select the checkbox Locked.
+The Product Allocation Order Items card displays only those order items with confirmation quantity assigned to a characteristic value combination containing the specified characteristic or values.
+This space is close to exceeding it's storage quota.
+Older period includes data older than the last year.
+Create or Edit a Data Provider Profile
+In the Switch Data Provider dialog:
+Select your Space
+Thanks to the product page created by the data provider you get detailed information on the data product and eventually access to sample data, if available.
+To guarantee a smooth roll-out of updates to any object without immediately affecting or even breaking fact models, consumption models, or perspectives, you can derive versions of objects.
+You can display the reference quantity and the simulation quantity side by side.
+The inspector detects issues for each top-level material per time period.
+Any path used with this connection will be prefixed with this root path.
+It must be unique for the clause type in each language.
+Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.
+Enter a name for your space.
+Changes within the same version are saved as new revisions.
+You can search and purchase analytical data from data providers.
+The projected plant stock can be calculated from the current stock- or requirements situation for the start date of the reference object.
+Provide all the mandatory details such as the Pricing Date, Currency, and Quantity, and choose Simulate.
+Data Layer Object Properties - Shared Content Between WA and HP
+Select Create Filter and add your filter conditions:
+Create a new space.
+In each condition record where you define a scale value, you can further specify the scale type.
+This is the summary of your schedule.
+Select the Space you would like to work in.
+The following reporting periods are not available in this app:
+You can define measures for your consumption model.
+[if Enable Statement-level Triggers = true] Create Statement-level Insert Triggers
+The Work Center column lists the resource of the corresponding order.
+Make your view visible to analytical clients.
+Defines a relative time interval for which you want to determine the creation of the necessary physical inventory documents for your cycle counting process.
+see the storage status of your space
+If you wish to create a role without extending a predefined standard role, choose the blank template.
+You access these detailed task logs by navigating to the Data Integration Monitor - Details screen of the relevant task.
+When a new delivery is made available by the provider, the Status of your data product is outdated.
+Cloud Connectors that you want to use for data flows only don't require an entry in this list.
+To publish the release at a later point in time, click Save.
+These skills are specified in the resource request.
+The provider has removed the data product from the available data product list.
+To activate a data provider profile for which you’ve received an activation key, click Activate, enter the key, and click Activate.
+Rename a column by clicking MenuChange Business Name
+Dynamic Memory Allocation for Data Flows
+To manage your products and licenses, to publish new releases, and to maintain your data provider profile page, the Data Sharing Cockpit offers you tailored apps for each task and workflow.
+Save or publish a release.
+Read the messages to understand if there are any errors or warnings, if the actions you performed on the template were successful, if further action is required from you, and so on.
+Resolve the memory issues by deleting unecessary data in your space or by assigning more memory to your space.
+Choose the Go to App button to open the end user app.
+Enter an email address for the internal communication between you as the data provider and SAP.
+You can now switch to the data provider profile.
+Create Local Tables
+If the required connection is not available for selection, you or an administrator need to create the tunnel connection before you can create the SAP BW/4HANA Model Transfer connection.
+Set your space priority.
+Click the consumption model name in the shell bar breadcrumbs to return to it, and then click the  Perspectives tab.
+You can edit the predefined email and then send it to the provider who then gets in touch with you.
+For the Heath Check Support  access category, the incident ID references SAP internal incidents raised by automatic health checks.
+Modify the properties of objects, including providing business names for them to make them easier to identify and use for non-technical users.
+You can view all top-level materials of the work center.
+The residence period is part of the overall retention period.
+[if Enable Compound Triggers = true] Flush Threshold of Compound Triggers
+If such a column does not exist, you may choose to create a calculated column and concatenate values from other columns into it to provide unique identifier values.
+If no period range is defined, the start date of the Period Range selection defaults to the current date.
+If switched on, it indicates that each data record of the currently opened business entity finds a match in the selected target business entity with the configured key mapping.
+If you want to restrict the data to include in the release, select a view from the Items table and enter or paste your data queries in the Data Selection section.
+Set the minimum score needed to match an input record with a lookup record and place it in the Review results category.
+Control your join in the Mappings section of its side panel:
+data related to spaces,
+You could also allow your space data to be consumed in your HDI containers.
+Set the minimum score needed to match an input record with a lookup record and place it in the Matched results category.
+Possible quick actions are:
+The advantage of this attribute is that you can refer to certain business partners in one condition by using the correct payment clearing group.
+Specifies the Valid To date for compliance requirements.
+The data provider has entered some details about the product:
+Information on the contained data, which is entered in the Create Release wizard.
+In the Permissions page individual permissions assigned to privilege types are displayed
+Note that Cloud Connectors that you want to use for data flows only don't require an entry in this list.
+The space that was selected to store the data product.
+This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.
+New records that have the same pairing column value as an existing pairing group are automatically placed in the appropriate results category for that pairing group.
+SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries.
+To be able to use the data product, the data provider will send an activation key via email that provides authorization to access one or multiple data products.
+It might make sense to delete unnecessary data in your space or to extend the assigned storage.
+There are many ways to collect and combine data to create business insights:
+You can create a text block inside the text block library.
+This space is no longer active.
+Allocate your capacity units to compute and storage resources.
+Generate keys that you can share with consumers to allow them to use the licensed scope of data products.
+The release is highlighted on the landing page with the flag “Not published yet”.
+For each business entity used as data restriction, you need to map each key member to the data access control's output column.
+Create a schedule to load new snapshot of data asynchronously and recurrently in the background according to the defined settings.
+The interfaces you have subscribed to for monitoring, including the status of the individual messages.
+A pop up informs you about the source updates before you can go with deployment.
+To edit an existing data provider profile, click .
+In this app, you can create the reference data that are used for the simulations.
+Note that after a redeployment, the persistency is deleted and the data access is changed back to virtual.
+Specify date and text information for the release.
+You can search and browse for data products and data providers.
+saving is available but deployment is blocked
+You can donwload it to get a data update.
+Skills with a check mark are provided by the resource.
+This provides you feedback on how many entries within the current business entity there are and how many of them match to entries of the target business entity.
+The data provider profile page provides additional information about the data provider and other products or product groups.
+insert privilege is removed from the Space Manager
+Remote Table Monitor - short descriptions
+First Steps to Create Insights
+[read-only] Displays the deployment and error status of the object.
+Keeping an overloaded space active can impact running jobs.
+Personal data concerning insurances and bank or credit card accounts
+Reviewers do not require any work center assignment.
+You can create clauses and signature blocks with this option.
+Enter a text briefly describing the data contained in the release, and enter a comment.
+Create users so you can assign them to a space.
+This allows for multiple associations between the same business entities (in different contexts) and provides additional business meaning to the association.
+The associated business entities will be available as dimensions when you create a consumption model.
+Click an issue.
+They allow data to flow into the Business Builder and are combined together to produce fact models and consumption models.
+Plant stock at start date of reference
+Enable ABAP Manageable Trigger Namespace
+If the view uses other views that were not changed, these views are not touched by the deployment and therefore the persistency is still available.
+Using the Time From and Time To fields, you can filter for jobs that have been created between these two points in time.
+Select a space from the drop-down menu.
+A database user lets you ingest data from third-party SQL tools and also allows you to expose your space data to third-party SQL tools.
+In this popup you can select different periods and change the available capacity of the work center.
+For example, while creating a contract, if you need to exit the contract creation process to double-check and clarify certain details, you can select Contract in Preparation.
+All Dates:You can see all the dates that are auto-generated when the renewal and termination clauses are either defined in the legal transaction or predefined in the context.
+The Data Sharing Cockpit is the tool you use as a the data provider.
+The business catalog gives you an overview of all the models you can use, across all the Spaces you are authorized for.
+Check how much spaces the task logs are using on a tenant, and define criteria to manually or automatically delete them.
+With connection type Open Connectors you can now create connections to the third-party data sources available as connector instances with your  account.
+Based on implicit data restrictions, every user has access to the relevant data according to his or her role.
+Transfer staffing assignments according to your selection criteria.
+All Dates:You can see all the dates that are auto-generated when renewal and termination clauses are predefined.
+Create a fact model to group associated analytical data sets and dimensions together for use in multiple consumption models.
+This is done to prevent over usage of the space.
+Table Services - Enable the In-Memory Storage option to store the table data directly in memory (see ).
+Attributes in consumption models can either reference attributes from the included fact or dimension sources or be calculated from other attributes of the current consumption model.
+A configuration (or implementation) item may contain implementation steps which are executed in end user apps.
+Access SAP HANA Deployment Infrastructure containers through  and use your data in the Data Builder or gain access to your space data from your HDI container.
+Because the implementation step is executed in an end user app, the changes are not transportable from the Q system to P system.
+The BI Content Creator creates and changes stories.
+Click the New Graphical View tile to enter the builder.
+Click a colored cell or the entire row to view more details about the issues and their category in the Issues panel.
+The quantities are displayed per month or week (bucket).
+SQLScript (Table Function) - Use SQL Script with support for  statements, loops, and other more complex structures.
+No updates are made on your system.
+There are six types of messages:
+The Business Catalog gives an overview of all the models the business user can use, across all the Spaces they are authorized for.
+For more information, see Oracle Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.
+Complete or consult other side panel sections as appropriate:
+Choose an appropriate data entity to provide data to your business entity and click Create to open the editor.
+Choose from the following types:
+The messages are grouped in the following categories:
+Narrow down the list of orders based on their main work center.
+Once the incident has been processed, you can create the  bridge instance in the dedicated page SAP BW Bridge of the Configuration area with the size you’ve allocated (see ).
+Select a session.
+Create a schedule:
+Document - Action Required
+In the Share Schedule dialog, just remove the name of the person whose access you want to revoke.
+You can change the start date and time of order operations by dragging them one at a time to the desired date in the chart.
+Release Restriction Note
+You can only display and use these two Planned Count Date From - To fields, when you use the date selection type Static.
+Documents - Action Required
+Restoring an Older Version or Revision of a Text Block
+The Data Provider profile provides additional information about other products or product groups.
+Notification Sent Date
+Check and Transfer Staffing Assignments
+You can also create your own scenarios.
+Select your homepage from the dropdown menu.
+The following restrictions are applicable:
+About Approval Process
+Once you have selected a category, you must select a subcategory, such as Tasks by Status or Tasks by Status and Compliance Requirement, to refine your analysis results further.
+You can perform the following actions in table view:
+Routing Information Retrieval
+You can filter by schema or by storage type.
+Expose your data in lightweight, closely-focused perspectives to SAP Analytics Cloud and other analytics clients.
+Enterprise Edition check:
+You can add more specific measures to your consumption model.
+Reviewers are not allowed to make any changes to the schedule and they do not see the utilization forecast shown when the schedule is in Scoping and Refinement.
+In the side navigation area, click , select the space you want to work in, and click Remote Query Monitor to open the monitor.
+Enter your key, accept the terms of use and select a space where the data should be stored.
+Save the assignment.
+Change queue assignments.
+The following project44 add-ons are available:
+Create new Work Package
+The following work item types are available:
+To create a new item, choose one of the following options:
+This column shows you if quick actions are available.
+Included in Schedule (Filter)
+Click Create Needs.
+Check Intercompany Transactions
+Provides additional information about metering of usage.
+The Production Order:
+Document Status - Text
+To create a dock appointment, proceed as follows:
+Limitation of a locked space:
+Select one of the following shipment types:
+You have the following position:
+Highloaded Periods Card
+The following troubleshooting modes are available:
+When a data access control is applied to a data layer view or a business layer object, the rows of data contained in the object are filtered based on the specified criteria.
+Reset not required
+Pause Real-Time Replication for an Agent
+Enables you to refresh purchase requisitions.
+Then choose Accept.
+Item expiration Date
+Accept Legal Disclosure.
+You can edit the predefined email and then send it to the provider.
+This task is optional.
+Released for Processing
+Enter the name and the description of your role collection.
+Icon on the tab indicates the following:
+By default the check box is unchecked.
+In the sales and delivery processes, the placeholders are resolved in the languages in which the document is printed.
+P Paste Assignment
+FICA document will be displayed.
+Payment Method Text
+Create, edit and display a single order fulfillment responsibility for a specific split criterion (for example, plant or material group) or a combination of multiple split criteria.
+Personal Data Report
+Choose Add Check.
+Choose View Compliance Requirements.
+Score Output Type
+Display the segments in which the sequence is used.
+Click Create Schedule.
+Choose Cancel Dispatch.
+Differences between target costs and actual costs that cannot be attributed to any above mentioned category.
+The following routing methods are supported:
+via Notifications or
+Controls the verification of the host name field of the server certificate:
+Perform one of the following actions:
+Upload Field Fuel
+Maintenance planners can modify, share, or delete the schedule.
+For example, you can specify which availability match percentage to use for the calculation of the total suitability match.
+The Product Allocation Order Items card displays only those order items which have product allocation confirmation quantity assigned to characteristic value combinations which belong to the selected product allocation object.
+Unreleased Compliance Requirements
+By selecting the search button in the field, you are taken to the Define Conditions:the characteristics displayed here are the standard characteristic values that can be used when, for example, you configure product allocation objects.
+Create Analytic Applications
+History Retention Period:
+Setup of Retention Period
+Go to Items Completed.
+Create New Options
+Manage Payment Advices
+You have entered the following data:
+Select Dialog Text.
+No Valid Contract
+Enter the title for your report:
+Save Data Points
+In the side panel, do the following:
+Delete audit log entries by space.
+To calculate the match percentage, the app sums up the free hours per month for the entire request time frame.The result is then divided by total number of required hours.
+Select the Stores tab page.
+Deployment and Activation
+You need the DW Administrator role to create database user groups.
+Select the test plan type from the dropdown list.
+Administration in Spaces
+Select the association(s) to copy and click Create.
+Choose a space from the drop-down list.
+Choose Create Connection.
+There are two kinds of assets:
+You can reset the clearing of line items as well as reverse the clearing entry.
+Create New Regulation
+Type of Change Document
+Create a conditional
+Compliance Requirement Country
+You must choose at least one category.
+The column containing users ids must be selected as the Principal Name Column in your data access control.
+List of Notifications
+Click AddCreate User.
+Save your space.
+Documents - Communication Status
+Click Submit Request.
+You can trigger the creation of new grouping rules, search for existing grouping rules, and delete grouping rules that are no longer required.
+Check the status before you execute changes.
+Navigate from Asset Depreciation Values.
+You have the following options to show assignment changes:
+Create a Custom Requirement
+Click to add file comment
+This procedure provides the option to create SAP HANA virtual tables in the open SQL schema that refer to objects in data lake.
+Enter the name of the cost component in the Name field.
+Create an issue:
+Save the query.
+Create Workflow for Sourcing Projects
+Delete a scope.
+Save the space.
+URL of the SuccessFactors Employee Central tenant
+Indicates the current status of a master data record.
+Navigate to Stages.
+Activation of Data Source:
+Packaging levels are used for the following purposes:
+Create a Target Table in Data Flow
+Enter an optional description for the mapping.
+Specify the locations for the following options:
+· Select Classification
+To specify the document type as scheduling agreement.
+Enter the term.
+Go to the Filter tab Select Create filter and define your filter conditions:
+Review the schedule.
+Edit a Release
+For clearing, the lower of the limit defined for your user and the limit defined for your business partner applies.You can also define amount limits for your Financial Accounting users.
+For more information, see Service Group Publishing.
+Format for Income Classification
+You must select one or more columns containing filter criteria as Output Columns in your data access control.
+Name of the space the product belongs to.
+Restrictions on Capture:
+Long descriptions are available for the following items:
+Save the schedule.
+Click Select Owner.
+Clear as Sequence
+Setting up Joint Venture Accounting Cost Objects:
+Download the following files:
+For more information about creating an equipment template, see .
+On the SAP Easy Access menu, choose  Joint venture accounting  Actual posting  Cash call batch ses.
+Profile types include the following:
+It allows you to create an assignment exactly as requested by the project manager.This action is available if the project manager requested a specific resource and no resource has been assigned to the request yet.
+The characteristic value columns list the values that have been maintained for the characteristics defined for the document class.You can select the characteristic value by entering the value manually (possible entries are then suggested by the app) or, alternatively, by choosing the value in the subsequent characteristic dialog screen.
+This column shows you if quick actions are available for a resource request.If a quick action is available, a link is shown.
+Indicates whether the MRS item is obsolete.
+Locking a Release
+Audit log missing detailed information
+<description of the transaction>
+Click Apply to save your new tile.
+The following views are made available in this space:
+In the Trusted Origins section, choose between the following options:
+The dependencies are assigned to the operation.
+Doc.Template Name in Structure
+Primary Contact Indicator
+These messages are enabled by default.
+Open Check and Transfer of Staffing Assignments.
+Tasks are created in the compliance requirement.
+Run In Simulation
+Cash Pool Minimum Transfer Amount
+This class is used to convert a quantity from one unit of measurement to another.
+If a resource has been requested and the request has not yet been staffed, you'll see a Quick Assignment link in the Actions column.This allows you to create the assignment exactly as requested by the project manager.
+Under Connectivity, choose Destinations.
+Open port in Cloud Foundry environments
+Choose Create new contract from the dropdown list.
+You can decide how important your space is compared to other spaces.
+To add a business user, proceed as follows:
+Select a location.
+You can choose one of the following options for managing payment details:
+The exposed dimension sources can the be used in your consumption models.
+Specifies the revision date of the document.
+Create and delete teams.
+You can also enter your own mass transfer ID.
+Go to Scope Builder.
+Choose the relative date type.
+Enter Additional Property Information
+Build a schedule by adding and removing order operations
+The end date and time for the query.
+Associations between entities
+You can perform batch postings for the activities.
+The history displays information such as:
+Click on the reporting task you want to process.
+Dimensions are used to group data whose content is logicallyBy default, you see your object’s business name.
+Create and manage requisitions using Microsoft Excel
+Create a Service Key
+Select the Store Audit tab page.
+Intelligent Scenarios Name
+Select the item you want to change.
+173 Display Phantom Hierarchy
+Change the document type.
+The report does not display any data.
+You can define the following which applies to the packages:
+For a simple step-by-step guide see Accessing your HDI container .
+Origin of Rule
+Search for forecast.
+Navigate to the superior asset.
+There are two types of busy indicator:
+Handling of reference Characteristics.
+the document tab is clicked,
+A work package combines the following information:
+You just need to create a Data Provider Profile.
+To add an item, select the item from the Items list.
+You can define a time frame in the following ways:
+If the Source Browser panel is not visible on the left of the screen, click Source Browser in the toolbar to show it.
+Provides general information about the facility.
+Select the attribute type from the following options:
+Displays the consumption data for the entitlement.
+Displays the available item value on this layer.
+Check the state of the connectors:
+The package contents are displayed.
+The X-Message is no longer raised.
+A system messageconfirming that the changes have been saved appears.
+Process Additional information data
+Order Fulfillment Cockpit
+This is a monitoring list.
+Limitations and Restrictions
+You can create the following two types of hierarchies:
+If you flag the Execute ABC checkbox, the alternative control is active and will be used productively when you click Save.
+Check the compliance assessments of the raw material.
+BDT - Intrastat Processing
+Search for Interactions
+Release to Production
+Enter a description for your vendor invoice.
+Display the Intercompany transactions
+To create a Forms by Adobe print template, proceed as follows:
+BAdI, personal data,
+Relationships for other SAP applications
+Click Table view.
+Issues with importing compliance requirements
+Description and Notes
+Click Apply to close.
+Select an agent.
+Suspending and Removing Projects, Partners, and Equity Groups from Suspense
+The following allocation steps are included:
+The following applies to this type of attachment:
+The Order Card displays the following details:
+You can now edit the following details of subscription items:
+Creating a contract that references a purchase requisition.
+In the area Classification
+In Customer Business Planning,
+Has the following characteristics:
+Terminate the scheduled jobs
+The level is now selected.
+Currently, only one space can be assigned to access and use the data lake.
+Displays the type of the selected algorithm.
+It indicates if a schedule is defined for the data flow:
+A new version of a format mapping can be created in one of the following ways:
+Application Operations Guide
+The Suppliers panel includes the following elements:
+Retention Period Unit = Year
+Mapping for Company Code
+Select any requirement
+Select the notification.
+Select the queries you want to refresh.
+Calculation Step Description
+Contacting Data Provider
+Remove the selected operations from this week's schedule.
+Application in the side panel:
+This is the default rule type.
+Repeat to Check Other Intercompany Transactions
+The system displays the following evaluation types:
+The total price of the fixed order has not changed.
+Status of the subscription.
+Select the objects that you want to change
+The Create Question dialog opens.
+gCTS assumes default values for the following entities:
+Number of the item.
+Enter the Report:
+Overlapping in Lot Sizing Procedure
+Notifications for Tasks
+The mapping files contain the following changes:
+Feature Scope Description for SAP Product Configuration
+If you choose the Total Hours rule or the Daily Hours rule, you can change the time period as required, for example, if you want to break the overall assignment down into different segments using different distribution rules.
+Enables you to assign a Kanban process to an item in a purchase contract.
+Feature Scope Description for SAP S4HANA Banking for complex loans
+Create a dimension to consume a data entity containing master data, identify attributes and keys, and produce a business entity for use in fact and consumption models.
+You cannot approve or reject this request.
+Click the Manage Substitution tile.
+You need this Compliance Requirement to
+Financial Statement - Ukraine
+For more information on invoice summary role, see .
+Credential Charset Name
+aATP, ABC, plant substitution
+Deprecation of Report:
+For more information on how to create custom roles, see Creating Custom Roles.
+The following substitutions are created:
+Select Alert Reports from the dropdown.
+You can find this file in note attachment
+Customer via IDOC
+The following tasks are still necessary:
+The following is a sample query:
+Find the purchase order by:
+In the Team Members tab, do the following:
+Editing facility information
+Change Tracker Log
+Message Change Log
+Choose a level.
+For the following Messages no long texts are available:
+Either of the following mappings:
+The repair object is set to status Completed.
+Create column table.
+Create a constraint.
+Specifies the number of the requirements.
+View rejected items.
+Setup and Administration:
+In the filter settings, you can specify that the monthly distribution of required hours and free hours is used instead.By default, the app uses this match percentage to calculate the total suitability match.
+In this section, you can find information about the security features of , freight collaboration option.

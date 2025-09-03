@@ -1,0 +1,78 @@
+{
+  "overall_consistent": false,
+  "summary": "The contents of the two files are generally consistent in most sections, but there are notable differences in paragraph order and some sections discussing Hong Kong-Mainland financial links and infrastructure, with a few smaller omissions and rearrangements.",
+  "inconsistencies": [
+    {
+      "location": "Overview section (between paragraphs 2 and 3)",
+      "issue": "Section order and grouping differ",
+      "details": "The Chinese file discusses developments in Mainland-Hong Kong mutual market access (Bond Connect, GBA, RMB business) immediately after the initial overview, before coverage of bond market development and promotion, whereas the English file reverses this order, discussing bond market promo first.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Overview section, Bond Connect paragraph",
+      "issue": "Omission/minor summary difference",
+      "details": "The Chinese version mentions working closely with Mainland authorities to 'explore and implement multiple supporting measures' to facilitate individuals and companies in living and doing business in the Greater Bay Area; the English version phrases it as 'develop and implement a series of financial facilitation measures', losing some of the exploratory nuance.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Overview section, RMB figures",
+      "issue": "Different number formatting",
+      "details": "Chinese file: '6,577億元人民幣', '10,101億元人民幣'; English file: 'RMB657.7 billion', 'RMB1,010.1 billion'; differences due to Chinese/English digit grouping but values are equivalent.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Overview section, Infrastructure Operations paragraph",
+      "issue": "Section heading omission",
+      "details": "The Chinese version uses a clear heading '香港金融基建的安全及有效運作', but the English file starts these paragraphs without a heading.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Overview, e-Cheque and cross-border payment",
+      "issue": "Sentence merged/clarified in translation",
+      "details": "Chinese file explicitly explains expansion '至包括香港與整個廣東省的跨境支付交易', the English translates this as 'to include cross-border payments between Hong Kong and the entire Guangdong Province'; content preserved but the sentence is compacted.",
+      "affected_file": "English"
+    },
+    {
+      "location": "2018 Review – Overall organization",
+      "issue": "Section and subheading order differs",
+      "details": "The English file uses different main and subheadings (e.g., 'REVIEW OF 2018', 'Hong Kong as a Fintech Hub in Asia'), whereas some headings/subheadings (e.g. '2018年回顧') are not consistently marked or placed in the Chinese file.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Open API subsection, first sentence",
+      "issue": "OCR error – duplicated word",
+      "details": "Chinese: '銀銀行 行的相關數據'; '銀行' duplicated.",
+      "affected_file": "Chinese"
+    },
+    {
+      "location": "Faster Payment System section",
+      "issue": "Minor difference in detail reporting",
+      "details": "Chinese version mentions '用戶只需輸入收款人的手機號碼或電郵地址', English says 'with the use of mobile phone numbers or email addresses as account proxy'; content is equivalent but slightly reworded.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Smart Banking measures / Banking Made Easy initiative",
+      "issue": "Name/concept clarification",
+      "details": "Chinese mentions '銀行易', which is rendered in English as 'Banking Made Easy initiative', showing translation but not a strict name mapping.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Open API section, user benefit sentence",
+      "issue": "Minor translation expansion",
+      "details": "Chinese: '用家API 單用一個系統就能在安全環境下享受綜合服務。'; English: 'Users can therefore stay conveniently on one system to enjoy integrated services in a secure environment.'; content preserved but slightly expanded.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Photograph captions within main text",
+      "issue": "Caption is integrated in main text",
+      "details": "Both versions include lines about the HKMA Chief Executive and others at ceremonies as main text rather than captions; this may be an OCR error.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Virtual Banking section",
+      "issue": "Translation paraphrasing/condensation",
+      "details": "Chinese says '虛擬銀行以個人或中小企等零售客戶為對象，因此亦有助促進普及金融', while English expands to 'will also help promote financial inclusion as they would target the retail segment, whether the clients are individuals or SMEs.'",
+      "affected_file": "English"
+    }
+  ]
+}

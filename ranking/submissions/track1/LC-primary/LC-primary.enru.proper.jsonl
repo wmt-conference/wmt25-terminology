@@ -1,0 +1,500 @@
+{"en": "To add notes, choose a template and open the Notes pane on the left side of the screen.", "ru": "Чтобы добавить заметки, выберите шаблон и откройте область заметок слева от экрана.", "terms": {"pane": "область"}}
+{"en": "Specifies the number of the contract from which you can select service items.", "ru": "Указывает номер контракта, из которого можно выбрать элементы услуг.", "terms": {"contract": "контракт"}}
+{"en": "This field is defaulted to the current date and the Return by date field will be a default number of days, defined in customizing (e.g. 30 days for default document type e-bgs), after the handover date.", "ru": "Это поле по умолчанию устанавливается в текущую дату, а поле даты возврата будет по умолчанию число дней, определенное в настройках (например, 30 дней для по умолчанию тип документа e-bgs), после даты передачи.", "terms": {"type": "вид"}}
+{"en": "The behavior of this budgetary setting is however differently interpreted for accounts classified as 'Expense'’ or 'Revenue' types.", "ru": "Однако поведение этого бюджетного настройки интерпретируется по-разному для учетов, отнесенных к типам 'Расходы' или 'Доходы'.", "terms": {"revenue": "выручка"}}
+{"en": "You can select which operations (Create, Update and/or Delete) are allowed for each subnode as well as the root node by ticking the corresponding boxes.", "ru": "Вы можете выбрать, какие операции (создание, изменение и/или удаление) разрешены для каждого подузла, а также для корневого узла, отметив соответствующие галочки.", "terms": {"update": "обновить"}}
+{"en": "Within a time range", "ru": "В течение интервала времени", "terms": {"range": "интервал"}}
+{"en": "You can bookmarks your favorite data products or data providers.", "ru": "Вы можете добавить в закладки свои любимые данные продукты или провайдеры.", "terms": {"provider": "провайдер"}}
+{"en": "The Provider Name must be unique.", "ru": "Имя поставщика должно быть уникальным.", "terms": {"provider": "провайдер"}}
+{"en": "Branching directly to the object pages of the relevant business objects.", "ru": "Прямая связь с страницами объектов соответствующих бизнес-объектов.", "terms": {"branch": "перейти"}}
+{"en": "Specifies the type of the items that you want to add to your sourcing project.", "ru": "Указывает вид элементов, которые вы хотите добавить в проект поставок.", "terms": {"type": "вид"}}
+{"en": "If an input record is matched to more than one lookup records with a score reaching this threshold, it is placed in the Multiple results category.", "ru": "Если вводная запись соответствует более чем одной записи поиска с оценкой, достигающей этого порога, она помещается в категорию нескольких результатов.", "terms": {"input": "ввод"}}
+{"en": "If you want the automated reprocessing rule to post your bank statement items in only one step, select 001 (One-Step Posting) as the value of the Procedure Type field.", "ru": "Если вы хотите, чтобы автоматическая реконструкция правила выписывала ваши банковские документы в одном шаге, выберите 001 (Одноступенчатое поступление) как значение поля типа процедуры.", "terms": {"type": "вид"}}
+{"en": "Depending on your scope, this app can check different types of source documents in your predictive accounting process.", "ru": "В зависимости от вашего диапазона, эта программа может проверять различные виды исходных документов в вашем прогнозном учетном процессе.", "terms": {"type": "вид"}}
+{"en": "As a rule, the purpose references the relevant legal basis for the processing of personal data.", "ru": "Обычно цель указывает на соответствующую правовую основу обработки персональных данных.", "terms": {"purpose": "цель"}}
+{"en": "Risk type of this obligation that denotes the risk of the legal document if this obligation is not fulfilled", "ru": "тип риска этой обязательности, который обозначает риск документа, если эта обязательность не будет выполнена", "terms": {"type": "тип"}}
+{"en": "Enter a meaningful code that will help you to identify the clause type.", "ru": "Введите значимый код, который поможет вам определить тип положения.", "terms": {"type": "тип"}}
+{"en": "If you're using a network firewall with a proxy, you need to provide the public IPv4 address of your proxy.", "ru": "Если вы используете сеть с брандмауэром с прокси, вам нужно предоставить общедоступный IPv4-адрес вашего прокси.", "terms": {"public": "общедоступный"}}
+{"en": "Click Toggle Preview Changes again to go back and continue editing your data provider page or save it.", "ru": "Нажмите снова Toggle Preview Changes, чтобы вернуться и продолжить редактирование страницы провайдера данных или сохранить его.", "terms": {"provider": "провайдер"}}
+{"en": "Select the Projection operator from the toolbar and drop it in the canvas and then connect a sources or other node to it as input.", "ru": "Выберите оператор проекции из панели инструментов и поместите его на холст, а затем подключите источник или другой узел к нему как ввод .", "terms": {"input": "ввод"}}
+{"en": "Depending on the contract type and the pricing model used for the data product, different information can be shown:", "ru": "В зависимости от типа контракта и используемого модели оплаты для данных продукта, может отображаться разная информация:", "terms": {"type": "тип"}}
+{"en": "Unbilled | Postponed | Write Off", "ru": "Не оплачен | Отложен | Списать", "terms": {"postponed": "отсрочено"}}
+{"en": "To edit an existing data provider profile, click .", "ru": "Чтобы отредактировать существующий профиль провайдера данных, нажмите .", "terms": {"provider": "провайдер"}}
+{"en": "If you enter a text and you want to print documents in different languages, select a regulation and navigate to the Classify Dangerous Good - Packaged Product app.", "ru": "Если вы вводите текст и хотите распечатать документы на разных языках, выберите предписание и перейдите к приложению \"Классификация опасного вещества - упакованный продукт\".", "terms": {"regulation": "предписание"}}
+{"en": "To set a data provider or data product as a bookmark, just click on the bookmark icon on the corresponding data provider or data product page.", "ru": "Чтобы установить провайдер или продукт данных в закладки, просто нажмите на значок закладки на соответствующей странице провайдера или продукта данных.", "terms": {"provider": "провайдер"}}
+{"en": "The join operator requires two inputs and it generates a single output.", "ru": "Оператор соединения требует двух вводов и он генерирует один вывод.", "terms": {"input": "ввод"}}
+{"en": "Adds an Unmatched Record column to the intelligent lookup output.", "ru": "Добавляет столбец \"Не совпадающая запись\" в вывод.", "terms": {"output": "вывод"}}
+{"en": "In work packages that are billed against a time and expense contract, only billable postings are considered for billing.", "ru": "В расчетах, ведущихся по контракту на оплату за время и расходы, учитываются только расчетные посты.", "terms": {"billing": "расчет"}}
+{"en": "On choosing the Summarized Explosion tab, the table provides the following details:", "ru": "При выборе вкладки \"Сводная детонация\", таблица предоставляет следующие данные:", "terms": {"explosion": "разузлование"}}
+{"en": "An association describes the relation between business entities.", "ru": "Связь описывает отношение между бизнес-сущностями.", "terms": {"association": "связь"}}
+{"en": "Select Group By criteria:", "ru": "Выберите критерии группировки:", "terms": {"group": "группировать"}}
+{"en": "Some of the notification preferences that you set affect all types of notifications, while others are specific to a notification type.", "ru": "Некоторые из предпочтений уведомлений, которые вы устанавливаете, применяются ко всем видам уведомлений, а другие — только к определённому виду уведомления.", "terms": {"type": "вид"}}
+{"en": "A contract asset is your company’s right to consideration in exchange for goods or services that your company has transferred to a customer when that right is conditioned on something other than the passage of time (for example, your company’s future performance).", "ru": "Договорный актив — это право вашей компании на получение вознаграждения в обмен на товары или услуги, переданные вам клиенту, при условии, что это право зависит от чего-либо, кроме прошествия времени (например, будущей деятельности вашей компании).", "terms": {"contract": "договор"}}
+{"en": "The Custom Code Migration app allows you to add or remove request entry points to/from the scope manually.", "ru": "Приложение \"Миграция кода\" позволяет добавлять или удалять точки входа запроса вручную в/из объема.", "terms": {"scope": "объем"}}
+{"en": "SAP Digital Payments Add-On processes the payments and makes them available for the payment advice notes.", "ru": "СAP Digital Payments Add-On обрабатывает платежи и делает их доступными для платежных рекомендаций.", "terms": {"add-on": "дополнение"}}
+{"en": "If switched on, it indicates that each data record of the currently opened business entity finds a match in the selected target business entity with the configured key mapping.", "ru": "Если включено, оно указывает на то, что каждая запись данных открытого бизнес-сущности находит соответствие в выбранной целевой бизнес-сущности с настроенным сопоставлением ключей.", "terms": {"mapping": "сопоставление"}}
+{"en": "Summary of rules and settings that enable allocations.", "ru": "Свод правил и настроек, обеспечивающих выделения.", "terms": {"summary": "сводка"}}
+{"en": "Global Currency – The currency that has been configured for the controlling area.", "ru": "Глобальная валюта – валюта, настроенная для контролируемой области.", "terms": {"global currency": "валюта отчетности"}}
+{"en": "You can delete audit logs when needed, which will free up disk space.", "ru": "Вы можете удалить журналы аудита в нужный момент, что освободит пространство на диске.", "terms": {"space": "пространство"}}
+{"en": "Edit, Save and Activate", "ru": "Редактировать, Сохранить и Включить", "terms": {"edit": "редактировать"}}
+{"en": "Spaces send queries or jobs to the database.", "ru": "Пространства отправляют запросы или задания в базу данных.", "terms": {"space": "пространство"}}
+{"en": "This is why SAP Data Warehouse Cloud has now a log deletion schedule activated by default.", "ru": "Это поэтому SAP Data Warehouse Cloud теперь имеет активированное по умолчанию планирование удаления журналов.", "terms": {"schedule": "планирование"}}
+{"en": "The inputs must match in number of the columns, names, data types, and order of corresponding columns.", "ru": "Вводы должны совпадать по количеству столбцов, названиям, типам данных и порядку соответствующих столбцов.", "terms": {"input": "ввод"}}
+{"en": "Using the filter criterion Origin, you can decide which service entry sheets are to be displayed in the list.", "ru": "Используя критерий фильтра \"Источник\", вы можете определить, какие ведомости учета услуг будут отображаться в списке.", "terms": {"service entry sheet": "ведомость учета услуг"}}
+{"en": "Thanks to the product page created by the data provider you get detailed information on the data product and eventually access to sample data, if available.", "ru": "Благодаря странице продукта, созданной провайдером данных, вы получаете подробную информацию о продукте данных и, в случае его наличия, доступ к образцам данных.", "terms": {"provider": "провайдер"}}
+{"en": "You can search and browse for data products and data providers.", "ru": "Вы можете искать и просматривать данные продукты и провайдеры.", "terms": {"provider": "провайдер"}}
+{"en": "View material consumption or availability for a given time range.", "ru": "Просмотр расхода материалов или их наличия на заданный интервал.", "terms": {"range": "интервал"}}
+{"en": "If an input record is matched to more than one lookup records with a score between this threshold and the Matched Records Score, it is placed in the Multiple results category.", "ru": "Если входящая запись соответствует более чем одной записи поиска с оценкой между этим порогом и оценкой совпадающих записей, она помещается в категорию нескольких результатов.", "terms": {"input": "ввод"}}
+{"en": "You can add items of different types to your sourcing projects.", "ru": "Вы можете добавлять элементы различных видов в свои проекты по поставке.", "terms": {"type": "вид"}}
+{"en": "Select the relevant persisted view and create a simple or recurring schedule for your view.", "ru": "Выберите соответствующий сохраненный вид и создайте простой или повторяющийся планирование для вашего вида.", "terms": {"schedule": "планирование"}}
+{"en": "To be able to use the data product, the data provider will send an activation key via email that provides authorization to access one or multiple data products.", "ru": "Чтобы использовать продукт данных, провайдер данных отправит по электронной почте активационный ключ, который предоставляет право доступа к одному или нескольким продуктам данных.", "terms": {"data provider": "провайдер данных"}}
+{"en": "At the end of the longest configured residence period, the data is blocked or deleted.", "ru": "В конце настроенного периода активного хранения данные блокируются или удаляются.", "terms": {"residence period": "период активного хранения"}}
+{"en": "Suspension of JVA Projects, Partners, and Equity Groups", "ru": "Приостановка проектов JVA, партнеров и групп акционеров", "terms": {"suspension": "приостановление"}}
+{"en": "Sourcing Project, Sourcing Project Name, Sourcing Project Type, Central Company Code, Central Purchasing Group, Central Purchasing Organization, Material Group, Currency, Purchasing Responsible, Status.", "ru": "Проект по поставке, Название проекта по поставке, Тип проекта по поставке, Код центральной компании, Центральная группа закупок, Центральная организация закупок, Группа материалов, Валюта, Ответственный по закупкам, Статус.", "terms": {"project type": "тип проекта"}}
+{"en": "Click ImportImport Permissions to open the Import Permissions wizard and follow the instructions.", "ru": "Нажмите Импорт разрешений, чтобы открыть ассистент по импорту разрешений и следовать инструкциям.", "terms": {"wizard": "ассистент"}}
+{"en": "By switching to the lineage view, you can trace the data provisioning and flow of a model.", "ru": "При переходе в режим просмотра линейки вы можете отслеживать поступление данных и поток модели.", "terms": {"flow": "поток"}}
+{"en": "Choose Define Mapping to assign the fields of your user data from the CSV file to the fields in user management.", "ru": "Выберите «Определить отображение», чтобы сопоставить поля данных пользователей из файла CSV с полями в управлении пользователями.", "terms": {"mapping": "сопоставление"}}
+{"en": "The app displays all tasks (together with their attributes, such as title, type, status, due date, processor, etc.), and sorts them by due date so that all overdue and due tasks are displayed at a first place.", "ru": "Программа отображает все задачи (вместе с их атрибутами, например, заголовок, тип, статус, дата исполнения, исполнитель и т. д. ), и сортирует их по дате исполнения, чтобы все просроченные и сроковые задачи отображались в первую очередь.", "terms": {"due date": "дата исполнения"}}
+{"en": "Select one or more entries to tag your products with related SAP applications.", "ru": "Выберите один или несколько пунктов, чтобы отметить продукты с помощью связанных приложений SAP.", "terms": {"tag": "отметить"}}
+{"en": "The provider has removed the data product from the available data product list.", "ru": "Провайдер удалил продукт данных из списка доступных продуктов данных.", "terms": {"provider": "провайдер"}}
+{"en": "Source Reference Transaction", "ru": "Источник Отсылка Транзакция", "terms": {"transaction": "транзакция"}}
+{"en": "Publishing or deletion of at least one custom field failed.", "ru": "Публикация или удаление хотя бы одного пользовательского поля не удалась.", "terms": {"custom field": "пользовательское поле"}}
+{"en": "Additionally, the structure pane contains the options for template rules and text blocks rules.", "ru": "Кроме того, в области структуры есть опции для правил шаблона и правил текстовых блоков.", "terms": {"pane": "область"}}
+{"en": "The residence period is part of the overall retention period.", "ru": "Период активного хранения является частью общего периода хранения.", "terms": {"residence period": "период активного хранения"}}
+{"en": "Adds the selected part or assembly to the Target (In Work) Panel.", "ru": "Добавляет выбранный элемент или сборку в панель \"Цель (В работе)\".", "terms": {"part": "деталь"}}
+{"en": "If you select the time range, you get to the know the available quantity of the material.", "ru": "Если вы выберете интервал времени, вы получите возможность узнать доступное количество материала.", "terms": {"range": "интервал"}}
+{"en": "In the Manage Cash Pools app, the following service providers are supported:", "ru": "В приложении \"Управление денежными фондами\" поддерживаются следующие поставщики услуг:", "terms": {"provider": "поставщик"}}
+{"en": "Balance Transaction Currency – The currency of the G/L account where the journal entry was posted.", "ru": "Балансовая валюта операции – валюта счета Г/О, на который была поставлена операция.", "terms": {"balance": "баланс"}}
+{"en": "The Copy and Remove buttons are active only when at least one alternative control is selected.", "ru": "Кнопки \"Копировать\" и \"Удалить\" активны только при выборе хотя бы одного альтернативного элемента управления.", "terms": {"copy": "скопировать"}}
+{"en": "Accruals that have been manually reviewed in the Review Purchase Order Accruals - My Inbox app", "ru": "Прибытие, которые были проверены вручную в приложении \"Проверка прибытия при покупке заказа - Мой ящик\"", "terms": {"accrual": "разграничение"}}
+{"en": "Select Work Pack Type from the drop-down list.", "ru": "Выберите тип пакета работ из выпадающего списка.", "terms": {"type": "вид"}}
+{"en": "Use the File Repository", "ru": "Используйте репозиторий файлов", "terms": {"use": "использование"}}
+{"en": "Substitution Item Type", "ru": "Тип замены", "terms": {"type": "тип"}}
+{"en": "You can also modify the existing schedule of a data flow or delete it.", "ru": "Вы также можете изменить существующее планирование потока данных или удалить его.", "terms": {"schedule": "планирование"}}
+{"en": "Displays the available run types.", "ru": "Показывает доступные типы запуска.", "terms": {"type": "тип"}}
+{"en": "To manually map an input column to an output column, drag it from the left list and drop it onto the column in the right list.", "ru": "Чтобы вручную сопоставить колонку ввода с колонкой вывода, перетащите её из левой списка и положите на колонку в правом списке.", "terms": {"output": "вывод", "input": "ввод"}}
+{"en": "The RECORD COUNT type is a table-wide statistic.", "ru": "Вид RECORD COUNT является таблицей статистики.", "terms": {"type": "вид"}}
+{"en": "This means that essential features are missing, such as the allocation to a business area.", "ru": "Это означает, что отсутствуют важные особенности, такие как перерасчет в бизнес-область.", "terms": {"allocation": "перерасчет"}}
+{"en": "The point in time when the primary processing purpose ends, for example, a contract is fulfilled.", "ru": "Время, когда основной обработке цели заканчиваются, например, договор исполнен.", "terms": {"contract": "договор"}}
+{"en": "Click the Edit Details link, to edit the technical details.", "ru": "Нажмите ссылку \"Редактировать детали\", чтобы редактировать технические детали.", "terms": {"edit": "редактировать"}}
+{"en": "Select the corresponding checkbox for demand-driven MRP components and/or top-level materials.", "ru": "Отметьте соответствующий флажок для компонентов MRP на основе потребности и/или материалов верхнего уровня.", "terms": {"demand-driven": "на основе потребности"}}
+{"en": "Select the Join operator from the toolbar and drop it in the canvas and then connect two sources or other nodes to it as inputs.", "ru": "Выберите оператор Join из панели инструментов и поместите его на холст, а затем подключите два источника или другие узлы к нему как ввод.", "terms": {"input": "ввод", "join": "соединение"}}
+{"en": "Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.", "ru": "Пространства — это среды, в которых данные модели, соединения, ресурсы вычислений и хранения объединяются для конкретной линии бизнеса или сценария использования.", "terms": {"space": "пространство"}}
+{"en": "Accruals that have been manually reviewed in this app", "ru": "Прибыли, которые были проверены вручную в этом приложении", "terms": {"accrual": "разграничение"}}
+{"en": "The retention period is a combination of the residence period and the blocking period.", "ru": "Период хранения является сочетанием периода активного хранения и периода блокировки.", "terms": {"residence period": "период активного хранения"}}
+{"en": "Enterprise Contract Assembly integrates with SAP S/4HANA for enterprise contract management, in order to generate virtual documents based on the templates and text blocks available in Enterprise Contract Assembly.", "ru": "Контрактная сборка предприятия интегрируется с SAP S/4HANA для управления контрактами предприятия, чтобы сгенерировать виртуальные документы на основе шаблонов и текстовых блоков, доступных в сборке контракта предприятия.", "terms": {"contract": "контракт", "assembly": "сборка"}}
+{"en": "Copy existing item to add new one", "ru": "Скопировать существующий элемент, чтобы добавить новый", "terms": {"copy": "копирование"}}
+{"en": "Delete the schedule if required.", "ru": "Удалите планирование, если это необходимо.", "terms": {"schedule": "планирование"}}
+{"en": "Accruals that have been automatically reviewed because the amounts are between the threshold range.", "ru": "Аккумуляции, которые были автоматически проверены, поскольку суммы находятся в пределах диапазона порога.", "terms": {"accrual": "разграничение"}}
+{"en": "Get information on the data provider and the products they sell", "ru": "Получите информацию о провайдере и о продуктах, которые он предлагает", "terms": {"provider": "провайдер"}}
+{"en": "A service entry sheet can be created in one of the following ways:", "ru": "Ведомость учета услуг может быть составлена следующими способами:", "terms": {"service entry sheet": "ведомость учета услуг"}}
+{"en": "If you like to see only free data products, select the option Free from the filter Contract Type.", "ru": "Если вы хотите видеть только свободные продукты данных, выберите опцию \"Свободные\" в фильтре \"Тип контракта\".", "terms": {"type": "тип"}}
+{"en": "Change Connection Properties", "ru": "Изменить параметры соединения", "terms": {"change": "изменение"}}
+{"en": "Create a simple or recurring schedule for your data flow.", "ru": "Создайте простой или повторяющийся планирование для вашего потока данных.", "terms": {"schedule": "планирование"}}
+{"en": "Undo and Redo Transformations", "ru": "Отмена и повтор выполнения преобразований", "terms": {"undo": "отмена"}}
+{"en": "Pause Real-Time Replication", "ru": "Пауза реального времени репликации", "terms": {"pause": "приостановка"}}
+{"en": "If objects or data on your system will be overwritten by the import, a warning appears in the import window, and next to the relevant objects in the Content list.", "ru": "Если объекты или данные на вашей системе будут перезаписаны при импорте, появляется предупреждение в окне импорта, рядом с соответствующими объектами в списке Содержимое.", "terms": {"content": "контент"}}
+{"en": "In the Manage Your Solution app under Configure Your Solution make system settings under FinanceContract AccountingPosting and DocumentsDefine Account Assignment Data Relevant to Transactions.", "ru": "В приложении \"Manage Your Solution\" в разделе \"Configure Your Solution\" определить системные настройки в разделе \"FinanceContract AccountingPosting и DocumentsDefine Account Assignment Data Relevant to Transactions\".", "terms": {"set": "определить"}}
+{"en": "You can enter a number of threads or a percentage.", "ru": "Вы можете ввести число тредов или процент.", "terms": {"thread": "тред"}}
+{"en": "The information retrieval feature supports you to comply with the relevant legal requirements for data protection by allowing you to search for and retrieve all personal data of a specified data subject.", "ru": "Функция поиска позволяет вам соблюдать соответствующие требования к защите личных данных, позволяя вам искать и получать все личные данные определенного субъекта данных.", "terms": {"Personal Data": "Личные данные", "personal data": "личные данные"}}
+{"en": "Data Provider Page", "ru": "Страница поставщика данных", "terms": {"provider": "поставщик"}}
+{"en": "This option deletes all of the monitored data belonging to this situation type.", "ru": "Эта опция удаляет все мониторимые данные, относящиеся к этому типу ситуации.", "terms": {"type": "тип"}}
+{"en": "If a payment advice was not entered into the system in advance, but was instead used for clearing the current bank statement item or lockbox item, it can be uploaded as an attachment for more complete record keeping.", "ru": "Если рекомендация по оплате не была внесена в систему заранее, но использовалась для снятия счёта текущего банка или вклада, она может быть загружена как вложение для более полного учёта.", "terms": {"attachment": "вложение"}}
+{"en": "Activate a supplier list or supplier list version", "ru": "Активировать список поставщиков или версию списка поставщиков", "terms": {"activate": "активация"}}
+{"en": "It varies depending on how the data provider offers their products.", "ru": "Оно зависит от того, как провайдер данных предлагает свои продукты.", "terms": {"data provider": "провайдер данных"}}
+{"en": "Registration for Indirect Taxation Abroad (RITA) enables indirect tax calculation and reporting for multiple countries within a single legal entity.", "ru": "Регистрация по системе налогообложения по иностранным налогам (RITA) позволяет производить расчет и отчеты по прямым налогам в нескольких странах в рамках одного юридического лица.", "terms": {"reporting": "отчеты"}}
+{"en": "For example, if a service technician works on a Public Holiday whereas the Overtime Category planned was Weekend, they can change the Overtime Category.", "ru": "Например, если техник работает в выходной день, а в категории переработки был запланирован выходной, он может изменить категорию переработки.", "terms": {"category": "категория"}}
+{"en": "Deletes the entire monitored data belonging to this situation type.", "ru": "Удаляет всю мониторируемую информацию, относящуюся к этому типу ситуации.", "terms": {"type": "тип"}}
+{"en": "Add Client to Allowlist", "ru": "Добавить клиента в список разрешенных", "terms": {"client": "клиент"}}
+{"en": "Licenses control access to your data products with contract type License Key (see ).", "ru": "Лицензии контролируют доступ к вашим продуктам данных с типом контракта License Key (см. ).", "terms": {"type": "тип"}}
+{"en": "Change or Delete Assignments", "ru": "Изменить или удалить назначения", "terms": {"change": "изменить"}}
+{"en": "You as a user can search and purchase analytical data from data providers.", "ru": "Вы как пользователь можете искать и покупать аналитические данные у поставщиков.", "terms": {"provider": "поставщик"}}
+{"en": "If a schedule is set for the data flow, see by when the next run is scheduled.", "ru": "Если планирование установлено для потока данных, уточните, когда будет запланирован следующий запуск.", "terms": {"schedule": "планирование"}}
+{"en": "The OData service provider URL needs to be publicly available.", "ru": "URL провайдера OData должен быть доступен в интернете.", "terms": {"provider": "провайдер"}}
+{"en": "Consolidation Monthly Average Rate", "ru": "Средний ежемесячный показатель объединения", "terms": {"rate": "курс"}}
+{"en": "For several connection types that use a Data Provisioning agent to connect to the source, you can define advanced properties in another wizard step.", "ru": "Для нескольких типов подключения, использующих ассистента для подключения к источнику, вы можете определить продвинутые свойства в другом шаге ассистента.", "terms": {"wizard": "ассистент"}}
+{"en": "Define a recurrence pattern for the job.", "ru": "Укажите шаблон повторения для задания.", "terms": {"pattern": "шаблон"}}
+{"en": "The following product types are currently supported:", "ru": "Поддерживаются следующие типы продуктов:", "terms": {"type": "тип"}}
+{"en": "OData service provider URL of SAP SuccessFactors.", "ru": "URL провайдера OData SAP SuccessFactors.", "terms": {"provider": "провайдер"}}
+{"en": "Click Edit and use the Yes/ No switch to change the version to active or inactive respectively.", "ru": "Нажмите \"Редактировать\" и используйте переключатель \"Да/Нет\", чтобы изменить версию на активную или неактивную соответственно.", "terms": {"inactive": "неактивно", "edit": "редактировать"}}
+{"en": "Data Provider ID", "ru": "Идентификатор поставщика данных", "terms": {"provider": "провайдер"}}
+{"en": "Define, edit or delete scheduling options for your persisted views under Schedule.", "ru": "Укажите, измените или удалите параметры планирования для сохраненных представлений в разделе Планирование.", "terms": {"schedule": "планирование"}}
+{"en": "Copy time entries", "ru": "Скопировать время ввода", "terms": {"copy": "скопировать"}}
+{"en": "You could also chooseEdit Chart PromptsC_FINANCIALPOSITIONQUERY1, if you only want to change the variables for a specific chart.", "ru": "Вы также могли бы выбрать \"Редактировать подсказки диаграммы\" C_FINANCIALPOSITIONQUERY1, если хотите изменить только переменные для конкретной диаграммы.", "terms": {"edit": "редактировать"}}
+{"en": "Process History tab", "ru": "История процесса вкладка", "terms": {"tab": "вкладка"}}
+{"en": "As a data provider, your main objective is to offer valuable data products to the users of the Data Marketplace in SAP Data Warehouse Cloud.", "ru": "В качестве провайдера данных, ваша основная цель - предложить ценные продукты данных пользователям Data Marketplace в SAP Data Warehouse Cloud.", "terms": {"provider": "провайдер"}}
+{"en": "Choose one of the following action types:", "ru": "Выберите один из следующих типов действий:", "terms": {"type": "тип"}}
+{"en": "How to Schedule Destruction Runs for Archiving Files", "ru": "Как запланировать уничтожение файлов для архивации", "terms": {"schedule": "планирование"}}
+{"en": "The Custom Code Migration app allows you to add or remove packages to/from the scope manually.", "ru": "Приложение \"Миграция пользовательского кода\" позволяет вручную добавлять или удалять пакеты в/из объема.", "terms": {"scope": "объем"}}
+{"en": "View and analyze expired or expiring service contracts", "ru": "Просмотр и анализ просроченных или заканчивающихся договоров", "terms": {"contract": "договор"}}
+{"en": "The retention period consists of the residence period and blocking period.", "ru": "Срок хранения состоит из срока пребывания и срока блокировки.", "terms": {"retention period": "срок хранения"}}
+{"en": "SAP Analytics Cloud Story", "ru": "SAP Analytics Cloud Сказание", "terms": {"story": "журнал"}}
+{"en": "To solve this problem, queries from certain spaces can be favored, meaning they will be processed faster than queries from other spaces.", "ru": "Чтобы решить эту проблему, запросы из определенных пространств могут быть приоритетными, то есть они будут обрабатываться быстрее, чем запросы из других пространств.", "terms": {"space": "пространство"}}
+{"en": "Budget Consolidation Monthly Average Rate", "ru": "Средний ежемесячный курс бюджета", "terms": {"rate": "курс"}}
+{"en": "Process Flow tab", "ru": "вкладка процесса", "terms": {"tab": "вкладка"}}
+{"en": "The following calculation types are supported:", "ru": "Поддерживаемые виды расчетов:", "terms": {"type": "вид"}}
+{"en": "You can delete audit logs when needed in ConfigurationAudit, which will free up disk space.", "ru": "Вы можете удалить журналы аудита в ConfigurationAudit, когда это необходимо, что освободит пространство на диске.", "terms": {"space": "пространство"}}
+{"en": "If you have selected an item type by mistake, you can either delete the item and add a new one or use the Change Item Type button to transfer the data of the selected item to a different item type.", "ru": "Если вы случайно выбрали тип элемента, вы можете либо удалить элемент и добавить новый, либо использовать кнопку \"Изменить тип элемента\", чтобы перевести данные выбранного элемента в другой тип элемента.", "terms": {"transfer": "перевести"}}
+{"en": "Purchase order type", "ru": "тип заказа на покупку", "terms": {"type": "тип"}}
+{"en": "Instance Set to Open", "ru": "Набор экземпляров открыт", "terms": {"instance": "инстанция", "open": "открыто"}}
+{"en": "Business Partner Type", "ru": "Тип партнера по бизнесу", "terms": {"type": "тип"}}
+{"en": "Click New Export to open the wizard.", "ru": "Нажмите \"Новый экспорт\", чтобы открыть ассистента.", "terms": {"wizard": "ассистент"}}
+{"en": "You can choose one of the following processing types:", "ru": "Вы можете выбрать один из следующих видов обработки:", "terms": {"type": "вид"}}
+{"en": "An additional filter is set and the Maintenance Order tab opens, showing the orders for the selected operations.", "ru": "Дополнительный фильтр устанавливается и открывается вкладка \"Заявка на обслуживание\", показывающая заявки на обслуживание для выбранных операций.", "terms": {"tab": "вкладка"}}
+{"en": "The following types of conditions are supported:", "ru": "Поддерживаются следующие виды условий:", "terms": {"type": "вид"}}
+{"en": "How to Schedule Destruction Runs Using Data Destruction Objects", "ru": "Как планировать удаление данных с использованием объектов удаления данных", "terms": {"schedule": "планирование"}}
+{"en": "In the final wizard step, enter name and description for the connection and click Create Connection.", "ru": "В последнем шаге волшебной палочки введите имя и описание соединения и нажмите Создать соединение.", "terms": {"wizard": "ассистент"}}
+{"en": "Manage Resource Requests", "ru": "Управление запросами на ресурсы", "terms": {"request": "заявка"}}
+{"en": "Change queue assignments.", "ru": "Изменить очередь назначений.", "terms": {"change": "изменение"}}
+{"en": "Code List tab", "ru": "Вкладка списка кодов", "terms": {"tab": "вкладка"}}
+{"en": "Pause and Restart Real-Time Replication", "ru": "Пауза и возобновление реального времени репликации", "terms": {"restart": "перезапуск", "pause": "приостановка"}}
+{"en": "Once you remove the constraint for the successor operation, the operation is rescheduled automatically and the relationship is repaired.", "ru": "После того как вы уберете ограничение для операции преемника, операция будет автоматически перепланирована и связь восстановлена.", "terms": {"relationship": "связь"}}
+{"en": "Aggregate Notifications shows whether the notifications to be sent are aggregated (Yes) or separate for each situation instance (No).", "ru": "Агрегировать уведомления показывает, агрегируются ли уведомления, которые будут отправлены (Да) или отдельно для каждого экземпляра ситуации (Нет).", "terms": {"aggregate": "агрегировать"}}
+{"en": "Expiring service contracts", "ru": "Истекшие договоры", "terms": {"contract": "договор"}}
+{"en": "New Order Type", "ru": "Новый тип заказа", "terms": {"type": "тип"}}
+{"en": "Select Add Item.", "ru": "Выберите Добавить элемент.", "terms": {"item": "элемент"}}
+{"en": "For more information, see Design Time.", "ru": "Для получения дополнительной информации см. время разработки.", "terms": {"design time": "среда дизайна"}}
+{"en": "Define a description for the type.", "ru": "Определите описание для вида.", "terms": {"type": "вид"}}
+{"en": "Included in Schedule (Filter)", "ru": "Включено в Приложение (Фильтр)", "terms": {"schedule": "расписание"}}
+{"en": "Specifies the type of the compliance requirement.", "ru": "Указывает вид требования к соблюдению.", "terms": {"type": "вид"}}
+{"en": "Get Email Information", "ru": "Получить информацию по электронной почте", "terms": {"get": "вызвать"}}
+{"en": "Update Purchase Order", "ru": "Обновить заказ на покупку", "terms": {"update": "обновление"}}
+{"en": "Download G/L mappings into a .csv file", "ru": "Скачать отображения G/L в файл .csv", "terms": {"download": "выгружать"}}
+{"en": "Check Lot-Sizing Procedures", "ru": "Проверьте процедуры определения размера партии", "terms": {"check": "проверить"}}
+{"en": "Under Spaces select the space you would like to work with.", "ru": "Выберите пространство, с которым вы хотите работать.", "terms": {"space": "пространство"}}
+{"en": "Descriptiion of Distinct Type", "ru": "Описание отдельного типа", "terms": {"type": "вид"}}
+{"en": "Pause Real-Time Replication for an Agent", "ru": "Пауза реального времени репликации для агента", "terms": {"pause": "приостановка"}}
+{"en": "Accrual Transaction Type", "ru": "Тип операции поступления", "terms": {"transaction type": "вид движения"}}
+{"en": "You can edit the predefined email and then send it to the provider.", "ru": "Вы можете редактировать заранее определенный электронный адрес и затем отправить его поставщику.", "terms": {"provider": "поставщик"}}
+{"en": "In the next wizard step, enter connection properties to configure your connection.", "ru": "В следующем шаге ассистента введите параметры подключения для настройки вашего соединения.", "terms": {"wizard": "ассистент"}}
+{"en": "Description of Project Type", "ru": "Описание типа проекта", "terms": {"type": "тип"}}
+{"en": "For more information, see Creating Action Types", "ru": "Для получения дополнительной информации см. Создание типов действий", "terms": {"type": "тип"}}
+{"en": "Purchase analytical data from data provider.", "ru": "Покупайте аналитические данные у провайдера.", "terms": {"provider": "провайдер"}}
+{"en": "Choose Edit Operations.", "ru": "Выберите операции редактирования.", "terms": {"edit": "редактировать"}}
+{"en": "Main input parameters", "ru": "Основные входные параметры", "terms": {"input": "вход"}}
+{"en": "Overhead Allocation for CO-PA", "ru": "Распределение расходов по косвенным затратам для CO-PA", "terms": {"allocation": "перерасчет"}}
+{"en": "You cannot make changes to a service confirmation that has status Completed.", "ru": "Вы не можете вносить изменения в подтверждение сервиса, имеющее статус \"Завершено\".", "terms": {"service confirmation": "подтверждение сервиса"}}
+{"en": "The top-level bars show information about the requests to which a resource is assigned in the specified time period.", "ru": "Верхние панели показывают информацию о заявках, к которым привязан ресурс в указанном периоде времени.", "terms": {"request": "заявка"}}
+{"en": "Please note that in some cases, certain country-specific functions may not be supported within Manage Global Accounting Hierarchies.This can occur because these two apps consume different data tables.", "ru": "Обратите внимание, что в некоторых случаях определенные функции, специфичные для страны, могут не поддерживаться в Manage Global Accounting Hierarchies. Это может произойти потому, что эти два приложения используют разные таблицы данных.", "terms": {"use": "использование"}}
+{"en": "Manage Your Data Provider Profiles", "ru": "Управление профилями поставщиков данных", "terms": {"provider": "провайдер"}}
+{"en": "In the Edit menu, the following functions are available:", "ru": "В меню \"Правка\" доступны следующие функции:", "terms": {"edit": "редактировать"}}
+{"en": "On the Choose content page, expand the SPACE folder to show your spaces, select the objects you want to export, and then click Next.", "ru": "На странице Выбор содержимого разверните папку SPACE, чтобы увидеть ваши пространства, выберите объекты, которые хотите экспортировать, и нажмите Далее.", "terms": {"space": "пространство"}}
+{"en": "Order Confirmation Type", "ru": "Тип подтверждения заказа", "terms": {"type": "вид"}}
+{"en": "Get mail information", "ru": "Получить информацию о почте", "terms": {"get": "получить"}}
+{"en": "Purchase order inbound", "ru": "Заказ на поступление", "terms": {"purchase order": "заказ на закупку", "Purchase Order": "Заказ на закупку"}}
+{"en": "Enable Sales Order", "ru": "Включить Заказ продаж", "terms": {"sales order": "заказ клиента"}}
+{"en": "Select the relevant source type", "ru": "Выберите соответствующий вид источника", "terms": {"type": "вид"}}
+{"en": "There's only one exception:", "ru": "Единственное исключение:", "terms": {"exception": "исключение"}}
+{"en": "Select one of the following work center group types:", "ru": "Выберите один из следующих видов групп рабочих центров:", "terms": {"type": "вид"}}
+{"en": "The Name and Type fields are mandatory.Based on the team type, the team category is automatically populated.", "ru": "Поле \"Имя и тип\" является обязательным. На основе типа команды автоматически заполняется категория команды.", "terms": {"category": "категория"}}
+{"en": "You can perform the following actions when working with items:", "ru": "Вы можете выполнять следующие действия при работе с позициями:", "terms": {"item": "позиция"}}
+{"en": "Update user information", "ru": "Обновить информацию пользователя", "terms": {"update": "обновить"}}
+{"en": "For more information on the learner types, see .", "ru": "Для получения дополнительной информации о типах обучаемых, см. .", "terms": {"type": "тип"}}
+{"en": "If you want to enter a different description of different modes of transport or if you want to enter the description in different languages, select a regulation and navigate to the Classify Dangerous Good - Packaged Product app.", "ru": "Если вы хотите ввести описание различных видов транспорта или если вы хотите ввести описание на разных языках, выберите предписание и перейдите к приложению \"Классификация опасного вещества - упакованный продукт\".", "terms": {"regulation": "предписание"}}
+{"en": "Source Assignment 2", "ru": "Присвоение источника 2", "terms": {"source assignment": "присвоение происхождения"}}
+{"en": "Organizational Assignment Term", "ru": "Термин назначения на должность", "terms": {"term": "оговорка"}}
+{"en": "Changed creation wizard:", "ru": "Изменение ассистента создания:", "terms": {"wizard": "ассистент"}}
+{"en": "Enter the OData service provider URL.", "ru": "Войдите в URL-адрес провайдера OData.", "terms": {"provider": "провайдер"}}
+{"en": "You can switch between the following tabs:", "ru": "Вы можете переключаться между следующими вкладками:", "terms": {"tab": "вкладка"}}
+{"en": "Task Lists Tab", "ru": "Вкладка Списки задач", "terms": {"tab": "вкладка"}}
+{"en": "You can delete all the monitored data for this situation type.", "ru": "Вы можете удалить все мониторимые данные для этого типа ситуации.", "terms": {"type": "тип"}}
+{"en": "This option is available for the following order types:", "ru": "Эта опция доступна для следующих типов заказов:", "terms": {"type": "тип"}}
+{"en": "Retention Period for Users", "ru": "Период хранения данных пользователя", "terms": {"retention period": "срок хранения"}}
+{"en": "Transaction Type (SFHAART)", "ru": "Тип операции (SFHAART)", "terms": {"transaction type": "вид сделки"}}
+{"en": "You can change this to one of the following types:", "ru": "Вы можете изменить это на один из следующих видов:", "terms": {"type": "вид"}}
+{"en": "You can cancel service confirmations with status completed.", "ru": "Вы можете отменить подтверждение выполнения сервиса с статусом завершен.", "terms": {"service confirmation": "подтверждение выполнения сервиса"}}
+{"en": "The following types on interest calculation are available:", "ru": "Доступны следующие типы начисления процентов:", "terms": {"interest calculation": "начисление процентов"}}
+{"en": "Clearing Item Completed", "ru": "Предмет утвержден", "terms": {"clearing item": "перерасчетная позиция"}}
+{"en": "Select Create and Edit.", "ru": "Выберите Создать и Редактировать.", "terms": {"edit": "редактировать"}}
+{"en": "In the Edit Variant pane that appears, do the following:", "ru": "В появившемся окне \"Редактирование варианта\" выполните следующее:", "terms": {"edit": "редактировать"}}
+{"en": "Purchase order outbound", "ru": "Заказ на поставку", "terms": {"purchase order": "заказ на закупку", "Purchase Order": "Заказ на закупку"}}
+{"en": "Merge Tax Items", "ru": "Слияние налоговых позиций", "terms": {"merge": "объединить"}}
+{"en": "You can click on the work package to see its details.", "ru": "Вы можете нажать на рабочий пакет, чтобы увидеть его детали.", "terms": {"work package": "рабочий пакет"}}
+{"en": "There are two types of service quotations:", "ru": "существует два вида сметок на оказание услуг:", "terms": {"type": "вид"}}
+{"en": "Schedule is created for the data flow.", "ru": "Расписание для потока данных создано.", "terms": {"schedule": "планирование"}}
+{"en": "Pause Real-Time Replication for a Connection", "ru": "Пауза реального времени репликации для соединения", "terms": {"pause": "приостановка"}}
+{"en": "An association represents a relationship between two entities.", "ru": "Ассоциация представляет собой связь между двумя сущностями.", "terms": {"association": "связь"}}
+{"en": "Document Type ID", "ru": "Тип документа ID", "terms": {"type": "вид"}}
+{"en": "Update Existing PowerPoint", "ru": "Обновить существующий PowerPoint", "terms": {"update": "обновление"}}
+{"en": "It allows you to create an assignment exactly as requested by the project manager.This action is available if the project manager requested a specific resource and no resource has been assigned to the request yet.", "ru": "Это позволяет создать назначение точно так, как было указано проектным менеджером. Эта операция доступна, если проектный менеджер указал конкретный ресурс, но еще не назначил его на запрос.", "terms": {"action": "операция"}}
+{"en": "For more information about restriction types, see .", "ru": "Для получения дополнительной информации о видах ограничений, см. .", "terms": {"type": "вид"}}
+{"en": "WIP Batch Where-Used List", "ru": "Список использования партии WIP", "terms": {"where-used list": "журнал использования"}}
+{"en": "Record SAPUI5 Application", "ru": "Запись приложения SAPUI5", "terms": {"record": "запись"}}
+{"en": "Set the repair object to the status Completed.", "ru": "Установите объект ремонта в статус \"Завершен\".", "terms": {"repair": "ремонт"}}
+{"en": "To create a new contract:", "ru": "Создать новый контракт:", "terms": {"contract": "контракт"}}
+{"en": "A hyperlink name to the incident record in the Environment, Health, and Safety system.", "ru": "Имя гиперссылки на запись инцидента в системе окружающей среды, здоровья и безопасности.", "terms": {"Environment, Health and Safety": "управление данными по охране здоровья и защите окружающей среды"}}
+{"en": "Start Date Type", "ru": "Дата начала типа", "terms": {"type": "вид"}}
+{"en": "If a resource has been requested and the request has not yet been staffed, you'll see a Quick Assignment link in the Actions column.This allows you to create the assignment exactly as requested by the project manager.", "ru": "Если ресурс был заявлен и заявка еще не была распределена, вы увидите ссылку \"Быстрое назначение\" в колонке \"Действия\". Это позволяет создать назначение точно так, как его запросил проектный менеджер.", "terms": {"request": "заявка"}}
+{"en": "Register New Agent", "ru": "Зарегистрировать нового агента", "terms": {"agent": "агент"}}
+{"en": "Resource Request Skill Tag", "ru": "Навык запроса ресурсов", "terms": {"request": "заявка"}}
+{"en": "Run Overhead Calculation", "ru": "Расчет пролета", "terms": {"run": "выполнить"}}
+{"en": "Service Confirmation Item", "ru": "Пункт подтверждения услуги", "terms": {"service confirmation": "подтверждение сервиса"}}
+{"en": "Deleting a Service Provider", "ru": "Удаление поставщика услуг", "terms": {"provider": "поставщик"}}
+{"en": "Characteristic 1 Value", "ru": "Признак 1 Значение", "terms": {"characteristic": "характеристика"}}
+{"en": "Retention period is expired", "ru": "Срок хранения истек", "terms": {"retention period": "период хранения"}}
+{"en": "Related Information for Carriers", "ru": "Дополнительная информация для перевозчиков", "terms": {"carrier": "перевозчик"}}
+{"en": "Service Confirmation (SVC1)", "ru": "Подтверждение услуги (SVC1)", "terms": {"service confirmation": "подтверждение сервиса"}}
+{"en": "Use the planning panel", "ru": "Используйте панель планирования", "terms": {"use": "использование"}}
+{"en": "Select the transport type you would like to modify.", "ru": "Выберите вид транспортировки, которую вы хотите изменить.", "terms": {"transport type": "вид транспортировки"}}
+{"en": "This match type groups the filtered data together and assigns the processing status Assigned.", "ru": "Этот тип сортировки объединяет отфильтрованные данные и присваивает статус обработки \"Задан\".", "terms": {"type": "тип"}}
+{"en": "Search for contracts and filter for contracts.", "ru": "Ищите договоры и фильтруйте договоры.", "terms": {"contract": "договор"}}
+{"en": "Sales Order - Query", "ru": "Заказ на продажу - запрос", "terms": {"sales order": "заказ клиента"}}
+{"en": "Release and Create Activities", "ru": "Отправить и Создать мероприятия", "terms": {"release": "деблокировать"}}
+{"en": "Clearing House A", "ru": "Организация по урегулированию споров", "terms": {"clearing house": "расчетный центр"}}
+{"en": "Clearing House B", "ru": "Организация по урегулированию споров", "terms": {"clearing house": "расчетный центр"}}
+{"en": "Application Log Summary", "ru": "Обзор журнала событий", "terms": {"summary": "сводка"}}
+{"en": "You can change an open installment plan.", "ru": "Вы можете изменить открытое installment план.", "terms": {"change": "изменение", "open": "открыто"}}
+{"en": "To monitor the messages, proceed as follows:", "ru": "Чтобы мониторить сообщения, выполните следующее:", "terms": {"monitor": "монитор"}}
+{"en": "When creating a sourcing project from scratch, the delivery address can be specified for items of the type Standard Item.", "ru": "При создании проекта закупки с нуля можно указать адрес доставки для товаров вида Стандартный товар .", "terms": {"type": "вид"}}
+{"en": "Maitenance Event Type", "ru": "Тип события обслуживания", "terms": {"event type": "вид события"}}
+{"en": "The following adjustment periods can be set:", "ru": "Настройте следующие периоды:", "terms": {"set": "настроить"}}
+{"en": "Category Type Description", "ru": "Тип категории Описание", "terms": {"type": "тип"}}
+{"en": "You can edit or download a virtual document.", "ru": "Вы можете редактировать или загрузить виртуальный документ.", "terms": {"edit": "редактировать"}}
+{"en": "Invoice List Schedule", "ru": "Список счетов", "terms": {"schedule": "календарный план"}}
+{"en": "Edit Record Details", "ru": "Изменить детали записи", "terms": {"edit": "редактировать"}}
+{"en": "Displays the enabled message for run types.", "ru": "Показывает сообщение о включенных типах запуска.", "terms": {"type": "тип"}}
+{"en": "Cost rules are available for the following cost types:", "ru": "Правила расходов доступны для следующих типов расходов:", "terms": {"type": "тип"}}
+{"en": "For more information, refer to Reporting in Purchasing.", "ru": "Для получения дополнительной информации см. Отчетность в закупках.", "terms": {"reporting": "система отчетов"}}
+{"en": "Edit Read Conditions", "ru": "Редактировать Просмотреть Условия", "terms": {"edit": "редактировать"}}
+{"en": "Delivered Team Types", "ru": "Типы команд, доставленных в наличии", "terms": {"type": "тип"}}
+{"en": "Organizational Assignment Term ()", "ru": "Термин назначения организации ()", "terms": {"term": "оговорка"}}
+{"en": "Type of venture in a joint operating agreement (JOA).", "ru": "Тип предприятия в совместном операционном соглашении (JOA).", "terms": {"type": "тип"}}
+{"en": "For more information about condition contract types, see .", "ru": "Для получения дополнительной информации о видах контрактов, см. .", "terms": {"contract": "контракт", "type": "вид"}}
+{"en": "Activate access control", "ru": "Включить контроль доступа", "terms": {"activate": "активация"}}
+{"en": "Edit data binding using the value help", "ru": "Используйте справку по значениям для редактирования связей данных", "terms": {"edit": "редактировать"}}
+{"en": "For each gap, the following information is provided:", "ru": "Для каждого пропуска предоставляется следующая информация:", "terms": {"gap": "пропуск"}}
+{"en": "For more information, see Event Consumption Model.", "ru": "Для получения дополнительной информации см. модель потребления событий.", "terms": {"consumption model": "модель использования"}}
+{"en": "It indicates if a schedule is defined for the data flow:", "ru": "Он указывает, определено ли планирование для потока данных:", "terms": {"schedule": "планирование"}}
+{"en": "Review order status information:", "ru": "Просмотр информации о статусе заказа:", "terms": {"review": "проверить"}}
+{"en": "The Update PDF tab is displayed.", "ru": "Вкладка Обновление PDF отображается.", "terms": {"update": "обновить"}}
+{"en": "Rule Application Type", "ru": "Тип применения правила", "terms": {"type": "вид"}}
+{"en": "You can assign a data controller to the business partner.", "ru": "Вы можете назначить оператора для бизнес-партнера.", "terms": {"controller": "оператор"}}
+{"en": "2nd Extract Storage Location", "ru": "2-й Извлечение Хранение Место", "terms": {"storage location": "место хранения"}}
+{"en": "Provide Consent to Execute Post Upgrade Tests", "ru": "Согласие на выполнение тестов после обновления", "terms": {"consent": "согласие"}}
+{"en": "Use Application URL", "ru": "Используйте URL-адрес приложения", "terms": {"use": "использование"}}
+{"en": "The amount of lines items can't be zero.", "ru": "Сумма строковых элементов не может быть нулевой.", "terms": {"amount": "сумма"}}
+{"en": "For more information, see Enabling a Custom SAML Identity Provider.", "ru": "Для получения дополнительной информации см. Настройка пользовательского поставщика идентификации SAML.", "terms": {"provider": "провайдер"}}
+{"en": "You can apply the following verification profiles:", "ru": "Вы можете применять следующие профили проверки:", "terms": {"apply": "применять"}}
+{"en": "Undo any unsaved changes for the selected order operations.", "ru": "Отменить несохраненные изменения для выбранных операций заказа.", "terms": {"undo": "отмена"}}
+{"en": "For more information, see Create Additional Currency Types.", "ru": "Для получения дополнительной информации см. Создание дополнительных типов валют.", "terms": {"type": "тип"}}
+{"en": "Get Project Name", "ru": "Получить имя проекта", "terms": {"get": "получить"}}
+{"en": "The default dimension is Lot.", "ru": "По умолчанию размер — это лот.", "terms": {"lot": "пакет"}}
+{"en": "Check Number To", "ru": "Номер проверки", "terms": {"check": "чек"}}
+{"en": "Order Type Code", "ru": "Код типа заказа", "terms": {"type": "тип"}}
+{"en": "Run periodic revenue recognition with the Run Revenue Recognition app for projects, sales orders or service documents.", "ru": "Запустите периодическую распознавание доходов с помощью приложения \"Распознавание доходов\" для проектов, заказов на продажи или документов по оказанию услуг.", "terms": {"run": "выполнить"}}
+{"en": "Edit the description of the application.", "ru": "Измените описание приложения.", "terms": {"edit": "редактировать"}}
+{"en": "You can change the name and the description of your file.", "ru": "Вы можете изменить имя и описание файла.", "terms": {"change": "изменение"}}
+{"en": "New Journal Entry", "ru": "Новая запись журнала", "terms": {"journal entry": "запись журнала"}}
+{"en": "In the Provider section", "ru": "В разделе \"Поставщик\"", "terms": {"provider": "провайдер"}}
+{"en": "Microchart for Account", "ru": "Микрографик по счету", "terms": {"account": "клиент"}}
+{"en": "The subscription ends in one of the following cases:", "ru": "Подписка прекращается в одном из следующих случаев:", "terms": {"following": "подписки"}}
+{"en": "Working versions can have one of the following types:", "ru": "Версии, которые могут быть использованы, могут быть одного из следующих видов:", "terms": {"type": "вид"}}
+{"en": "The subscription can use either of the following time zones:", "ru": "Подписка может использовать любой из следующих часовонь:", "terms": {"following": "подписки"}}
+{"en": "Set the retention time.", "ru": "Установите срок хранения.", "terms": {"retention time": "срок хранения"}}
+{"en": "Calculation Methodology tab:", "ru": "вкладка «Методология расчета»:", "terms": {"tab": "вкладка"}}
+{"en": "Change an existing planning level", "ru": "Изменить существующий уровень планирования", "terms": {"change": "изменить"}}
+{"en": "Type of the compliance requirement", "ru": "Тип требований к соблюдению", "terms": {"type": "вид"}}
+{"en": "It is not possible to close an A/R invoice.", "ru": "Невозможно закрыть счет-фактуру A/R.", "terms": {"close": "закрыть"}}
+{"en": "Withholding tax is tax that is charged at the beginning of the payment flow in some countries.", "ru": "Налог на удержание уплачивается в начале потока платежей в некоторых странах.", "terms": {"withholding tax": "налог на источники дохода"}}
+{"en": "Limit Amount Currency", "ru": "Ограничение суммы Валюта", "terms": {"limit": "лимит"}}
+{"en": "Enrichment and Validation", "ru": "Обогащение и проверка", "terms": {"validation": "проверка"}}
+{"en": "Select an output of type Any.", "ru": "Выберите вывод типа Any.", "terms": {"output": "вывод"}}
+{"en": "Lock indicator for the personnel master record.", "ru": "Индикатор блокировки для мастер-записи персонала.", "terms": {"block indicator": "индикатор блокировки"}}
+{"en": "Schedule Bank Chain Jobs", "ru": "Расписание задач цепочки банка", "terms": {"schedule": "запланировать"}}
+{"en": "Forecast Delivery Schedule", "ru": "График поставок", "terms": {"stopped forecast delivery schedule": "приостановленный прогнозный график поставок"}}
+{"en": "Remittance Information Tab", "ru": "Вкладка \"Сведения о переводе\"", "terms": {"tab": "вкладка"}}
+{"en": "Data Source Mapping:", "ru": "Источник данных:", "terms": {"mapping": "мэппинг"}}
+{"en": "But you can edit only one simulation at a time.", "ru": "Но вы можете редактировать только одну симуляцию за раз.", "terms": {"edit": "редактировать"}}
+{"en": "Attachments on forms", "ru": "Приложения на форме", "terms": {"form": "форма"}}
+{"en": "Use SAP Analytics Cloud Debug Mode", "ru": "Используйте режим отладки SAP Analytics Cloud", "terms": {"use": "использование"}}
+{"en": "You can modify a schedule of a data flow.", "ru": "Вы можете изменить планирование потока данных.", "terms": {"schedule": "планирование"}}
+{"en": "Supplier lists and supplier list versions with status In Preparation cannot be used by the consuming apps.", "ru": "Списки поставщиков и версии списков поставщиков с статусом \"В подготовке\" не могут быть использованы приложениями-потребителями.", "terms": {"in preparation": "на стадии подготовки"}}
+{"en": "Depending on the bank account assignment type, only closed bank accounts are marked as removed or also new bank accounts that fulfill the selection conditions are added.", "ru": "В зависимости от вида назначения банковского счёта, только закрытые банковские счёты помечаются как удалённые или также новые банковские счёты, соответствующие условиям выбора, добавляются.", "terms": {"type": "вид"}}
+{"en": "In the Match Items in Sequence section, you define the following values:", "ru": "В разделе \"Список элементов в последовательности\" вы определяете следующие значения:", "terms": {"match": "сверить"}}
+{"en": "Click OK to create the schedule.", "ru": "Нажмите ОК, чтобы создать планирование.", "terms": {"schedule": "планирование"}}
+{"en": "For the whole hierarchy type, you can do the following:", "ru": "Для всего типа иерархии вы можете сделать следующее:", "terms": {"type": "тип"}}
+{"en": "Copy (configuration expert)", "ru": "Копия (эксперт по настройке)", "terms": {"copy": "копирование"}}
+{"en": "Set the notification type:", "ru": "Установите тип уведомления:", "terms": {"type": "тип"}}
+{"en": "Get the summary of test plans based on the filters that you apply.", "ru": "Получите резюме по планам тестирования, основанным на примененных фильтрах.", "terms": {"summary": "резюме"}}
+{"en": "You can now release the service confirmation for billing.", "ru": "Теперь вы можете подтвердить выполнение сервиса для начисления платежей.", "terms": {"service confirmation": "подтверждение выполнения сервиса"}}
+{"en": "Enter a posting level to filter for your financial statements.", "ru": "Укажите уровень проводки, чтобы отфильтровать финансовые отчеты.", "terms": {"posting level": "уровень проводки"}}
+{"en": "There are two cases of missing inputs.", "ru": "Ввода отсутствует в двух случаях.", "terms": {"input": "ввод"}}
+{"en": "On the SAP Easy Access screen, choose Joint venture accountingPeriodic processingBillingExtract inv./statem.", "ru": "На экране SAP Easy Access выберите Joint venture accountingPeriodic processingBillingExtract inv./statem.", "terms": {"billing": "фактурирование"}}
+{"en": "Equity Group - Partner", "ru": "Группа Equity - Партнер", "terms": {"group": "группа"}}
+{"en": "Displays product type", "ru": "Показывает тип товара", "terms": {"type": "тип"}}
+{"en": "Select the environmental limit that you want to assign from the list.", "ru": "Выберите экологический норматив, который вы хотите присвоить.", "terms": {"environmental limit": "экологический норматив"}}
+{"en": "Restatement and Simulation", "ru": "Пересказ и симуляция", "terms": {"restatement": "повторное представление"}}
+{"en": "Restart existing processes.", "ru": "Запустить существующие процессы.", "terms": {"restart": "перезапуск"}}
+{"en": "Click Personal Information.", "ru": "Нажмите персональные данные", "terms": {"Personal Information": "персональные данные"}}
+{"en": "You can change the retention period manually.", "ru": "Вы можете изменить период хранения вручную.", "terms": {"retention period": "период хранения"}}
+{"en": "Select the contract type for your data product.", "ru": "Выберите тип контракта для вашего продукта данных.", "terms": {"type": "тип"}}
+{"en": "Mirroring of Changes in Intercompany Transactions", "ru": "Отражение изменений в внутрифирменных операциях", "terms": {"transaction": "сделка"}}
+{"en": "You can find the following types of master data records:", "ru": "Вы можете найти следующие типы записей мастер-данных:", "terms": {"type": "тип"}}
+{"en": "The initial data replication is completed.", "ru": "Репликация данных завершена.", "terms": {"data replication": "репликация данных"}}
+{"en": "Payment of A⁄P pro forma invoice", "ru": "Оплата счета-фактуры по номиналу", "terms": {"payment": "платеж"}}
+{"en": "Alert type assigned to the alert:", "ru": "Тип сигнала, присвоенный сигналу:", "terms": {"alert": "сигнал"}}
+{"en": "Supported Contract Types", "ru": "Поддерживаемые типы контрактов", "terms": {"type": "вид"}}
+{"en": "Displays the defined filters for run types.", "ru": "Показывает определенные фильтры по типу запуска.", "terms": {"type": "тип"}}
+{"en": "Expiration of Contract", "ru": "Истечение договора", "terms": {"expiration": "истечение срока", "contract": "контракт"}}
+{"en": "Validity Start Date", "ru": "Дата начала действия", "terms": {"validity start date": "начало срока действия"}}
+{"en": "Choose Edit Parameters.", "ru": "Выберите параметры редактирования.", "terms": {"edit": "редактировать"}}
+{"en": "Specifies the number of the contract item that provides the required service.", "ru": "Указывается номер контракта, который предоставляет необходимые услуги.", "terms": {"contract": "контракт"}}
+{"en": "The available hierarchy types include the following:", "ru": "Доступные типы иерархии включают следующие:", "terms": {"type": "тип"}}
+{"en": "Billing Plan Usage Category", "ru": "Категория использования плана оплаты", "terms": {"usage category": "категория использования"}}
+{"en": "Activities for Destinations", "ru": "Операции по направлениям", "terms": {"Activities": "Операции"}}
+{"en": "Indicates the supplier ID.", "ru": "Указывает идентификатор поставщика.", "terms": {"supplier ID": "идентификатор поставщика"}}
+{"en": "You can select the type of industry here.", "ru": "Вы можете выбрать вид отрасли здесь.", "terms": {"type": "вид"}}
+{"en": "You can define rate elements of the following rating types:", "ru": "Вы можете определить элементы ставок следующих типов:", "terms": {"type": "тип"}}
+{"en": "Displays service order items and service confirmation items by release status for billing", "ru": "Показывает элементы заказа сервиса и элементы подтверждения сервиса по статусу выпуска для счёта", "terms": {"service confirmation": "подтверждение сервиса"}}
+{"en": "Standalone Selling Price-Weighted Allocation", "ru": "Цена продажи отдельно взятого - взвешенная по весу распределение", "terms": {"allocation": "распределение"}}
+{"en": "Allocation Cost Eelement", "ru": "Распределение расходов элемент", "terms": {"allocation": "перерасчет"}}
+{"en": "Select Get Values.", "ru": "Выберите Получить значения.", "terms": {"get": "получить"}}
+{"en": "This is the main action.", "ru": "Это основная операция.", "terms": {"action": "операция"}}
+{"en": "Input Parameters and Result Parameters", "ru": "Входные параметры и выходные параметры", "terms": {"input": "вход"}}
+{"en": "Copy Return Items", "ru": "Копия Возврат товаров", "terms": {"copy": "скопировать"}}
+{"en": "Creating eDocument Types", "ru": "Создание типов электронных документов", "terms": {"type": "вид"}}
+{"en": "Personal Information tab", "ru": "Вкладка \"Личная информация\"", "terms": {"Personal Information": "личная информация"}}
+{"en": "Select the claim to view details.", "ru": "Выберите страховой случай, чтобы увидеть детали.", "terms": {"claim": "страховой случай"}}
+{"en": "Manage Sales Contracts", "ru": "Управление договорами по продажам", "terms": {"contract": "контракт"}}
+{"en": "Choose Edit Orders.", "ru": "Выберите \"Редактировать заказы\".", "terms": {"edit": "редактировать"}}
+{"en": "Name of the trusted identity provider", "ru": "Имя доверенного провайдера", "terms": {"provider": "провайдер"}}
+{"en": "Accrual objects that have been review confirmed go to the Review Finished status.As the review process is not required, you can still post accrual objects directly that need reviewing but haven't been reviewed.", "ru": "Объекты начисления, которые были проверены, переходят в статус \"Проверка завершена\". Поскольку проверка не требуется, вы можете по-прежнему начислять объекты начисления, которые требуют проверки, но еще не были проверены.", "terms": {"go to": "переход"}}
+{"en": "You can use the warehouse task link to navigate to warehouse tasks in the new Process Warehouse Tasks - Putaway app.", "ru": "Вы можете использовать ссылку на задачу склада, чтобы перейти к задачам склада в новом приложении \"Process Warehouse Tasks - Putaway\".", "terms": {"process": "обработать"}}
+{"en": "You can assign multiple data controllers to the same business partner.", "ru": "Вы можете назначить несколько операторов для одного бизнес-партнера.", "terms": {"controller": "оператор"}}
+{"en": "You can perform the following activities on imported procurement schedules:", "ru": "Вы можете выполнять следующие действия с импортированными графами закупок:", "terms": {"Activities": "действия"}}
+{"en": "Specifies the purpose of a document that is assigned to a legal transaction.", "ru": "Указывает назначение документа, присвоенного к юридической сделке.", "terms": {"purpose": "назначение"}}
+{"en": "Change the priority of an authorization characteristic", "ru": "Изменить приоритет характеристики разрешения", "terms": {"change": "изменение"}}
+{"en": "Withholding Tax at Row Level", "ru": "Налог на доходы по строке", "terms": {"withholding tax": "налог на источники дохода"}}
+{"en": "Pending PO Assignment", "ru": "Ожидание назначения PO", "terms": {"assignment": "назначение"}}
+{"en": "Service in Bank Statement", "ru": "Платежи в банковской ведомости", "terms": {"service": "услуга"}}
+{"en": "Create and delete Spaces", "ru": "Создать и удалить пространства", "terms": {"space": "пространство"}}
+{"en": "Workflow Event Action", "ru": "Действие события потока", "terms": {"action": "операция"}}
+{"en": "You can attach files or links to the object.", "ru": "Вы можете вложить файлы или ссылки к объекту.", "terms": {"attach": "вложить"}}
+{"en": "Indicates the address to which payment is sent.", "ru": "Указывает адрес, куда отправляется оплата.", "terms": {"payment": "оплата"}}
+{"en": "You can generate output using the following:", "ru": "Вы можете получить вывод следующим образом:", "terms": {"output": "вывод"}}
+{"en": "The activity can invite both internal and external users.", "ru": "Операция может приглашать как внутренних, так и внешних пользователей.", "terms": {"activity": "операция"}}
+{"en": "Select your input entity:", "ru": "Выберите ввод:", "terms": {"input": "ввод"}}
+{"en": "Input data such as the following:", "ru": "Входные данные, такие как:", "terms": {"input": "ввод"}}
+{"en": "Use Currency Conversion", "ru": "Использовать конвертацию валют", "terms": {"use": "использование"}}
+{"en": "These dates can't be changed.", "ru": "Эти даты не могут быть изменены.", "terms": {"change": "изменение"}}
+{"en": "Displays the assigned actions for run types.", "ru": "Показывает действия, присвоенные типам запуска.", "terms": {"type": "тип"}}
+{"en": "Filter by Document Type", "ru": "Фильтр по типу документа", "terms": {"type": "вид"}}
+{"en": "Change Material Substitution", "ru": "Изменение материала замены", "terms": {"change": "изменить"}}
+{"en": "Application Help for Transport", "ru": "Помощь по применению для транспорта", "terms": {"transport": "транспорт"}}
+{"en": "Information for carriers:", "ru": "Информация для перевозчиков:", "terms": {"carrier": "перевозчик"}}
+{"en": "As a prerequisite, you must have already set up the connection to the ERP using Connection Management app.", "ru": "В качестве предварительного условия вы должны уже установить подключение к ERP с помощью приложения управления подключениями.", "terms": {"connection": "подключение"}}
+{"en": "To process customer payments by credit card proceed as follows:", "ru": "Чтобы обработать платежи клиентов по кредитной карте, выполните следующее:", "terms": {"process": "обработать"}}
+{"en": "Create and activate a business rule", "ru": "Создать и активировать бизнес-правило", "terms": {"activate": "активировать"}}
+{"en": "The name of the data provider company.", "ru": "Название провайдера данных.", "terms": {"provider": "провайдер"}}
+{"en": "Total Credit Line by Transaction Currency", "ru": "Общая кредитная линия по валюте операции", "terms": {"total": "сумма"}}
+{"en": "The data controller component is displayed.", "ru": "Компонент оператора отображается.", "terms": {"controller": "оператор"}}
+{"en": "Enables you to select the confirmation control key.", "ru": "Позволяет выбрать управляющий ключ подтверждения.", "terms": {"confirmation control key": "управляющий ключ подтверждения"}}
+{"en": "With this app, you can manually reconcile intraday bank statement flows with forecasted cash flows.", "ru": "С помощью этого приложения вы можете вручную выполнить выверку потоков банковских операций в течение дня с прогнозируемыми денежными потоками.", "terms": {"reconcile": "выполнить выверку"}}
+{"en": "Choose Assessment Type", "ru": "Выберите тип оценки", "terms": {"type": "тип"}}
+{"en": "The data provider's ZIP code.", "ru": "ZIP-код провайдера.", "terms": {"provider": "провайдер"}}
+{"en": "Relevant Order Type", "ru": "Связанный тип заказа", "terms": {"type": "тип"}}
+{"en": "Consumption in Month", "ru": "Расходы в месяц", "terms": {"consumption": "расход"}}
+{"en": "Stamp Duty Category", "ru": "Категория НДФЛ", "terms": {"category": "категория"}}
+{"en": "Pause and Resume", "ru": "Пауза и возобновление", "terms": {"pause": "приостановка"}}
+{"en": "Enter the type of document.", "ru": "Укажите тип документа.", "terms": {"type": "тип"}}
+{"en": "Viewing Transport Requests", "ru": "Просмотр запросов на транспортировку", "terms": {"transport": "транспорт"}}
+{"en": "Work Agreement Tab", "ru": "Соглашение о работе", "terms": {"tab": "вкладка"}}
+{"en": "There are six types of Constant expressions:", "ru": "Всего существует шесть типов константных выражений:", "terms": {"type": "тип"}}
+{"en": "The following example describes a possible workflow:", "ru": "Вот пример рабочего процесса:", "terms": {"workflow": "рабочий процесс"}}
+{"en": "Send Update to Collection Agency", "ru": "Отправить обновление в бюро по делам долгов", "terms": {"collection agency": "коллекторское агентство"}}
+{"en": "This is the default attachment type.", "ru": "Это стандартный вид приложения.", "terms": {"type": "вид"}}
+{"en": "Activity Type Description", "ru": "Тип деятельности", "terms": {"type": "тип"}}
+{"en": "Corresponding DataSource (for use in SAP Analytics Cloud and analytical clients)", "ru": "Соответствующий DataSource (для использования в SAP Analytics Cloud и аналитических клиентов)", "terms": {"client": "клиент"}}
+{"en": "Billing Plan Category - Text", "ru": "Категория плана оплаты - Текст", "terms": {"category": "категория"}}
+{"en": "You can also edit or download a virtual document.", "ru": "Вы также можете редактировать или загрузить виртуальный документ.", "terms": {"edit": "редактировать"}}
+{"en": "Creation, update, and deletion of characteristics", "ru": "Создание, обновление и удаление характеристик", "terms": {"characteristic": "характеристика"}}
+{"en": "Release (Document OK)", "ru": "Отправить (Документ OK)", "terms": {"release": "деблокировать"}}
+{"en": "Analytics Chart 1", "ru": "Аналитика 1", "terms": {"analytics chart": "аналитическая диаграмма"}}
+{"en": "Filter by Provider", "ru": "Фильтр по поставщику", "terms": {"provider": "поставщик"}}
+{"en": "Semantic Tag Assigned", "ru": "Семантическая метка назначена", "terms": {"assigned": "присвоенный"}}
+{"en": "Displays whether a run type is enabled.", "ru": "Показывает, включено ли значение тип прогона.", "terms": {"run type": "тип прогона"}}
+{"en": "Add an exit condition.", "ru": "Добавить условие выхода.", "terms": {"exit": "выход"}}
+{"en": "The country where the data provider is located.", "ru": "Страна, в которой находится провайдер данных.", "terms": {"data provider": "провайдер данных"}}
+{"en": "Search for account information", "ru": "Ищите информацию о счете", "terms": {"account": "счет"}}
+{"en": "Check Service Contract Actuals", "ru": "Проверить факты контракта на обслуживание", "terms": {"check": "проверка"}}
+{"en": "You can view orders based on any of the following industry type:", "ru": "Вы можете просматривать заказы по любому из следующих видов:", "terms": {"type": "вид"}}
+{"en": "Allows you to maintain the story details.", "ru": "Позволяет вести ведение истории.", "terms": {"maintain": "выполнять ведение"}}
+{"en": "With this app, you can edit the location structure.", "ru": "С помощью этого приложения вы можете редактировать структуру местоположений.", "terms": {"location structure": "структура местоположений"}}
+{"en": "For more information about integreting with contract compliance, see .", "ru": "Для получения дополнительной информации о интеграции с соответствие контракта, см. .", "terms": {"compliance": "соответствие"}}
+{"en": "This topic describes the G/L account renumbering process.", "ru": "Этот раздел описывает процесс перенумерации счетов G/L.", "terms": {"topic": "раздел"}}
+{"en": "Specifies how customer compensation is to be processed.", "ru": "Устанавливает, как будет происходить возмещение клиенту.", "terms": {"compensation": "возмещение"}}
+{"en": "Pricing Procedure PP1", "ru": "Процедура установления цен PP1", "terms": {"pricing procedure": "схема калькуляции"}}
+{"en": "Assembly in Process", "ru": "Собрание в процессе", "terms": {"assembly": "сборка"}}
+{"en": "Default values tab page:", "ru": "вкладка с значениями по умолчанию:", "terms": {"tab": "вкладка"}}
+{"en": "Edit Safety Observation", "ru": "Редактировать наблюдение безопасности", "terms": {"edit": "обработать"}}
+{"en": "Set when the recurrence pattern ends:", "ru": "Установите дату окончания шаблона:", "terms": {"pattern": "шаблон"}}
+{"en": "External Document Type", "ru": "Внешний тип документа", "terms": {"type": "тип"}}
+{"en": "Transaction in the past", "ru": "Транзакция в прошлом", "terms": {"transaction": "движение"}}
+{"en": "Stop Manual Forecasting", "ru": "Остановить ручную прогнозировку", "terms": {"stop": "остановка"}}
+{"en": "Budget Adjustments Tab", "ru": "Вкладка \"Изменения бюджета\"", "terms": {"tab": "вкладка"}}
+{"en": "Activate a supplier list that is in preparation.", "ru": "Активировать список поставщиков, который находится в подготовке.", "terms": {"activate": "активировать"}}
+{"en": "Contract for Limit determines the price per unit for each item in the service entry sheet.", "ru": "Соглашение о лимите определяет цену за единицу для каждого элемента в листе выполнения работ.", "terms": {"contract": "контракт"}}
+{"en": "You can also edit these tasks with the following exceptions:", "ru": "Вы также можете редактировать эти задачи с указанными исключениями:", "terms": {"edit": "редактировать"}}
+{"en": "New resource wizards", "ru": "Новые мастеров ресурсов", "terms": {"wizard": "мастер"}}
+{"en": "Purchasing Object Category", "ru": "Категория покупки объекта", "terms": {"object category": "тип объекта"}}
+{"en": "Create, Change, Cancel", "ru": "Создать, Изменить, Отменить", "terms": {"cancel": "отменить"}}
+{"en": "Restricted reuse views", "ru": "Ограничения на повторное использование", "terms": {"restricted": "с ограничением"}}
+{"en": "Assets or Liabilities", "ru": "Активы или Обязательства", "terms": {"assets": "активы"}}
+{"en": "Inspection lot quantity", "ru": "Количество партий проверки", "terms": {"inspection": "проверка"}}
+{"en": "Use plan data integration", "ru": "Использовать интеграцию данных плана", "terms": {"use": "использование"}}
+{"en": "Reporting and analytics", "ru": "Отчетность и аналитика", "terms": {"reporting": "отчеты"}}
+{"en": "Expense Classification Type", "ru": "Тип классификации расходов", "terms": {"classification type": "вид классификации"}}
+{"en": "The account status will change from In review to Active.", "ru": "Статус счёта изменится с \"На рассмотрении\" на \"Активный\".", "terms": {"in review": "в проверке"}}
+{"en": "Find out how to become a data provider and deliver valuable data products to the users of SAP Data Marketplace.", "ru": "Узнайте, как стать провайдером и предоставлять ценные продукты данных пользователям SAP Data Marketplace.", "terms": {"provider": "провайдер"}}
+{"en": "Select a compliance requirement type.", "ru": "Выберите вид требований к соблюдению.", "terms": {"type": "вид"}}
+{"en": "The Maintenance Orders tab opens and shows the material availability status for the relevant orders.", "ru": "Вкладка \"Заявки на обслуживание\" открывается и показывает статус наличия материалов по соответствующим заявкам.", "terms": {"tab": "вкладка"}}
+{"en": "Click Edit in the Monitor eventStop event.", "ru": "Нажмите \"Редактировать\" в событии \"Остановка монитора\".", "terms": {"stop": "остановить"}}
+{"en": "Update Data Actions", "ru": "Обновить данные", "terms": {"update": "обновление"}}
+{"en": "Alternative Logon Order.", "ru": "Альтернативный порядок входа.", "terms": {"order": "порядок"}}
+{"en": "Allows you to restart a schedule.", "ru": "Позволяет перезапустить планирование.", "terms": {"schedule": "планирование"}}
+{"en": "On the tabs, use the following features:", "ru": "На вкладках используйте следующие функции:", "terms": {"tab": "вкладка"}}
+{"en": "Distributing Cell Values", "ru": "Распределение значений ячеек", "terms": {"distribution": "распространение"}}
+{"en": "The following events will be recorded:", "ru": "Следующие события будут записаны:", "terms": {"record": "запись"}}
+{"en": "Choose Calculate Resources.", "ru": "Выберите Ресурс.", "terms": {"Resource": "Ресурс"}}
+{"en": "Consolidation chart of accounts (COA) is a systematic grouping of financial statement (FS) items that belong together and are used for group reporting.", "ru": "Консолидированная карта счетов (COA) - это систематическое группирование финансовых отчетов (FS), которые относятся к одному и тому же и используются для консолидированного отчета.", "terms": {"grouping": "группирование"}}
+{"en": "Choose the billing document from the list.", "ru": "Выберите документ расчета из списка.", "terms": {"billing document": "документ расчета"}}
+{"en": "Enter the clarification account.", "ru": "Войдите в промежуточный счет.", "terms": {"clarification account": "промежуточный счет"}}
+{"en": "To check and edit the settings of this configuration step, proceed as follows:", "ru": "Чтобы проверить и редактировать настройки этого шага конфигурации, выполните следующее:", "terms": {"edit": "редактировать"}}
+{"en": "You can use the following apps to determine usage of PRTs in orders:", "ru": "Вы можете использовать следующие приложения для определения использования PRTs в заказах:", "terms": {"use": "использование"}}
+{"en": "Text for Technical Object Type", "ru": "Текст для типа технического объекта", "terms": {"type": "вид"}}
+{"en": "Transport Substitution Policy", "ru": "Политика замены транспорта", "terms": {"transport": "транспорт"}}
+{"en": "Creating a New Service Provider", "ru": "Создание нового поставщика услуг", "terms": {"provider": "поставщик"}}
+{"en": "Select HTTP as the Type.", "ru": "Выберите HTTP как тип.", "terms": {"type": "тип"}}
+{"en": "Post Revenue Distribution", "ru": "Распределение доходов после вычета расходов", "terms": {"revenue distribution": "распределение поступлений"}}
+{"en": "Replace existing trigger with a new one.", "ru": "Замените существующий триггер на новый.", "terms": {"trigger": "триггер"}}
+{"en": "The system supports the following types of delivery schedules:", "ru": "Система поддерживает следующие типы графиков доставки:", "terms": {"type": "тип"}}
+{"en": "Telephone extension number", "ru": "добавочный номер", "terms": {"extension number": "добавочный номер"}}
+{"en": "Security type ID", "ru": "вид безопасности ID", "terms": {"type": "вид"}}
+{"en": "Select the Public option.", "ru": "Выберите вариант \"Общественность\".", "terms": {"public": "общий"}}
+{"en": "Pause email notifications", "ru": "Пауза уведомлений по электронной почте", "terms": {"pause": "приостановка"}}
+{"en": "Expiring or new contracts", "ru": "Истекшие или новые контракты", "terms": {"contract": "контракт"}}
+{"en": "Get User Id", "ru": "Получить идентификатор пользователя", "terms": {"get": "получить"}}
+{"en": "Search for your contract.", "ru": "Найдите ваш договор.", "terms": {"contract": "договор"}}
+{"en": "Select the data that you want to apply the rule to.", "ru": "Выберите данные, к которым вы хотите применять правило.", "terms": {"apply": "применять"}}
+{"en": "This process type allows you to schedule a background job for the printing process.", "ru": "Этот вид процесса позволяет планировать задание на фоне для процесса печати.", "terms": {"process type": "вид процесса"}}
+{"en": "Specifies the content of the feedback item.", "ru": "Указывает содержание элемента обратной связи.", "terms": {"content": "контент"}}
+{"en": "Specifies the sequence of the release types.", "ru": "Указывает порядок типов выпуска.", "terms": {"type": "тип"}}
+{"en": "You can create and edit multiple project elements and save them simultaneously.", "ru": "Вы можете создать и редактировать несколько элементов проекта и сохранить их одновременно.", "terms": {"edit": "редактировать"}}
+{"en": "Forecast delivery scheudle", "ru": "План поставки", "terms": {"stopped forecast delivery schedule": "приостановленный прогнозный график поставок"}}
+{"en": "How to Schedule Rescheduling Checks", "ru": "Как запланировать повторные проверки", "terms": {"schedule": "запланировать"}}
+{"en": "Work center utilization is calculated as follows:", "ru": "Загрузка центра работ рассчитывается следующим образом:", "terms": {"utilization": "загрузка"}}
+{"en": "When you create a purchase requisition from a quote, you can't change the following values:", "ru": "При создании закупочной заявки на основе сопроводительного письма невозможно изменить следующие значения:", "terms": {"change": "изменение"}}
+{"en": "BRFplus supports the following action types:", "ru": "BRFplus поддерживает следующие типы действий:", "terms": {"type": "тип"}}
+{"en": "You can use this app to display and activate data from external data providers.", "ru": "Вы можете использовать эту программу для отображения и активации данных от внешних провайдеров.", "terms": {"provider": "провайдер"}}
+{"en": "Use the input help to select the  as Output Type.", "ru": "Используйте справку по вводу, чтобы выбрать  как тип выходных данных.", "terms": {"output": "вывод", "type": "тип"}}
+{"en": "Disabled by default.", "ru": "Выключено по умолчанию.", "terms": {"disabled": "деактивировано"}}
+{"en": "ISO Numeric Code", "ru": "ISO-числовой код", "terms": {"numeric": "числовой"}}
+{"en": "Select the document type and then click Next.", "ru": "Выберите вид документа, а затем нажмите Далее.", "terms": {"document type": "вид документа"}}
+{"en": "Get Project UID", "ru": "Получить UID проекта", "terms": {"get": "получить"}}
+{"en": "Expense Classification Category", "ru": "Категория расходов", "terms": {"category": "тип"}}
+{"en": "Delete or Update Assignments", "ru": "Удалить или обновить назначения", "terms": {"update": "обновление"}}
+{"en": "Note that you can only see the ratings on the Summary tab.", "ru": "Обратите внимание, что вы можете видеть только оценки на вкладке \"Обзор\".", "terms": {"summary": "сводка"}}
+{"en": "With this app, you can display billing data.", "ru": "С помощью этого приложения вы можете отображать биллинговые данные.", "terms": {"billing data": "биллинговые данные"}}
+{"en": "Single Account Assignment or", "ru": "Однократное назначение аккаунта или", "terms": {"single account assignment": "простая контировка"}}
+{"en": "If an item is no longer required, you can cancel it.", "ru": "Если товар больше не нужен, вы можете отменить его.", "terms": {"cancel": "отменить"}}
+{"en": "The control subtype to which the control is assigned.", "ru": "Подвид мероприятия, к которому присвоено мероприятие.", "terms": {"control": "мероприятие", "subtype": "подвид"}}

@@ -1,0 +1,500 @@
+{"en": "The status of each individual space can be seen from the color code on the upper left corner.", "terms": {"left": "links"}, "de": "Der Status jedes einzelnen Raumes ist anhand des Farbcodes in der oberen linken Ecke ersichtlich."}
+{"en": "Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.", "terms": {"month": "Monat"}, "de": "Ihr Vertrag umfasst eine Gesamtanzahl an verfügbaren Kapazitätseinheiten pro Monat, die Sie nach Belieben den Rechen- und Speicherressourcen zuweisen können."}
+{"en": "share the URL link to other users with the proper editing rights", "terms": {"editing": "Bearbeitungsrechten"}, "de": "Teilen Sie den URL-Link mit anderen Benutzern, die über die entsprechenden Bearbeitungsrechte verfügen."}
+{"en": "Once you remove the constraint for the successor operation, the operation can be rescheduled automatically.", "terms": {"rescheduled": "umgeplant"}, "de": "Sobald Sie die Einschränkung für den Nachfolgervorgang entfernen, kann der Vorgang automatisch umgeplant werden."}
+{"en": "As long as you have not configured the tenant, you can use only administration features of SAP Data Warehouse Cloud (but you cannot create spaces in the Space Management page).", "terms": {"configured": "konfiguriert"}, "de": "Solange Sie den Mandanten nicht konfiguriert haben, können Sie nur die Administrationsfunktionen von SAP Data Warehouse Cloud nutzen (Sie können jedoch keine Bereiche auf der Seite Space Management erstellen)."}
+{"en": "All resources in your area of responsibility will be displayed.", "terms": {"resources": "Ressourcen", "displayed": "angezeigt"}, "de": "Alle Ressourcen in Ihrem Verantwortungsbereich werden angezeigt."}
+{"en": "Required Permissions for Oracle Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide", "terms": {"Oracle": "Oracle"}, "de": "Erforderliche Berechtigungen für die Oracle Trigger-basierte Replikation im SAP HANA Smart Data Integration und SAP HANA Smart Data Quality Installations- und Konfigurationshandbuch"}
+{"en": "Integrate an account with your space to be able to create connections for connector instances and use the connections for data flows.", "terms": {"flows": "Flüsse"}, "de": "Integrieren Sie ein Konto in Ihren Bereich, um Verbindungen für Connector-Instanzen zu erstellen und die Verbindungen für Datenflüsse zu nutzen."}
+{"en": "A payment clearing group is an attribute with which you can categorize your suppliers and customers into groups.", "terms": {"customers": "Debitoren", "group": "Gruppe"}, "de": "Eine Zahlungsabrechnungsgruppe ist ein Attribut, mit dem Sie Ihre Lieferanten und Debitoren in Gruppen einteilen können."}
+{"en": "Select the corresponding checkbox for demand-driven MRP components and/or top-level materials.", "terms": {"top-level": "oberste"}, "de": "Das entsprechende Kontrollkästchen für bedarfsgesteuerte MRP-Komponenten und/oder oberste Materialien auswählen."}
+{"en": "Click Create License to create a license for one or multiple of your data products and generate activation keys that you can share with consumers to allow them to use the licensed scope of data products.", "terms": {"share": "teilen"}, "de": "Klicken Sie auf Lizenz erstellen, um eine Lizenz für eines oder mehrere Ihrer Datenprodukte zu erstellen und Aktivierungsschlüssel zu generieren, die Sie mit Verbrauchern teilen können, damit diese den lizenzierten Umfang der Datenprodukte nutzen können."}
+{"en": "Control your union in the Mappings section of its side panel:", "terms": {"Control": "Steuern", "Mappings": "Zuordnungen"}, "de": "Steuern Sie Ihre Gewerkschaft im Bereich \"Zuordnungen\" auf der Seitenleiste:"}
+{"en": "The performance of the model version is evaluated using two main indicators.", "terms": {"two": "zwei"}, "de": "Die Leistung der Modellversion wird mit zwei Hauptindikatoren bewertet."}
+{"en": "The database then has to decide which job or query has to be dealt with first.", "terms": {"decide": "entscheiden"}, "de": "Die Datenbank muss dann entscheiden, welcher Auftrag oder welche Abfrage zuerst bearbeitet werden soll."}
+{"en": "Address, e-mail, phone number, etc of the provider", "terms": {"phone": "Telefonnummer"}, "de": "Adresse, E-Mail, Telefonnummer usw. des Anbieters"}
+{"en": "The name should be unique within a space.", "terms": {"name": "Name"}, "de": "Der Name sollte innerhalb eines Bereichs eindeutig sein."}
+{"en": "Display the IDs of intercompany customer invoices, customer invoices, and intercompany supplier invoices", "terms": {"Display": "anzeigen"}, "de": "Anzeigen der IDs von Intercompany-Kundenrechnungen, Kundenrechnungen und Intercompany-Lieferantenrechnungen"}
+{"en": "To lock a specific release of a data product, open the release history of the selected product, select the release you want to lock and select the checkbox Locked.", "terms": {"product": "Produkt", "specific": "bestimmte"}, "de": "Um eine bestimmte Version eines Datenprodukts zu sperren, öffnen Sie die Veröffentlichungshistorie des ausgewählten Produkts, wählen Sie die Version aus, die Sie sperren möchten, und aktivieren Sie das Kontrollkästchen Gesperrt."}
+{"en": "This varies depending on how the data provider offers their products.", "terms": {"offers": "anbietet", "varies": "hängt"}, "de": "Dies hängt davon ab, wie der Datenanbieter seine Produkte anbietet."}
+{"en": "Create a data access control to filter data in views and business layer objects by one or more criteria.", "terms": {"criteria": "Kriterien", "views": "Views"}, "de": "Erstellen Sie eine Datenzugriffskontrolle, um Daten in Views und Business-Layer-Objekten anhand eines oder mehrerer Kriterien zu filtern."}
+{"en": "Retrieve your favorite data providers and data products.", "terms": {"providers": "Datenprovider", "products": "Produkte"}, "de": "Rufen Sie Ihre bevorzugten Datenprovider und Produkte ab."}
+{"en": "Choose Fuzzy Match to display the Match Thresholds section.", "terms": {"Match": "Abgleich"}, "de": "Wählen Sie Fuzzy Match, um den Abschnitt Abgleich-Schwellenwerte anzuzeigen."}
+{"en": "You can see which products were last released by the provider.", "terms": {"products": "Produkte"}, "de": "Sie können sehen, welche Produkte zuletzt vom Anbieter herausgegeben wurden."}
+{"en": "It’s maintained by the provider and the information might differs from one provider to another.", "terms": {"differs": "verschieden"}, "de": "Sie werden vom Anbieter aufbewahrt, und die Informationen können von Anbieter zu Anbieter verschieden sein."}
+{"en": "To lock all the releases of a data product, select the product and select the checkbox Locked.", "terms": {"product": "Produkt"}, "de": "Um alle Freigaben eines Datenprodukts zu sperren, wählen Sie das Produkt aus und markieren Sie das Kontrollkästchen Gesperrt."}
+{"en": "The Product Allocation Order Items card displays only those order items with confirmation quantity assigned to a characteristic value combination containing the specified characteristic or values.", "terms": {"characteristic": "Merkmal"}, "de": "Die Karte \"Bestellpositionen zur Produktzuweisung\" zeigt nur die Bestellpositionen an, deren Bestätigungsmenge einer Merkmalswertkombination zugeordnet ist, die das spezifizierte Merkmal oder die spezifizierten Werte enthält."}
+{"en": "This space is close to exceeding it's storage quota.", "terms": {"'s": "in", "quota": "Speicherplatz"}, "de": "Dieser Raum ist kurz davor, seinen Speicherplatz zu überschreiten."}
+{"en": "Older period includes data older than the last year.", "terms": {"Older": "früher"}, "de": "Frühere Periode umfasst Daten, die früher als das letzte Jahr sind."}
+{"en": "Create or Edit a Data Provider Profile", "terms": {"Edit": "bearbeiten", "Profile": "Profil"}, "de": "Erstellen oder Bearbeiten eines Datenanbieterprofils"}
+{"en": "In the Switch Data Provider dialog:", "terms": {"dialog": "Dialogfeld", "Switch": "wechseln"}, "de": "Im Dialogfeld \"Datenanbieter wechseln\""}
+{"en": "Select your Space", "terms": {"Select": "Auswählen"}, "de": "Raum auswählen"}
+{"en": "Thanks to the product page created by the data provider you get detailed information on the data product and eventually access to sample data, if available.", "terms": {"available": "verfügbar", "access": "Zugriff"}, "de": "Dank der vom Datenanbieter erstellten Produktseite erhalten Sie detaillierte Informationen über das Datenprodukt und schließlich Zugriff auf Musterdaten, sofern verfügbar."}
+{"en": "To guarantee a smooth roll-out of updates to any object without immediately affecting or even breaking fact models, consumption models, or perspectives, you can derive versions of objects.", "terms": {"breaking": "beschädigt", "without": "ohne"}, "de": "Um eine reibungslose Einführung von Updates für jedes Objekt zu gewährleisten, ohne Faktenmodelle, Verbrauchsmodelle oder Perspektiven sofort zu beeinflussen oder sogar zu beschädigen, können Sie Versionen von Objekten ableiten."}
+{"en": "You can display the reference quantity and the simulation quantity side by side.", "terms": {"display": "anzeigen", "side": "nebeneinander"}, "de": "Sie können die Referenzmenge und die Simulationsmenge nebeneinander anzeigen."}
+{"en": "The inspector detects issues for each top-level material per time period.", "terms": {"time": "Zeitperiode"}, "de": "Der Inspektor erkennt Probleme für jedes Material der obersten Stufe pro Zeitperiode."}
+{"en": "Any path used with this connection will be prefixed with this root path.", "terms": {"prefixed": "vorangestellt"}, "de": "Jeder mit dieser Verbindung verwendete Pfad wird mit diesem Wurzelpfad vorangestellt."}
+{"en": "It must be unique for the clause type in each language.", "terms": {"clause": "Klauselart"}, "de": "Es muss für die Klauselart in jeder Sprache einzigartig sein."}
+{"en": "Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.", "terms": {"Enables": "Ermöglicht"}, "de": "Ermöglicht Ihnen anzugeben, ob die Abnahme eines bestellten Artikels am Ursprungsort erfolgen soll."}
+{"en": "Enter a name for your space.", "terms": {"name": "Namen"}, "de": "Geben Sie einen Namen für Ihren Space ein."}
+{"en": "Changes within the same version are saved as new revisions.", "terms": {"version": "Version"}, "de": "Änderungen innerhalb der gleichen Version werden als neue Revisionen gespeichert."}
+{"en": "You can search and purchase analytical data from data providers.", "terms": {"purchase": "kaufen", "providers": "Datenprovidern"}, "de": "Sie können analytische Daten bei Datenprovidern suchen und kaufen."}
+{"en": "The projected plant stock can be calculated from the current stock- or requirements situation for the start date of the reference object.", "terms": {"projected": "projizierte"}, "de": "Der projizierte Anlagenbestand kann anhand der aktuellen Lager- oder Bedarfssituation zum Startdatum des Referenzobjekts berechnet werden."}
+{"en": "Provide all the mandatory details such as the Pricing Date, Currency, and Quantity, and choose Simulate.", "terms": {"mandatory": "Pflichtangaben", "Currency": "Währung"}, "de": "Geben Sie alle Pflichtangaben wie das Preisfestsetzungsdatum, die Währung und die Menge an und wählen Sie Simulieren aus."}
+{"en": "Data Layer Object Properties - Shared Content Between WA and HP", "terms": {"Object": "Objekten"}, "de": "Eigenschaften der Datenschichtobjekten - gemeinsam genutzte Inhalte zwischen WA und HP"}
+{"en": "Select Create Filter and add your filter conditions:", "terms": {"add": "fügen"}, "de": "Wählen Sie Filter erstellen und fügen Sie Ihre Filterbedingungen hinzu:"}
+{"en": "Create a new space.", "terms": {"new": "neuen"}, "de": "Erstelle einen neuen Raum."}
+{"en": "In each condition record where you define a scale value, you can further specify the scale type.", "terms": {"condition": "Konditionssatz"}, "de": "In jedem Konditionssatz, in dem Sie einen Skalenwert definieren, können Sie den Skalentyp näher angeben."}
+{"en": "This is the summary of your schedule.","terms": {}, "de": "Dies ist die Zusammenfassung Ihres Zeitplans."}
+{"en": "Select the Space you would like to work in.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie den Space, in dem Sie arbeiten möchten."}
+{"en": "The following reporting periods are not available in this app:", "terms": {"following": "folgenden"}, "de": "Die folgenden Berichtszeiträume sind in dieser App nicht verfügbar:"}
+{"en": "You can define measures for your consumption model.", "terms": {"define": "definieren", "measures": "Kennzahlen"}, "de": "Sie können Kennzahlen für Ihr Verbrauchsmodell definieren."}
+{"en": "[if Enable Statement-level Triggers = true] Create Statement-level Insert Triggers", "terms": {"Create": "erstellen"}, "de": "[Wenn Auslöser auf Anweisungsebene aktiviert sind = wahr] Auslöser auf Anweisungsebene für Insert-Anweisungen erstellen"}
+{"en": "The Work Center column lists the resource of the corresponding order.", "terms": {"lists": "aufgeführt"}, "de": "In der Spalte Arbeitsplatz ist die Ressource des entsprechenden Auftrags aufgeführt."}
+{"en": "Make your view visible to analytical clients.", "terms": {"view": "View"}, "de": "Machen Sie Ihren View für analytische Kunden sichtbar."}
+{"en": "Defines a relative time interval for which you want to determine the creation of the necessary physical inventory documents for your cycle counting process.", "terms": {"relative": "relatives"}, "de": "Definiert ein relatives Zeitintervall, für das Sie die Erstellung der notwendigen physischen Inventardokumente für Ihren Zykluszählprozess bestimmen möchten."}
+{"en": "see the storage status of your space", "terms": {"status": "Status"}, "de": "den Speicherstatus Ihres Raumes einsehen"}
+{"en": "If you wish to create a role without extending a predefined standard role, choose the blank template.", "terms": {"standard": "Standard"}, "de": "Wenn Sie eine Rolle erstellen möchten, ohne eine vordefinierte Standardrolle zu erweitern, wählen Sie die Standardvorlage aus."}
+{"en": "You access these detailed task logs by navigating to the Data Integration Monitor - Details screen of the relevant task.", "terms": {"Integration": "Integrationsmonitor", "access": "zugreifen"}, "de": "Sie können auf diese detaillierten Aufgabenprotokolle zugreifen, indem Sie zum Integrationsmonitor - Details des relevanten Aufgabenbereichs navigieren."}
+{"en": "When a new delivery is made available by the provider, the Status of your data product is outdated.", "terms": {"delivery": "Lieferung"}, "de": "Wenn eine neue Lieferung vom Anbieter verfügbar gemacht wird, ist der Status Ihres Datenprodukts veraltet."}
+{"en": "Cloud Connectors that you want to use for data flows only don't require an entry in this list.", "terms": {"require": "erfordern"}, "de": "Cloud-Connectoren, die Sie nur für Datenflüsse verwenden möchten, erfordern keinen Eintrag in dieser Liste."}
+{"en": "To publish the release at a later point in time, click Save.", "terms": {"click": "wählen"}, "de": "Um die Version zu einem späteren Zeitpunkt zu veröffentlichen, wählen Sie Speichern."}
+{"en": "These skills are specified in the resource request.", "terms": {"skills": "Qualifikationen"}, "de": "Diese Qualifikationen werden im Ressourcenantrag angegeben."}
+{"en": "The provider has removed the data product from the available data product list.", "terms": {"removed": "entfernt"}, "de": "Der Anbieter hat das Datenprodukt aus der Liste der verfügbaren Datenprodukte entfernt."}
+{"en": "To activate a data provider profile for which you’ve received an activation key, click Activate, enter the key, and click Activate.", "terms": {"activation": "Aktivierung", "click": "klicken"}, "de": "Um ein Datenanbieterprofil zu aktivieren, für das Sie einen Aktivierungsschlüssel erhalten haben, klicken Sie auf \"Aktivieren\", geben Sie den Schlüssel ein und klicken Sie erneut auf \"Aktivieren\"."}
+{"en": "Rename a column by clicking MenuChange Business Name", "terms": {"MenuChange": "Menü"}, "de": "Benennen Sie eine Spalte um, indem Sie auf Menü klicken."}
+{"en": "Dynamic Memory Allocation for Data Flows", "terms": {"Memory": "Speicher"}, "de": "Dynamische Speicherzuordnung für Datenflüsse"}
+{"en": "To manage your products and licenses, to publish new releases, and to maintain your data provider profile page, the Data Sharing Cockpit offers you tailored apps for each task and workflow.", "terms": {"task": "Aufgabe", "profile": "Profilseite"}, "de": "Um Ihre Produkte und Lizenzen zu verwalten, neue Versionen zu veröffentlichen und Ihre Datenanbieter-Profilseite zu pflegen, bietet Ihnen das Data Sharing Cockpit maßgeschneiderte Apps für jede Aufgabe und jeden Workflow."}
+{"en": "Save or publish a release.", "terms": {"publish": "veröffentlichen"}, "de": "Speichern oder veröffentlichen Sie eine Veröffentlichung."}
+{"en": "Read the messages to understand if there are any errors or warnings, if the actions you performed on the template were successful, if further action is required from you, and so on.", "terms": {"performed": "ausgeführt"}, "de": "Lesen Sie die Meldungen, um zu verstehen, ob Fehler oder Warnungen vorliegen, ob die von Ihnen ausgeführten Aktionen erfolgreich waren, ob weitere Maßnahmen von Ihnen erforderlich sind usw."}
+{"en": "Resolve the memory issues by deleting unecessary data in your space or by assigning more memory to your space.", "terms": {"deleting": "löschen"}, "de": "Beheben Sie die Speicherprobleme, indem Sie unnötige Daten in Ihrem Speicherplatz löschen oder Ihrem Speicherplatz mehr Speicher zuweisen."}
+{"en": "Choose the Go to App button to open the end user app.", "terms": {"Choose": "Wählen", "App": "App"}, "de": "Wählen Sie die Schaltfläche \"Zur App\", um die Endbenutzer-App zu öffnen."}
+{"en": "Enter an email address for the internal communication between you as the data provider and SAP.", "terms": {"internal": "interne", "Enter": "Geben"}, "de": "Geben Sie eine E-Mail-Adresse für die interne Kommunikation zwischen Ihnen als Datenanbieter und SAP an."}
+{"en": "You can now switch to the data provider profile.", "terms": {"switch": "wechseln", "profile": "Profil"}, "de": "Sie können jetzt zum Datenanbieter-Profil wechseln."}
+{"en": "Create Local Tables", "terms": {"Tables": "Tabellen"}, "de": "Lokale Tabellen erstellen"}
+{"en": "If the required connection is not available for selection, you or an administrator need to create the tunnel connection before you can create the SAP BW/4HANA Model Transfer connection.", "terms": {"BW/4HANA": "BW/4HANA"}, "de": "Sollte die erforderliche Verbindung nicht zur Auswahl stehen, müssen Sie oder ein Administrator die Tunnelverbindung einrichten, bevor Sie die SAP BW/4HANA-Modellübertragungsverbindung erstellen können."}
+{"en": "Set your space priority.", "terms": {"Set": "Legen"}, "de": "Legen Sie Ihre Raumpriorität fest."}
+{"en": "Click the consumption model name in the shell bar breadcrumbs to return to it, and then click the  Perspectives tab.", "terms": {"breadcrumbs": "Klickpfad"}, "de": "Klicken Sie im Klickpfad auf den Verbrauchsmodellnamen, um zu ihm zurückzukehren, und klicken Sie dann auf die Registerkarte Perspektiven."}
+{"en": "You can edit the predefined email and then send it to the provider who then gets in touch with you.", "terms": {"send": "senden"}, "de": "Sie können die vordefinierte E-Mail bearbeiten und sie dann an den Anbieter senden, der sich anschließend mit Ihnen in Verbindung setzt."}
+{"en": "For the Heath Check Support  access category, the incident ID references SAP internal incidents raised by automatic health checks.", "terms": {"ID": "ID"}, "de": "Für die Zugriffsgruppe \"Health Check Support\" bezieht sich die Vorfall-ID auf interne SAP-Vorfälle, die durch automatische Gesundheitsprüfungen erstellt wurden."}
+{"en": "Modify the properties of objects, including providing business names for them to make them easier to identify and use for non-technical users.", "terms": {"users": "Benutzer", "identify": "identifizieren"}, "de": "Die Eigenschaften von Objekten ändern, einschließlich der Vergabe von Geschäftsnamen, um sie für nichttechnische Benutzer einfacher zu identifizieren und zu verwenden."}
+{"en": "You can view all top-level materials of the work center.", "terms": {"view": "anzeigen", "materials": "Materialien"}, "de": "Sie können alle Materialien auf oberster Ebene des Arbeitszentrums anzeigen."}
+{"en": "The residence period is part of the overall retention period.", "terms": {"part": "Teil", "retention": "Aufbewahrung"}, "de": "Der Aufenthaltszeitraum ist Teil der gesamten Aufbewahrungsfrist."}
+{"en": "[if Enable Compound Triggers = true] Flush Threshold of Compound Triggers", "terms": {"Threshold": "Schwellenwert"}, "de": "[wenn zusammengesetzte Trigger aktiviert sind = wahr] Schwellenwert der zusammengesetzten Trigger"}
+{"en": "If such a column does not exist, you may choose to create a calculated column and concatenate values from other columns into it to provide unique identifier values.", "terms": {"column": "Spalte", "exist": "vorhanden"}, "de": "Falls eine solche Spalte nicht vorhanden ist, können Sie eine berechnete Spalte erstellen und Werte aus anderen Spalten darin zusammenführen, um eindeutige Identifikatorwerte bereitzustellen."}
+{"en": "If no period range is defined, the start date of the Period Range selection defaults to the current date.", "terms": {"selection": "Auswahl"}, "de": "Wenn kein Zeitraum definiert ist, wird das Startdatum der Periodenbereichsauswahl standardmäßig auf das aktuelle Datum festgelegt."}
+{"en": "If switched on, it indicates that each data record of the currently opened business entity finds a match in the selected target business entity with the configured key mapping.", "terms": {"indicates": "zeigt", "match": "Übereinstimmung"}, "de": "Wenn eingeschaltet, zeigt es an, dass jeder Datensatz der aktuell geöffneten Geschäftseinheit eine Übereinstimmung in der ausgewählten Zielgeschäftseinheit mit der konfigurierten Schlüsselzuordnung findet."}
+{"en": "If you want to restrict the data to include in the release, select a view from the Items table and enter or paste your data queries in the Data Selection section.", "terms": {"select": "wählen", "Items": "Elemente", "view": "View"}, "de": "Wenn Sie die Daten einschränken möchten, die in die Freigabe aufgenommen werden sollen, wählen Sie eine View aus der Tabelle Elemente aus und geben Sie Ihre Datenanfragen im Abschnitt Datenwahl ein oder fügen Sie sie ein."}
+{"en": "Set the minimum score needed to match an input record with a lookup record and place it in the Review results category.", "terms": {"record": "Datensatz", "input": "Eingabedatensatz"}, "de": "Legen Sie die Mindestpunktzahl fest, die erforderlich ist, um einen Eingabedatensatz mit einem Nachschlagedatensatz abzugleichen, und ordnen Sie ihn der Kategorie \"Überprüfungsergebnisse\" zu."}
+{"en": "Control your join in the Mappings section of its side panel:", "terms": {"section": "Bereich", "Mappings": "Zuordnungen"}, "de": "Kontrollieren Sie Ihren Join im Bereich Zuordnungen im Seitenbereich:"}
+{"en": "data related to spaces,", "terms": {"spaces": "Spaces"}, "de": "Daten über Spaces,"}
+{"en": "You could also allow your space data to be consumed in your HDI containers.", "terms": {"data": "Daten", "containers": "Containern"}, "de": "Sie könnten auch zulassen, dass Ihre Raumdaten in Ihren HDI-Containern genutzt werden."}
+{"en": "Set the minimum score needed to match an input record with a lookup record and place it in the Matched results category.", "terms": {"Matched": "Übereinstimmung", "match": "abzugleichen"}, "de": "Setzen Sie die Mindestpunktzahl fest, die erforderlich ist, um einen Eingabedatensatz mit einem Nachschlagedatensatz abzugleichen, und platzieren Sie ihn in der Kategorie \"Übereinstimmungsergebnisse\"."}
+{"en": "Possible quick actions are:", "terms": {"actions": "Aktionen", "quick": "schnell"}, "de": "Mögliche schnelle Aktionen sind:"}
+{"en": "The advantage of this attribute is that you can refer to certain business partners in one condition by using the correct payment clearing group.", "terms": {"refer": "verweisen"}, "de": "Der Vorteil dieses Attributs besteht darin, dass Sie auf bestimmte Geschäftspartner in einer Bedingung mit der richtigen Zahlungsabrechnungsgruppe verweisen können."}
+{"en": "Specifies the Valid To date for compliance requirements.", "terms": {"Specifies": "Gibt", "Valid": "Gültig"}, "de": "Gibt das Gültig-bis-Datum für die Einhaltung der Vorschriften an."}
+{"en": "The data provider has entered some details about the product:", "terms": {"product": "Produkt", "entered": "eingegeben"}, "de": "Der Datenanbieter hat einige Details zum Produkt eingegeben:"}
+{"en": "Information on the contained data, which is entered in the Create Release wizard.", "terms": {"contained": "enthaltenen", "entered": "eingegeben"}, "de": "Informationen zu den enthaltenen Daten, die im Assistenten \"Release erstellen\" eingegeben werden."}
+{"en": "In the Permissions page individual permissions assigned to privilege types are displayed", "terms": {"displayed": "angezeigt"}, "de": "Auf der Seite Berechtigungen werden die einzelnen Berechtigungen, die den Berechtigungstypen zugewiesen sind, angezeigt."}
+{"en": "Note that Cloud Connectors that you want to use for data flows only don't require an entry in this list.", "terms": {"Note": "Beachten"}, "de": "Beachten Sie, dass Cloud-Connectors, die Sie ausschließlich für Datenflüsse verwenden möchten, keinen Eintrag in dieser Liste benötigen."}
+{"en": "The space that was selected to store the data product.", "terms": {"product": "Datenprodukt"}, "de": "Der Raum, der zur Speicherung des Datenprodukts ausgewählt wurde."}
+{"en": "This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.", "terms": {"visible": "angezeigt", "yet": "noch"}, "de": "Dies bedeutet, dass die Änderung des Arbeitsplatzes nur in Ihrem Zeitplan angezeigt wird und noch nicht im Wartungsauftrag gespeichert ist."}
+{"en": "New records that have the same pairing column value as an existing pairing group are automatically placed in the appropriate results category for that pairing group.", "terms": {"placed": "zugeordnet"}, "de": "Neue Datensätze, die den gleichen Wert in der Pairingspalte haben wie eine bestehende Pairinggruppe, werden automatisch der entsprechenden Ergebniskategorie für diese Pairinggruppe zugeordnet."}
+{"en": "SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries.", "terms": {"SAP": "SAP"}, "de": "SAP und andere hier erwähnte SAP-Produkte und -Dienstleistungen sowie deren jeweiligen Logos sind Marken oder eingetragene Marken der SAP SE (oder eines SAP-Tochterunternehmens) in Deutschland und anderen Ländern."}
+{"en": "To be able to use the data product, the data provider will send an activation key via email that provides authorization to access one or multiple data products.", "terms": {"key": "Aktivierungsschlüssel", "access": "Zugriff"}, "de": "Um das Datenprodukt nutzen zu können, wird der Datenanbieter einen Aktivierungsschlüssel per E-Mail senden, der den Zugriff auf ein oder mehrere Datenprodukte autorisiert."}
+{"en": "It might make sense to delete unnecessary data in your space or to extend the assigned storage.", "terms": {"make": "sinnvoll", "extend": "erweitern"}, "de": "Es könnte sinnvoll sein, unnötige Daten in Ihrem Speicherplatz zu löschen oder den zugewiesenen Speicher zu erweitern."}
+{"en": "There are many ways to collect and combine data to create business insights:", "terms": {"business": "Geschäfts"}, "de": "Es gibt viele Möglichkeiten, Daten zu sammeln und zu kombinieren, um Geschäftskenntnisse zu gewinnen:"}
+{"en": "You can create a text block inside the text block library.", "terms": {"inside": "in"}, "de": "Sie können einen Textblock in der Textblockbibliothek erstellen."}
+{"en": "This space is no longer active.", "terms": {"longer": "mehr"}, "de": "Dieser Bereich ist nicht mehr länger aktiv."}
+{"en": "Allocate your capacity units to compute and storage resources.", "terms": {"units": "Einheiten"}, "de": "Ordnen Sie Ihre Kapazitätseinheiten den Rechen- und Speichereinheiten zu."}
+{"en": "Generate keys that you can share with consumers to allow them to use the licensed scope of data products.", "terms": {"products": "Produkten"}, "de": "Erstellen Sie Schlüssel, die Sie mit Verbrauchern teilen können, damit sie den lizenzierten Umfang der Datenprodukten nutzen können."}
+{"en": "The release is highlighted on the landing page with the flag “Not published yet”.", "terms": {"flag": "Kennzeichen"}, "de": "Die Veröffentlichung wird auf der Startseite mit dem Kennzeichen „Noch nicht veröffentlicht“ hervorgehoben."}
+{"en": "For each business entity used as data restriction, you need to map each key member to the data access control's output column.", "terms": {"'s": "der", "map": "zuordnen", "business": "Geschäft"}, "de": "Für jede Geschäftsentität, die als Datenbeschränkung verwendet wird, müssen Sie jedes Schlüsselmitglied der Ausgabespalte der Datenzugriffssteuerung zuordnen."}
+{"en": "Create a schedule to load new snapshot of data asynchronously and recurrently in the background according to the defined settings.", "terms": {"defined": "definierten"}, "de": "Erstellen Sie einen Zeitplan, um neue Snapshots von Daten asynchron und wiederkehrend im Hintergrund gemäß den definierten Einstellungen zu laden."}
+{"en": "The interfaces you have subscribed to for monitoring, including the status of the individual messages.", "terms": {"monitoring": "Monitoring", "including": "einschließlich"}, "de": "Die Schnittstellen, die Sie für das Monitoring abonniert haben, einschließlich des Status der einzelnen Nachrichten."}
+{"en": "A pop up informs you about the source updates before you can go with deployment.", "terms": {"pop": "Popup-Fenster"}, "de": "Ein Popup-Fenster informiert Sie über die Aktualisierungen der Quelle, bevor Sie mit der Bereitstellung fortfahren können."}
+{"en": "To edit an existing data provider profile, click .", "terms": {"edit": "bearbeiten", "profile": "Profil"}, "de": "Um ein bestehendes Datenanbieter-Profil zu bearbeiten, klicken Sie auf ."}
+{"en": "In this app, you can create the reference data that are used for the simulations.", "terms": {"used": "verwendet"}, "de": "In dieser App können Sie die Referenzdaten erstellen, die für die Simulationen verwendet werden."}
+{"en": "Note that after a redeployment, the persistency is deleted and the data access is changed back to virtual.", "terms": {"Note": "Beachten"}, "de": "Beachten Sie, dass nach einer Umstellung die Persistenz gelöscht wird und der Datenzugriff wieder auf virtuell umgestellt wird."}
+{"en": "Specify date and text information for the release.", "terms": {"text": "Text"}, "de": "Datum und Text für die Freigabe angeben."}
+{"en": "You can search and browse for data products and data providers.", "terms": {"browse": "suchen", "products": "Datenprodukten"}, "de": "Sie können nach Datenprodukten und Datenanbietern suchen und suchen."}
+{"en": "saving is available but deployment is blocked", "terms": {"available": "verfügbar"}, "de": "Einsparung ist verfügbar, aber die Bereitstellung ist blockiert."}
+{"en": "You can donwload it to get a data update.", "terms": {"data": "Daten"}, "de": "Sie können es herunterladen, um ein Daten-Update zu erhalten."}
+{"en": "Skills with a check mark are provided by the resource.", "terms": {"resource": "Ressource"}, "de": "Fähigkeiten, die mit einem Häkchen versehen sind, werden von der Ressource bereitgestellt."}
+{"en": "This provides you feedback on how many entries within the current business entity there are and how many of them match to entries of the target business entity.", "terms": {"many": "viele"}, "de": "Dies gibt Ihnen Feedback darüber, wie viele Einträge innerhalb der aktuellen Geschäftseinheit vorhanden sind und wie viele davon mit Einträgen der Zielgeschäftseinheit übereinstimmen."}
+{"en": "The data provider profile page provides additional information about the data provider and other products or product groups.", "terms": {"additional": "zusätzliche", "provides": "enthält"}, "de": "Die Profilseite des Datenanbieters bietet zusätzliche Informationen über den Datenanbieter sowie über andere Produkte oder Produktgruppen."}
+{"en": "insert privilege is removed from the Space Manager", "terms": {"Space": "Space"}, "de": "Das Einfüge-Recht wird aus dem Space-Manager entfernt."}
+{"en": "Remote Table Monitor - short descriptions", "terms": {"descriptions": "Beschreibungen"}, "de": "Fernüberwachung des Tischmonitors - kurze Beschreibungen"}
+{"en": "First Steps to Create Insights", "terms": {"Insights": "Geschäftsanalysen"}, "de": "Erste Schritte zur Erstellung von Geschäftsanalysen"}
+{"en": "[read-only] Displays the deployment and error status of the object.", "terms": {"Displays": "Zeigt"}, "de": "[nur lesbar] Zeigt den Bereitstellungsstatus und den Fehlerstatus des Objekts an."}
+{"en": "Keeping an overloaded space active can impact running jobs.", "terms": {"impact": "auswirken"}, "de": "Die Aufrechterhaltung der Aktivität eines überlasteten Raumes kann sich auf die laufenden Arbeiten auswirken."}
+{"en": "Personal data concerning insurances and bank or credit card accounts", "terms": {"accounts": "konten", "bank": "Bank"}, "de": "Personenbezogene Daten zu Versicherungen und Bank- oder Kreditkartenkonten"}
+{"en": "Reviewers do not require any work center assignment.", "terms": {"Reviewers": "Prüfer", "require": "benötigen"}, "de": "Prüfer benötigen keine Zuweisung zu einem Arbeitsplatz."}
+{"en": "You can create clauses and signature blocks with this option.", "terms": {"clauses": "Klauseln"}, "de": "Mit dieser Option können Sie Klauseln und Signaturblöcke erstellen."}
+{"en": "Enter a text briefly describing the data contained in the release, and enter a comment.", "terms": {"describing": "beschreibt"}, "de": "Geben Sie einen Text ein, der die in der Pressemitteilung enthaltenen Daten kurz beschreibt, und fügen Sie einen Kommentar hinzu."}
+{"en": "Create users so you can assign them to a space.", "terms": {"users": "Benutzer"}, "de": "Erstellen Sie Benutzer, um sie einem Raum zuweisen zu können."}
+{"en": "This allows for multiple associations between the same business entities (in different contexts) and provides additional business meaning to the association.", "terms": {"multiple": "mehrere"}, "de": "Dies ermöglicht mehrere Verknüpfungen zwischen denselben Geschäftseinheiten (in unterschiedlichen Kontexten) und verleiht der Verknüpfung zusätzliche geschäftliche Bedeutung."}
+{"en": "The associated business entities will be available as dimensions when you create a consumption model.", "terms": {"create": "Erstellen", "dimensions": "Dimensionen"}, "de": "Die zugehörigen Geschäftseinheiten sind als Dimensionen verfügbar, wenn Sie ein Verbrauchsmodell Erstellen."}
+{"en": "Click an issue.", "terms": {"Click": "Wählen"}, "de": "Wählen Sie ein Problem."}
+{"en": "They allow data to flow into the Business Builder and are combined together to produce fact models and consumption models.", "terms": {"allow": "ermöglichen", "together": "kombiniert"}, "de": "Sie ermöglichen den Datenfluss in den Business Builder und werden kombiniert, um Faktenmodelle und Verbrauchsmodelle zu erzeugen."}
+{"en": "Plant stock at start date of reference", "terms": {"Plant": "Werksbestand"}, "de": "Werksbestand zum Bezugsbeginn"}
+{"en": "Enable ABAP Manageable Trigger Namespace", "terms": {"Trigger": "Trigger"}, "de": "ABAP-verwalteten Trigger-Namensraum aktivieren"}
+{"en": "If the view uses other views that were not changed, these views are not touched by the deployment and therefore the persistency is still available.", "terms": {"available": "verfügbar"}, "de": "Wenn die Ansicht andere Ansichten verwendet, die nicht geändert wurden, werden diese Ansichten durch die Bereitstellung nicht berührt, und daher ist die Persistenz weiterhin verfügbar."}
+{"en": "Using the Time From and Time To fields, you can filter for jobs that have been created between these two points in time.", "terms": {"Time": "Zeit"}, "de": "Mit den Feldern \"Zeit von\" und \"Zeit bis\" können Sie Jobs filtern, die zwischen diesen beiden Zeitpunkten erstellt wurden."}
+{"en": "Select a space from the drop-down menu.", "terms": {"menu": "Menü"}, "de": "Wählen Sie einen Platz aus dem Menü aus."}
+{"en": "A database user lets you ingest data from third-party SQL tools and also allows you to expose your space data to third-party SQL tools.", "terms": {"SQL": "SQL"}, "de": "Ein Datenbankbenutzer ermöglicht es Ihnen, Daten aus SQL-Tools von Drittanbietern zu importieren und Ihre Raumdaten auch SQL-Tools von Drittanbietern bereitzustellen."}
+{"en": "In this popup you can select different periods and change the available capacity of the work center.", "terms": {"popup": "Popup", "periods": "Perioden"}, "de": "In diesem Popup können Sie verschiedene Perioden auswählen und die verfügbare Kapazität des Arbeitszentrums ändern."}
+{"en": "For example, while creating a contract, if you need to exit the contract creation process to double-check and clarify certain details, you can select Contract in Preparation.", "terms": {"clarify": "klären"}, "de": "Wenn Sie beispielsweise beim Erstellen eines Vertrags den Vertragserstellungsprozess verlassen müssen, um bestimmte Details zu überprüfen und zu klären, können Sie \"Vertrag in Vorbereitung\" auswählen."}
+{"en": "All Dates:You can see all the dates that are auto-generated when the renewal and termination clauses are either defined in the legal transaction or predefined in the context.", "terms": {"defined": "definiert"}, "de": "Alle Termine: Sie können alle Termine sehen, die automatisch erzeugt werden, wenn die Verlängerungs- und Kündigungsklauseln entweder im rechtlichen Geschäft definiert oder im Kontext vordefiniert sind."}
+{"en": "The Data Sharing Cockpit is the tool you use as a the data provider.", "terms": {"tool": "Tool", "use": "verwenden"}, "de": "Das Data Sharing Cockpit ist das Tool, das Sie als Datenanbieter verwenden."}
+{"en": "The business catalog gives you an overview of all the models you can use, across all the Spaces you are authorized for.", "terms": {"Spaces": "Spaces"}, "de": "Der Geschäftskatalog bietet Ihnen einen Überblick über alle Modelle, die Sie in allen autorisierten Spaces verwenden können."}
+{"en": "Check how much spaces the task logs are using on a tenant, and define criteria to manually or automatically delete them.", "terms": {"automatically": "automatisch"}, "de": "Überprüfen Sie, wie viel Speicherplatz die Aufgabenprotokolle bei einem Mandanten belegen, und definieren Sie Kriterien, um sie manuell oder automatisch zu löschen."}
+{"en": "With connection type Open Connectors you can now create connections to the third-party data sources available as connector instances with your  account.", "terms": {"Connectors": "Connectors"}, "de": "Mit dem Verbindungstyp Open Connectors können Sie jetzt Verbindungen zu den Datenquellen von Drittanbietern herstellen, die als Connector-Instanzen mit Ihrem Konto verfügbar sind."}
+{"en": "Based on implicit data restrictions, every user has access to the relevant data according to his or her role.", "terms": {"implicit": "impliziten"}, "de": "Aufgrund impliziten Datenbeschränkungen hat jeder Benutzer entsprechend seiner Rolle Zugriff auf die relevanten Daten."}
+{"en": "Transfer staffing assignments according to your selection criteria.", "terms": {"selection": "Selektionskriterien"}, "de": "Übertragen Sie die Personalzuordnungen gemäß Ihren Selektionskriterien."}
+{"en": "All Dates:You can see all the dates that are auto-generated when renewal and termination clauses are predefined.", "terms": {"Dates": "Termine"}, "de": "Alle Termine: Sie können alle Termine sehen, die automatisch erzeugt werden, wenn Verlängerungs- und Kündigungsklauseln vordefiniert sind."}
+{"en": "Create a fact model to group associated analytical data sets and dimensions together for use in multiple consumption models.", "terms": {"Create": "Erstellen", "multiple": "verschiedenen"}, "de": "Erstellen Sie ein Faktenmodell, um zugehörige analytische Datensätze und Dimensionen zusammenzufassen, die in verschiedenen Verbrauchsmodellen verwendet werden können."}
+{"en": "This is done to prevent over usage of the space.", "terms": {"done": "wird"}, "de": "Dies wird getan, um eine Übernutzung des Raumes zu verhindern."}
+{"en": "Table Services - Enable the In-Memory Storage option to store the table data directly in memory (see ).", "terms": {"Table": "Tabelle", "option": "Option"}, "de": "Tabellendienste - Aktivieren Sie die Option In-Memory Storage, um die Tabellendaten direkt im Speicher abzulegen (siehe )."}
+{"en": "Attributes in consumption models can either reference attributes from the included fact or dimension sources or be calculated from other attributes of the current consumption model.", "terms": {"consumption": "Verbrauch"}, "de": "Attribute in Verbrauchsmodellen können entweder auf Attribute aus den enthaltenen Fakten- oder Dimensionenquellen verweisen oder aus anderen Attributen des aktuellen Verbrauchsmodells berechnet werden."}
+{"en": "A configuration (or implementation) item may contain implementation steps which are executed in end user apps.", "terms": {"apps": "Apps"}, "de": "Ein Konfigurations- oder Implementierungselement kann Implementierungsschritte enthalten, die in Endbenutzer-Apps ausgeführt werden."}
+{"en": "Access SAP HANA Deployment Infrastructure containers through  and use your data in the Data Builder or gain access to your space data from your HDI container.", "terms": {"SAP": "SAP"}, "de": "Zugriff auf SAP HANA Deployment Infrastructure-Container und Nutzung Ihrer Daten im Data Builder oder Zugriff auf Ihre Space-Daten aus Ihrem HDI-Container."}
+{"en": "Because the implementation step is executed in an end user app, the changes are not transportable from the Q system to P system.", "terms": {"implementation": "Implementierung", "P": "P"}, "de": "Da der Implementierungsschritt in einer Endbenutzer-App ausgeführt wird, können die Änderungen nicht vom Q-System auf das P-System übertragen werden."}
+{"en": "The BI Content Creator creates and changes stories.", "terms": {"Content": "Content"}, "de": "Der BI Content Creator erstellt und ändert Storys."}
+{"en": "Click the New Graphical View tile to enter the builder.", "terms": {"enter": "aufzurufen", "Click": "Klicken"}, "de": "Klicken Sie auf die Kachel \"Neue grafische Ansicht\", um den Builder aufzurufen."}
+{"en": "Click a colored cell or the entire row to view more details about the issues and their category in the Issues panel.", "terms": {"colored": "farbige", "cell": "Zelle"}, "de": "Klicken Sie auf eine farbige Zelle oder die gesamte Zeile, um im Bereich \"Probleme\" weitere Details zu den Problemen und deren Kategorie anzuzeigen."}
+{"en": "The quantities are displayed per month or week (bucket).", "terms": {"per": "pro"}, "de": "Die Mengen werden pro Monat oder Woche (Zeitraum) angezeigt."}
+{"en": "SQLScript (Table Function) - Use SQL Script with support for  statements, loops, and other more complex structures.", "terms": {"Table": "Tabelle"}, "de": "SQLScript (Tabellenfunktion) - Verwenden Sie SQLScript mit Unterstützung für Anweisungen, Schleifen und andere komplexere Strukturen."}
+{"en": "No updates are made on your system.", "terms": {"made": "vorgenommen"}, "de": "Es werden keine Updates auf Ihrem System vorgenommen."}
+{"en": "There are six types of messages:", "terms": {"messages": "Nachrichten"}, "de": "Es gibt sechs Typen von Nachrichten:"}
+{"en": "The Business Catalog gives an overview of all the models the business user can use, across all the Spaces they are authorized for.", "terms": {"user": "Benutzer"}, "de": "Der Business-Katalog bietet einen Überblick über alle Modelle, die der Benutzer in allen autorisierten Bereichen verwenden kann."}
+{"en": "For more information, see Oracle Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.", "terms": {"Smart": "Smart"}, "de": "Weitere Informationen finden Sie im Leitfaden zur Oracle Trigger-basierten Replikation in der SAP HANA Smart Data Integration und SAP HANA Smart Data Quality Installation und Konfiguration."}
+{"en": "Complete or consult other side panel sections as appropriate:", "terms": {"consult": "konsultieren", "sections": "Abschnitte"}, "de": "Ergänzen oder konsultieren Sie gegebenenfalls andere Seitenabschnitte:"}
+{"en": "Choose an appropriate data entity to provide data to your business entity and click Create to open the editor.", "terms": {"open": "öffnen"}, "de": "Wählen Sie eine geeignete Datenentität aus, um Daten an Ihre Geschäftseinheit zu übermitteln, und klicken Sie auf Erstellen, um den Editor zu öffnen."}
+{"en": "Choose from the following types:", "terms": {"types": "Vertragsarten"}, "de": "Wählen Sie aus den folgenden Vertragsarten:"}
+{"en": "The messages are grouped in the following categories:", "terms": {"categories": "Kategorien"}, "de": "Die Nachrichten sind in die folgenden Kategorien unterteilt:"}
+{"en": "Narrow down the list of orders based on their main work center.", "terms": {"based": "basierend"}, "de": "Die Liste der Bestellungen basierend auf ihrem Hauptarbeitsplatz eingrenzen."}
+{"en": "Once the incident has been processed, you can create the  bridge instance in the dedicated page SAP BW Bridge of the Configuration area with the size you’ve allocated (see ).", "terms": {"allocated": "zugewiesenen"}, "de": "Sobald der Vorfall bearbeitet wurde, können Sie die Brückeninstanz auf der speziellen Seite SAP BW Bridge im Konfigurationsbereich mit der von Ihnen zugewiesenen Größe erstellen (siehe )."}
+{"en": "Select a session.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie eine Sitzung."}
+{"en": "Create a schedule:", "terms": {"Create": "Legen"}, "de": "Legen Sie einen Zeitplan fest:"}
+{"en": "Document - Action Required", "terms": {"Required": "erforderlich"}, "de": "Dokument - Maßnahmen erforderlich"}
+{"en": "In the Share Schedule dialog, just remove the name of the person whose access you want to revoke.", "terms": {"name": "Namen"}, "de": "Entfernen Sie im Dialog \"Zeitplan freigeben\" einfach den Namen der Person, deren Zugriff Sie widerrufen möchten."}
+{"en": "You can change the start date and time of order operations by dragging them one at a time to the desired date in the chart.", "terms": {"change": "ändern"}, "de": "Sie können das Startdatum und die Uhrzeit der Auftragsoperationen ändern, indem Sie diese einzeln im Diagramm auf das gewünschte Datum ziehen."}
+{"en": "Release Restriction Note", "terms": {"Restriction": "Einschränkungen"}, "de": "Hinweis zu Veröffentlichungseinschränkungen"}
+{"en": "You can only display and use these two Planned Count Date From - To fields, when you use the date selection type Static.", "terms": {"date": "Datums"}, "de": "Sie können diese beiden Felder \"Geplantes Zähldatum von - bis\" nur anzeigen und verwenden, wenn Sie den Datumswahltyp \"Statisch\" verwenden."}
+{"en": "Documents - Action Required", "terms": {"Documents": "Belege"}, "de": "Belege - erforderliche Maßnahmen"}
+{"en": "Restoring an Older Version or Revision of a Text Block", "terms": {"Block": "Textblock"}, "de": "Wiederherstellung einer älteren Version oder Revision eines Textblocks"}
+{"en": "The Data Provider profile provides additional information about other products or product groups.", "terms": {"groups": "Produktgruppen", "profile": "Profil"}, "de": "Das Datenanbieter-Profil bietet zusätzliche Informationen zu anderen Produkten oder Produktgruppen."}
+{"en": "Notification Sent Date", "terms": {"Sent": "Sendedatum"}, "de": "Sendedatum der Benachrichtigung"}
+{"en": "Check and Transfer Staffing Assignments", "terms": {"Staffing": "Besetzungen"}, "de": "Überprüfung und Übertragung von Besetzungen"}
+{"en": "You can also create your own scenarios.", "terms": {"also": "auch"}, "de": "Sie können auch eigene Szenarien erstellen."}
+{"en": "Select your homepage from the dropdown menu.", "terms": {"homepage": "Homepage"}, "de": "Wählen Sie Ihre Homepage im Dropdown-Menü aus."}
+{"en": "The following restrictions are applicable:", "terms": {"applicable": "gelten"}, "de": "Die folgenden Einschränkungen gelten:"}
+{"en": "About Approval Process", "terms": {"Approval": "Genehmigung"}, "de": "Zum Genehmigungsprozess"}
+{"en": "Once you have selected a category, you must select a subcategory, such as Tasks by Status or Tasks by Status and Compliance Requirement, to refine your analysis results further.", "terms": {"Status": "Status", "Tasks": "Aufgaben"}, "de": "Sobald Sie eine Kategorie ausgewählt haben, müssen Sie eine Unterkategorie auswählen, z. B. Aufgaben nach Status oder Aufgaben nach Status und Compliance-Anforderung, um Ihre Analyseergebnisse weiter zu verfeinern."}
+{"en": "You can perform the following actions in table view:", "terms": {"following": "folgende", "perform": "ausführen"}, "de": "Sie können folgende Aktionen in der Tabellenansicht ausführen:"}
+{"en": "Routing Information Retrieval", "terms": {"Information": "Information"}, "de": "Abruf von Routing-Information"}
+{"en": "You can filter by schema or by storage type.", "terms": {"schema": "Schema", "filter": "filtern"}, "de": "Sie können nach Schema oder Speichertyp filtern."}
+{"en": "Expose your data in lightweight, closely-focused perspectives to SAP Analytics Cloud and other analytics clients.", "terms": {"Analytics": "Analytics"}, "de": "Stellen Sie Ihre Daten in leichtgewichtigen, genau fokussierten Perspektiven für SAP Analytics Cloud und andere Analytics-Clients dar."}
+{"en": "Enterprise Edition check:", "terms": {"Enterprise": "Enterprise"}, "de": "Enterprise Edition-Überprüfung:"}
+{"en": "You can add more specific measures to your consumption model.", "terms": {"measures": "Kennzahlen", "specific": "spezifischere"}, "de": "Sie können Ihrem Verbrauchsmodell spezifischere Kennzahlen hinzufügen."}
+{"en": "Reviewers are not allowed to make any changes to the schedule and they do not see the utilization forecast shown when the schedule is in Scoping and Refinement.", "terms": {"utilization": "Auslastung"}, "de": "Die Prüfer dürfen keine Änderungen am Zeitplan vornehmen und sehen die Auslastungsprognose nicht, wenn der Zeitplan in der Planung und Verfeinerung ist."}
+{"en": "In the side navigation area, click , select the space you want to work in, and click Remote Query Monitor to open the monitor.", "terms": {"area": "Bereich"}, "de": "Klicken Sie im Seitenbereich auf , wählen Sie den Bereich aus, in dem Sie arbeiten möchten, und klicken Sie auf Remote Query Monitor, um den Monitor zu öffnen."}
+{"en": "Enter your key, accept the terms of use and select a space where the data should be stored.", "terms": {"use": "Nutzung"}, "de": "Geben Sie Ihren Schlüssel ein, akzeptieren Sie die Nutzungsbedingungen und wählen Sie einen Speicherort aus."}
+{"en": "Save the assignment.", "terms": {"Save": "Sichern"}, "de": "Sichern Sie die Aufgabe."}
+{"en": "Change queue assignments.", "terms": {"assignments": "Zuordnungen"}, "de": "Ändern Sie die Warteschlangenzuordnungen."}
+{"en": "The following project44 add-ons are available:", "terms": {"following": "Folgende"}, "de": "Folgende project44-Add-ons sind verfügbar:"}
+{"en": "Create new Work Package", "terms": {"new": "neues", "Create": "legen"}, "de": "Neues Arbeitspaket anlegen"}
+{"en": "The following work item types are available:", "terms": {"work": "Workitem"}, "de": "Folgende Arten von Workitems sind verfügbar:"}
+{"en": "To create a new item, choose one of the following options:", "terms": {"options": "Optionen"}, "de": "Um ein neues Element zu erstellen, wählen Sie eine der folgenden Optionen:"}
+{"en": "This column shows you if quick actions are available.", "terms": {"column": "Spalte", "shows": "zeigt"}, "de": "Diese Spalte zeigt, ob Schnellaktionen verfügbar sind."}
+{"en": "Included in Schedule (Filter)", "terms": {"Filter": "Filter"}, "de": "In der Liste enthalten (Filter)"}
+{"en": "Click Create Needs.", "terms": {"Click": "Klicken"}, "de": "Klicken Sie auf \"Bedarf erstellen\"."}
+{"en": "Check Intercompany Transactions", "terms": {"Check": "prüfen"}, "de": "Intercompany-Transaktionen prüfen"}
+{"en": "Provides additional information about metering of usage.", "terms": {"Provides": "Stellt"}, "de": "Stellt zusätzliche Informationen zur Messung der Nutzung bereit."}
+{"en": "The Production Order:","terms": {}, "de": "Der Produktionsauftrag:"}
+{"en": "Document Status - Text", "terms": {"Text": "Text"}, "de": "Dokumentstatus - Text"}
+{"en": "To create a dock appointment, proceed as follows:", "terms": {"proceed": "vor"}, "de": "Um einen Termin im Hafen zu vereinbaren, gehen Sie wie vor:"}
+{"en": "Limitation of a locked space:", "terms": {"locked": "gesperrte"}, "de": "Beschränkung eines gesperrten Raumes:"}
+{"en": "Select one of the following shipment types:", "terms": {"shipment": "Übertragung"}, "de": "Wählen Sie eine der folgenden Übertragungsarten aus:"}
+{"en": "You have the following position:", "terms": {"following": "folgenden"}, "de": "Sie haben die folgenden Position:"}
+{"en": "Highloaded Periods Card", "terms": {"Periods": "Perioden"}, "de": "Karte für hochbelastete Perioden"}
+{"en": "The following troubleshooting modes are available:", "terms": {"modes": "Modi"}, "de": "Folgende Modi zur Fehlerbehebung sind verfügbar:"}
+{"en": "When a data access control is applied to a data layer view or a business layer object, the rows of data contained in the object are filtered based on the specified criteria.", "terms": {"view": "View", "business": "Business"}, "de": "Wenn eine Datenzugriffssteuerung auf eine Datenlagen-View oder ein Business-Layer-Objekt angewendet wird, werden die im Objekt enthaltenen Datenzeilen anhand der angegebenen Kriterien gefiltert."}
+{"en": "Reset not required", "terms": {"required": "nötig"}, "de": "Zurücksetzen nicht nötig"}
+{"en": "Pause Real-Time Replication for an Agent", "terms": {"Real-Time": "Echtzeit"}, "de": "Echtzeit-Replikation eines Agenten pausieren"}
+{"en": "Enables you to refresh purchase requisitions.", "terms": {"requisitions": "Bestellanforderungen"}, "de": "Ermöglicht es Ihnen, die Bestellanforderungen zu aktualisieren."}
+{"en": "Then choose Accept.", "terms": {"choose": "Wählen"}, "de": "Dann Wählen Sie Akzeptieren."}
+{"en": "Item expiration Date", "terms": {"Date": "Datum"}, "de": "Ablaufdatum des Artikels"}
+{"en": "Accept Legal Disclosure.", "terms": {"Accept": "Akzeptieren"}, "de": "Akzeptieren der rechtlichen Offenlegung."}
+{"en": "You can edit the predefined email and then send it to the provider.", "terms": {"edit": "bearbeiten"}, "de": "Sie können die vordefinierte E-Mail bearbeiten und anschließend an den Anbieter senden."}
+{"en": "This task is optional.", "terms": {"optional": "optional"}, "de": "Diese Aufgabe ist optional."}
+{"en": "Released for Processing", "terms": {"Released": "Freigegeben"}, "de": "Freigegeben zur Verarbeitung"}
+{"en": "Enter the name and the description of your role collection.", "terms": {"Enter": "Geben"}, "de": "Geben Sie den Namen und die Beschreibung der Rollensammlung ein."}
+{"en": "Icon on the tab indicates the following:", "terms": {"following": "Folgendes"}, "de": "Das Symbol auf dem Tab gibt Folgendes an:"}
+{"en": "By default the check box is unchecked.", "terms": {"unchecked": "nicht gesetzt"}, "de": "Standardmäßig ist das Kontrollkästchen nicht gesetzt."}
+{"en": "In the sales and delivery processes, the placeholders are resolved in the languages in which the document is printed.", "terms": {"printed": "gedruckt", "resolved": "aufgelöst"}, "de": "In den Verkaufs- und Lieferprozessen werden die Platzhalter in den Sprachen aufgelöst, in denen das Dokument gedruckt wird."}
+{"en": "P Paste Assignment", "terms": {"P": "P"}, "de": "P Einfügen-Zuweisung"}
+{"en": "FICA document will be displayed.", "terms": {"FICA": "FI-CA"}, "de": "Das FI-CA-Dokument wird angezeigt."}
+{"en": "Payment Method Text", "terms": {"Text": "Text"}, "de": "Text zur Zahlungsmethode"}
+{"en": "Create, edit and display a single order fulfillment responsibility for a specific split criterion (for example, plant or material group) or a combination of multiple split criteria.", "terms": {"order": "Auftrag", "display": "anzeigen", "example": "z.B.", "edit": "bearbeiten"}, "de": "Erstellen, bearbeiten und anzeigen einer einzigen Auftragsabwicklungsverantwortung für ein bestimmtes Aufteilungskriterium (z.B. Werk oder Materialgruppe) oder eine Kombination mehrerer Aufteilungskriterien."}
+{"en": "Personal Data Report","terms": {}, "de": "Bericht über persönliche Daten"}
+{"en": "Choose Add Check.", "terms": {"Choose": "Wählen"}, "de": "Wählen Sie \"Add Check\"."}
+{"en": "Choose View Compliance Requirements.", "terms": {"Requirements": "Anforderungen", "View": "anzeigen"}, "de": "Wählen Sie Anforderungen anzeigen."}
+{"en": "Score Output Type", "terms": {"Type": "Art"}, "de": "Punktzahlart"}
+{"en": "Display the segments in which the sequence is used.", "terms": {"Display": "anzeigen"}, "de": "Zeigen Sie die Segmente an, in denen die Sequenz angezeigt wird."}
+{"en": "Click Create Schedule.", "terms": {"Click": "Klicken"}, "de": "Klicken Sie auf Zeitplan erstellen."}
+{"en": "Choose Cancel Dispatch.", "terms": {"Dispatch": "Einplanung"}, "de": "Wählen Sie \"Einplanung stornieren\"."}
+{"en": "Differences between target costs and actual costs that cannot be attributed to any above mentioned category.", "terms": {"actual": "Ist"}, "de": "Unterschiede zwischen den Zielkosten und den Ist-Kosten, die keiner der oben genannten Kategorien zugeordnet werden können."}
+{"en": "The following routing methods are supported:", "terms": {"methods": "methoden"}, "de": "Folgende Methoden für das Routing werden unterstützt:"}
+{"en": "via Notifications or", "terms": {"via": "über"}, "de": "über Mitteilungen oder"}
+{"en": "Controls the verification of the host name field of the server certificate:", "terms": {"Controls": "Steuert"}, "de": "Steuert die Überprüfung des Hostnamenfelds des Serverzertifikats:"}
+{"en": "Perform one of the following actions:", "terms": {"Perform": "Perform"}, "de": "Performen Sie eine der folgenden Aktionen:"}
+{"en": "Upload Field Fuel", "terms": {"Fuel": "Fuel"}, "de": "Feld-Fuel hochladen"}
+{"en": "Maintenance planners can modify, share, or delete the schedule.", "terms": {"planners": "Instandhaltungsplaner", "modify": "ändern", "delete": "löschen"}, "de": "Instandhaltungsplaner können den Zeitplan ändern, teilen oder löschen."}
+{"en": "For example, you can specify which availability match percentage to use for the calculation of the total suitability match.", "terms": {"match": "Übereinstimmung"}, "de": "Sie können beispielsweise angeben, welcher Prozentsatz der Verfügbarkeitsübereinstimmung für die Berechnung der Gesamtübereinstimmung verwendet werden soll."}
+{"en": "The Product Allocation Order Items card displays only those order items which have product allocation confirmation quantity assigned to characteristic value combinations which belong to the selected product allocation object.", "terms": {"selected": "ausgewählten"}, "de": "Die Karte \"Bestellpositionen für die Produktzuweisung\" zeigt nur die Bestellpositionen an, denen eine Bestätigungsmenge für die Produktzuweisung zugewiesen wurde, die charakteristischen Wertkombinationen zugeordnet sind und zum ausgewählten Produktzuweisungsobjekt gehören."}
+{"en": "Unreleased Compliance Requirements", "terms": {"Unreleased": "Nicht freigegebene", "Requirements": "Anforderungen"}, "de": "Nicht freigegebene Konformitätsanforderungen"}
+{"en": "By selecting the search button in the field, you are taken to the Define Conditions:the characteristics displayed here are the standard characteristic values that can be used when, for example, you configure product allocation objects.", "terms": {"product": "Kontingentierungsobjekten"}, "de": "Durch Auswählen des Suchknopfes im Feld gelangen Sie zu \"Bedingungen definieren\": Die hier angezeigten Merkmale sind die Standardmerkmale, die zum Beispiel bei der Konfiguration von Kontingentierungsobjekten verwendet werden können."}
+{"en": "Create Analytic Applications", "terms": {"Applications": "Application"}, "de": "Erstellen von analytischen Applicationen"}
+{"en": "History Retention Period:","terms": {}, "de": "Aufbewahrungsfrist für Verlaufsdaten:"}
+{"en": "Setup of Retention Period", "terms": {"Setup": "Einrichten"}, "de": "Einrichten der Aufbewahrungsfrist"}
+{"en": "Go to Items Completed.", "terms": {"Go": "Gehen"}, "de": "Gehen Sie zu \"Abgeschlossene Elemente\"."}
+{"en": "Create New Options", "terms": {"Options": "Optionen"}, "de": "Neue Optionen erstellen"}
+{"en": "Manage Payment Advices", "terms": {"Manage": "verwalten", "Advices": "Avise"}, "de": "Zahlungsavise verwalten"}
+{"en": "You have entered the following data:","terms": {}, "de": "Sie haben die folgenden Daten eingegeben:"}
+{"en": "Select Dialog Text.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie den Dialogtext aus."}
+{"en": "No Valid Contract", "terms": {"Valid": "gültiger"}, "de": "Kein gültiger Vertrag"}
+{"en": "Enter the title for your report:", "terms": {"title": "Titel"}, "de": "Bitte geben Sie den Titel Ihres Berichts ein:"}
+{"en": "Save Data Points", "terms": {"Points": "Punkten", "Save": "Sichern"}, "de": "Datenpunkten sichern"}
+{"en": "In the side panel, do the following:", "terms": {"following": "folgenden"}, "de": "Im Seitenbereich Folgendes ausführen:"}
+{"en": "Delete audit log entries by space.", "terms": {"Delete": "löschen"}, "de": "Löschen Sie die Einträge des Prüfprotokolls nach Bereich."}
+{"en": "To calculate the match percentage, the app sums up the free hours per month for the entire request time frame.The result is then divided by total number of required hours.", "terms": {"total": "Gesamtanzahl"}, "de": "Um den prozentualen Anteil der Übereinstimmung zu berechnen, summiert die App die freien Stunden pro Monat für den gesamten Anforderungszeitrahmen. Das Ergebnis wird dann durch die Gesamtanzahl der benötigten Stunden geteilt."}
+{"en": "Select the Stores tab page.", "terms": {"tab": "Registerkarte"}, "de": "Wählen Sie die Registerkarte \"Stores\" aus."}
+{"en": "Deployment and Activation", "terms": {"Activation": "Aktivierung"}, "de": "Bereitstellung und Aktivierung"}
+{"en": "You need the DW Administrator role to create database user groups.", "terms": {"need": "benötigen"}, "de": "Sie benötigen die Rolle des DW-Administrators, um Datenbankbenutzergruppen zu erstellen."}
+{"en": "Select the test plan type from the dropdown list.", "terms": {"test": "Test"}, "de": "Wählen Sie den Testplantyp aus der Dropdown-Liste."}
+{"en": "Administration in Spaces", "terms": {"Administration": "Verwaltung"}, "de": "Verwaltung in Räumlichkeiten"}
+{"en": "Select the association(s) to copy and click Create.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie die zu kopierenden Verknüpfung(en) aus und klicken Sie auf Erstellen."}
+{"en": "Choose a space from the drop-down list.", "terms": {"list": "Liste"}, "de": "Wählen Sie einen Platz aus der Liste."}
+{"en": "Choose Create Connection.", "terms": {"Choose": "Wählen"}, "de": "Wählen Sie Verbindung erstellen."}
+{"en": "There are two kinds of assets:", "terms": {"two": "zwei"}, "de": "Es gibt zwei Arten von Vermögenswerten:"}
+{"en": "You can reset the clearing of line items as well as reverse the clearing entry.", "terms": {"reverse": "stornieren", "line": "Beleg"}, "de": "Sie können die Bereinigung von Belegen zurücksetzen und den Bereinigungsvorgang stornieren."}
+{"en": "Create New Regulation", "terms": {"Create": "anlegen"}, "de": "Neue Vorschriften anlegen"}
+{"en": "Type of Change Document","terms": {}, "de": "Änderungsdokumenttyp"}
+{"en": "Create a conditional", "terms": {"conditional": "Bedingte"}, "de": "Erstellen Sie eine Bedingte"}
+{"en": "Compliance Requirement Country", "terms": {"Country": "Land"}, "de": "Land mit Compliance-Anforderungen"}
+{"en": "You must choose at least one category.", "terms": {"must": "müssen"}, "de": "Sie müssen mindestens eine Kategorie auswählen."}
+{"en": "The column containing users ids must be selected as the Principal Name Column in your data access control.", "terms": {"Principal": "Haupt", "Column": "Spalte"}, "de": "Die Spalte mit den Benutzer-IDs muss als Hauptnamensspalte in Ihrer Datenzugriffssteuerung ausgewählt werden."}
+{"en": "List of Notifications", "terms": {"List": "Liste"}, "de": "Liste der Benachrichtigungen"}
+{"en": "Click AddCreate User.", "terms": {"User": "Benutzer"}, "de": "Klicken Sie auf Benutzer hinzufügen/erstellen."}
+{"en": "Save your space.", "terms": {"Save": "Speichern"}, "de": "Speichern Sie Ihren Platz."}
+{"en": "Documents - Communication Status", "terms": {"Documents": "Belege"}, "de": "Belege - Kommunikationsstatus"}
+{"en": "Click Submit Request.", "terms": {"Click": "Klicken"}, "de": "Klicken Sie auf Anfrage senden."}
+{"en": "You can trigger the creation of new grouping rules, search for existing grouping rules, and delete grouping rules that are no longer required.", "terms": {"delete": "löschen", "required": "benötigte"}, "de": "Sie können die Erstellung neuer Gruppierungsregeln auslösen, nach bestehenden Gruppierungsregeln suchen und Gruppierungsregeln löschen, die nicht mehr benötigte werden."}
+{"en": "Check the status before you execute changes.", "terms": {"status": "Status"}, "de": "Prüfen Sie den Status, bevor Sie Änderungen vornehmen."}
+{"en": "Navigate from Asset Depreciation Values.", "terms": {"Navigate": "Navigieren"}, "de": "Navigieren von den Abschreibungswerten der Vermögenswerte."}
+{"en": "You have the following options to show assignment changes:", "terms": {"following": "folgende"}, "de": "Sie haben folgende Möglichkeiten, um Zuweisungsänderungen anzuzeigen:"}
+{"en": "Create a Custom Requirement", "terms": {"Custom": "Benutzerdefiniert"}, "de": "Benutzerdefinierte Anforderung erstellen"}
+{"en": "Click to add file comment","terms": {}, "de": "Klicken Sie hier, um eine Dateikommentierung hinzuzufügen"}
+{"en": "This procedure provides the option to create SAP HANA virtual tables in the open SQL schema that refer to objects in data lake.", "terms": {"schema": "Schema", "lake": "Lake"}, "de": "Dieses Verfahren bietet die Möglichkeit, virtuelle SAP HANA-Tabellen im offenen SQL-Schema zu erstellen, die auf Objekte im Data Lake verweisen."}
+{"en": "Enter the name of the cost component in the Name field.", "terms": {"name": "Namen", "Name": "Name"}, "de": "Geben Sie den Namen der Kostenkomponente im Feld \"Name\" ein."}
+{"en": "Create an issue:", "terms": {"Create": "Legen Sie"}, "de": "Legen Sie ein Problem an:"}
+{"en": "Save the query.", "terms": {"Save": "Sichern"}, "de": "Sichern Sie die Abfrage."}
+{"en": "Create Workflow for Sourcing Projects", "terms": {"Projects": "Projekte", "Sourcing": "Ausschreibung"}, "de": "Arbeitsablauf für die Ausschreibung von Projekten erstellen"}
+{"en": "Delete a scope.", "terms": {"Delete": "Löschen"}, "de": "Löschen Sie einen Geltungsbereich."}
+{"en": "Save the space.", "terms": {"Save": "Speichern"}, "de": "Speichern Sie den Platz."}
+{"en": "URL of the SuccessFactors Employee Central tenant", "terms": {"Central": "Central"}, "de": "URL des SuccessFactors Employee Central-Tenants"}
+{"en": "Indicates the current status of a master data record.", "terms": {"current": "aktuellen"}, "de": "Zeigt den aktuellen Status eines Stammdatensatzes an."}
+{"en": "Navigate to Stages.", "terms": {"Stages": "Abschnitte"}, "de": "Navigieren Sie zu Abschnitten."}
+{"en": "Activation of Data Source:", "terms": {"Data": "Dats"}, "de": "Aktivierung der Datsquelle:"}
+{"en": "Packaging levels are used for the following purposes:", "terms": {"following": "folgende"}, "de": "Verpackungsebenen werden für folgende Zwecke verwendet:"}
+{"en": "Create a Target Table in Data Flow", "terms": {"Target": "Zieltabelle"}, "de": "Erstellen Sie eine Zieltabelle im Datenfluss"}
+{"en": "Enter an optional description for the mapping.", "terms": {"description": "Beschreibung"}, "de": "Geben Sie eine optionale Beschreibung für das Mapping ein."}
+{"en": "Specify the locations for the following options:", "terms": {"locations": "Speicherorts"}, "de": "Geben Sie die Speicherorte für die folgenden Optionen an:"}
+{"en": "· Select Classification", "terms": {"·": "·"}, "de": "· Klassifizierung auswählen"}
+{"en": "To specify the document type as scheduling agreement.", "terms": {"agreement": "Plan", "specify": "Angaben"}, "de": "Den Dokumententyp als Plan anzugeben."}
+{"en": "Enter the term.", "terms": {"Enter": "Geben"}, "de": "Geben Sie den Begriff ein."}
+{"en": "Go to the Filter tab Select Create filter and define your filter conditions:", "terms": {"tab": "Registerkarte"}, "de": "Gehen Sie zur Registerkarte Filter, wählen Sie Filter erstellen aus und definieren Sie Ihre Filterbedingungen:"}
+{"en": "Review the schedule.", "terms": {"Review": "Überprüfen"}, "de": "Überprüfen Sie den Zeitplan."}
+{"en": "Edit a Release", "terms": {"Edit": "Bearbeiten"}, "de": "Bearbeitung einer Veröffentlichung"}
+{"en": "For clearing, the lower of the limit defined for your user and the limit defined for your business partner applies.You can also define amount limits for your Financial Accounting users.", "terms": {"clearing": "Ausgleich"}, "de": "Für den Ausgleich gilt das niedrigere der für Ihren Benutzer festgelegten Limits und der für Ihren Geschäftspartner festgelegten Limits. Sie können auch Betragsgrenzen für Ihre Benutzer der Finanzbuchhaltung festlegen."}
+{"en": "For more information, see Service Group Publishing.", "terms": {"Service": "Service", "see": "finden"}, "de": "Weitere Informationen finden Sie bei Service Group Publishing."}
+{"en": "Format for Income Classification", "terms": {"Format": "Format"}, "de": "Format zur Einkommensklassifizierung"}
+{"en": "You must select one or more columns containing filter criteria as Output Columns in your data access control.", "terms": {"select": "auswählen", "one": "eine"}, "de": "Sie müssen eine oder mehrere Spalten mit Filterkriterien als Ausgabespalten in Ihrer Datenzugriffssteuerung auswählen."}
+{"en": "Name of the space the product belongs to.", "terms": {"Name": "Name"}, "de": "Name des Bereichs, dem das Produkt angehört."}
+{"en": "Restrictions on Capture:", "terms": {"Restrictions": "Einschränkungen"}, "de": "Einschränkungen beim Fang:"}
+{"en": "Long descriptions are available for the following items:", "terms": {"Long": "lange"}, "de": "Für die folgenden Artikel sind lange Beschreibungen verfügbar:"}
+{"en": "Save the schedule.", "terms": {"Save": "Sichern"}, "de": "Speichern Sie den Zeitplan."}
+{"en": "Click Select Owner.", "terms": {"Select": "auswählen"}, "de": "Klicken Sie auf Auswählen des Eigentümers."}
+{"en": "Clear as Sequence", "terms": {"Clear": "Gemäß"}, "de": "Gemäß der Reihenfolge"}
+{"en": "Setting up Joint Venture Accounting Cost Objects:", "terms": {"Setting": "Einrichten", "Cost": "Kost", "Objects": "Kostenträgern"}, "de": "Einrichten von Kostenträgern für das Joint Venture:"}
+{"en": "Download the following files:", "terms": {"Download": "Download"}, "de": "Downloaden Sie die folgenden Dateien:"}
+{"en": "For more information about creating an equipment template, see .", "terms": {"equipment": "Equipment"}, "de": "Weitere Informationen zur Erstellung einer Equipmentvorlage finden Sie unter ."}
+{"en": "On the SAP Easy Access menu, choose  Joint venture accounting  Actual posting  Cash call batch ses.", "terms": {"Easy": "Easy", "choose": "Wählen"}, "de": "Im SAP Easy Access-Menü wählen Sie \"Joint Venture Accounting\"  \"Ist-Buchung\"  \"Cash Call Batch SES\"."}
+{"en": "Profile types include the following:", "terms": {"include": "stehen"}, "de": "Zu den Profiltypen stehen:"}
+{"en": "It allows you to create an assignment exactly as requested by the project manager.This action is available if the project manager requested a specific resource and no resource has been assigned to the request yet.", "terms": {"resource": "Ressource", "create": "anlegen", "assignment": "Einsatz"}, "de": "Sie können einen Einsatz genau nach den Vorgaben des Projektmanagers anlegen. Diese Aktion ist verfügbar, wenn der Projektmanager eine bestimmte Ressource angefordert hat und der Anfrage noch keine Ressource zugewiesen wurde."}
+{"en": "The characteristic value columns list the values that have been maintained for the characteristics defined for the document class.You can select the characteristic value by entering the value manually (possible entries are then suggested by the app) or, alternatively, by choosing the value in the subsequent characteristic dialog screen.", "terms": {"entering": "erfassen", "columns": "Spalten", "values": "Werte"}, "de": "Die Spalten mit den charakteristischen Werten listen die Werte auf, die für die für die Dokumentklasse definierten Merkmale beibehalten wurden. Sie können den charakteristischen Wert auswählen, indem Sie den Wert manuell erfassen (mögliche Einträge werden dann von der App vorgeschlagen) oder alternativ, indem Sie den Wert im nachfolgenden Dialogfeld für die Merkmale auswählen."}
+{"en": "This column shows you if quick actions are available for a resource request.If a quick action is available, a link is shown.", "terms": {"quick": "Schnell", "link": "Link"}, "de": "Diese Spalte zeigt Ihnen, ob Schnellaktionen für eine Ressourcenanfrage verfügbar sind. Wenn eine Schnellaktion verfügbar ist, wird ein Link angezeigt."}
+{"en": "Indicates whether the MRS item is obsolete.", "terms": {"Indicates": "Gibt"}, "de": "Gibt an, ob das MRS-Element veraltet ist."}
+{"en": "Locking a Release", "terms": {"Locking": "Sperren"}, "de": "Sperren eines Releases"}
+{"en": "Audit log missing detailed information", "terms": {"information": "Infos", "detailed": "Detail"}, "de": "Detail-Infos fehlen im Prüfprotokoll"}
+{"en": "<description of the transaction>", "terms": {"description": "Beschreibung"}, "de": "<Beschreibung der Transaktion>"}
+{"en": "Click Apply to save your new tile.", "terms": {"save": "speichern"}, "de": "Klicken Sie auf Anwenden, um Ihre neue Kachel zu speichern."}
+{"en": "The following views are made available in this space:", "terms": {"views": "Views"}, "de": "Die folgenden Views sind in diesem Bereich verfügbar:"}
+{"en": "In the Trusted Origins section, choose between the following options:", "terms": {"Origins": "Ursprungsadressen"}, "de": "Wählen Sie im Abschnitt Vertrauenswürdige Ursprungsadressen eine der folgenden Optionen aus:"}
+{"en": "The dependencies are assigned to the operation.", "terms": {"dependencies": "Beziehungen"}, "de": "Die Beziehungen werden der Operation zugeordnet."}
+{"en": "Doc.Template Name in Structure", "terms": {"Name": "Vorlagenname"}, "de": "Vorlagenname in Struktur"}
+{"en": "Primary Contact Indicator", "terms": {"Indicator": "Kennzeichen"}, "de": "Primäres Kontaktkennzeichen"}
+{"en": "These messages are enabled by default.", "terms": {"default": "standardmäßig"}, "de": "Diese Nachrichten sind standardmäßig aktiviert."}
+{"en": "Open Check and Transfer of Staffing Assignments.", "terms": {"Staffing": "Planstellenbesetzungen", "Open": "Öffnen"}, "de": "Öffnen der Überprüfung und Übertragung von Planstellenbesetzungen."}
+{"en": "Tasks are created in the compliance requirement.", "terms": {"created": "angelegt", "Tasks": "Aufgaben"}, "de": "Aufgaben werden in der Compliance-Anforderung angelegt."}
+{"en": "Run In Simulation", "terms": {"Simulation": "Simulation"}, "de": "Simulation starten"}
+{"en": "Cash Pool Minimum Transfer Amount", "terms": {"Minimum": "Minimaler", "Pool": "Pool"}, "de": "Minimaler Überweisungsbetrag im Cash-Pool"}
+{"en": "This class is used to convert a quantity from one unit of measurement to another.", "terms": {"convert": "umzurechnen", "used": "verwendet", "quantity": "Menge"}, "de": "Diese Klasse wird verwendet, um eine Menge von einer Maßeinheit in eine andere umzurechnen."}
+{"en": "If a resource has been requested and the request has not yet been staffed, you'll see a Quick Assignment link in the Actions column.This allows you to create the assignment exactly as requested by the project manager.", "terms": {"request": "Anfrage", "column.This": "Spalte Aktionen", "link": "Link", "assignment": "Einsatz"}, "de": "Wenn eine Ressource angefordert wurde und die Anfrage noch nicht besetzt ist, sehen Sie einen Link zur Schnelleinsatz in der Spalte Aktionen. Dadurch können Sie den Einsatz genau so erstellen, wie vom Projektmanager angefordert."}
+{"en": "Under Connectivity, choose Destinations.", "terms": {"choose": "wählen"}, "de": "Unter Konnektivität wählen Sie Ziele."}
+{"en": "Open port in Cloud Foundry environments", "terms": {"Cloud": "Cloud"}, "de": "Port in Cloud Foundry-Umgebungen öffnen"}
+{"en": "Choose Create new contract from the dropdown list.", "terms": {"contract": "Vertrag"}, "de": "Wählen Sie Neuer Vertrag erstellen aus der Dropdown-Liste aus."}
+{"en": "You can decide how important your space is compared to other spaces.", "terms": {"spaces": "Spaces"}, "de": "Sie können entscheiden, wie wichtig Ihr Space im Vergleich zu anderen Spaces ist."}
+{"en": "To add a business user, proceed as follows:", "terms": {"proceed": "gehen", "follows": "folgt"}, "de": "Um einen Geschäftsbenutzer hinzuzufügen, gehen Sie wie folgt:"}
+{"en": "Select a location.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie einen Standort."}
+{"en": "You can choose one of the following options for managing payment details:", "terms": {"managing": "Verwaltung", "one": "eine"}, "de": "Sie können eine der folgenden Optionen für die Verwaltung der Zahlungsdetails wählen:"}
+{"en": "The exposed dimension sources can the be used in your consumption models.", "terms": {"models": "Modellen", "sources": "Quellen"}, "de": "Die offengelegten Dimensionsquellen können in Ihren Verbrauchsmodellen verwendet werden."}
+{"en": "Specifies the revision date of the document.", "terms": {"date": "Datum"}, "de": "Legt das Datum der Überarbeitung des Dokuments fest."}
+{"en": "Create and delete teams.", "terms": {"delete": "Löschen"}, "de": "Teams erstellen und Löschen."}
+{"en": "You can also enter your own mass transfer ID.", "terms": {"enter": "eingeben"}, "de": "Sie können auch Ihre eigene Massentransfer-ID eingeben."}
+{"en": "Go to Scope Builder.", "terms": {"Go": "Navigieren"}, "de": "Navigieren Sie zum Scope Builder."}
+{"en": "Choose the relative date type.", "terms": {"date": "Datum"}, "de": "Wählen Sie den relativen Datumstyp."}
+{"en": "Enter Additional Property Information", "terms": {"Enter": "eingeben"}, "de": "Zusätzliche Eigentumsinformationen eingeben"}
+{"en": "Build a schedule by adding and removing order operations", "terms": {"Build": "Einen"}, "de": "Einen Zeitplan erstellen durch Hinzufügen und Entfernen von Auftragsoperationen"}
+{"en": "The end date and time for the query.", "terms": {"time": "Uhrzeit"}, "de": "Das Enddatum und die Uhrzeit für die Abfrage."}
+{"en": "Associations between entities", "terms": {"entities": "Entitys"}, "de": "Verbindungen zwischen Entitys"}
+{"en": "You can perform batch postings for the activities.", "terms": {"postings": "Buchungen"}, "de": "Sie können Sammelbuchungen für die Aktivitäten durchführen."}
+{"en": "The history displays information such as:", "terms": {"information": "Informationen"}, "de": "Der Verlauf zeigt Informationen wie:"}
+{"en": "Click on the reporting task you want to process.", "terms": {"Click": "Wählen"}, "de": "Wählen Sie die zu bearbeitende Berichtsvorgabe aus."}
+{"en": "Dimensions are used to group data whose content is logicallyBy default, you see your object’s business name.", "terms": {"default": "Standardmäßig", "whose": "deren"}, "de": "Dimensionen werden verwendet, um Daten zu gruppieren, deren Inhalt logisch zusammenhängt. Standardmäßig sehen Sie den Geschäftsnamen Ihres Objekts."}
+{"en": "Create and manage requisitions using Microsoft Excel", "terms": {"Microsoft": "Microsoft"}, "de": "Erstellen und Verwalten von Anfragen mit Microsoft Excel"}
+{"en": "Create a Service Key", "terms": {"Create": "Anlegen"}, "de": "Anlegen eines Service-Schlüssels"}
+{"en": "Select the Store Audit tab page.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie die Registerkarte \"Store Audit\"."}
+{"en": "Intelligent Scenarios Name", "terms": {"Name": "Name"}, "de": "Name intelligenter Szenarien"}
+{"en": "Select the item you want to change.", "terms": {"change": "ändern"}, "de": "Wählen Sie das Element aus, das Sie ändern möchten."}
+{"en": "173 Display Phantom Hierarchy", "terms": {"Hierarchy": "Dummyhierarchie"}, "de": "173 Dummyhierarchie anzeigen"}
+{"en": "Change the document type.", "terms": {"Change": "Ändern"}, "de": "Ändern Sie den Dokumenttyp."}
+{"en": "The report does not display any data.", "terms": {"display": "zeigt"}, "de": "Der Bericht zeigt keine Daten."}
+{"en": "You can define the following which applies to the packages:", "terms": {"define": "festgelegt"}, "de": "Sie können Folgendes festlegen, das für die Pakete gilt:"}
+{"en": "For a simple step-by-step guide see Accessing your HDI container .", "terms": {"Accessing": "Zugriff"}, "de": "Eine einfache Schritt-für-Schritt-Anleitung finden Sie unter Zugriff auf den HDI-Container."}
+{"en": "Origin of Rule", "terms": {"Rule": "Regel"}, "de": "Ursprung der Regel"}
+{"en": "Search for forecast.", "terms": {"Search": "Suchen"}, "de": "Suchen nach Prognose."}
+{"en": "Navigate to the superior asset.", "terms": {"Navigate": "Navigieren"}, "de": "Navigieren Sie zum übergeordneten Asset."}
+{"en": "There are two types of busy indicator:", "terms": {"two": "zwei"}, "de": "Es gibt zwei Arten von Beschäftigungsindikatoren:"}
+{"en": "Handling of reference Characteristics.", "terms": {"Characteristics": "Merkmale", "Handling": "Verarbeitung"}, "de": "Verarbeitung der Referenzmerkmale."}
+{"en": "the document tab is clicked,", "terms": {"clicked": "wählen"}, "de": "die Registerkarte Dokument wird gewählt,"}
+{"en": "A work package combines the following information:", "terms": {"information": "Informationen", "following": "folgende"}, "de": "Ein Arbeitspaket fasst die folgenden Informationen zusammen:"}
+{"en": "You just need to create a Data Provider Profile.", "terms": {"Provider": "Datenanbieter"}, "de": "Sie müssen lediglich ein Datenanbieterprofil erstellen."}
+{"en": "To add an item, select the item from the Items list.", "terms": {"select": "wählen"}, "de": "Um einen Artikel hinzuzufügen, wählen Sie den Artikel aus der Artikelliste."}
+{"en": "You can define a time frame in the following ways:", "terms": {"following": "folgende", "ways": "Möglichkeiten"}, "de": "Sie können einen Zeitrahmen auf folgende Möglichkeiten definieren:"}
+{"en": "If the Source Browser panel is not visible on the left of the screen, click Source Browser in the toolbar to show it.", "terms": {"screen": "Bild"}, "de": "Wenn das Fenster \"Quellbrowser\" links auf dem Bild nicht sichtbar ist, klicken Sie in der Symbolleiste auf \"Quellbrowser\", um es anzuzeigen."}
+{"en": "Provides general information about the facility.", "terms": {"information": "Informationen"}, "de": "Bietet allgemeine Informationen über die Einrichtung."}
+{"en": "Select the attribute type from the following options:", "terms": {"options": "Optionen", "following": "folgenden"}, "de": "Wählen Sie den Attributtyp aus den folgenden Optionen aus:"}
+{"en": "Displays the consumption data for the entitlement.", "terms": {"data": "Daten"}, "de": "Zeigt die Daten zum Verbrauch für die Berechtigung an."}
+{"en": "Displays the available item value on this layer.", "terms": {"Displays": "Zeigt", "available": "verfügbaren"}, "de": "Zeigt den verfügbaren Wert des Elements auf dieser Schicht an."}
+{"en": "Check the state of the connectors:", "terms": {"Check": "Prüfen"}, "de": "Prüfen Sie den Zustand der Anschlüsse:"}
+{"en": "The package contents are displayed.", "terms": {"displayed": "angezeigt"}, "de": "Der Inhalt des Pakets wird angezeigt."}
+{"en": "The X-Message is no longer raised.", "terms": {"longer": "länger"}, "de": "Die X-Nachricht wird nicht mehr länger ausgelöst."}
+{"en": "A system messageconfirming that the changes have been saved appears.", "terms": {"system": "Systemmeldung"}, "de": "Eine Systemmeldung erscheint und bestätigt, dass die Änderungen gespeichert wurden."}
+{"en": "Process Additional information data", "terms": {"information": "Information"}, "de": "Zusätzliche Informationsdaten verarbeiten"}
+{"en": "Order Fulfillment Cockpit", "terms": {"Fulfillment": "Fulfillment"}, "de": "Fulfillment-Cockpit für Aufträge"}
+{"en": "This is a monitoring list.", "terms": {"list": "Liste"}, "de": "Dies ist eine Überwachungsliste."}
+{"en": "Limitations and Restrictions", "terms": {"Restrictions": "Beschränkungen"}, "de": "Beschränkungen und Begrenzungen"}
+{"en": "You can create the following two types of hierarchies:", "terms": {"hierarchies": "Hierarchien", "two": "zwei"}, "de": "Sie können die folgenden zwei Arten von Hierarchien erstellen:"}
+{"en": "If you flag the Execute ABC checkbox, the alternative control is active and will be used productively when you click Save.", "terms": {"alternative": "Alternativensteuerung"}, "de": "Wenn Sie das Kontrollkästchen ABC ausführen markieren, ist die Alternativensteuerung aktiv und wird produktiv verwendet, wenn Sie auf Speichern klicken."}
+{"en": "Check the compliance assessments of the raw material.", "terms": {"assessments": "Bewertung", "Check": "prüfen"}, "de": "Prüfen Sie die Konformitätsbewertung des Rohstoffs."}
+{"en": "BDT - Intrastat Processing", "terms": {"Intrastat": "Intrastat"}, "de": "BDT - Intrastat-Abwicklung"}
+{"en": "Search for Interactions", "terms": {"Interactions": "Kontakten"}, "de": "Suche nach Kontakten"}
+{"en": "Release to Production", "terms": {"Production": "Fertigung"}, "de": "Freigabe zur Fertigung"}
+{"en": "Enter a description for your vendor invoice.", "terms": {"Enter": "Geben", "description": "Beschreibung"}, "de": "Geben Sie eine Beschreibung für die Rechnung Ihres Lieferanten ein."}
+{"en": "Display the Intercompany transactions", "terms": {"Display": "anzeigen"}, "de": "Intercompany-Transaktionen anzeigen"}
+{"en": "To create a Forms by Adobe print template, proceed as follows:", "terms": {"follows": "folgendermaßen"}, "de": "Um eine Forms by Adobe Druckvorlage zu erstellen, gehen Sie folgendermaßen vor:"}
+{"en": "BAdI, personal data,", "terms": {"BAdI": "BAdI"}, "de": "BAdI, persönliche Daten,"}
+{"en": "Relationships for other SAP applications", "terms": {"Relationships": "Relationen"}, "de": "Relationen zu anderen SAP-Anwendungen"}
+{"en": "Click Table view.", "terms": {"Click": "Klicken"}, "de": "Klicken Sie auf die Tabellenansicht."}
+{"en": "Issues with importing compliance requirements", "terms": {"importing": "Importieren"}, "de": "Probleme beim Importieren von Konformitätsanforderungen"}
+{"en": "Description and Notes", "terms": {"Notes": "Hinweise"}, "de": "Beschreibung und Hinweise"}
+{"en": "Click Apply to close.", "terms": {"Click": "Wählen"}, "de": "Wählen Sie Anwenden, um zu schließen."}
+{"en": "Select an agent.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie einen Agenten."}
+{"en": "Suspending and Removing Projects, Partners, and Equity Groups from Suspense", "terms": {"Suspense": "Aussetzung"}, "de": "Aussetzung und Entfernung von Projekten, Partnern und Beteiligungsgruppen aus der Aussetzung"}
+{"en": "The following allocation steps are included:", "terms": {"steps": "Schritte"}, "de": "Die folgenden Zuweisungsschritte sind enthalten:"}
+{"en": "The following applies to this type of attachment:", "terms": {"following": "Folgendes"}, "de": "Für diesen Befestigungstyp gilt Folgendes:"}
+{"en": "The Order Card displays the following details:", "terms": {"Card": "Auftragskarte"}, "de": "Die Auftragskarte enthält folgende Angaben:"}
+{"en": "You can now edit the following details of subscription items:", "terms": {"edit": "bearbeiten", "following": "folgenden"}, "de": "Sie können jetzt die folgenden Details der Abonnement-Elemente bearbeiten:"}
+{"en": "Creating a contract that references a purchase requisition.", "terms": {"requisition": "Bestellanforderung"}, "de": "Erstellung eines Vertrags, der auf eine Bestellanforderung verweist."}
+{"en": "In the area Classification", "terms": {"area": "Bereich"}, "de": "Im Bereich Klassifizierung"}
+{"en": "In Customer Business Planning,", "terms": {"Business": "Business"}, "de": "In der Customer Business Planung"}
+{"en": "Has the following characteristics:", "terms": {"following": "folgende"}, "de": "Weist die folgende Eigenschaften auf:"}
+{"en": "Terminate the scheduled jobs", "terms": {"jobs": "Jobs"}, "de": "Beenden der geplanten Jobs"}
+{"en": "The level is now selected.", "terms": {"selected": "markiert"}, "de": "Die Ebene ist nun markiert."}
+{"en": "Currently, only one space can be assigned to access and use the data lake.", "terms": {"assigned": "zugeordnet"}, "de": "Derzeit kann nur ein Platz für den Zugriff auf den Datenpool zugeordnet werden."}
+{"en": "Displays the type of the selected algorithm.", "terms": {"selected": "ausgewählt"}, "de": "Zeigt den Typ des ausgewählten Algorithmus an."}
+{"en": "It indicates if a schedule is defined for the data flow:", "terms": {"data": "Daten"}, "de": "Es wird angegeben, ob ein Zeitplan für den Datenfluss definiert ist:"}
+{"en": "A new version of a format mapping can be created in one of the following ways:", "terms": {"format": "Formatzuordnung"}, "de": "Eine neue Version einer Formatzuordnung kann auf eine der folgenden Weisen erstellt werden:"}
+{"en": "Application Operations Guide", "terms": {"Guide": "Leitfaden"}, "de": "Anwendungsbetriebsleitfaden"}
+{"en": "The Suppliers panel includes the following elements:", "terms": {"includes": "umfasst"}, "de": "Das Lieferanten-Panel umfasst folgende Elemente:"}
+{"en": "Retention Period Unit = Year", "terms": {"Year": "Jahr", "Unit": "Einheit"}, "de": "Aufbewahrungseinheit = Jahr"}
+{"en": "Mapping for Company Code", "terms": {"Code": "Buchungskreis"}, "de": "Zuordnung nach Buchungskreis"}
+{"en": "Select any requirement", "terms": {"Select": "wählen"}, "de": "Wählen Sie eine beliebige Anforderung"}
+{"en": "Select the notification.", "terms": {"Select": "Wählen"}, "de": "Wählen Sie die Benachrichtigung."}
+{"en": "Select the queries you want to refresh.", "terms": {"queries": "Abfragen"}, "de": "Wählen Sie die Abfragen aus, die Sie aktualisieren wollen."}
+{"en": "Calculation Step Description", "terms": {"Calculation": "Berechnung"}, "de": "Beschreibung des Berechnungsschritts"}
+{"en": "Contacting Data Provider", "terms": {"Contacting": "Kontaktieren"}, "de": "Datenanbieter kontaktieren"}
+{"en": "Remove the selected operations from this week's schedule.", "terms": {"'s": "s"}, "de": "Entfernen Sie die ausgewählten Operationen aus dem Zeitplans dieser Woche."}
+{"en": "Application in the side panel:", "terms": {"Application": "Anwendung"}, "de": "Anwendung im Seitenpanel:"}
+{"en": "This is the default rule type.", "terms": {"default": "Standard"}, "de": "Dies ist der Standard-Regeltyp."}
+{"en": "Repeat to Check Other Intercompany Transactions", "terms": {"Repeat": "Wiederholen"}, "de": "Wiederholen, um andere unternehmensübergreifende Transaktionen zu überprüfen"}
+{"en": "The system displays the following evaluation types:", "terms": {"types": "Bewertungsarten", "system": "System"}, "de": "Das System zeigt die folgenden Bewertungsarten an:"}
+{"en": "The total price of the fixed order has not changed.", "terms": {"changed": "geändert", "price": "Preis"}, "de": "Der Gesamtpreis der Festbestellung hat sich nicht geändert."}
+{"en": "Status of the subscription.", "terms": {"Status": "Status"}, "de": "Status des Abonnements."}
+{"en": "Select the objects that you want to change", "terms": {"change": "ändern"}, "de": "Wählen Sie die Objekte aus, die Sie ändern möchten."}
+{"en": "The Create Question dialog opens.", "terms": {"opens": "wird geöffnet"}, "de": "Der Dialog \"Frage erstellen\" wird geöffnet."}
+{"en": "gCTS assumes default values for the following entities:", "terms": {"entities": "Entitäten", "gCTS": "gCTS"}, "de": "Das gCTS nimmt Standardwerte für die folgenden Entitäten an:"}
+{"en": "Number of the item.", "terms": {"Number": "Nummer"}, "de": "Nummer des Artikels."}
+{"en": "Enter the Report:", "terms": {"Enter": "Geben Sie"}, "de": "Geben Sie den Bericht ein:"}
+{"en": "Overlapping in Lot Sizing Procedure", "terms": {"Overlapping": "Überlappung"}, "de": "Überlappung im Verfahren zur Losgrößenbestimmung"}
+{"en": "Notifications for Tasks", "terms": {"Notifications": "Benachrichtigungen"}, "de": "Benachrichtigungen für Aufgaben"}
+{"en": "The mapping files contain the following changes:", "terms": {"following": "folgende"}, "de": "Die Mapping-Dateien enthalten folgende Änderungen:"}
+{"en": "Feature Scope Description for SAP Product Configuration", "terms": {"Product": "Product"}, "de": "Beschreibung des Funktionsumfangs für SAP-Product-Konfigurationen"}
+{"en": "If you choose the Total Hours rule or the Daily Hours rule, you can change the time period as required, for example, if you want to break the overall assignment down into different segments using different distribution rules.", "terms": {"required": "bei Bedarf"}, "de": "Wenn Sie die Regel Gesamtstunden oder Tagesstunden wählen, können Sie den Zeitraum bei Bedarf ändern, wenn Sie beispielsweise die gesamte Zuordnung unter Verwendung verschiedener Verteilungsregeln in verschiedene Segmente aufteilen möchten."}
+{"en": "Enables you to assign a Kanban process to an item in a purchase contract.", "terms": {"purchase": "Einkaufs"}, "de": "Ermöglicht es Ihnen, einem Artikel in einem Einkaufvertrag einen Kanban-Prozess zuzuweisen."}
+{"en": "Feature Scope Description for SAP S4HANA Banking for complex loans", "terms": {"loans": "Kredite"}, "de": "Funktionsumfangsbeschreibung für SAP S4HANA Banking für komplexe Kredite"}
+{"en": "Create a dimension to consume a data entity containing master data, identify attributes and keys, and produce a business entity for use in fact and consumption models.", "terms": {"fact": "Fakten", "data": "Daten"}, "de": "Erstellen Sie eine Dimension, um eine Datenentität mit Stammdaten zu konsumieren, Attribute und Schlüssel zu identifizieren und eine Geschäftsentität für die Verwendung in Fakten- und Verbrauchsmodellen zu erzeugen."}
+{"en": "You cannot approve or reject this request.","terms": {}, "de": "Sie können diesen Antrag nicht genehmigen oder ablehnen."}
+{"en": "Click the Manage Substitution tile.", "terms": {"Manage": "verwalten"}, "de": "Klicken Sie auf die Kachel \"Verwalten von Ersatz\"."}
+{"en": "You need this Compliance Requirement to", "terms": {"need": "benötigt"}, "de": "Diese Compliance-Anforderung benötigen Sie, um"}
+{"en": "Financial Statement - Ukraine", "terms": {"Ukraine": "Ukraine", "Statement": "Bericht"}, "de": "Finanzbericht - Ukraine"}
+{"en": "For more information on invoice summary role, see .", "terms": {"invoice": "Rechnung"}, "de": "Weitere Informationen zur Rechnungszusammenfassung finden Sie unter ."}
+{"en": "Credential Charset Name", "terms": {"Credential": "Credential"}, "de": "Credential-Zeichensatzname"}
+{"en": "aATP, ABC, plant substitution", "terms": {"plant": "Werkersetzung"}, "de": "aATP, ABC, Werkersetzung"}
+{"en": "Deprecation of Report:", "terms": {"Deprecation": "Freigaberücknahme"}, "de": "Freigaberücknahme des Berichts:"}
+{"en": "For more information on how to create custom roles, see Creating Custom Roles.", "terms": {"Custom": "benutzerdefinierter"}, "de": "Weitere Informationen zum Erstellen benutzerdefinierter Rollen finden Sie unter Erstellen benutzerdefinierter Rollen."}
+{"en": "The following substitutions are created:", "terms": {"following": "folgenden"}, "de": "Es werden die folgenden Substitutionen erstellt:"}
+{"en": "Select Alert Reports from the dropdown.", "terms": {"Select": "Wählen", "dropdown": "Dropdown"}, "de": "Wählen Sie Alarmberichte aus dem Dropdown aus."}
+{"en": "You can find this file in note attachment", "terms": {"file": "Datei"}, "de": "Diese Datei finden Sie im Anhang der Notiz."}
+{"en": "Customer via IDOC", "terms": {"via": "via"}, "de": "Kunde via IDOC"}
+{"en": "The following tasks are still necessary:", "terms": {"tasks": "Tasks"}, "de": "Folgende Tasks sind weiterhin erforderlich:"}
+{"en": "The following is a sample query:", "terms": {"sample": "Beispiel"}, "de": "Die folgende Abfrage ist ein Beispiel:"}
+{"en": "Find the purchase order by:", "terms": {"purchase": "Bestellauftrag"}, "de": "Den Bestellauftrag finden durch:"}
+{"en": "In the Team Members tab, do the following:", "terms": {"following": "folgendermaßen", "tab": "Registerkarte"}, "de": "Führen Sie in der Registerkarte Teammitglieder folgendermaßen aus:"}
+{"en": "Editing facility information", "terms": {"Editing": "Bearbeiten"}, "de": "Bearbeiten von Einrichtungsinformationen"}
+{"en": "Change Tracker Log", "terms": {"Tracker": "Tracker"}, "de": "Tracker-Änderungsprotokoll"}
+{"en": "Message Change Log", "terms": {"Log": "Log"}, "de": "Nachrichtenänderungslog"}
+{"en": "Choose a level.", "terms": {"Choose": "Wählen"}, "de": "Wählen Sie ein Level."}
+{"en": "For the following Messages no long texts are available:", "terms": {"Messages": "Nachrichten"}, "de": "Für die folgenden Nachrichten stehen keine langen Texte zur Verfügung:"}
+{"en": "Either of the following mappings:", "terms": {"following": "folgenden"}, "de": "Eine der folgenden Abbildungen:"}
+{"en": "The repair object is set to status Completed.", "terms": {"status": "Status"}, "de": "Das Reparaturobjekt ist auf den Status \"Completed\" gesetzt."}
+{"en": "Create column table.", "terms": {"Create": "Legen"}, "de": "Spaltentabelle anlegen."}
+{"en": "Create a constraint.", "terms": {"Create": "Legen"}, "de": "Eine Einschränkung legen."}
+{"en": "Specifies the number of the requirements.", "terms": {"Specifies": "Gibt"}, "de": "Gibt die Anzahl der Anforderungen an."}
+{"en": "View rejected items.", "terms": {"items": "Positionen"}, "de": "Abgelehnte Positionen anzeigen."}
+{"en": "Setup and Administration:", "terms": {"Setup": "Einrichtung"}, "de": "Einrichtung und Administration:"}
+{"en": "In the filter settings, you can specify that the monthly distribution of required hours and free hours is used instead.By default, the app uses this match percentage to calculate the total suitability match.", "terms": {"hours": "Stunden"}, "de": "In den Filtereinstellungen können Sie festlegen, dass stattdessen die monatliche Verteilung der erforderlichen Stunden und freien Stunden verwendet wird. Standardmäßig nutzt die App diesen Übereinstimmungsprozentsatz, um die Gesamtanpassung zu berechnen."}
+{"en": "In this section, you can find information about the security features of , freight collaboration option.", "terms": {"information": "Informationen"}, "de": "In diesem Abschnitt finden Sie Informationen zu den Sicherheitsfunktionen der Frachtkollaborationsoption."}

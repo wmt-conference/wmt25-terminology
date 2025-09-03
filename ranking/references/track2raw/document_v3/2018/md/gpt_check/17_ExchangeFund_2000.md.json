@@ -1,0 +1,30 @@
+{
+  "overall_consistent": false,
+  "summary": "The English translation is generally faithful to the Chinese original, but there are several inconsistencies: a missing section header, a misplaced section header, a merged paragraph, and minor differences in formatting and wording.",
+  "inconsistencies": [
+    {
+      "location": "After 'Other information' section / Before 'Responsibilities of the Monetary Authority and the Audit Sub-Committee...' section",
+      "issue": "Section header missing in English version",
+      "details": "The English file omits the section header 'Responsibilities of the Monetary Authority and the Audit Sub-Committee of the Exchange Fund Advisory Committee for the financial statements', which is present in the Chinese file.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Before 'evaluate the appropriateness of accounting policies...' (In 'Auditor’s responsibilities for the audit of the financial statements')",
+      "issue": "Report section header inserted mid-paragraph",
+      "details": "The English file inserts a duplicate section header '# Report of the Director of Audit (continued)' in the middle of an enumerated list of auditor responsibilities, which is not present at this location in the Chinese file.",
+      "affected_file": "English"
+    },
+    {
+      "location": "'Valuation of investment properties at fair value' audit procedures paragraph",
+      "issue": "Paragraph structure/combination difference",
+      "details": "In the English file, the audit procedures regarding investment property valuation are merged into a single paragraph, whereas in the Chinese file, each procedure is listed as a separate bullet point.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Opening/cover pages and section titles",
+      "issue": "Formatting and title wording differences",
+      "details": "The English file renders organizational names and section titles (e.g., '香港特別行政區政府審毐計毐署' as 'Audit Commission The Government of the Hong Kong Special Administrative Region') slightly differently and sometimes merges headings, but core content is retained.",
+      "affected_file": "English"
+    }
+  ]
+}

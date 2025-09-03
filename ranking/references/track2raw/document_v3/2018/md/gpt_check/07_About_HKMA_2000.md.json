@@ -1,0 +1,48 @@
+{
+  "overall_consistent": false,
+  "summary": "While the overall structure and main content are consistent, there are several minor omissions, paraphrasing, and some content missing or condensed in the English version relative to the Chinese original.",
+  "inconsistencies": [
+    {
+      "location": "Section: HKMA’s Legal Mandate (English) / 金管局的法定授權 (Chinese)",
+      "issue": "Condensed content regarding the transfer of powers",
+      "details": "The English version briefly mentions the 2003 exchange of letters disclosing delegations, but omits details present in the Chinese about it being a public document and available on the HKMA website.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Section: HKMA and HKSAR Government (English) / 金管局與香港特別行政區政府 (Chinese)",
+      "issue": "Omitted or condensed enumeration of HKMA duties",
+      "details": "The Chinese version lists various HKMA duties in bullet-point style, such as promoting banking system stability, developing the debt market, handling legal tender matters, promoting confidence, and competitiveness; the English conveys these via paraphrased or listed sentences, omitting collaboration detail and in some cases merging points.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Section: Accountability and Transparency / 問責性與透明度",
+      "issue": "Minor loss of detail and specificity",
+      "details": "The English version omits specifying that the HKMA's bilingual website includes research, statistics, consumer info, etc., and omits mention of specific media and educational activities being detailed in the '機構職能' ('Corporate Functions') chapter, only referencing 'Further information is contained ...'. The explicit mention of increasing the frequency and detail of Exchange Fund information is less specific.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Section: Accountability and Transparency / 問責性與透明度",
+      "issue": "Listing of accountability channels merged/condensed",
+      "details": "The Chinese explicitly lists multiple channels for accountability (through Financial Secretary, through laws/LegCo, and a social responsibility), whereas the English combines these narratives, making it less explicit but still conveying the main idea.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Section: Advisory and Other Committees / 諮詢委員會及其他委員會",
+      "issue": "Section title omission",
+      "details": "The Chinese has the heading '諮詢委員會及其他委員會', but the English version simply titles the section 'Advisory and Other Committees' without the subheading before the Exchange Fund Advisory Committee; no substantive content lost.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Section: Exchange Fund Advisory Committee (all subsections)",
+      "issue": "Consistent structure but minor phrasing/ordering changes",
+      "details": "In each sub-committee description, both languages convey the same main ideas, but the English arranges some elements differently and condenses detail (e.g., reasoning for members' appointments, details of sub-committee meetings). For example, the Chinese notes the professional backgrounds in greater list detail.",
+      "affected_file": "English"
+    },
+    {
+      "location": "End of provided excerpts",
+      "issue": "Potential OCR omission or abrupt ending",
+      "details": "The Chinese text may continue beyond what is given ('貨幣發行委員會...'), while the English ends mid-sentence after 'In 2018, the Sub-Committee met four times.' This suggests a possible truncation or OCR miss at the end.",
+      "affected_file": "English"
+    }
+  ]
+}

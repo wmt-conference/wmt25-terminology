@@ -1,0 +1,42 @@
+{
+  "overall_consistent": false,
+  "summary": "The contents of the Chinese and English files are mostly consistent, but there are a few minor inconsistencies and some missing sentences at the end of the English file.",
+  "inconsistencies": [
+    {
+      "location": "Profitability trends (last section of both files)",
+      "issue": "Missing sentence in the English file",
+      "details": "The Chinese file includes the line '零售銀行除稅後平均資產回報率由 2014 年的 0.99% 增加至 1.05%（圖 8）。', corresponding to 'The post-tax return on average assets of retail banks improved to 1.05% from 0.99% in 2014 (Chart 8).' However, the English file ends mid-sentence after this and omits any further summary or concluding remarks which may exist in the Chinese version.",
+      "affected_file": "English"
+    },
+    {
+      "location": "Interest rate trends (section before Profitability trends)",
+      "issue": "Figure caption included as main text in Chinese, separated in English",
+      "details": "The Chinese file includes the full description for the figure (related to HIBOR, composite rate, etc.) as prose, while the English file breaks this out clearly as chart notes and captions.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Property market section (middle of both files)",
+      "issue": "Extra annotation in Chinese not captured in English",
+      "details": "The Chinese file has a superscript '1' on '收入槓桿比率亦維持在遠高於長期平均的水平。1', which suggests a footnote or reference that is not rendered or explained in either file, but the English file omits the marker entirely.",
+      "affected_file": "Chinese"
+    },
+    {
+      "location": "Table and chart captions (throughout multiple sections)",
+      "issue": "Minor differences in formatting and structure",
+      "details": "The Chinese file sometimes integrates chart/table captions and data source notes as part of the paragraph, while the English file more often sets them apart; the content is equivalent but presented differently.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "Stock market section (Stock market paragraph, after 'the local market reversed course...')",
+      "issue": "Sentence order differs slightly",
+      "details": "In the English file, the narrative on the Hang Seng Index's decline and recovery is split by a chart and resumes after, while the Chinese file has a more continuous narrative; no information seems missing but order is slightly different.",
+      "affected_file": "Both"
+    },
+    {
+      "location": "End of English file",
+      "issue": "Abrupt ending / possible truncation",
+      "details": "The English file seems to stop after the final ratio is reported ('1.05% from 0.99% in 2014 (Chart 8).') with no closing sentence or concluding summary, which could indicate an OCR truncation.",
+      "affected_file": "English"
+    }
+  ]
+}
