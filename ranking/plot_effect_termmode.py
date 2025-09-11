@@ -47,8 +47,17 @@ for line_i, line in enumerate(data):
         color="black",
         marker="x",
     )
+    # white "background" for R
     plt.plot(
         [line_i],
+        [line["y"][1]],
+        color="white",
+        marker="s",
+        markersize=5,
+        zorder=-5,
+    )
+    plt.plot(
+        [line_i+0.08],
         [line["y"][1]],
         color="black",
         marker="$R$",
@@ -63,6 +72,7 @@ for line_i, line in enumerate(data):
         [line_i]*3,
         line["y"],
         color="black",
+        zorder=-10,
     )
 
 plt.ylim(54, 72)
