@@ -68,7 +68,7 @@ with open("../generated/track1.tex", "w") as f:
         r"\begin{tabular}{l  c>{\tiny}c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c>{\tiny}c |c    c>{\tiny}c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c>{\tiny}c |c     c>{\tiny}c>{\tiny}c>{\tiny}c}",
         r"\toprule",
         r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c|}{\bf Proper, Term.} & & \multicolumn{4}{c}{\bf Random, ChrF} & \multicolumn{4}{c|}{\bf Random, Term} & & \multicolumn{4}{c}{\bf NoTerm, ChrF}\\",
-        r"\bf System  & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & & \bf Avg & \bf Es & \bf De & \bf Ru \\",
+        r"\bf System  & \bf Avg & \bf EnEs & \bf EnDe & \bf EnRu   & \bf Avg & \bf EnEs & \bf EnDe & \bf EnRu  & & \bf Avg & \bf EnEs & \bf EnDe & \bf EnRu   & \bf Avg & \bf EnEs & \bf EnDe & \bf EnRu  & & \bf Avg & \bf EnEs & \bf EnDe & \bf EnRu \\",
         r"\midrule",
         sep="\n",
         file=f,
