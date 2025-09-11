@@ -3,6 +3,7 @@ import os
 import json
 import statistics
 import collections
+import utils
 
 os.makedirs("../generated/", exist_ok=True)
 
@@ -49,11 +50,6 @@ systems.sort(
 
 # %%
 
-SYS_TO_NAME = {
-    "CommandA_MT": r"CommandA\textsubscript{WMT}",
-}
-
-
 def color_cell_chrf(val):
     color = f"SeaGreen3!{max(0, min(95, (val-50)*4.5)):.0f}!Firebrick3!50"
     return f"\\cellcolor{{{color}}} {val:.1f}"
@@ -69,9 +65,9 @@ def nocolor_cell(val):
 
 with open("../generated/track1.tex", "w") as f:
     print(
-        r"\begin{tabular}{l  c>{\tiny}c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c>{\tiny}c c    c>{\tiny}c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c>{\tiny}c c     c>{\tiny}c>{\tiny}c>{\tiny}c}",
+        r"\begin{tabular}{l  c>{\tiny}c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c>{\tiny}c |c    c>{\tiny}c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c>{\tiny}c |c     c>{\tiny}c>{\tiny}c>{\tiny}c}",
         r"\toprule",
-        r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c}{\bf Proper, Term.} & & \multicolumn{4}{c}{\bf Random, ChrF} & \multicolumn{4}{c}{\bf Random, Term} & & \multicolumn{4}{c}{\bf NoTerm, ChrF}\\",
+        r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c|}{\bf Proper, Term.} & & \multicolumn{4}{c}{\bf Random, ChrF} & \multicolumn{4}{c|}{\bf Random, Term} & & \multicolumn{4}{c}{\bf NoTerm, ChrF}\\",
         r"\bf System  & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & & \bf Avg & \bf Es & \bf De & \bf Ru \\",
         r"\midrule",
         sep="\n",
@@ -80,7 +76,7 @@ with open("../generated/track1.tex", "w") as f:
 
     for sys in systems:
         print(
-            SYS_TO_NAME.get(sys, sys),
+            utils.SYS_TO_NAME.get(sys, sys),
             # proper, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["proper"][sys]["chrf2++"] for lang in LANGS

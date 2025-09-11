@@ -3,6 +3,7 @@ import os
 import json
 import statistics
 import collections
+import utils
 
 os.makedirs("../generated/", exist_ok=True)
 
@@ -68,9 +69,9 @@ def nocolor_cell(val):
 
 with open("../generated/track2.tex", "w") as f:
     print(
-        r"\begin{tabular}{l  c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c c    c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c c     c>{\tiny}c>{\tiny}c}",
+        r"\begin{tabular}{l  c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c |c    c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c |c     c>{\tiny}c>{\tiny}c}",
         r"\toprule",
-        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c}{\bf Proper, Term.} & & \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c}{\bf Random, Term} & & \multicolumn{3}{c}{\bf NoTerm, ChrF}\\",
+        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c|}{\bf Proper, Term.} & & \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Term} & & \multicolumn{3}{c}{\bf NoTerm, ChrF}\\",
         r"\bf System  & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn \\",
         r"\midrule",
         sep="\n",
@@ -79,7 +80,7 @@ with open("../generated/track2.tex", "w") as f:
 
     for sys in systems:
         print(
-            SYS_TO_NAME.get(sys, sys),
+            utils.SYS_TO_NAME.get(sys, sys),
             # proper, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["proper"][sys]["chrf2++"] for lang in LANGS
