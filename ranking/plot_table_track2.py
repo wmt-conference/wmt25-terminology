@@ -14,7 +14,6 @@ with open("metric_track2/scores/track2_score_dict.json", "r") as f:
 systems = [
     sys
     for sys, val in data["enzh"]["proper"].items()
-    if val != {}
 ]
 
 # compute zscores of variables for system ranking
@@ -49,11 +48,6 @@ systems.sort(
 )
 
 # %%
-
-SYS_TO_NAME = {
-    "CommandA_MT": r"CommandA\textsubscript{WMT}",
-}
-
 
 def color_cell_chrf(val):
     color = f"SeaGreen3!{max(0, min(95, (val-40)*4.5)):.0f}!Firebrick3!50"
