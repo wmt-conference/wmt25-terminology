@@ -102,7 +102,7 @@ def prepare_source_reference_term_dict_data():
             d["noterm"] = {}
 
     for year in data:
-        with open(f"../references/track2/source_reference_{year}.jsonl", "w") as f:
+        with open(f"../references/track2/full_data_{year}.jsonl", "w") as f:
             for item in data[year]:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
 

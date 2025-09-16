@@ -70,48 +70,37 @@ for direction, years in direction_map.items():
             srcs = [ref_d[src_lang].strip() for ref_d in reference_data]
             hyps = [sub_d[trg_lang].strip() for sub_d in submission_data]
             refs = [ref_d[trg_lang].strip() for ref_d in reference_data]
-            term_dicts = [ref_d[mode] for ref_d in reference_data]
-            assert len(srcs) == len(hyps) == len(refs) == len(term_dicts)
-            for term_dict in term_dicts:
+            proper_term_dicts = [ref_d["proper"] for ref_d in reference_data]
+            random_term_dicts = [ref_d["random"] for ref_d in reference_data]
+            assert len(srcs) == len(hyps) == len(refs) == len(proper_term_dicts) == len(random_term_dicts)
+            for term_dict in proper_term_dicts + random_term_dicts: # sanity check
                 for _, v in term_dict.items():
                     assert isinstance(v, list), "target terms should be in a list"
-            if mode == "noterm":
-                assert len(term_dicts) == sum(1 for d in term_dicts if d == {}), "term_dicts should be empty dicts for noterm mode"
 
-            bleu_tokenizer = "13a" if trg_lang == "en" else "zh"
+            bleu_tokenizer = "13a" if trg_lang == "en" else "zh" # use the "zh" tokenizer for traditional Chinese (although this might not be ideal for the underlying tokenizer (jieba?))
             bleu_score = get_bleu(hyps, refs, max_ngram_order=4, tokenize=bleu_tokenizer)
             chrf_score = get_chrf(hyps, refs, char_order=6, word_order=2)
 
-            # measure success rate with everything lowercased
-            lowercase_valid_src_terms = 0.0
-            lowercase_aggregated_success_rate = 0.0
-            for src, hyp, term_dict in zip(srcs, hyps, term_dicts):
+            # compute with both proper and random dicts regardless of the mode
+            for dict_mode in ["proper", "random"]:
+                term_dicts = proper_term_dicts if dict_mode == "proper" else random_term_dicts
+                # reset the stats
+                valid_src_terms = 0.0
+                aggregated_success_rate = 0.0
+                for src, hyp, term_dict in zip(srcs, hyps, term_dicts):
 
-                for src_term, trg_terms in term_dict.items():
-                    src_term = src_term.strip()
-                        # only count target terms for source terms that actually appear in the source sentence
-                    if src_term and src_term.lower() in src.lower():
-                        lowercase_valid_src_terms += 1
-                        lowercase_aggregated_success_rate += get_term_success_rate(src, hyp, src_term, trg_terms, lowercase=True)
-                        
-            # measure success rate without lowercasing anything
-            nonlowercase_valid_src_terms = 0.0
-            nonlowercase_aggregated_success_rate = 0.0
-            for src, hyp, term_dict in zip(srcs, hyps, term_dicts):
+                    for src_term, trg_terms in term_dict.items():
+                        src_term = src_term.strip()
+                            # only count target terms for source terms that actually appear in the source sentence
+                        if src_term and src_term.lower() in src.lower():
+                            valid_src_terms += 1
+                            aggregated_success_rate += get_term_success_rate(src, hyp, src_term, trg_terms, lowercase=True) # we decided to measure success rate with everything lowercased
 
-                for src_term, trg_terms in term_dict.items():
-                    src_term = src_term.strip()
-                        # only count target terms for source terms that actually appear in the source sentence
-                    if src_term and src_term in src:
-                        nonlowercase_valid_src_terms += 1
-                        nonlowercase_aggregated_success_rate += get_term_success_rate(src, hyp, src_term, trg_terms, lowercase=False)
-
-            score_dict[direction][mode][team] = {
-                "bleu4": bleu_score.score,
-                "chrf2++": chrf_score.score,
-                "lowercase_term_success_rate": lowercase_aggregated_success_rate / lowercase_valid_src_terms if lowercase_valid_src_terms > 0 else -1.0,
-                "nonlowercase_term_success_rate": nonlowercase_aggregated_success_rate / nonlowercase_valid_src_terms if nonlowercase_valid_src_terms > 0 else -1.0
-            }
+                score_dict[direction][mode][team] = {
+                    "bleu4": bleu_score.score,
+                    "chrf2++": chrf_score.score,
+                    f"{dict_mode}_term_success_rate": aggregated_success_rate / valid_src_terms if valid_src_terms > 0 else -1.0,
+                }
             
             print(f"Evaluated {team} for {direction} in {mode} mode: ", score_dict[direction][mode][team])
 

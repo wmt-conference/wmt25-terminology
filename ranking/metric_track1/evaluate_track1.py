@@ -4,9 +4,8 @@ from functools import partial
 
 import stanza
 
-from evaluate_track1_utils import extract_track1_data # data prep
 from evaluate_track1_utils import get_bleu, get_chrf # metrics
-from evaluate_track1_utils import get_shared_task_src, get_shared_task_ref, get_participant_hyp # read utils
+from evaluate_track1_utils import get_shared_task_dict, get_shared_task_src, get_shared_task_ref, get_participant_hyp # read utils
 
 VERBOSE=True
 if VERBOSE:
@@ -14,8 +13,6 @@ if VERBOSE:
 else:
     print = lambda *args, **kwargs: None
 
-# Get source, reference, and dictionary data ready for track 1
-extract_track1_data()
 
 def get_lemmatized_dict_lists(lang, dict_lists, nlp_pipelines):
     """
@@ -61,23 +58,25 @@ for lang in ["de", "es", "ru"]:
         lemmatized_shared_task_src.append(\
             "|||".join([word.lemma for sent in nlp_pipelines["en"](src_line).sentences for word in sent.words]).lower()) # pyright: ignore[reportAttributeAccessIssue]
 
+    dict_modes_lists_pairs = {}
+    # two list of dictionaries for the shared task
+    for dict_mode in ["proper", "random"]:
+        dict_list = get_shared_task_dict(lang, dict_mode)
+        dict_lists = [list((k,v) for k,v in d.items()) for d in dict_list]
+        lemmatized_dict_lists = get_lemmatized_dict_lists(lang, dict_lists, nlp_pipelines)
+
+        dict_modes_lists_pairs[dict_mode] = (dict_lists, lemmatized_dict_lists)
+
+    # make sure the sizes are the same til now.
+    assert len(shared_task_src) == len(lemmatized_shared_task_src) == \
+        len(dict_modes_lists_pairs["proper"][0]) == len(dict_modes_lists_pairs["proper"][1]) == \
+        len(dict_modes_lists_pairs["random"][0]) == len(dict_modes_lists_pairs["random"][1]) == 500
+
     for mode in ["noterm", "proper", "random"]:
         score_dict[lang][mode] = {}
-        dict_list = [] # list of terminology dictionaries
-        with open(f"../references/track1/extracted_dict.{mode}.en{lang}.txt") as f:
-            for line in f:
-                dict_list.append(json.loads(line))
-        # since the dictionaries have different sizes, turn the list of dict into a list of lists of tuples
-        dict_lists = [list((k,v) for k,v in d.items()) for d in dict_list]
-        # lemmatize the source-target items in the dictionaries
-        lemmatized_dict_lists = get_lemmatized_dict_lists(lang, dict_lists, nlp_pipelines)
-        
-        # make sure the sizes are the same til now.
-        assert len(shared_task_src) == len(lemmatized_shared_task_src) == len(dict_lists) == len(lemmatized_dict_lists) == 500
-
         # score each team.
         ## load the participant hypotheses every time,
-        ## but re-use the shared_task_src, lemmatized_shared_task_src, dict_lists, and lemmatized_dict_lists
+        ## but re-use the shared_task_src, lemmatized_shared_task_src, as well as both modes' dict_list and lemmatized_dict_list
         for team in teams:
             print(f"Evaluating {team} for {lang} in {mode} mode")
             
@@ -91,26 +90,27 @@ for lang in ["de", "es", "ru"]:
             participant_hyp = get_participant_hyp(hyp_file, lang)
 
             # BLEU score
-            bleu_score = get_bleu(participant_hyp, shared_task_ref, max_ngram_order=4, verbose=False)
+            bleu_score = get_bleu(participant_hyp, shared_task_ref, max_ngram_order=4, verbose=False, tokenize="13a")
             score_dict[lang][mode][team]["bleu4"] = bleu_score.score
 
             # chrF2++ score
             chrf_score = get_chrf(participant_hyp, shared_task_ref, char_order=6, word_order=2, verbose=False)
             score_dict[lang][mode][team]["chrf2++"] = chrf_score.score
 
-            # Now we compute the term matching statistics
-            total_terms = 0
-            matched_terms = 0
+            # compute wrt to both proper and random dicts regardless of the mode
+            # Lemmatize the participant's hypotheses which can be used for both modes
+            lemmatized_participant_hyp = []
+            for hyp_line in participant_hyp:
+                lemmatized_participant_hyp.append(\
+                    "|||".join([word.lemma for sent in nlp_pipelines[lang](hyp_line).sentences for word in sent.words]).lower()) # pyright: ignore[reportAttributeAccessIssue]
+            assert len(participant_hyp) == len(lemmatized_participant_hyp) == 500
             
-            if mode == "noterm":
-                pass
-            else:
-                # Lemmatize the participant's hypotheses
-                lemmatized_participant_hyp = []
-                for hyp_line in participant_hyp:
-                    lemmatized_participant_hyp.append(\
-                        "|||".join([word.lemma for sent in nlp_pipelines[lang](hyp_line).sentences for word in sent.words]).lower()) # pyright: ignore[reportAttributeAccessIssue]
-                assert len(participant_hyp) == len(lemmatized_participant_hyp) == 500
+            for dict_mode in dict_modes_lists_pairs:
+                # get the dict_list and lemmatized_dict_list for the current dict_mode
+                dict_lists, lemmatized_dict_lists = dict_modes_lists_pairs[dict_mode]
+                # reset the stats
+                total_terms = 0
+                matched_terms = 0
                 
                 for lemmatized_src_line, lemmatized_hyp_line, lemmatized_dict_list, src_line, hyp_line, dict_list in \
                     zip(lemmatized_shared_task_src, lemmatized_participant_hyp, lemmatized_dict_lists, shared_task_src, participant_hyp, dict_lists):
@@ -127,7 +127,9 @@ for lang in ["de", "es", "ru"]:
                             # print(f"{lemmatized_k} not found in source: {lemmatized_src_line} AND {k.lower()} not found in source: {src_line.lower()}")
                 assert total_terms > 0, f"No terms found in {hyp_file} for {lang} in {mode} mode"
 
-            score_dict[lang][mode][team]["term_success_rate"] = matched_terms / total_terms if total_terms > 0 else -1
+                score_dict[lang][mode][team][f"{dict_mode}_term_success_rate"] = matched_terms / total_terms if total_terms > 0 else -1.0
+
+            print(f"Finished evaluating {team} for {lang} in {mode} mode")
 
 os.makedirs("./scores", exist_ok=True)
 with open("./scores/track1_score_dict.json", "w") as f_out:
