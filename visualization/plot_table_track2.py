@@ -5,10 +5,10 @@ import statistics
 import collections
 import utils
 
-os.makedirs("../generated/", exist_ok=True)
+os.makedirs("generated/", exist_ok=True)
 
 LANGS = ["enzh", "zhen"]
-with open("metric_track2/scores/track2_score_dict.json", "r") as f:
+with open("ranking/metric_track2/track2_score_dict.json", "r") as f:
     data = json.load(f)
 
 systems = [
@@ -54,19 +54,24 @@ def color_cell_chrf(val):
     return f"\\cellcolor{{{color}}} {val:.1f}"
 
 
-def color_cell_term(val):
+def color_cell_acc(val):
     color = f"SeaGreen3!{max(0, min(95, (val-60)*3)):.0f}!Firebrick3!50"
+    return f"\\cellcolor{{{color}}} {val:.1f}"
+
+
+def color_cell_cons(val):
+    color = f"SeaGreen3!{max(0, min(95, (val-80)*10)):.0f}!Firebrick3!50"
     return f"\\cellcolor{{{color}}} {val:.1f}"
 
 def nocolor_cell(val):
     return f"{val:.1f}"
 
-with open("../generated/track2.tex", "w") as f:
+with open("generated/track2.tex", "w") as f:
     print(
-        r"\begin{tabular}{l  c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c |c    c>{\tiny}c>{\tiny}c c>{\tiny}c>{\tiny}c |c     c>{\tiny}c>{\tiny}c}",
+        r"\begin{tabular}{l  cvv cvv cvv |c    cvv cvv |c     cvv}",
         r"\toprule",
-        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c|}{\bf Proper, Term.} & & \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Term} & & \multicolumn{3}{c}{\bf NoTerm, ChrF}\\",
-        r"\bf System  & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn \\",
+        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c}{\bf Proper, Acc.} & \multicolumn{3}{c|}{\bf Proper, Cons.} & & \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Acc.} & & \multicolumn{3}{c}{\bf NoTerm, ChrF}\\",
+        r"\bf System  & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn \\",
         r"\midrule",
         sep="\n",
         file=f,
@@ -84,11 +89,19 @@ with open("../generated/track2.tex", "w") as f:
                 for lang in LANGS
             ],
             # proper, term
-            color_cell_term(statistics.mean([
+            color_cell_acc(statistics.mean([
                 data[lang]["proper"][sys]["lowercase_term_success_rate"]*100 for lang in LANGS
             ])),
             *[
                 nocolor_cell(data[lang]["proper"][sys]["lowercase_term_success_rate"]*100)
+                for lang in LANGS
+            ],
+            # proper, cons
+            color_cell_acc(statistics.mean([
+                data[lang]["proper"][sys]["consistency_frequent"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["proper"][sys]["consistency_frequent"]*100)
                 for lang in LANGS
             ],
             "",
@@ -101,7 +114,7 @@ with open("../generated/track2.tex", "w") as f:
                 for lang in LANGS
             ],
             # random, term
-            color_cell_term(statistics.mean([
+            color_cell_acc(statistics.mean([
                 data[lang]["random"][sys]["lowercase_term_success_rate"]*100 for lang in LANGS
             ])),
             *[

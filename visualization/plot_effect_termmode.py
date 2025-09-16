@@ -6,14 +6,14 @@ import statistics
 import os
 import utils
 
-os.makedirs("../generated/", exist_ok=True)
+os.makedirs("generated/", exist_ok=True)
 plt.rcParams["font.family"] = "serif"
 
 plt.figure(figsize=(3.5, 4))
 ax = plt.gca()
 
 LANGS = ["de", "ru", "es"]
-with open("metric_track1/scores/track1_score_dict.json", "r") as f:
+with open("ranking/metric_track1/track1_score_dict.json", "r") as f:
     data = json.load(f)
 data = [
     {
@@ -91,4 +91,4 @@ plt.xticks(
 plt.ylabel('ChrF++')
 
 plt.tight_layout(pad=0)
-plt.savefig("../generated/effect_termmode.pdf")
+plt.savefig("generated/effect_termmode.pdf")
