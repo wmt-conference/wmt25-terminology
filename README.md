@@ -26,8 +26,8 @@ You can see two tables with main statistics:
 
 ## Plotting results
 
-- To generate LaTeX code for the tables, run `visualization/plot_table_track1.py` and `visualization/plot_table_track2.py`
-- To generate tradeoff figures, run `visualization/plot_tradeoff.py`
-- To generate the effect of terminology mode, run `visualization/plot_effect_termmode.py`
+- To generate LaTeX code for the tables, run `python3 visualization/plot_table_track1.py; python3 visualization/plot_table_track2.py`
+- To generate tradeoff figures, run `python3 visualization/plot_tradeoff.py`
+- To generate the effect of terminology mode, run `python3 visualization/plot_effect_termmode.py`
 
 <img src="generated/main_results.svg" width="1000vw">
