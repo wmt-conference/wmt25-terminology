@@ -5,25 +5,33 @@
                 "bleu4": 42.066928927820356,
                 "chrf2++": 72.86653660298087,
                 "proper_term_success_rate": 0.5931746834748362,
-                "random_term_success_rate": 0.7688442198099064
+                "random_term_success_rate": 0.7688442198099064,
+                "consistency_frequent": 0.9208152040085562,
+                "consistency_predefined": 0.5175220030778444
             },
             "Erlendur": {
                 "bleu4": 42.65046558084656,
                 "chrf2++": 73.9939903888222,
                 "proper_term_success_rate": 0.643706356340963,
-                "random_term_success_rate": 0.7711485166713637
+                "random_term_success_rate": 0.7711485166713637,
+                "consistency_frequent": 0.9214617354067588,
+                "consistency_predefined": 0.553667428542842
             },
             "MeGuMa": {
                 "bleu4": 30.829781596620208,
                 "chrf2++": 68.3148184217875,
                 "proper_term_success_rate": 0.48528436553564835,
-                "random_term_success_rate": 0.7581580234743536
+                "random_term_success_rate": 0.7581580234743536,
+                "consistency_frequent": 0.86988979118599,
+                "consistency_predefined": 0.41074788858024236
             },
             "stitch": {
                 "bleu4": 28.877101874744707,
                 "chrf2++": 63.07042944549281,
                 "proper_term_success_rate": 0.45240526228891764,
-                "random_term_success_rate": 0.7067040174799304
+                "random_term_success_rate": 0.7067040174799304,
+                "consistency_frequent": 0.8714039646433672,
+                "consistency_predefined": 0.38757379995741514
             }
         },
         "proper": {
@@ -31,25 +39,33 @@
                 "bleu4": 46.74327754116061,
                 "chrf2++": 75.52663012192876,
                 "proper_term_success_rate": 0.8228613834212153,
-                "random_term_success_rate": 0.7698386538999817
+                "random_term_success_rate": 0.7698386538999817,
+                "consistency_frequent": 0.9300330922771287,
+                "consistency_predefined": 0.761917589371206
             },
             "Erlendur": {
                 "bleu4": 42.94173326141421,
                 "chrf2++": 74.21016646282779,
                 "proper_term_success_rate": 0.6651769590197056,
-                "random_term_success_rate": 0.7700613484487809
+                "random_term_success_rate": 0.7700613484487809,
+                "consistency_frequent": 0.9231783332059665,
+                "consistency_predefined": 0.571811278084994
             },
             "MeGuMa": {
                 "bleu4": 32.95668601681275,
                 "chrf2++": 69.40884927598886,
                 "proper_term_success_rate": 0.5821080458593669,
-                "random_term_success_rate": 0.7656016776913123
+                "random_term_success_rate": 0.7656016776913123,
+                "consistency_frequent": 0.8828624227265806,
+                "consistency_predefined": 0.4858927653846349
             },
             "stitch": {
                 "bleu4": 35.79030993738044,
                 "chrf2++": 69.28917422211661,
                 "proper_term_success_rate": 0.7016290171259776,
-                "random_term_success_rate": 0.7455336517922542
+                "random_term_success_rate": 0.7455336517922542,
+                "consistency_frequent": 0.8761084506492558,
+                "consistency_predefined": 0.6295351473079634
             }
         },
         "random": {
@@ -57,25 +73,33 @@
                 "bleu4": 43.08114680757294,
                 "chrf2++": 73.65299530914525,
                 "proper_term_success_rate": 0.6056856727055336,
-                "random_term_success_rate": 0.7774345356556033
+                "random_term_success_rate": 0.7774345356556033,
+                "consistency_frequent": 0.9221907319267288,
+                "consistency_predefined": 0.5253185230746739
             },
             "Erlendur": {
                 "bleu4": 42.62359565058065,
                 "chrf2++": 74.03644034929172,
                 "proper_term_success_rate": 0.6440029805501427,
-                "random_term_success_rate": 0.7706581439490763
+                "random_term_success_rate": 0.7706581439490763,
+                "consistency_frequent": 0.9192064627433185,
+                "consistency_predefined": 0.5449681696315524
             },
             "MeGuMa": {
                 "bleu4": 23.88308456239229,
                 "chrf2++": 65.20666175199193,
                 "proper_term_success_rate": 0.4820403583412379,
-                "random_term_success_rate": 0.7643298105792492
+                "random_term_success_rate": 0.7643298105792492,
+                "consistency_frequent": 0.8743719148321054,
+                "consistency_predefined": 0.40385375880210195
             },
             "stitch": {
                 "bleu4": 33.499971264901056,
                 "chrf2++": 68.82078828769983,
                 "proper_term_success_rate": 0.5077957221589818,
-                "random_term_success_rate": 0.7594299950251592
+                "random_term_success_rate": 0.7594299950251592,
+                "consistency_frequent": 0.9170895308553789,
+                "consistency_predefined": 0.4299205779528683
             }
         }
     },
@@ -85,25 +109,33 @@
                 "bleu4": 46.88974460755554,
                 "chrf2++": 36.88427493532099,
                 "proper_term_success_rate": 0.42257326271182055,
-                "random_term_success_rate": 0.5327898832654778
+                "random_term_success_rate": 0.5327898832654778,
+                "consistency_frequent": 0.8904574629745226,
+                "consistency_predefined": 0.34924434787268893
             },
             "Erlendur": {
                 "bleu4": 51.92899075320029,
                 "chrf2++": 40.847036370999966,
                 "proper_term_success_rate": 0.5202233017404819,
-                "random_term_success_rate": 0.5557141475644924
+                "random_term_success_rate": 0.5557141475644924,
+                "consistency_frequent": 0.8917060143834779,
+                "consistency_predefined": 0.4406005153930629
             },
             "MeGuMa": {
                 "bleu4": 42.68739880270471,
                 "chrf2++": 33.69419390679079,
                 "proper_term_success_rate": 0.3870599288734423,
-                "random_term_success_rate": 0.5364449813968614
+                "random_term_success_rate": 0.5364449813968614,
+                "consistency_frequent": 0.8320427673239127,
+                "consistency_predefined": 0.3055740633139582
             },
             "stitch": {
                 "bleu4": 40.09958566565455,
                 "chrf2++": 31.845258448926312,
                 "proper_term_success_rate": 0.35365403138032664,
-                "random_term_success_rate": 0.5290481180696014
+                "random_term_success_rate": 0.5290481180696014,
+                "consistency_frequent": 0.8273557238148769,
+                "consistency_predefined": 0.2594371443208053
             }
         },
         "proper": {
@@ -111,25 +143,33 @@
                 "bleu4": 55.389960640076175,
                 "chrf2++": 43.60466179724693,
                 "proper_term_success_rate": 0.6840332417392061,
-                "random_term_success_rate": 0.5529177675061443
+                "random_term_success_rate": 0.5529177675061443,
+                "consistency_frequent": 0.9007848083695007,
+                "consistency_predefined": 0.633111253777817
             },
             "Erlendur": {
                 "bleu4": 57.03160739436442,
                 "chrf2++": 46.104837894798436,
                 "proper_term_success_rate": 0.7518364322073526,
-                "random_term_success_rate": 0.5647217832225472
+                "random_term_success_rate": 0.5647217832225472,
+                "consistency_frequent": 0.9164866348456757,
+                "consistency_predefined": 0.7089565222576495
             },
             "MeGuMa": {
                 "bleu4": 47.8817346049295,
                 "chrf2++": 39.091811684828635,
                 "proper_term_success_rate": 0.8562190832835171,
-                "random_term_success_rate": 0.5407659521062655
+                "random_term_success_rate": 0.5407659521062655,
+                "consistency_frequent": 0.9331975592454341,
+                "consistency_predefined": 0.8381433157286903
             },
             "stitch": {
                 "bleu4": 47.67698152116813,
                 "chrf2++": 37.5021564777886,
                 "proper_term_success_rate": 0.6142699290370778,
-                "random_term_success_rate": 0.5271288557965944
+                "random_term_success_rate": 0.5271288557965944,
+                "consistency_frequent": 0.8717670414719647,
+                "consistency_predefined": 0.5707331041574849
             }
         },
         "random": {
@@ -137,25 +177,33 @@
                 "bleu4": 50.641072893073854,
                 "chrf2++": 39.808031984400316,
                 "proper_term_success_rate": 0.4489130989564567,
-                "random_term_success_rate": 0.5933801884448572
+                "random_term_success_rate": 0.5933801884448572,
+                "consistency_frequent": 0.8905541245399583,
+                "consistency_predefined": 0.3740153494947635
             },
             "Erlendur": {
                 "bleu4": 52.10835940135785,
                 "chrf2++": 41.8260118793898,
                 "proper_term_success_rate": 0.5187108896362017,
-                "random_term_success_rate": 0.6032590073375365
+                "random_term_success_rate": 0.6032590073375365,
+                "consistency_frequent": 0.8923046388140123,
+                "consistency_predefined": 0.43990295539454954
             },
             "MeGuMa": {
                 "bleu4": 39.270347599367426,
                 "chrf2++": 31.61820243332446,
                 "proper_term_success_rate": 0.37910184837763905,
-                "random_term_success_rate": 0.7328159076764469
+                "random_term_success_rate": 0.7328159076764469,
+                "consistency_frequent": 0.8411264970958816,
+                "consistency_predefined": 0.30088597619103563
             },
             "stitch": {
                 "bleu4": 38.80558005587646,
                 "chrf2++": 31.068790422767584,
                 "proper_term_success_rate": 0.3398315923048287,
-                "random_term_success_rate": 0.4977247749129913
+                "random_term_success_rate": 0.4977247749129913,
+                "consistency_frequent": 0.7686219254936955,
+                "consistency_predefined": 0.2577704353947201
             }
         }
     }

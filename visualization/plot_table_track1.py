@@ -73,12 +73,18 @@ def nocolor_cell(val):
     return f"{val:.1f}"
 
 
-with open("generated/track1.tex", "w") as f:
+
+with open("generated/track1_ext.tex", "w") as f:
     print(
-        r"\begin{tabular}{l  cvvv cvvv cvvv|c cvvv cvvv |c cvvv}",
+        r"\begin{tabular}{l  cvvv cvvv cvvv|c cvvv cvvv|c cvvv}",
         r"\toprule",
-        r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c}{\bf Proper, Acc.} & \multicolumn{4}{c|}{\bf Proper, Cons.} & & \multicolumn{4}{c}{\bf Random, ChrF} & \multicolumn{4}{c|}{\bf Random, Acc.} & & \multicolumn{4}{c}{\bf NoTerm, ChrF}\\",
-        r"\bf System  & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & \bf Avg & \bf Es & \bf De & \bf Ru  & & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & & \bf Avg & \bf Es & \bf De & \bf Ru \\",
+        r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c}{\bf Proper, Acc.} & \multicolumn{4}{c|}{\bf Proper, Cons.} &",
+        r"& \multicolumn{4}{c}{\bf Random, ChrF} & \multicolumn{4}{c|}{\bf Random, Acc.} &",
+        r"& \multicolumn{4}{c}{\bf NoTerm, ChrF} \\",
+        r"\bf System  ",
+        r"& \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & \bf Avg & \bf Es & \bf De & \bf Ru  &",
+        r"& \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  &",
+        r"& \bf Avg & \bf Es & \bf De & \bf Ru   \\",
         r"\midrule",
         sep="\n",
         file=f,
@@ -129,8 +135,16 @@ with open("generated/track1.tex", "w") as f:
                 data[lang]["random"][sys]["proper_term_success_rate"]*100 for lang in LANGS
             ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
             *[
-                nocolor_cell(data[lang]["random"][sys]
-                             ["proper_term_success_rate"]*100)
+                nocolor_cell(data[lang]["random"][sys]["proper_term_success_rate"]*100)
+                if data[lang]["random"][sys] != {} else ""
+                for lang in LANGS
+            ],
+            # random, cons
+            color_cell_cons(statistics.mean([
+                data[lang]["random"][sys]["consistency_frequent"]*100 for lang in LANGS
+            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            *[
+                nocolor_cell(data[lang]["random"][sys]["consistency_frequent"]*100)
                 if data[lang]["random"][sys] != {} else ""
                 for lang in LANGS
             ],
@@ -141,6 +155,24 @@ with open("generated/track1.tex", "w") as f:
             ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["chrf2++"])
+                if data[lang]["noterm"][sys] != {} else ""
+                for lang in LANGS
+            ],
+            # noterm, term
+            color_cell_acc(statistics.mean([
+                data[lang]["noterm"][sys]["proper_term_success_rate"]*100 for lang in LANGS
+            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            *[
+                nocolor_cell(data[lang]["noterm"][sys]["proper_term_success_rate"]*100)
+                if data[lang]["noterm"][sys] != {} else ""
+                for lang in LANGS
+            ],
+            # noterm, cons
+            color_cell_cons(statistics.mean([
+                data[lang]["noterm"][sys]["consistency_frequent"]*100 for lang in LANGS
+            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            *[
+                nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
                 if data[lang]["noterm"][sys] != {} else ""
                 for lang in LANGS
             ],
@@ -157,6 +189,7 @@ with open("generated/track1.tex", "w") as f:
     )
 
 
+
 # %%
 
 
@@ -165,9 +198,10 @@ with open("generated/track1_ext.tex", "w") as f:
         r"\begin{tabular}{l  cvvv cvvv cvvv|c cvvv cvvv cvvv|c cvvv cvvv cvvv}",
         r"\toprule",
         r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c}{\bf Proper, Acc.} & \multicolumn{4}{c|}{\bf Proper, Cons.} &",
-        r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c}{\bf Proper, Acc.} & \multicolumn{4}{c|}{\bf Proper, Cons.} &",
-        r"& \multicolumn{4}{c}{\bf Proper, ChrF} & \multicolumn{4}{c}{\bf Proper, Acc.} & \multicolumn{4}{c|}{\bf Proper, Cons.} \\",
-        r"\bf System  & \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & \bf Avg & \bf Es & \bf De & \bf Ru  &",
+        r"& \multicolumn{4}{c}{\bf Random, ChrF} & \multicolumn{4}{c}{\bf Random, Acc.} & \multicolumn{4}{c|}{\bf Random, Cons.} &",
+        r"& \multicolumn{4}{c}{\bf NoTerm, ChrF} & \multicolumn{4}{c}{\bf NoTerm, Acc.} & \multicolumn{4}{c}{\bf NoTerm, Cons.} \\",
+        r"\bf System  ",
+        r"& \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & \bf Avg & \bf Es & \bf De & \bf Ru  &",
         r"& \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & \bf Avg & \bf Es & \bf De & \bf Ru  &",
         r"& \bf Avg & \bf Es & \bf De & \bf Ru   & \bf Avg & \bf Es & \bf De & \bf Ru  & \bf Avg & \bf Es & \bf De & \bf Ru  \\",
         r"\midrule",

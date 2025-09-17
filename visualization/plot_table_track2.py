@@ -43,7 +43,7 @@ for lang, lang_v in data.items():
 
 systems.sort(
     key=lambda sys: statistics.mean(
-        [data[lang]["proper"][sys]["chrf2++"]+data[lang]["proper"][sys]["lowercase_term_success_rate"] for lang in LANGS]),
+        [data[lang]["proper"][sys]["chrf2++"]+data[lang]["proper"][sys]["proper_term_success_rate"] for lang in LANGS]),
     reverse=True,
 )
 
@@ -66,12 +66,18 @@ def color_cell_cons(val):
 def nocolor_cell(val):
     return f"{val:.1f}"
 
+
 with open("generated/track2.tex", "w") as f:
     print(
-        r"\begin{tabular}{l  cvv cvv cvv |c    cvv cvv |c     cvv}",
+        r"\begin{tabular}{l  cvv cvv cvv |c cvv cvv |c cvv}",
         r"\toprule",
-        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c}{\bf Proper, Acc.} & \multicolumn{3}{c|}{\bf Proper, Cons.} & & \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Acc.} & & \multicolumn{3}{c}{\bf NoTerm, ChrF}\\",
-        r"\bf System  & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & & \bf Avg & \bf EnZh & \bf ZhEn \\",
+        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c}{\bf Proper, Acc.} & \multicolumn{3}{c|}{\bf Proper, Cons.} &",
+        r"& \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Cons.} &",
+        r"& \multicolumn{3}{c}{\bf NoTerm, ChrF} \\",
+        r"\bf System  ",
+        r"& \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & \bf Avg & \bf EnZh & \bf ZhEn  &",
+        r"& \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  &",
+        r"& \bf Avg & \bf EnZh & \bf ZhEn  \\",
         r"\midrule",
         sep="\n",
         file=f,
@@ -90,10 +96,10 @@ with open("generated/track2.tex", "w") as f:
             ],
             # proper, term
             color_cell_acc(statistics.mean([
-                data[lang]["proper"][sys]["lowercase_term_success_rate"]*100 for lang in LANGS
+                data[lang]["proper"][sys]["proper_term_success_rate"]*100 for lang in LANGS
             ])),
             *[
-                nocolor_cell(data[lang]["proper"][sys]["lowercase_term_success_rate"]*100)
+                nocolor_cell(data[lang]["proper"][sys]["proper_term_success_rate"]*100)
                 for lang in LANGS
             ],
             # proper, cons
@@ -115,10 +121,10 @@ with open("generated/track2.tex", "w") as f:
             ],
             # random, term
             color_cell_acc(statistics.mean([
-                data[lang]["random"][sys]["lowercase_term_success_rate"]*100 for lang in LANGS
+                data[lang]["random"][sys]["proper_term_success_rate"]*100 for lang in LANGS
             ])),
             *[
-                nocolor_cell(data[lang]["random"][sys]["lowercase_term_success_rate"]*100)
+                nocolor_cell(data[lang]["random"][sys]["proper_term_success_rate"]*100)
                 for lang in LANGS
             ],
             "",
@@ -128,6 +134,112 @@ with open("generated/track2.tex", "w") as f:
             ])),
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["chrf2++"])
+                for lang in LANGS
+            ],
+            sep=" & ",
+            end="\\\\\n",
+            file=f,
+        )
+
+    print(
+        r"\bottomrule",
+        r"\end{tabular}",
+        sep="\n",
+        file=f,
+    )
+
+
+with open("generated/track2_ext.tex", "w") as f:
+    print(
+        r"\begin{tabular}{l  cvv cvv cvv |c cvv cvv cvv |c cvv cvv cvv}",
+        r"\toprule",
+        r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c}{\bf Proper, Acc.} & \multicolumn{3}{c|}{\bf Proper, Cons.} &",
+        r"& \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c}{\bf Random, Acc.} & \multicolumn{3}{c|}{\bf Random, Cons.} &",
+        r"& \multicolumn{3}{c}{\bf NoTerm, ChrF} & \multicolumn{3}{c}{\bf NoTerm, Acc.} & \multicolumn{3}{c}{\bf NoTerm, Cons.} \\",
+        r"\bf System  ",
+        r"& \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  &",
+        r"& \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  &",
+        r"& \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  \\",
+        r"\midrule",
+        sep="\n",
+        file=f,
+    )
+
+    for sys in systems:
+        print(
+            utils.SYS_TO_NAME.get(sys, sys),
+            # proper, chrf
+            color_cell_chrf(statistics.mean([
+                data[lang]["proper"][sys]["chrf2++"] for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["proper"][sys]["chrf2++"])
+                for lang in LANGS
+            ],
+            # proper, term
+            color_cell_acc(statistics.mean([
+                data[lang]["proper"][sys]["proper_term_success_rate"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["proper"][sys]["proper_term_success_rate"]*100)
+                for lang in LANGS
+            ],
+            # proper, cons
+            color_cell_acc(statistics.mean([
+                data[lang]["proper"][sys]["consistency_frequent"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["proper"][sys]["consistency_frequent"]*100)
+                for lang in LANGS
+            ],
+            "",
+            # random, chrf
+            color_cell_chrf(statistics.mean([
+                data[lang]["random"][sys]["chrf2++"] for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["random"][sys]["chrf2++"])
+                for lang in LANGS
+            ],
+            # random, term
+            color_cell_acc(statistics.mean([
+                data[lang]["random"][sys]["proper_term_success_rate"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["random"][sys]["proper_term_success_rate"]*100)
+                for lang in LANGS
+            ],
+            # random, cons
+            color_cell_acc(statistics.mean([
+                data[lang]["random"][sys]["consistency_frequent"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["random"][sys]["consistency_frequent"]*100)
+                for lang in LANGS
+            ],
+            "",
+            # noterm, chrf
+            color_cell_chrf(statistics.mean([
+                data[lang]["noterm"][sys]["chrf2++"] for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["noterm"][sys]["chrf2++"])
+                for lang in LANGS
+            ],
+            # noterm, term
+            color_cell_acc(statistics.mean([
+                data[lang]["noterm"][sys]["proper_term_success_rate"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["noterm"][sys]["proper_term_success_rate"]*100)
+                for lang in LANGS
+            ],
+            # noterm, cons
+            color_cell_acc(statistics.mean([
+                data[lang]["noterm"][sys]["consistency_frequent"]*100 for lang in LANGS
+            ])),
+            *[
+                nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
                 for lang in LANGS
             ],
             sep=" & ",
