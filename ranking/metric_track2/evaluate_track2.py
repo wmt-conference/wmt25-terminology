@@ -1,7 +1,14 @@
 import os
 import json
+from functools import partial
 
 from evaluate_track2_utils import get_bleu, get_chrf # metrics
+
+VERBOSE=True
+if VERBOSE:
+    print = partial(print, flush=True)
+else:
+    print = lambda *args, **kwargs: None
 
 # Known Caveat:
 ## If an input term is a sub-string of another input term (super-string), any incorrect terminology in the super-string's target will count towards the sub-string too. It is undefined whether this should be the case or not.
@@ -92,12 +99,14 @@ for direction, years in direction_map.items():
                 # reset the stats
                 valid_src_terms = 0.0
                 aggregated_success_rate = 0.0
-                for src, hyp, term_dict in zip(srcs, hyps, term_dicts):
+                for src, hyp, ref, term_dict in zip(srcs, hyps, refs, term_dicts):
 
                     for src_term, trg_terms in term_dict.items():
                         src_term = src_term.strip()
-                            # only count target terms for source terms that actually appear in the source sentence
-                        if src_term and src_term.lower() in src.lower():
+                        # only compute success rate for a source term if it appears in the source sentence and any of the corresponding target terms appear in the hypothesis.
+                        # This is because the term dict has been extracted by GPT, and humans only reviewed the mapping.
+                        # We could not guarantee that any target term will definitely appear in the hypothesis.
+                        if src_term and src_term.lower() in src.lower() and any(t.lower() in ref.lower() for t in trg_terms):
                             valid_src_terms += 1
                             aggregated_success_rate += get_term_success_rate(src, hyp, src_term, trg_terms, lowercase=True) # we decided to measure success rate with everything lowercased
 
@@ -106,7 +115,7 @@ for direction, years in direction_map.items():
             print(f"Evaluated {team} for {direction} in {mode} mode: ", score_dict[direction][mode][team])
 
 os.makedirs("./scores", exist_ok=True)
-with open("./scores/track2_score_dict.json", "w") as f_out:
+with open("./scores/track2_score_dict_new.json", "w") as f_out:
     json.dump(score_dict, f_out, indent=4, ensure_ascii=False)
 
 print("\n\n")
