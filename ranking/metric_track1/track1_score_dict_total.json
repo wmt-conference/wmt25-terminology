@@ -1,0 +1,1340 @@
+{
+    "de": {
+        "noterm": {
+            "BIT": {
+                "bleu4": 39.70408850523028,
+                "chrf2++": 66.29628152378378,
+                "proper_term_success_rate": 0.9742173112338858,
+                "random_term_success_rate": 0.991869918699187,
+                "consistency_frequent": 0.8690978034311366,
+                "consistency_predefined": 0.6723264743088531
+            },
+            "CommandA_MT": {
+                "bleu4": 36.47566144890278,
+                "chrf2++": 62.16287319570192,
+                "proper_term_success_rate": 0.427255985267035,
+                "random_term_success_rate": 0.6829268292682927,
+                "consistency_frequent": 0.8637491718939683,
+                "consistency_predefined": 0.2710514793848127
+            },
+            "ContexTerm": {
+                "bleu4": 13.69504933400632,
+                "chrf2++": 37.4101544613737,
+                "proper_term_success_rate": 0.13812154696132597,
+                "random_term_success_rate": 0.359349593495935,
+                "consistency_frequent": 0.8083682548510079,
+                "consistency_predefined": 0.12179541040300534
+            },
+            "CurTermNLLB": {
+                "bleu4": 28.305455856188264,
+                "chrf2++": 52.77570096844081,
+                "proper_term_success_rate": 0.27071823204419887,
+                "random_term_success_rate": 0.5756097560975609,
+                "consistency_frequent": 0.8474850882869751,
+                "consistency_predefined": 0.19323822364076604
+            },
+            "Erlendur": {
+                "bleu4": 38.58187495138797,
+                "chrf2++": 64.00356988509859,
+                "proper_term_success_rate": 0.425414364640884,
+                "random_term_success_rate": 0.7008130081300813,
+                "consistency_frequent": 0.859524877534746,
+                "consistency_predefined": 0.30650863966541936
+            },
+            "EuroLLM-ft": {},
+            "LC-2": {
+                "bleu4": 32.55978220229571,
+                "chrf2++": 56.76153945641767,
+                "proper_term_success_rate": 0.35543278084714547,
+                "random_term_success_rate": 0.6211382113821138,
+                "consistency_frequent": 0.8434401412079984,
+                "consistency_predefined": 0.2498959021204784
+            },
+            "LC-3": {
+                "bleu4": 32.55978220229571,
+                "chrf2++": 56.76153945641767,
+                "proper_term_success_rate": 0.35543278084714547,
+                "random_term_success_rate": 0.6211382113821138,
+                "consistency_frequent": 0.8441231663204758,
+                "consistency_predefined": 0.2533199733411598
+            },
+            "LC-primary": {
+                "bleu4": 32.587197120725605,
+                "chrf2++": 56.94352433984658,
+                "proper_term_success_rate": 0.35543278084714547,
+                "random_term_success_rate": 0.6211382113821138,
+                "consistency_frequent": 0.8423028112760257,
+                "consistency_predefined": 0.24654138234646714
+            },
+            "MarianMT-ft": {},
+            "MeGuMa": {
+                "bleu4": 33.64295143675052,
+                "chrf2++": 59.436323610196396,
+                "proper_term_success_rate": 0.3848987108655617,
+                "random_term_success_rate": 0.656910569105691,
+                "consistency_frequent": 0.8529620404620404,
+                "consistency_predefined": 0.24697604493741832
+            },
+            "Systran_generic_ft": {},
+            "TiUTermV0": {
+                "bleu4": 33.54975518387761,
+                "chrf2++": 57.888368555756145,
+                "proper_term_success_rate": 0.49355432780847147,
+                "random_term_success_rate": 0.6471544715447154,
+                "consistency_frequent": 0.8493916281587515,
+                "consistency_predefined": 0.274579022672243
+            },
+            "TiUTermV1": {
+                "bleu4": 37.608270872243175,
+                "chrf2++": 61.93149700427709,
+                "proper_term_success_rate": 0.5414364640883977,
+                "random_term_success_rate": 0.6959349593495935,
+                "consistency_frequent": 0.8441343529005867,
+                "consistency_predefined": 0.28992278407172023
+            },
+            "TranssionMT": {
+                "bleu4": 0.07440001497861845,
+                "chrf2++": 1.5941268759295464,
+                "proper_term_success_rate": 0.0,
+                "random_term_success_rate": 0.0016260162601626016,
+                "consistency_frequent": 0.846530084902178,
+                "consistency_predefined": 0.0
+            },
+            "duterm": {
+                "bleu4": 38.2371479541964,
+                "chrf2++": 62.607797072479535,
+                "proper_term_success_rate": 0.425414364640884,
+                "random_term_success_rate": 0.6910569105691057,
+                "consistency_frequent": 0.8684047639033788,
+                "consistency_predefined": 0.2739241690512877
+            },
+            "laniqo": {
+                "bleu4": 28.282434096844153,
+                "chrf2++": 55.452413819472135,
+                "proper_term_success_rate": 0.35174953959484345,
+                "random_term_success_rate": 0.616260162601626,
+                "consistency_frequent": 0.8316560912451323,
+                "consistency_predefined": 0.25106729690063023
+            },
+            "o3-term-guide": {
+                "bleu4": 39.29673106626832,
+                "chrf2++": 64.72306296926507,
+                "proper_term_success_rate": 0.47513812154696133,
+                "random_term_success_rate": 0.7284552845528456,
+                "consistency_frequent": 0.8828165226843638,
+                "consistency_predefined": 0.33029963863297196
+            },
+            "salamandrata": {
+                "bleu4": 38.43409123905642,
+                "chrf2++": 63.99750871557115,
+                "proper_term_success_rate": 0.427255985267035,
+                "random_term_success_rate": 0.7105691056910569,
+                "consistency_frequent": 0.8691494591937071,
+                "consistency_predefined": 0.3129248837582171
+            },
+            "tower": {
+                "bleu4": 36.2801537421086,
+                "chrf2++": 61.1584305183955,
+                "proper_term_success_rate": 0.39594843462246776,
+                "random_term_success_rate": 0.6878048780487804,
+                "consistency_frequent": 0.870210480276852,
+                "consistency_predefined": 0.2634017230415535
+            }
+        },
+        "proper": {
+            "BIT": {
+                "bleu4": 35.232365667192425,
+                "chrf2++": 62.43959622296563,
+                "proper_term_success_rate": 0.9797421731123389,
+                "random_term_success_rate": 0.6780487804878049,
+                "consistency_frequent": 0.8689403559403559,
+                "consistency_predefined": 0.6791911175244508
+            },
+            "CommandA_MT": {
+                "bleu4": 41.8872700127124,
+                "chrf2++": 67.63254485665514,
+                "proper_term_success_rate": 0.8692449355432781,
+                "random_term_success_rate": 0.7284552845528456,
+                "consistency_frequent": 0.8747864357864358,
+                "consistency_predefined": 0.5379064661392248
+            },
+            "ContexTerm": {
+                "bleu4": 12.371134215930308,
+                "chrf2++": 40.20536446014415,
+                "proper_term_success_rate": 0.7992633517495396,
+                "random_term_success_rate": 0.35121951219512193,
+                "consistency_frequent": 0.8582957884327747,
+                "consistency_predefined": 0.6176759834368529
+            },
+            "CurTermNLLB": {
+                "bleu4": 35.91296047035373,
+                "chrf2++": 60.322254666290945,
+                "proper_term_success_rate": 0.7900552486187845,
+                "random_term_success_rate": 0.6439024390243903,
+                "consistency_frequent": 0.8758570602182937,
+                "consistency_predefined": 0.6621889512719207
+            },
+            "Erlendur": {
+                "bleu4": 45.472597579323676,
+                "chrf2++": 69.93771270507729,
+                "proper_term_success_rate": 0.9318600368324125,
+                "random_term_success_rate": 0.7365853658536585,
+                "consistency_frequent": 0.8628843995510662,
+                "consistency_predefined": 0.5944900872074785
+            },
+            "EuroLLM-ft": {},
+            "LC-2": {
+                "bleu4": 36.01876045984217,
+                "chrf2++": 61.04966310418004,
+                "proper_term_success_rate": 0.7071823204419889,
+                "random_term_success_rate": 0.6341463414634146,
+                "consistency_frequent": 0.8565953112544022,
+                "consistency_predefined": 0.5000715199405155
+            },
+            "LC-3": {
+                "bleu4": 36.01876045984217,
+                "chrf2++": 61.04966310418004,
+                "proper_term_success_rate": 0.7071823204419889,
+                "random_term_success_rate": 0.6341463414634146,
+                "consistency_frequent": 0.8565701612786816,
+                "consistency_predefined": 0.508805144394664
+            },
+            "LC-primary": {
+                "bleu4": 35.98100704739517,
+                "chrf2++": 61.203890974338634,
+                "proper_term_success_rate": 0.7071823204419889,
+                "random_term_success_rate": 0.6341463414634146,
+                "consistency_frequent": 0.8576892962543188,
+                "consistency_predefined": 0.5066217382811269
+            },
+            "MarianMT-ft": {},
+            "MeGuMa": {
+                "bleu4": 41.64781863995082,
+                "chrf2++": 67.72941250806254,
+                "proper_term_success_rate": 0.9631675874769797,
+                "random_term_success_rate": 0.7203252032520325,
+                "consistency_frequent": 0.885791774244689,
+                "consistency_predefined": 0.727744392547024
+            },
+            "Systran_generic_ft": {},
+            "TiUTermV0": {
+                "bleu4": 36.10938128738361,
+                "chrf2++": 60.96506827921231,
+                "proper_term_success_rate": 0.7108655616942909,
+                "random_term_success_rate": 0.6601626016260163,
+                "consistency_frequent": 0.8558471887011709,
+                "consistency_predefined": 0.4417371062845201
+            },
+            "TiUTermV1": {
+                "bleu4": 41.20081896986782,
+                "chrf2++": 65.71731279510267,
+                "proper_term_success_rate": 0.8729281767955801,
+                "random_term_success_rate": 0.6894308943089431,
+                "consistency_frequent": 0.8594146803422821,
+                "consistency_predefined": 0.5496298733082874
+            },
+            "TranssionMT": {
+                "bleu4": 0.07440001497861845,
+                "chrf2++": 1.5941268759295464,
+                "proper_term_success_rate": 0.0,
+                "random_term_success_rate": 0.0016260162601626016,
+                "consistency_frequent": 0.7759442610927759,
+                "consistency_predefined": 0.0
+            },
+            "duterm": {
+                "bleu4": 48.06385972223256,
+                "chrf2++": 70.73867185591375,
+                "proper_term_success_rate": 0.9815837937384899,
+                "random_term_success_rate": 0.7300813008130081,
+                "consistency_frequent": 0.8630704870615185,
+                "consistency_predefined": 0.6275584669857797
+            },
+            "laniqo": {
+                "bleu4": 30.68064516106849,
+                "chrf2++": 59.757863302146234,
+                "proper_term_success_rate": 0.994475138121547,
+                "random_term_success_rate": 0.6422764227642277,
+                "consistency_frequent": 0.8934589476064132,
+                "consistency_predefined": 0.7637595273057828
+            },
+            "o3-term-guide": {
+                "bleu4": 47.762341058985974,
+                "chrf2++": 71.55227430675188,
+                "proper_term_success_rate": 0.990791896869245,
+                "random_term_success_rate": 0.7609756097560976,
+                "consistency_frequent": 0.8608504088504088,
+                "consistency_predefined": 0.6436522176653755
+            },
+            "salamandrata": {
+                "bleu4": 43.98388253463324,
+                "chrf2++": 69.62407227591162,
+                "proper_term_success_rate": 0.9171270718232044,
+                "random_term_success_rate": 0.7284552845528456,
+                "consistency_frequent": 0.8642316017316016,
+                "consistency_predefined": 0.5987769144974384
+            },
+            "tower": {
+                "bleu4": 39.56244741017891,
+                "chrf2++": 65.9250257555877,
+                "proper_term_success_rate": 0.9484346224677717,
+                "random_term_success_rate": 0.7284552845528456,
+                "consistency_frequent": 0.8683875043740513,
+                "consistency_predefined": 0.6078624508139926
+            }
+        },
+        "random": {
+            "BIT": {
+                "bleu4": 39.70408850523028,
+                "chrf2++": 66.29628152378378,
+                "proper_term_success_rate": 0.9742173112338858,
+                "random_term_success_rate": 0.991869918699187,
+                "consistency_frequent": 0.8676385122813693,
+                "consistency_predefined": 0.6829757336307554
+            },
+            "CommandA_MT": {
+                "bleu4": 39.28819848170493,
+                "chrf2++": 64.95980793155613,
+                "proper_term_success_rate": 0.48066298342541436,
+                "random_term_success_rate": 0.8715447154471545,
+                "consistency_frequent": 0.8618986145891976,
+                "consistency_predefined": 0.306515586903518
+            },
+            "ContexTerm": {
+                "bleu4": 14.275097666791181,
+                "chrf2++": 40.741073166321804,
+                "proper_term_success_rate": 0.1860036832412523,
+                "random_term_success_rate": 0.8926829268292683,
+                "consistency_frequent": 0.7833789475635007,
+                "consistency_predefined": 0.16145932692542864
+            },
+            "CurTermNLLB": {
+                "bleu4": 33.707367306558865,
+                "chrf2++": 58.01870947234426,
+                "proper_term_success_rate": 0.31675874769797424,
+                "random_term_success_rate": 0.9105691056910569,
+                "consistency_frequent": 0.8197126990965854,
+                "consistency_predefined": 0.24844273513801407
+            },
+            "Erlendur": {
+                "bleu4": 43.78877218939443,
+                "chrf2++": 67.6010584327394,
+                "proper_term_success_rate": 0.4714548802946593,
+                "random_term_success_rate": 0.9609756097560975,
+                "consistency_frequent": 0.8451068985822348,
+                "consistency_predefined": 0.30789188062894957
+            },
+            "EuroLLM-ft": {},
+            "LC-2": {
+                "bleu4": 34.171848950767256,
+                "chrf2++": 59.53901371864176,
+                "proper_term_success_rate": 0.3738489871086556,
+                "random_term_success_rate": 0.9300813008130081,
+                "consistency_frequent": 0.8368852618852621,
+                "consistency_predefined": 0.28793212959879627
+            },
+            "LC-3": {
+                "bleu4": 34.171848950767256,
+                "chrf2++": 59.53901371864176,
+                "proper_term_success_rate": 0.3738489871086556,
+                "random_term_success_rate": 0.9300813008130081,
+                "consistency_frequent": 0.8321638196638199,
+                "consistency_predefined": 0.2879806921473588
+            },
+            "LC-primary": {
+                "bleu4": 34.11276628638263,
+                "chrf2++": 59.71171597836749,
+                "proper_term_success_rate": 0.3738489871086556,
+                "random_term_success_rate": 0.9317073170731708,
+                "consistency_frequent": 0.8314423189423191,
+                "consistency_predefined": 0.30021845438512107
+            },
+            "MarianMT-ft": {},
+            "MeGuMa": {
+                "bleu4": 35.447907970892885,
+                "chrf2++": 64.21449055899066,
+                "proper_term_success_rate": 0.46408839779005523,
+                "random_term_success_rate": 0.9772357723577236,
+                "consistency_frequent": 0.8465722273757988,
+                "consistency_predefined": 0.3485972360972361
+            },
+            "Systran_generic_ft": {},
+            "TiUTermV0": {
+                "bleu4": 34.27587084298113,
+                "chrf2++": 59.12115930480829,
+                "proper_term_success_rate": 0.4990791896869245,
+                "random_term_success_rate": 0.7707317073170732,
+                "consistency_frequent": 0.846843284920208,
+                "consistency_predefined": 0.2728979353979354
+            },
+            "TiUTermV1": {
+                "bleu4": 39.95684619130345,
+                "chrf2++": 64.4235631723996,
+                "proper_term_success_rate": 0.567219152854512,
+                "random_term_success_rate": 0.9008130081300812,
+                "consistency_frequent": 0.8402042648709316,
+                "consistency_predefined": 0.32530996661897954
+            },
+            "TranssionMT": {
+                "bleu4": 0.07440001497861845,
+                "chrf2++": 1.5941268759295464,
+                "proper_term_success_rate": 0.0,
+                "random_term_success_rate": 0.0016260162601626016,
+                "consistency_frequent": 0.7310618636564851,
+                "consistency_predefined": 0.0
+            },
+            "duterm": {
+                "bleu4": 43.767226637460716,
+                "chrf2++": 67.22467278513643,
+                "proper_term_success_rate": 0.4843462246777164,
+                "random_term_success_rate": 0.991869918699187,
+                "consistency_frequent": 0.8486900252525252,
+                "consistency_predefined": 0.32270815604148934
+            },
+            "laniqo": {
+                "bleu4": 32.42771769162378,
+                "chrf2++": 59.54721287001292,
+                "proper_term_success_rate": 0.43462246777163904,
+                "random_term_success_rate": 0.9902439024390244,
+                "consistency_frequent": 0.8277028145147409,
+                "consistency_predefined": 0.304763286359031
+            },
+            "o3-term-guide": {
+                "bleu4": 45.87479851248126,
+                "chrf2++": 69.37590920670218,
+                "proper_term_success_rate": 0.5230202578268877,
+                "random_term_success_rate": 1.0,
+                "consistency_frequent": 0.8711385086385085,
+                "consistency_predefined": 0.3546326877145843
+            },
+            "salamandrata": {
+                "bleu4": 39.23753831795476,
+                "chrf2++": 66.18889714472964,
+                "proper_term_success_rate": 0.48066298342541436,
+                "random_term_success_rate": 0.9626016260162602,
+                "consistency_frequent": 0.8629517468082492,
+                "consistency_predefined": 0.34083429740757326
+            },
+            "tower": {
+                "bleu4": 36.45143537499676,
+                "chrf2++": 63.00985047676985,
+                "proper_term_success_rate": 0.4567219152854512,
+                "random_term_success_rate": 0.943089430894309,
+                "consistency_frequent": 0.8591104973457914,
+                "consistency_predefined": 0.32004858517734047
+            }
+        }
+    },
+    "es": {
+        "noterm": {
+            "BIT": {
+                "bleu4": 48.52313725733142,
+                "chrf2++": 69.76711678921558,
+                "proper_term_success_rate": 0.962756052141527,
+                "random_term_success_rate": 0.7068062827225131,
+                "consistency_frequent": 0.8744109111496436,
+                "consistency_predefined": 0.7189912730665234
+            },
+            "CommandA_MT": {
+                "bleu4": 40.56645306936388,
+                "chrf2++": 65.50661525354883,
+                "proper_term_success_rate": 0.4729981378026071,
+                "random_term_success_rate": 0.7417102966841187,
+                "consistency_frequent": 0.8545231897568322,
+                "consistency_predefined": 0.38563676479745335
+            },
+            "ContexTerm": {
+                "bleu4": 28.370415371401325,
+                "chrf2++": 50.1554470395368,
+                "proper_term_success_rate": 0.186219739292365,
+                "random_term_success_rate": 0.4869109947643979,
+                "consistency_frequent": 0.7233420665235789,
+                "consistency_predefined": 0.22537707675030896
+            },
+            "CurTermNLLB": {
+                "bleu4": 46.00035134029938,
+                "chrf2++": 65.58003278000844,
+                "proper_term_success_rate": 0.4171322160148976,
+                "random_term_success_rate": 0.7364746945898778,
+                "consistency_frequent": 0.8607456946050921,
+                "consistency_predefined": 0.3233078315754069
+            },
+            "Erlendur": {
+                "bleu4": 47.51251441200087,
+                "chrf2++": 68.10671212781429,
+                "proper_term_success_rate": 0.44878957169459965,
+                "random_term_success_rate": 0.7661431064572426,
+                "consistency_frequent": 0.8718299265666422,
+                "consistency_predefined": 0.36950971704889446
+            },
+            "EuroLLM-ft": {
+                "bleu4": 41.5851697589244,
+                "chrf2++": 63.4541743045972,
+                "proper_term_success_rate": 0.3891992551210428,
+                "random_term_success_rate": 0.6422338568935427,
+                "consistency_frequent": 0.8283949753941641,
+                "consistency_predefined": 0.33088411269903373
+            },
+            "LC-2": {
+                "bleu4": 44.38464685443128,
+                "chrf2++": 64.05404552003456,
+                "proper_term_success_rate": 0.40782122905027934,
+                "random_term_success_rate": 0.6980802792321117,
+                "consistency_frequent": 0.8582622497174148,
+                "consistency_predefined": 0.3632775109589006
+            },
+            "LC-3": {
+                "bleu4": 44.38464685443128,
+                "chrf2++": 64.05404552003456,
+                "proper_term_success_rate": 0.40782122905027934,
+                "random_term_success_rate": 0.6980802792321117,
+                "consistency_frequent": 0.8572389684994273,
+                "consistency_predefined": 0.3688314807985847
+            },
+            "LC-primary": {
+                "bleu4": 44.661761236223846,
+                "chrf2++": 64.95653435611112,
+                "proper_term_success_rate": 0.41154562383612664,
+                "random_term_success_rate": 0.7050610820244329,
+                "consistency_frequent": 0.8534520417611233,
+                "consistency_predefined": 0.3594676303633057
+            },
+            "MarianMT-ft": {
+                "bleu4": 50.96640691849037,
+                "chrf2++": 68.86819098541741,
+                "proper_term_success_rate": 0.48789571694599626,
+                "random_term_success_rate": 0.7260034904013961,
+                "consistency_frequent": 0.8638243893980653,
+                "consistency_predefined": 0.43499824771823814
+            },
+            "MeGuMa": {
+                "bleu4": 43.112745994927565,
+                "chrf2++": 65.15320592730141,
+                "proper_term_success_rate": 0.4692737430167598,
+                "random_term_success_rate": 0.7382198952879581,
+                "consistency_frequent": 0.8562686704242953,
+                "consistency_predefined": 0.33931763956455413
+            },
+            "Systran_generic_ft": {
+                "bleu4": 52.8543189297152,
+                "chrf2++": 71.05954588138395,
+                "proper_term_success_rate": 0.441340782122905,
+                "random_term_success_rate": 0.7731239092495636,
+                "consistency_frequent": 0.8823464046435701,
+                "consistency_predefined": 0.39881527752761614
+            },
+            "TiUTermV0": {
+                "bleu4": 47.84540567354392,
+                "chrf2++": 68.00425550973068,
+                "proper_term_success_rate": 0.5363128491620112,
+                "random_term_success_rate": 0.7713787085514834,
+                "consistency_frequent": 0.853522198780201,
+                "consistency_predefined": 0.4385615095878893
+            },
+            "TiUTermV1": {
+                "bleu4": 54.633589292110166,
+                "chrf2++": 72.44989792611582,
+                "proper_term_success_rate": 0.5456238361266295,
+                "random_term_success_rate": 0.7923211169284468,
+                "consistency_frequent": 0.8789898096079165,
+                "consistency_predefined": 0.4158685049120247
+            },
+            "TranssionMT": {
+                "bleu4": 0.1879877165313543,
+                "chrf2++": 1.2770232124874719,
+                "proper_term_success_rate": 0.0,
+                "random_term_success_rate": 0.005235602094240838,
+                "consistency_frequent": 0.020036429872495445,
+                "consistency_predefined": 0.0
+            },
+            "duterm": {
+                "bleu4": 45.98219257009895,
+                "chrf2++": 67.04956763190229,
+                "proper_term_success_rate": 0.4692737430167598,
+                "random_term_success_rate": 0.7260034904013961,
+                "consistency_frequent": 0.8669019778065281,
+                "consistency_predefined": 0.36486010165235255
+            },
+            "laniqo": {
+                "bleu4": 35.58099250565948,
+                "chrf2++": 60.26980531608768,
+                "proper_term_success_rate": 0.41527001862197394,
+                "random_term_success_rate": 0.6910994764397905,
+                "consistency_frequent": 0.8097084452629721,
+                "consistency_predefined": 0.31356962194420346
+            },
+            "o3-term-guide": {
+                "bleu4": 49.869441860211914,
+                "chrf2++": 69.4696276860427,
+                "proper_term_success_rate": 0.4692737430167598,
+                "random_term_success_rate": 0.7609075043630017,
+                "consistency_frequent": 0.8879662317931594,
+                "consistency_predefined": 0.39719073348317724
+            },
+            "salamandrata": {
+                "bleu4": 44.357713329565804,
+                "chrf2++": 67.2216755444706,
+                "proper_term_success_rate": 0.49906890130353815,
+                "random_term_success_rate": 0.7835951134380453,
+                "consistency_frequent": 0.8852868543250941,
+                "consistency_predefined": 0.44876880260093244
+            },
+            "tower": {
+                "bleu4": 48.48510418191183,
+                "chrf2++": 68.60545171631,
+                "proper_term_success_rate": 0.46741154562383613,
+                "random_term_success_rate": 0.7539267015706806,
+                "consistency_frequent": 0.8791115893766306,
+                "consistency_predefined": 0.40614598572016397
+            }
+        },
+        "proper": {
+            "BIT": {
+                "bleu4": 48.52313725733142,
+                "chrf2++": 69.76711678921558,
+                "proper_term_success_rate": 0.962756052141527,
+                "random_term_success_rate": 0.7068062827225131,
+                "consistency_frequent": 0.8675099806676997,
+                "consistency_predefined": 0.7146060347446175
+            },
+            "CommandA_MT": {
+                "bleu4": 46.450037667557034,
+                "chrf2++": 70.68712434411908,
+                "proper_term_success_rate": 0.819366852886406,
+                "random_term_success_rate": 0.7574171029668412,
+                "consistency_frequent": 0.8452068400294607,
+                "consistency_predefined": 0.6581998081769831
+            },
+            "ContexTerm": {
+                "bleu4": 30.571563360457343,
+                "chrf2++": 53.7134892018212,
+                "proper_term_success_rate": 0.6852886405959032,
+                "random_term_success_rate": 0.4973821989528796,
+                "consistency_frequent": 0.7560023891610718,
+                "consistency_predefined": 0.5058824935100694
+            },
+            "CurTermNLLB": {
+                "bleu4": 49.605998957221715,
+                "chrf2++": 69.08025909029868,
+                "proper_term_success_rate": 0.7653631284916201,
+                "random_term_success_rate": 0.7294938917975567,
+                "consistency_frequent": 0.8749632284311519,
+                "consistency_predefined": 0.6133684198577078
+            },
+            "Erlendur": {
+                "bleu4": 56.77541658149268,
+                "chrf2++": 74.78887874343148,
+                "proper_term_success_rate": 0.9441340782122905,
+                "random_term_success_rate": 0.7678883071553229,
+                "consistency_frequent": 0.8380117635943577,
+                "consistency_predefined": 0.7290177445112963
+            },
+            "EuroLLM-ft": {
+                "bleu4": 41.5851697589244,
+                "chrf2++": 63.4541743045972,
+                "proper_term_success_rate": 0.3891992551210428,
+                "random_term_success_rate": 0.6422338568935427,
+                "consistency_frequent": 0.8249060633238852,
+                "consistency_predefined": 0.33681767648115135
+            },
+            "LC-2": {
+                "bleu4": 48.7388763785317,
+                "chrf2++": 67.68088193670516,
+                "proper_term_success_rate": 0.7355679702048417,
+                "random_term_success_rate": 0.6963350785340314,
+                "consistency_frequent": 0.8544193811162847,
+                "consistency_predefined": 0.5752861415125855
+            },
+            "LC-3": {
+                "bleu4": 48.7388763785317,
+                "chrf2++": 67.68088193670516,
+                "proper_term_success_rate": 0.7355679702048417,
+                "random_term_success_rate": 0.6963350785340314,
+                "consistency_frequent": 0.8563826385999619,
+                "consistency_predefined": 0.5846485272734204
+            },
+            "LC-primary": {
+                "bleu4": 49.32859450687956,
+                "chrf2++": 68.89012561241069,
+                "proper_term_success_rate": 0.7411545623836127,
+                "random_term_success_rate": 0.7033158813263525,
+                "consistency_frequent": 0.8358281736850318,
+                "consistency_predefined": 0.5683659389152665
+            },
+            "MarianMT-ft": {
+                "bleu4": 46.13438036811314,
+                "chrf2++": 65.55823183134771,
+                "proper_term_success_rate": 0.1750465549348231,
+                "random_term_success_rate": 0.7661431064572426,
+                "consistency_frequent": 0.5406667933837377,
+                "consistency_predefined": 0.12731872317963458
+            },
+            "MeGuMa": {
+                "bleu4": 49.77841099075852,
+                "chrf2++": 72.01710490708949,
+                "proper_term_success_rate": 0.9702048417132216,
+                "random_term_success_rate": 0.7713787085514834,
+                "consistency_frequent": 0.8694663364237047,
+                "consistency_predefined": 0.7231231656053538
+            },
+            "Systran_generic_ft": {
+                "bleu4": 52.8543189297152,
+                "chrf2++": 71.05954588138395,
+                "proper_term_success_rate": 0.441340782122905,
+                "random_term_success_rate": 0.7731239092495636,
+                "consistency_frequent": 0.8805163970443318,
+                "consistency_predefined": 0.389189255401594
+            },
+            "TiUTermV0": {
+                "bleu4": 48.86548396943552,
+                "chrf2++": 69.01735699326588,
+                "proper_term_success_rate": 0.7523277467411545,
+                "random_term_success_rate": 0.7504363001745201,
+                "consistency_frequent": 0.8504102911928431,
+                "consistency_predefined": 0.5814113067268646
+            },
+            "TiUTermV1": {
+                "bleu4": 60.076810581362146,
+                "chrf2++": 77.10726316573617,
+                "proper_term_success_rate": 0.8938547486033519,
+                "random_term_success_rate": 0.8150087260034904,
+                "consistency_frequent": 0.8574862788393323,
+                "consistency_predefined": 0.6539198381111665
+            },
+            "TranssionMT": {
+                "bleu4": 0.1879877165313543,
+                "chrf2++": 1.2770232124874719,
+                "proper_term_success_rate": 0.0,
+                "random_term_success_rate": 0.005235602094240838,
+                "consistency_frequent": 0.03187613843351548,
+                "consistency_predefined": 0.0
+            },
+            "duterm": {
+                "bleu4": 58.50962537211653,
+                "chrf2++": 76.08102686553325,
+                "proper_term_success_rate": 0.9869646182495344,
+                "random_term_success_rate": 0.7835951134380453,
+                "consistency_frequent": 0.8598490681395247,
+                "consistency_predefined": 0.771889235394151
+            },
+            "laniqo": {
+                "bleu4": 45.91551377140816,
+                "chrf2++": 68.53623223612053,
+                "proper_term_success_rate": 0.9869646182495344,
+                "random_term_success_rate": 0.7207678883071553,
+                "consistency_frequent": 0.8560660315916834,
+                "consistency_predefined": 0.741746413046506
+            },
+            "o3-term-guide": {
+                "bleu4": 56.89749178992793,
+                "chrf2++": 75.89938903017884,
+                "proper_term_success_rate": 0.9906890130353817,
+                "random_term_success_rate": 0.8115183246073299,
+                "consistency_frequent": 0.8666466657680052,
+                "consistency_predefined": 0.7460279653887852
+            },
+            "salamandrata": {
+                "bleu4": 49.03037426364518,
+                "chrf2++": 71.96675676435287,
+                "proper_term_success_rate": 0.9273743016759777,
+                "random_term_success_rate": 0.794066317626527,
+                "consistency_frequent": 0.8727422215782517,
+                "consistency_predefined": 0.7123893190382746
+            },
+            "tower": {
+                "bleu4": 55.19817336095581,
+                "chrf2++": 73.9928644359765,
+                "proper_term_success_rate": 0.9497206703910615,
+                "random_term_success_rate": 0.7643979057591623,
+                "consistency_frequent": 0.8762165068620494,
+                "consistency_predefined": 0.7525459270333813
+            }
+        },
+        "random": {
+            "BIT": {
+                "bleu4": 46.368687152946755,
+                "chrf2++": 67.19170239421103,
+                "proper_term_success_rate": 0.4748603351955307,
+                "random_term_success_rate": 0.9842931937172775,
+                "consistency_frequent": 0.876046227448866,
+                "consistency_predefined": 0.3929480075616579
+            },
+            "CommandA_MT": {
+                "bleu4": 44.19799459677823,
+                "chrf2++": 68.40796553276965,
+                "proper_term_success_rate": 0.4934823091247672,
+                "random_term_success_rate": 0.9057591623036649,
+                "consistency_frequent": 0.875228254186247,
+                "consistency_predefined": 0.41894349075123816
+            },
+            "ContexTerm": {
+                "bleu4": 28.984414114121343,
+                "chrf2++": 51.99811456232975,
+                "proper_term_success_rate": 0.2048417132216015,
+                "random_term_success_rate": 0.7975567190226877,
+                "consistency_frequent": 0.7495583099380915,
+                "consistency_predefined": 0.20630677942796968
+            },
+            "CurTermNLLB": {
+                "bleu4": 47.570862079761035,
+                "chrf2++": 67.43473378681868,
+                "proper_term_success_rate": 0.441340782122905,
+                "random_term_success_rate": 0.9109947643979057,
+                "consistency_frequent": 0.8531993603610407,
+                "consistency_predefined": 0.32164948786951236
+            },
+            "Erlendur": {
+                "bleu4": 52.38207092760219,
+                "chrf2++": 71.64191217054693,
+                "proper_term_success_rate": 0.47113594040968343,
+                "random_term_success_rate": 0.9720767888307156,
+                "consistency_frequent": 0.8647175681664955,
+                "consistency_predefined": 0.37026193244936834
+            },
+            "EuroLLM-ft": {
+                "bleu4": 41.5851697589244,
+                "chrf2++": 63.4541743045972,
+                "proper_term_success_rate": 0.3891992551210428,
+                "random_term_success_rate": 0.6422338568935427,
+                "consistency_frequent": 0.8309020348415392,
+                "consistency_predefined": 0.34440339953648763
+            },
+            "LC-2": {
+                "bleu4": 47.212655877295745,
+                "chrf2++": 67.0903492891114,
+                "proper_term_success_rate": 0.4338919925512104,
+                "random_term_success_rate": 0.9546247818499127,
+                "consistency_frequent": 0.8645057727050219,
+                "consistency_predefined": 0.36009794104690596
+            },
+            "LC-3": {
+                "bleu4": 47.212655877295745,
+                "chrf2++": 67.0903492891114,
+                "proper_term_success_rate": 0.4338919925512104,
+                "random_term_success_rate": 0.9546247818499127,
+                "consistency_frequent": 0.8497213087416892,
+                "consistency_predefined": 0.35446942322326624
+            },
+            "LC-primary": {
+                "bleu4": 48.15113359527019,
+                "chrf2++": 68.11224032393697,
+                "proper_term_success_rate": 0.4376163873370577,
+                "random_term_success_rate": 0.9633507853403142,
+                "consistency_frequent": 0.8576560606198905,
+                "consistency_predefined": 0.3575387938449016
+            },
+            "MarianMT-ft": {
+                "bleu4": 50.96640691849037,
+                "chrf2++": 68.86819098541741,
+                "proper_term_success_rate": 0.48789571694599626,
+                "random_term_success_rate": 0.7260034904013961,
+                "consistency_frequent": 0.8508806554808865,
+                "consistency_predefined": 0.42927612619327105
+            },
+            "MeGuMa": {
+                "bleu4": 50.14353973431809,
+                "chrf2++": 70.27590225354238,
+                "proper_term_success_rate": 0.5307262569832403,
+                "random_term_success_rate": 0.9912739965095986,
+                "consistency_frequent": 0.8841708816948177,
+                "consistency_predefined": 0.4207653085693939
+            },
+            "Systran_generic_ft": {
+                "bleu4": 52.8543189297152,
+                "chrf2++": 71.05954588138395,
+                "proper_term_success_rate": 0.441340782122905,
+                "random_term_success_rate": 0.7731239092495636,
+                "consistency_frequent": 0.8863466866854165,
+                "consistency_predefined": 0.3880823921504218
+            },
+            "TiUTermV0": {
+                "bleu4": 48.366873293912434,
+                "chrf2++": 68.05156177933317,
+                "proper_term_success_rate": 0.5418994413407822,
+                "random_term_success_rate": 0.8464223385689355,
+                "consistency_frequent": 0.850810802343632,
+                "consistency_predefined": 0.4429143798440785
+            },
+            "TiUTermV1": {
+                "bleu4": 56.15419705051438,
+                "chrf2++": 74.1522471264306,
+                "proper_term_success_rate": 0.5921787709497207,
+                "random_term_success_rate": 0.9267015706806283,
+                "consistency_frequent": 0.8635889940105147,
+                "consistency_predefined": 0.4539554945736199
+            },
+            "TranssionMT": {
+                "bleu4": 0.1879877165313543,
+                "chrf2++": 1.2770232124874719,
+                "proper_term_success_rate": 0.0,
+                "random_term_success_rate": 0.005235602094240838,
+                "consistency_frequent": 0.05555555555555555,
+                "consistency_predefined": 0.0
+            },
+            "duterm": {
+                "bleu4": 53.2758726420955,
+                "chrf2++": 72.05305880503967,
+                "proper_term_success_rate": 0.48789571694599626,
+                "random_term_success_rate": 0.9808027923211169,
+                "consistency_frequent": 0.8865506948925086,
+                "consistency_predefined": 0.42344065694454497
+            },
+            "laniqo": {
+                "bleu4": 43.048028184785096,
+                "chrf2++": 66.25704333522057,
+                "proper_term_success_rate": 0.4692737430167598,
+                "random_term_success_rate": 0.9930191972076788,
+                "consistency_frequent": 0.8289705376949086,
+                "consistency_predefined": 0.36739264313239595
+            },
+            "o3-term-guide": {
+                "bleu4": 53.467714564357046,
+                "chrf2++": 72.44926840571648,
+                "proper_term_success_rate": 0.5065176908752328,
+                "random_term_success_rate": 1.0,
+                "consistency_frequent": 0.8913155274013601,
+                "consistency_predefined": 0.3769558644837067
+            },
+            "salamandrata": {
+                "bleu4": 46.01004414624081,
+                "chrf2++": 69.27763857098054,
+                "proper_term_success_rate": 0.5307262569832403,
+                "random_term_success_rate": 0.9755671902268761,
+                "consistency_frequent": 0.8788129503064519,
+                "consistency_predefined": 0.4695490154672363
+            },
+            "tower": {
+                "bleu4": 50.88997147198367,
+                "chrf2++": 71.20246191869354,
+                "proper_term_success_rate": 0.4860335195530726,
+                "random_term_success_rate": 0.9773123909249564,
+                "consistency_frequent": 0.8774350664351884,
+                "consistency_predefined": 0.410987627292027
+            }
+        }
+    },
+    "ru": {
+        "noterm": {
+            "BIT": {
+                "bleu4": 36.551776952390185,
+                "chrf2++": 63.500913794871835,
+                "proper_term_success_rate": 0.9646365422396856,
+                "random_term_success_rate": 0.9855072463768116,
+                "consistency_frequent": 0.8928042328042328,
+                "consistency_predefined": 0.8174316266157987
+            },
+            "CommandA_MT": {
+                "bleu4": 24.42781191844923,
+                "chrf2++": 54.35189418456884,
+                "proper_term_success_rate": 0.3889980353634578,
+                "random_term_success_rate": 0.6884057971014492,
+                "consistency_frequent": 0.9127116402116403,
+                "consistency_predefined": 0.32546859169199593
+            },
+            "ContexTerm": {
+                "bleu4": 23.509748552405323,
+                "chrf2++": 49.40377939512254,
+                "proper_term_success_rate": 0.3477406679764244,
+                "random_term_success_rate": 0.625,
+                "consistency_frequent": 0.8450754774785523,
+                "consistency_predefined": 0.24541550146388855
+            },
+            "CurTermNLLB": {
+                "bleu4": 22.240973164469555,
+                "chrf2++": 48.36578072570898,
+                "proper_term_success_rate": 0.3379174852652259,
+                "random_term_success_rate": 0.6105072463768116,
+                "consistency_frequent": 0.8620067393810412,
+                "consistency_predefined": 0.2394979203802733
+            },
+            "Erlendur": {
+                "bleu4": 27.01484508416455,
+                "chrf2++": 55.637712548303966,
+                "proper_term_success_rate": 0.3948919449901768,
+                "random_term_success_rate": 0.7101449275362319,
+                "consistency_frequent": 0.880352684144819,
+                "consistency_predefined": 0.31117724867724866
+            },
+            "EuroLLM-ft": {},
+            "LC-2": {
+                "bleu4": 22.59025511532473,
+                "chrf2++": 49.94344172391508,
+                "proper_term_success_rate": 0.32612966601178783,
+                "random_term_success_rate": 0.6340579710144928,
+                "consistency_frequent": 0.8497451196278125,
+                "consistency_predefined": 0.24687577953706982
+            },
+            "LC-3": {
+                "bleu4": 22.59025511532473,
+                "chrf2++": 49.94344172391508,
+                "proper_term_success_rate": 0.32612966601178783,
+                "random_term_success_rate": 0.6340579710144928,
+                "consistency_frequent": 0.8574919177690344,
+                "consistency_predefined": 0.24969195977260492
+            },
+            "LC-primary": {
+                "bleu4": 22.528431748083822,
+                "chrf2++": 50.478216516747295,
+                "proper_term_success_rate": 0.3280943025540275,
+                "random_term_success_rate": 0.6358695652173914,
+                "consistency_frequent": 0.8455373671626647,
+                "consistency_predefined": 0.24462283534864177
+            },
+            "MarianMT-ft": {},
+            "MeGuMa": {
+                "bleu4": 24.342146827747264,
+                "chrf2++": 52.09626220255903,
+                "proper_term_success_rate": 0.3477406679764244,
+                "random_term_success_rate": 0.6467391304347826,
+                "consistency_frequent": 0.8785373926106754,
+                "consistency_predefined": 0.3050806315433975
+            },
+            "Systran_generic_ft": {},
+            "TiUTermV0": {
+                "bleu4": 28.701585462690467,
+                "chrf2++": 54.579826133602495,
+                "proper_term_success_rate": 0.44204322200392926,
+                "random_term_success_rate": 0.6594202898550725,
+                "consistency_frequent": 0.8539088464639935,
+                "consistency_predefined": 0.2921903260138554
+            },
+            "TiUTermV1": {
+                "bleu4": 33.78856666268319,
+                "chrf2++": 58.86144510113991,
+                "proper_term_success_rate": 0.4774066797642436,
+                "random_term_success_rate": 0.6956521739130435,
+                "consistency_frequent": 0.8317944923877126,
+                "consistency_predefined": 0.2923929973929974
+            },
+            "TranssionMT": {
+                "bleu4": 20.03499927842517,
+                "chrf2++": 47.8097661332621,
+                "proper_term_success_rate": 0.3320235756385069,
+                "random_term_success_rate": 0.5978260869565217,
+                "consistency_frequent": 0.8837722643076245,
+                "consistency_predefined": 0.21312592549294676
+            },
+            "duterm": {
+                "bleu4": 27.881874336439093,
+                "chrf2++": 55.286942623632626,
+                "proper_term_success_rate": 0.39096267190569745,
+                "random_term_success_rate": 0.6938405797101449,
+                "consistency_frequent": 0.8703179036977919,
+                "consistency_predefined": 0.3056216931216931
+            },
+            "laniqo": {
+                "bleu4": 20.693813140075036,
+                "chrf2++": 49.37031571859363,
+                "proper_term_success_rate": 0.33988212180746563,
+                "random_term_success_rate": 0.6123188405797102,
+                "consistency_frequent": 0.8239430918988929,
+                "consistency_predefined": 0.22751306340016017
+            },
+            "o3-term-guide": {
+                "bleu4": 29.075027366599432,
+                "chrf2++": 56.629042044938686,
+                "proper_term_success_rate": 0.3889980353634578,
+                "random_term_success_rate": 0.7282608695652174,
+                "consistency_frequent": 0.9133761369716427,
+                "consistency_predefined": 0.33986175115207373
+            },
+            "salamandrata": {
+                "bleu4": 25.824292590933528,
+                "chrf2++": 54.69274740931134,
+                "proper_term_success_rate": 0.4066797642436149,
+                "random_term_success_rate": 0.677536231884058,
+                "consistency_frequent": 0.8815096323429656,
+                "consistency_predefined": 0.3360342272106978
+            },
+            "tower": {
+                "bleu4": 25.21029470209277,
+                "chrf2++": 52.955118849579854,
+                "proper_term_success_rate": 0.36345776031434185,
+                "random_term_success_rate": 0.6847826086956522,
+                "consistency_frequent": 0.8997799514283032,
+                "consistency_predefined": 0.2923703660405788
+            }
+        },
+        "proper": {
+            "BIT": {
+                "bleu4": 32.716943202998095,
+                "chrf2++": 58.86912694910988,
+                "proper_term_success_rate": 0.9666011787819253,
+                "random_term_success_rate": 0.6666666666666666,
+                "consistency_frequent": 0.8980577601410935,
+                "consistency_predefined": 0.8054529033700761
+            },
+            "CommandA_MT": {
+                "bleu4": 29.462418208676652,
+                "chrf2++": 59.28455236369841,
+                "proper_term_success_rate": 0.7072691552062869,
+                "random_term_success_rate": 0.7137681159420289,
+                "consistency_frequent": 0.8776624988915491,
+                "consistency_predefined": 0.6191086691086691
+            },
+            "ContexTerm": {
+                "bleu4": 23.44497287792796,
+                "chrf2++": 51.4784966751555,
+                "proper_term_success_rate": 0.6758349705304518,
+                "random_term_success_rate": 0.6141304347826086,
+                "consistency_frequent": 0.8435979750586493,
+                "consistency_predefined": 0.5047292066642283
+            },
+            "CurTermNLLB": {
+                "bleu4": 25.21043865038657,
+                "chrf2++": 51.00384076937458,
+                "proper_term_success_rate": 0.34577603143418467,
+                "random_term_success_rate": 0.6231884057971014,
+                "consistency_frequent": 0.887903778320445,
+                "consistency_predefined": 0.23374958374958374
+            },
+            "Erlendur": {
+                "bleu4": 35.43624256810625,
+                "chrf2++": 63.259408453019695,
+                "proper_term_success_rate": 0.9115913555992141,
+                "random_term_success_rate": 0.7155797101449275,
+                "consistency_frequent": 0.8996896337678459,
+                "consistency_predefined": 0.7671649029982364
+            },
+            "EuroLLM-ft": {},
+            "LC-2": {
+                "bleu4": 27.73012901636402,
+                "chrf2++": 53.65390327949324,
+                "proper_term_success_rate": 0.656188605108055,
+                "random_term_success_rate": 0.6485507246376812,
+                "consistency_frequent": 0.8622071292904626,
+                "consistency_predefined": 0.5134381859791696
+            },
+            "LC-3": {
+                "bleu4": 27.73012901636402,
+                "chrf2++": 53.65390327949324,
+                "proper_term_success_rate": 0.656188605108055,
+                "random_term_success_rate": 0.6485507246376812,
+                "consistency_frequent": 0.8667832014517096,
+                "consistency_predefined": 0.5198134136658726
+            },
+            "LC-primary": {
+                "bleu4": 27.67475447744242,
+                "chrf2++": 54.204016558777525,
+                "proper_term_success_rate": 0.6581532416502947,
+                "random_term_success_rate": 0.6503623188405797,
+                "consistency_frequent": 0.8695814679148012,
+                "consistency_predefined": 0.5219276473374834
+            },
+            "MarianMT-ft": {},
+            "MeGuMa": {
+                "bleu4": 32.76621369997171,
+                "chrf2++": 61.90895063645444,
+                "proper_term_success_rate": 0.9882121807465619,
+                "random_term_success_rate": 0.7010869565217391,
+                "consistency_frequent": 0.9020173805090006,
+                "consistency_predefined": 0.82547817604898
+            },
+            "Systran_generic_ft": {},
+            "TiUTermV0": {
+                "bleu4": 34.0780187321645,
+                "chrf2++": 58.261360542592776,
+                "proper_term_success_rate": 0.768172888015717,
+                "random_term_success_rate": 0.644927536231884,
+                "consistency_frequent": 0.8858360389610389,
+                "consistency_predefined": 0.6199552749276506
+            },
+            "TiUTermV1": {
+                "bleu4": 38.85101563276452,
+                "chrf2++": 63.78274255210841,
+                "proper_term_success_rate": 0.8605108055009824,
+                "random_term_success_rate": 0.7010869565217391,
+                "consistency_frequent": 0.8852053627477356,
+                "consistency_predefined": 0.7065642458100558
+            },
+            "TranssionMT": {
+                "bleu4": 20.03499927842517,
+                "chrf2++": 47.8097661332621,
+                "proper_term_success_rate": 0.3320235756385069,
+                "random_term_success_rate": 0.5978260869565217,
+                "consistency_frequent": 0.9007808395614079,
+                "consistency_predefined": 0.22268772893772892
+            },
+            "duterm": {
+                "bleu4": 35.79637499327885,
+                "chrf2++": 63.572833240995585,
+                "proper_term_success_rate": 0.9764243614931237,
+                "random_term_success_rate": 0.717391304347826,
+                "consistency_frequent": 0.8950696107120689,
+                "consistency_predefined": 0.823895790200138
+            },
+            "laniqo": {
+                "bleu4": 25.859947999577756,
+                "chrf2++": 56.897498348004895,
+                "proper_term_success_rate": 0.9960707269155207,
+                "random_term_success_rate": 0.6485507246376812,
+                "consistency_frequent": 0.8793340991367308,
+                "consistency_predefined": 0.8177567075733215
+            },
+            "o3-term-guide": {
+                "bleu4": 38.55709607568388,
+                "chrf2++": 65.58735862478122,
+                "proper_term_success_rate": 0.9901768172888016,
+                "random_term_success_rate": 0.7481884057971014,
+                "consistency_frequent": 0.903935341505174,
+                "consistency_predefined": 0.8446179987032453
+            },
+            "salamandrata": {
+                "bleu4": 30.95030916736447,
+                "chrf2++": 60.43771932443508,
+                "proper_term_success_rate": 0.8939096267190569,
+                "random_term_success_rate": 0.6793478260869565,
+                "consistency_frequent": 0.8861133404672731,
+                "consistency_predefined": 0.7687372528154652
+            },
+            "tower": {
+                "bleu4": 27.819405667402897,
+                "chrf2++": 58.0797214454568,
+                "proper_term_success_rate": 0.9115913555992141,
+                "random_term_success_rate": 0.697463768115942,
+                "consistency_frequent": 0.9072869557506429,
+                "consistency_predefined": 0.8473286335018179
+            }
+        },
+        "random": {
+            "BIT": {
+                "bleu4": 36.551776952390185,
+                "chrf2++": 63.500913794871835,
+                "proper_term_success_rate": 0.9646365422396856,
+                "random_term_success_rate": 0.9855072463768116,
+                "consistency_frequent": 0.8926058201058201,
+                "consistency_predefined": 0.8287344623568367
+            },
+            "CommandA_MT": {
+                "bleu4": 27.494651124573082,
+                "chrf2++": 57.623151665695005,
+                "proper_term_success_rate": 0.40078585461689586,
+                "random_term_success_rate": 0.8659420289855072,
+                "consistency_frequent": 0.9133024691358025,
+                "consistency_predefined": 0.32667006196417964
+            },
+            "ContexTerm": {
+                "bleu4": 24.24399549344565,
+                "chrf2++": 51.71823086974905,
+                "proper_term_success_rate": 0.3477406679764244,
+                "random_term_success_rate": 0.8731884057971014,
+                "consistency_frequent": 0.8671683368506306,
+                "consistency_predefined": 0.2509464400593433
+            },
+            "CurTermNLLB": {
+                "bleu4": 24.9287001114247,
+                "chrf2++": 50.83032281332682,
+                "proper_term_success_rate": 0.32612966601178783,
+                "random_term_success_rate": 0.6394927536231884,
+                "consistency_frequent": 0.849006039006039,
+                "consistency_predefined": 0.22537478861008273
+            },
+            "Erlendur": {
+                "bleu4": 32.08487655313953,
+                "chrf2++": 59.814915863222,
+                "proper_term_success_rate": 0.3889980353634578,
+                "random_term_success_rate": 0.9619565217391305,
+                "consistency_frequent": 0.8754966814781754,
+                "consistency_predefined": 0.3190094219505984
+            },
+            "EuroLLM-ft": {},
+            "LC-2": {
+                "bleu4": 27.6063538296784,
+                "chrf2++": 54.94566566354601,
+                "proper_term_success_rate": 0.34577603143418467,
+                "random_term_success_rate": 0.9565217391304348,
+                "consistency_frequent": 0.8694657631838862,
+                "consistency_predefined": 0.24554513158236563
+            },
+            "LC-3": {
+                "bleu4": 27.6063538296784,
+                "chrf2++": 54.94566566354601,
+                "proper_term_success_rate": 0.34577603143418467,
+                "random_term_success_rate": 0.9565217391304348,
+                "consistency_frequent": 0.8648153514279274,
+                "consistency_predefined": 0.24152410827942744
+            },
+            "LC-primary": {
+                "bleu4": 27.639347526674605,
+                "chrf2++": 55.195420912468805,
+                "proper_term_success_rate": 0.34577603143418467,
+                "random_term_success_rate": 0.9565217391304348,
+                "consistency_frequent": 0.8721840813217342,
+                "consistency_predefined": 0.23844026836048113
+            },
+            "MarianMT-ft": {},
+            "MeGuMa": {
+                "bleu4": 30.24867241168663,
+                "chrf2++": 59.04885725394248,
+                "proper_term_success_rate": 0.40471512770137524,
+                "random_term_success_rate": 0.9836956521739131,
+                "consistency_frequent": 0.8812488853219191,
+                "consistency_predefined": 0.311847158218126
+            },
+            "Systran_generic_ft": {},
+            "TiUTermV0": {
+                "bleu4": 30.491840510243645,
+                "chrf2++": 55.756167477561924,
+                "proper_term_success_rate": 0.44793713163064836,
+                "random_term_success_rate": 0.8079710144927537,
+                "consistency_frequent": 0.8487456693999984,
+                "consistency_predefined": 0.2891112155818038
+            },
+            "TiUTermV1": {
+                "bleu4": 36.55700753805809,
+                "chrf2++": 61.787205639849084,
+                "proper_term_success_rate": 0.4793713163064833,
+                "random_term_success_rate": 0.9239130434782609,
+                "consistency_frequent": 0.8486846643626305,
+                "consistency_predefined": 0.3299865755510916
+            },
+            "TranssionMT": {
+                "bleu4": 20.03499927842517,
+                "chrf2++": 47.8097661332621,
+                "proper_term_success_rate": 0.3320235756385069,
+                "random_term_success_rate": 0.5978260869565217,
+                "consistency_frequent": 0.8832568533715094,
+                "consistency_predefined": 0.21671635102486167
+            },
+            "duterm": {
+                "bleu4": 32.250723033971674,
+                "chrf2++": 59.847865661172115,
+                "proper_term_success_rate": 0.4243614931237721,
+                "random_term_success_rate": 0.9855072463768116,
+                "consistency_frequent": 0.8631687870678997,
+                "consistency_predefined": 0.2979710701484895
+            },
+            "laniqo": {
+                "bleu4": 25.313318563928377,
+                "chrf2++": 54.82734579728603,
+                "proper_term_success_rate": 0.37721021611001965,
+                "random_term_success_rate": 0.9909420289855072,
+                "consistency_frequent": 0.8136587640754306,
+                "consistency_predefined": 0.26775658981541334
+            },
+            "o3-term-guide": {
+                "bleu4": 35.648623701157696,
+                "chrf2++": 62.41138018569733,
+                "proper_term_success_rate": 0.44597249508840864,
+                "random_term_success_rate": 1.0,
+                "consistency_frequent": 0.8854537133205341,
+                "consistency_predefined": 0.36334485407066053
+            },
+            "salamandrata": {
+                "bleu4": 29.75028374712054,
+                "chrf2++": 58.53357482669773,
+                "proper_term_success_rate": 0.43418467583497056,
+                "random_term_success_rate": 0.9384057971014492,
+                "consistency_frequent": 0.8817158458825127,
+                "consistency_predefined": 0.3526320085143615
+            },
+            "tower": {
+                "bleu4": 28.18733141832453,
+                "chrf2++": 57.06780379462604,
+                "proper_term_success_rate": 0.3850687622789784,
+                "random_term_success_rate": 0.967391304347826,
+                "consistency_frequent": 0.8850751151856124,
+                "consistency_predefined": 0.2903201373789609
+            }
+        }
+    }
+}
