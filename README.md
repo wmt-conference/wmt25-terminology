@@ -4,7 +4,8 @@ This repository accompanies the WMT25 Terminology Shared Task.
 
 ## Data
 
-TODO
+- the submitted system outputs are to be found in [ranking/submissions](ranking/submissions) folder
+- the reference translations are to be found in [ranking/references](ranking/references) folder
 
 ## Evaluation
 
