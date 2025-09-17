@@ -26,7 +26,7 @@ def get_lemmatized_dict_lists(lang, dict_lists, nlp_pipelines):
             lemmatized_v = "|||".join([word.lemma for sent in nlp_pipelines[lang](v).sentences for word in sent.words]).lower()
             lemmatized_dict_list.append((lemmatized_k, lemmatized_v))
         lemmatized_dict_lists.append(lemmatized_dict_list)
-        
+
     return lemmatized_dict_lists
 
 # Start the evaluation
@@ -51,7 +51,7 @@ for lang in ["de", "es", "ru"]:
     # get shared task's sources and references
     shared_task_src = get_shared_task_src(lang)
     shared_task_ref = get_shared_task_ref(lang)
-    
+
     # Lemmatize the source texts
     lemmatized_shared_task_src = []
     for src_line in shared_task_src:
@@ -79,7 +79,7 @@ for lang in ["de", "es", "ru"]:
         ## but re-use the shared_task_src, lemmatized_shared_task_src, as well as both modes' dict_list and lemmatized_dict_list
         for team in teams:
             print(f"Evaluating {team} for {lang} in {mode} mode")
-            
+
             score_dict[lang][mode][team] = {}
 
             hyp_file = f"../submissions/track1/{team}/{team}.en{lang}.{mode}.jsonl"

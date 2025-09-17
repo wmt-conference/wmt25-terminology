@@ -33,7 +33,7 @@ def get_term_success_rate(src_str: str, hyp_str: str, src_term: str, trg_terms: 
 
     return min(1.0 * output_terms_count / input_term_count, 1.0)
 
-    
+
 # Start the evaluation for track 2
 
 # list all the submissions
@@ -58,8 +58,8 @@ for direction, years in direction_map.items():
                 with open(f"{submission_folder_path}/{team}/{team}.{year}.{direction}.{mode}.jsonl", "r") as f:
                     year_data = [json.loads(line.strip()) for line in f]
                     submission_data.extend(year_data)
-                
-                with open(f"{reference_folder_path}/source_reference_{year}.jsonl") as f:
+
+                with open(f"{reference_folder_path}/full_data_{year}.jsonl") as f:
                     year_data = [json.loads(line.strip()) for line in f]
                     reference_data.extend(year_data)
 
@@ -81,6 +81,11 @@ for direction, years in direction_map.items():
             bleu_score = get_bleu(hyps, refs, max_ngram_order=4, tokenize=bleu_tokenizer)
             chrf_score = get_chrf(hyps, refs, char_order=6, word_order=2)
 
+            score_dict[direction][mode][team] = {
+                "bleu4": bleu_score.score,
+                "chrf2++": chrf_score.score,
+            }
+
             # compute with both proper and random dicts regardless of the mode
             for dict_mode in ["proper", "random"]:
                 term_dicts = proper_term_dicts if dict_mode == "proper" else random_term_dicts
@@ -96,12 +101,8 @@ for direction, years in direction_map.items():
                             valid_src_terms += 1
                             aggregated_success_rate += get_term_success_rate(src, hyp, src_term, trg_terms, lowercase=True) # we decided to measure success rate with everything lowercased
 
-                score_dict[direction][mode][team] = {
-                    "bleu4": bleu_score.score,
-                    "chrf2++": chrf_score.score,
-                    f"{dict_mode}_term_success_rate": aggregated_success_rate / valid_src_terms if valid_src_terms > 0 else -1.0,
-                }
-            
+                score_dict[direction][mode][team][f"{dict_mode}_term_success_rate"] = aggregated_success_rate / valid_src_terms if valid_src_terms > 0 else -1.0
+
             print(f"Evaluated {team} for {direction} in {mode} mode: ", score_dict[direction][mode][team])
 
 os.makedirs("./scores", exist_ok=True)

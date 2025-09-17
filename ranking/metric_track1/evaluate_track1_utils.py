@@ -9,9 +9,8 @@ submission_dir = "../submissions/track1"
 reference_dir = "../references/track1"
 
 
-FULL_REF_DATA = {}
+FULL_REF_DATA = {"ende": {}, "enes": {}, "enru": {}}
 for langpair in ["ende", "enes", "enru"]:
-    lang_data = []
     with open(f"{reference_dir}/full_data.{langpair}.jsonl", "r") as f:
         lang_data = [json.loads(line) for line in f]
     src_code, tgt_code = langpair[:2], langpair[2:]
@@ -76,3 +75,4 @@ def get_participant_hyp(filename, lang):
 
 
 if __name__ == "__main__":
+    pass
