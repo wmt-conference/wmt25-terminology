@@ -6,6 +6,13 @@ import statistics
 import os
 import utils
 
+# Adjusting params for different metrics
+metric_id = "chrf2++" # "consistency_predefined"
+metric_label = "ChrF++" # "Consistency \n(Pseudo-References from Dictionary)"
+threshold = 55 # 0.1
+limits = (54, 72) # (0.1, 0.9)
+file_suffix = "" # "_consistency_predefined"
+
 os.makedirs("generated/", exist_ok=True)
 plt.rcParams["font.family"] = "serif"
 
@@ -20,9 +27,9 @@ data = [
         "name": sys,
         # es doesn't have term acc
         "y": [
-            statistics.mean([data[lang]["noterm"][sys]["chrf2++"] for lang in LANGS]),
-            statistics.mean([data[lang]["random"][sys]["chrf2++"] for lang in LANGS]),
-            statistics.mean([data[lang]["proper"][sys]["chrf2++"] for lang in LANGS]),
+            statistics.mean([data[lang]["noterm"][sys][metric_id] for lang in LANGS]),
+            statistics.mean([data[lang]["random"][sys][metric_id] for lang in LANGS]),
+            statistics.mean([data[lang]["proper"][sys][metric_id] for lang in LANGS]),
         ]
     }
     for sys in [
@@ -33,7 +40,7 @@ data = [
 ]
 data = [
     line for line in data
-    if statistics.mean(line["y"]) > 55
+    if statistics.mean(line["y"]) > threshold
 ]
 data.sort(
     key=lambda line: statistics.mean(line["y"]),
@@ -75,7 +82,7 @@ for line_i, line in enumerate(data):
         zorder=-10,
     )
 
-plt.ylim(54, 72)
+plt.ylim(limits)
 
 # set xticks formatter to percentages
 ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{int(x*100)}%'))
@@ -88,7 +95,7 @@ plt.xticks(
     rotation=90,
     fontsize=8,
 )
-plt.ylabel('ChrF++')
+plt.ylabel(metric_label)
 
 plt.tight_layout(pad=0)
-plt.savefig("generated/effect_termmode.pdf")
+plt.savefig(f"generated/effect_termmode{file_suffix}.pdf")
