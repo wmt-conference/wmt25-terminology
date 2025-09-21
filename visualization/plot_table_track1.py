@@ -74,7 +74,7 @@ def nocolor_cell(val):
 
 
 
-with open("generated/track1_ext.tex", "w") as f:
+with open("generated/track1.tex", "w") as f:
     print(
         r"\begin{tabular}{l  cvvv cvvv cvvv|c cvvv cvvv|c cvvv}",
         r"\toprule",
@@ -139,15 +139,6 @@ with open("generated/track1_ext.tex", "w") as f:
                 if "proper_term_success_rate" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
-            # random, cons
-            color_cell_cons(statistics.mean([
-                data[lang]["random"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all("consistency_frequent" in data[lang]["random"][sys] for lang in LANGS) else "",
-            *[
-                nocolor_cell(data[lang]["random"][sys]["consistency_frequent"]*100)
-                if "consistency_frequent" in data[lang]["random"][sys] else ""
-                for lang in LANGS
-            ],
             "",
             # noterm, chrf
             color_cell_chrf(statistics.mean([
@@ -156,24 +147,6 @@ with open("generated/track1_ext.tex", "w") as f:
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["chrf2++"])
                 if "chrf2++" in data[lang]["noterm"][sys] else ""
-                for lang in LANGS
-            ],
-            # noterm, term
-            color_cell_acc(statistics.mean([
-                data[lang]["noterm"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all("proper_term_success_rate" in data[lang]["noterm"][sys] for lang in LANGS) else "",
-            *[
-                nocolor_cell(data[lang]["noterm"][sys]["proper_term_success_rate"]*100)
-                if "proper_term_success_rate" in data[lang]["noterm"][sys] else ""
-                for lang in LANGS
-            ],
-            # noterm, cons
-            color_cell_cons(statistics.mean([
-                data[lang]["noterm"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all("consistency_frequent" in data[lang]["noterm"][sys] for lang in LANGS) else "",
-            *[
-                nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
-                if "consistency_frequent" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             sep=" & ",
@@ -292,8 +265,7 @@ with open("generated/track1_ext.tex", "w") as f:
             ])) if all("consistency_frequent" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
-                if "consistency_frequent" in data[lang]["noterm"][sys] else ""
-                for lang in LANGS
+                if "consistency_frequent" in data[lang]["noterm"][sys] else ""                for lang in LANGS
             ],
             sep=" & ",
             end="\\\\\n",
