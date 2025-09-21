@@ -139,7 +139,8 @@
                 "random_term_success_rate": 0.6878048780487804,
                 "consistency_frequent": 0.870210480276852,
                 "consistency_predefined": 0.2634017230415535
-            }
+            },
+            "organizers_gpt-4.1-nano": {}
         },
         "proper": {
             "BIT": {
@@ -280,6 +281,12 @@
                 "random_term_success_rate": 0.7284552845528456,
                 "consistency_frequent": 0.8683875043740513,
                 "consistency_predefined": 0.6078624508139926
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 43.218486505404286,
+                "chrf2++": 67.40636294405057,
+                "proper_term_success_rate": 0.8895027624309392,
+                "random_term_success_rate": 0.71869918699187
             }
         },
         "random": {
@@ -421,7 +428,8 @@
                 "random_term_success_rate": 0.943089430894309,
                 "consistency_frequent": 0.8591104973457914,
                 "consistency_predefined": 0.32004858517734047
-            }
+            },
+            "organizers_gpt-4.1-nano": {}
         }
     },
     "es": {
@@ -585,7 +593,8 @@
                 "random_term_success_rate": 0.7539267015706806,
                 "consistency_frequent": 0.8791115893766306,
                 "consistency_predefined": 0.40614598572016397
-            }
+            },
+            "organizers_gpt-4.1-nano": {}
         },
         "proper": {
             "BIT": {
@@ -747,6 +756,12 @@
                 "random_term_success_rate": 0.7643979057591623,
                 "consistency_frequent": 0.8762165068620494,
                 "consistency_predefined": 0.7525459270333813
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 52.24893672681808,
+                "chrf2++": 72.40555367837055,
+                "proper_term_success_rate": 0.9515828677839852,
+                "random_term_success_rate": 0.7347294938917975
             }
         },
         "random": {
@@ -909,7 +924,8 @@
                 "random_term_success_rate": 0.9773123909249564,
                 "consistency_frequent": 0.8774350664351884,
                 "consistency_predefined": 0.410987627292027
-            }
+            },
+            "organizers_gpt-4.1-nano": {}
         }
     },
     "ru": {
@@ -1052,7 +1068,8 @@
                 "random_term_success_rate": 0.6847826086956522,
                 "consistency_frequent": 0.8997799514283032,
                 "consistency_predefined": 0.2923703660405788
-            }
+            },
+            "organizers_gpt-4.1-nano": {}
         },
         "proper": {
             "BIT": {
@@ -1193,6 +1210,12 @@
                 "random_term_success_rate": 0.697463768115942,
                 "consistency_frequent": 0.9072869557506429,
                 "consistency_predefined": 0.8473286335018179
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 33.270376552391234,
+                "chrf2++": 62.25167795854457,
+                "proper_term_success_rate": 0.8801571709233792,
+                "random_term_success_rate": 0.7228260869565217
             }
         },
         "random": {
@@ -1334,7 +1357,8 @@
                 "random_term_success_rate": 0.967391304347826,
                 "consistency_frequent": 0.8850751151856124,
                 "consistency_predefined": 0.2903201373789609
-            }
+            },
+            "organizers_gpt-4.1-nano": {}
         }
     }
 }
