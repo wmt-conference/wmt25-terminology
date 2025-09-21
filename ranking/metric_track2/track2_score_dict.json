@@ -32,6 +32,24 @@
                 "random_term_success_rate": 0.8007959904924736,
                 "consistency_frequent": 0.8714039646433672,
                 "consistency_predefined": 0.38757379995741514
+            },
+            "organizers_MADLAD": {
+                "bleu4": 25.468454304631866,
+                "chrf2++": 57.71188998662316,
+                "proper_term_success_rate": 0.3309051003496933,
+                "random_term_success_rate": 0.7520059544154739
+            },
+            "organizers_NLLB": {
+                "bleu4": 25.20009989459501,
+                "chrf2++": 59.832979480735396,
+                "proper_term_success_rate": 0.2996215709787636,
+                "random_term_success_rate": 0.758740611796318
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 28.760582984794866,
+                "chrf2++": 63.680614778486614,
+                "proper_term_success_rate": 0.4975007340620185,
+                "random_term_success_rate": 0.8109623610070482
             }
         },
         "proper": {
@@ -66,6 +84,12 @@
                 "random_term_success_rate": 0.8490385925418518,
                 "consistency_frequent": 0.8761084506492558,
                 "consistency_predefined": 0.6295351473079634
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 29.745931259530902,
+                "chrf2++": 64.12379631294014,
+                "proper_term_success_rate": 0.5789114342598602,
+                "random_term_success_rate": 0.8157782593718428
             }
         },
         "random": {
@@ -100,6 +124,12 @@
                 "random_term_success_rate": 0.8610915676896231,
                 "consistency_frequent": 0.9170895308553789,
                 "consistency_predefined": 0.4299205779528683
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 29.00079065636356,
+                "chrf2++": 63.933971067166986,
+                "proper_term_success_rate": 0.5000955358952425,
+                "random_term_success_rate": 0.8172248106170046
             }
         }
     },
@@ -136,6 +166,24 @@
                 "random_term_success_rate": 0.7122185874882392,
                 "consistency_frequent": 0.8273557238148769,
                 "consistency_predefined": 0.2594371443208053
+            },
+            "organizers_MADLAD": {
+                "bleu4": 12.316669621983328,
+                "chrf2++": 12.39738005992142,
+                "proper_term_success_rate": 0.039126141670569804,
+                "random_term_success_rate": 0.36025574485192935
+            },
+            "organizers_NLLB": {
+                "bleu4": 8.565009553191382,
+                "chrf2++": 13.010858831646981,
+                "proper_term_success_rate": 0.029001087748990843,
+                "random_term_success_rate": 0.3178333133506081
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 36.276589758332065,
+                "chrf2++": 28.609381487104663,
+                "proper_term_success_rate": 0.37219182778626553,
+                "random_term_success_rate": 0.6922508470104534
             }
         },
         "proper": {
@@ -170,6 +218,12 @@
                 "random_term_success_rate": 0.7154698468955372,
                 "consistency_frequent": 0.8717670414719647,
                 "consistency_predefined": 0.5707331041574849
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 38.53021749870256,
+                "chrf2++": 31.617492388606987,
+                "proper_term_success_rate": 0.5160588040626658,
+                "random_term_success_rate": 0.671506472285003
             }
         },
         "random": {
@@ -204,6 +258,12 @@
                 "random_term_success_rate": 0.6711781237699045,
                 "consistency_frequent": 0.7686219254936955,
                 "consistency_predefined": 0.2577704353947201
+            },
+            "organizers_gpt-4.1-nano": {
+                "bleu4": 35.15423980825079,
+                "chrf2++": 29.059076229774966,
+                "proper_term_success_rate": 0.3763397243744882,
+                "random_term_success_rate": 0.6824310117966578
             }
         }
     }

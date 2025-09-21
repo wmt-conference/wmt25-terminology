@@ -61,7 +61,14 @@ for direction, years in direction_map.items():
         for team in teams:
             submission_data = []
             reference_data = []
+            skip_team_mode = False
+
             for year in years:
+                # skip if the submission file for a particular year does not exist
+                if not os.path.exists(f"{submission_folder_path}/{team}/{team}.{year}.{direction}.{mode}.jsonl"):
+                    skip_team_mode = True
+                    break
+                
                 with open(f"{submission_folder_path}/{team}/{team}.{year}.{direction}.{mode}.jsonl", "r") as f:
                     year_data = [json.loads(line.strip()) for line in f]
                     submission_data.extend(year_data)
@@ -69,6 +76,10 @@ for direction, years in direction_map.items():
                 with open(f"{reference_folder_path}/full_data_{year}.jsonl") as f:
                     year_data = [json.loads(line.strip()) for line in f]
                     reference_data.extend(year_data)
+
+            # if submission data for any year is missing, skip this team for this mode
+            if skip_team_mode:
+                continue
 
             # sanity check: participants got the same source data as our internal data
             for sub_d, ref_d in zip(submission_data, reference_data):
