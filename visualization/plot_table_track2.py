@@ -11,10 +11,7 @@ LANGS = ["enzh", "zhen"]
 with open("ranking/metric_track2/track2_score_dict.json", "r") as f:
     data = json.load(f)
 
-systems = [
-    sys
-    for sys, val in data["enzh"]["proper"].items()
-]
+systems = list(set(list(data["enzh"]["proper"].keys()) + list(data["enzh"]["noterm"].keys()) + list(data["enzh"]["random"].keys())))
 
 # compute zscores of variables for system ranking
 data_agg = collections.defaultdict(list)
@@ -40,6 +37,14 @@ for lang, lang_v in data.items():
                     (val - data_agg[(lang, task, metric)][0]) /
                     data_agg[(lang, task, metric)][1]
                 )
+
+for lang in LANGS:
+    for task in ["proper", "noterm", "random"]:
+        for sys in data[lang][task]:
+            if data[lang][task][sys] == {}:
+                data[lang][task][sys]["chrf2++"] = -1
+                data[lang][task][sys]["proper_term_success_rate"] = -1
+                data[lang][task][sys]["consistency_frequent"] = -1
 
 systems.sort(
     key=lambda sys: statistics.mean(
@@ -105,9 +110,10 @@ with open("generated/track2.tex", "w") as f:
             # proper, cons
             color_cell_acc(statistics.mean([
                 data[lang]["proper"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])),
+            ])) if all("consistency_frequent" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["consistency_frequent"]*100)
+                if "consistency_frequent" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             "",
@@ -187,9 +193,10 @@ with open("generated/track2_ext.tex", "w") as f:
             # proper, cons
             color_cell_acc(statistics.mean([
                 data[lang]["proper"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])),
+            ])) if all("consistency_frequent" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["consistency_frequent"]*100)
+                if "consistency_frequent" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             "",
@@ -212,9 +219,10 @@ with open("generated/track2_ext.tex", "w") as f:
             # random, cons
             color_cell_acc(statistics.mean([
                 data[lang]["random"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])),
+            ])) if all("consistency_frequent" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["consistency_frequent"]*100)
+                if "consistency_frequent" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             "",
@@ -237,9 +245,10 @@ with open("generated/track2_ext.tex", "w") as f:
             # noterm, cons
             color_cell_acc(statistics.mean([
                 data[lang]["noterm"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])),
+            ])) if all("consistency_frequent" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
+                if "consistency_frequent" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             sep=" & ",
