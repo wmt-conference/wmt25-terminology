@@ -18,7 +18,7 @@ data_agg = collections.defaultdict(list)
 for lang, lang_v in data.items():
     for task, task_v in lang_v.items():
         for sys, sys_v in task_v.items():
-            if sys == "TranssionMT" and lang != "ru":
+            if sys == "TranssionMT" and lang != "ru": # force set to empty as this team submitted ru outputs to all languages.
                 task_v[sys] = {}
             for metric, val in sys_v.items():
                 if val == -1:
@@ -96,84 +96,84 @@ with open("generated/track1_ext.tex", "w") as f:
             # proper, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["proper"][sys]["chrf2++"] for lang in LANGS
-            ])) if all(data[lang]["proper"][sys] != {} for lang in LANGS) else "",
+            ])) if all("chrf2++" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["chrf2++"])
-                if data[lang]["proper"][sys] != {} else ""
+                if "chrf2++" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             # proper, term
             color_cell_acc(statistics.mean([
                 data[lang]["proper"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all(data[lang]["proper"][sys] != {} for lang in LANGS) else "",
+            ])) if all("proper_term_success_rate" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["proper_term_success_rate"]*100)
-                if data[lang]["proper"][sys] != {} else ""
+                if "proper_term_success_rate" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             # proper, cons
             color_cell_cons(statistics.mean([
                 data[lang]["proper"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all(data[lang]["proper"][sys] != {} for lang in LANGS) else "",
+            ])) if all("consistency_frequent" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["consistency_frequent"]*100)
-                if data[lang]["proper"][sys] != {} else ""
+                if "consistency_frequent" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             "",
             # random, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["random"][sys]["chrf2++"] for lang in LANGS
-            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            ])) if all("chrf2++" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["chrf2++"])
-                if data[lang]["random"][sys] != {} else ""
+                if "chrf2++" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             # random, term
             color_cell_acc(statistics.mean([
                 data[lang]["random"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            ])) if all("proper_term_success_rate" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["proper_term_success_rate"]*100)
-                if data[lang]["random"][sys] != {} else ""
+                if "proper_term_success_rate" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             # random, cons
             color_cell_cons(statistics.mean([
                 data[lang]["random"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            ])) if all("consistency_frequent" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["consistency_frequent"]*100)
-                if data[lang]["random"][sys] != {} else ""
+                if "consistency_frequent" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             "",
             # noterm, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["noterm"][sys]["chrf2++"] for lang in LANGS
-            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            ])) if all("chrf2++" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["chrf2++"])
-                if data[lang]["noterm"][sys] != {} else ""
+                if "chrf2++" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             # noterm, term
             color_cell_acc(statistics.mean([
                 data[lang]["noterm"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            ])) if all("proper_term_success_rate" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["proper_term_success_rate"]*100)
-                if data[lang]["noterm"][sys] != {} else ""
+                if "proper_term_success_rate" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             # noterm, cons
             color_cell_cons(statistics.mean([
                 data[lang]["noterm"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            ])) if all("consistency_frequent" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
-                if data[lang]["noterm"][sys] != {} else ""
+                if "consistency_frequent" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             sep=" & ",
@@ -215,84 +215,84 @@ with open("generated/track1_ext.tex", "w") as f:
             # proper, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["proper"][sys]["chrf2++"] for lang in LANGS
-            ])) if all(data[lang]["proper"][sys] != {} for lang in LANGS) else "",
+            ])) if all("chrf2++" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["chrf2++"])
-                if data[lang]["proper"][sys] != {} else ""
+                if "chrf2++" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             # proper, term
             color_cell_acc(statistics.mean([
                 data[lang]["proper"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all(data[lang]["proper"][sys] != {} for lang in LANGS) else "",
+            ])) if all("proper_term_success_rate" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["proper_term_success_rate"]*100)
-                if data[lang]["proper"][sys] != {} else ""
+                if "proper_term_success_rate" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             # proper, cons
             color_cell_cons(statistics.mean([
                 data[lang]["proper"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all(data[lang]["proper"][sys] != {} for lang in LANGS) else "",
+            ])) if all("consistency_frequent" in data[lang]["proper"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["proper"][sys]["consistency_frequent"]*100)
-                if data[lang]["proper"][sys] != {} else ""
+                if "consistency_frequent" in data[lang]["proper"][sys] else ""
                 for lang in LANGS
             ],
             "",
             # random, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["random"][sys]["chrf2++"] for lang in LANGS
-            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            ])) if all("chrf2++" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["chrf2++"])
-                if data[lang]["random"][sys] != {} else ""
+                if "chrf2++" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             # random, term
             color_cell_acc(statistics.mean([
                 data[lang]["random"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            ])) if all("proper_term_success_rate" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["proper_term_success_rate"]*100)
-                if data[lang]["random"][sys] != {} else ""
+                if "proper_term_success_rate" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             # random, cons
             color_cell_cons(statistics.mean([
                 data[lang]["random"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all(data[lang]["random"][sys] != {} for lang in LANGS) else "",
+            ])) if all("consistency_frequent" in data[lang]["random"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["random"][sys]["consistency_frequent"]*100)
-                if data[lang]["random"][sys] != {} else ""
+                if "consistency_frequent" in data[lang]["random"][sys] else ""
                 for lang in LANGS
             ],
             "",
             # noterm, chrf
             color_cell_chrf(statistics.mean([
                 data[lang]["noterm"][sys]["chrf2++"] for lang in LANGS
-            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            ])) if all("chrf2++" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["chrf2++"])
-                if data[lang]["noterm"][sys] != {} else ""
+                if "chrf2++" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             # noterm, term
             color_cell_acc(statistics.mean([
                 data[lang]["noterm"][sys]["proper_term_success_rate"]*100 for lang in LANGS
-            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            ])) if all("proper_term_success_rate" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["proper_term_success_rate"]*100)
-                if data[lang]["noterm"][sys] != {} else ""
+                if "proper_term_success_rate" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             # noterm, cons
             color_cell_cons(statistics.mean([
                 data[lang]["noterm"][sys]["consistency_frequent"]*100 for lang in LANGS
-            ])) if all(data[lang]["noterm"][sys] != {} for lang in LANGS) else "",
+            ])) if all("consistency_frequent" in data[lang]["noterm"][sys] for lang in LANGS) else "",
             *[
                 nocolor_cell(data[lang]["noterm"][sys]["consistency_frequent"]*100)
-                if data[lang]["noterm"][sys] != {} else ""
+                if "consistency_frequent" in data[lang]["noterm"][sys] else ""
                 for lang in LANGS
             ],
             sep=" & ",

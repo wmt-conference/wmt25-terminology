@@ -18,7 +18,8 @@ def print_no_placeholder_value(*args, **kwargs):
     flush = kwargs.get("flush", False)
     # now rebuild what print() would output
     text = sep.join(str(a) for a in args)
-    text = text.replace(" -1.0 &", " &").replace(" -100.0 &", " &")
+    # replace placeholders with empty string; we know it must be the lowest value so the colouring is known
+    text = text.replace("& \cellcolor{SeaGreen3!0!Firebrick3!50} -1.0 &", "& &").replace("& \cellcolor{SeaGreen3!0!Firebrick3!50} -100.0 &", "& &").replace(" -1.0 &", " &").replace(" -100.0 &", " &")
     builtins.print(text, end=end, file=file, flush=flush)
 print = print_no_placeholder_value
 
