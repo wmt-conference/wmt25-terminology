@@ -5,6 +5,24 @@ import statistics
 import collections
 import utils
 
+# we have some placeholder -1 values for some systems' proper term acc because they did not submit to this mode/task
+# the placeholder is needed because system ranking is based on this entry.
+# now just replacing -1.0 and -100.0 which should be quite safe
+
+# TODO: maybe there is a cleaner way to do this, but this currently works fine XD
+import builtins
+def print_no_placeholder_value(*args, **kwargs):
+    sep   = kwargs.get("sep", " ")
+    end   = kwargs.get("end", "\n")
+    file  = kwargs.get("file", None)
+    flush = kwargs.get("flush", False)
+    # now rebuild what print() would output
+    text = sep.join(str(a) for a in args)
+    text = text.replace(" -1.0 &", " &").replace(" -100.0 &", " &")
+    builtins.print(text, end=end, file=file, flush=flush)
+print = print_no_placeholder_value
+
+
 os.makedirs("generated/", exist_ok=True)
 
 LANGS = ["enzh", "zhen"]
