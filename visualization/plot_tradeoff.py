@@ -21,9 +21,9 @@ data = [
         "name": sys,
         # es doesn't have term acc
         "x": statistics.mean([
-            data[lang]["proper"][sys]["term_success_rate"]
+            data[lang]["proper"][sys]["proper_term_success_rate"]
             for lang in LANGS
-            if data[lang]["proper"][sys]["term_success_rate"] > 0.3
+            if data[lang]["proper"][sys]["proper_term_success_rate"] > 0.3
         ]),
         "y": statistics.mean([
             data[lang]["proper"][sys]["chrf2++"]
@@ -129,16 +129,26 @@ data = [
     for sys in [
         sys
         for sys, val in data["de"]["proper"].items()
-        if val != {}
+        if val != {} and all([
+            "consistency_frequent" in data[lang]["proper"][sys]
+            for lang in LANGS
+        ])
     ]
 ]
 data = [
     line for line in data
     if line["y"] > 55
 ]
+
+PARETO = {
+    "1": [line for line in data if line["name"] in {"o3-term-guide", "laniqo"}],
+    "2": [line for line in data if line["name"] in {"duterm"}],
+    "3": [line for line in data if line["name"] in {"Erlendur", "MeGuMa"}],
+}
+pareto_all = {line["name"] for line in PARETO["1"] + PARETO["2"] + PARETO["3"]}
 plt.scatter(
-    [x["x"] for x in data],
-    [x["y"] for x in data],
+    [x["x"] for x in data if x["name"] not in pareto_all],
+    [x["y"] for x in data if x["name"] not in pareto_all],
     color='#999',
     marker='.',
     s=120,
