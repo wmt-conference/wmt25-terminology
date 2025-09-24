@@ -34,7 +34,7 @@ data = [
     for sys in [
         sys
         for sys, val in data["de"]["proper"].items()
-        if val != {}
+        if val != {} and "chrf2++" in data["de"]["proper"][sys]
     ]
 ]
 data = [
@@ -130,7 +130,7 @@ data = [
         sys
         for sys, val in data["de"]["proper"].items()
         if val != {} and all([
-            "consistency_frequent" in data[lang]["proper"][sys]
+            "chrf2++" in data[lang]["proper"][sys]
             for lang in LANGS
         ])
     ]

@@ -12,6 +12,7 @@ with open("ranking/metric_track1/track1_score_dict.json", "r") as f:
     data = json.load(f)
 
 systems = list(data["de"]["proper"].keys())
+systems = [sys for sys in systems if "chrf2++" in data["de"]["proper"][sys]]
 
 # compute zscores of variables for system ranking
 data_agg = collections.defaultdict(list)

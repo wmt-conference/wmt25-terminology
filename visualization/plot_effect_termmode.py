@@ -35,7 +35,7 @@ data = [
     for sys in [
         sys
         for sys, val in data["de"]["proper"].items()
-        if val != {}
+        if val != {} and "chrf2++" in data["de"]["proper"]
     ]
 ]
 data = [
