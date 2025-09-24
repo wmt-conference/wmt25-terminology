@@ -41,10 +41,7 @@
                 "consistency_frequent": 0.859524877534746,
                 "consistency_predefined": 0.30650863966541936
             },
-            "EuroLLM-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "EuroLLM-ft": {},
             "LC-2": {
                 "bleu4": 32.55978220229571,
                 "chrf2++": 56.76153945641767,
@@ -69,10 +66,7 @@
                 "consistency_frequent": 0.8423028112760257,
                 "consistency_predefined": 0.24654138234646714
             },
-            "MarianMT-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "MarianMT-ft": {},
             "MeGuMa": {
                 "bleu4": 33.64295143675052,
                 "chrf2++": 59.436323610196396,
@@ -81,10 +75,7 @@
                 "consistency_frequent": 0.8529620404620404,
                 "consistency_predefined": 0.24697604493741832
             },
-            "Systran_generic_ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "Systran_generic_ft": {},
             "TiUTermV0": {
                 "bleu4": 33.54975518387761,
                 "chrf2++": 57.888368555756145,
@@ -149,10 +140,7 @@
                 "consistency_frequent": 0.870210480276852,
                 "consistency_predefined": 0.2634017230415535
             },
-            "organizers_gpt-4.1-nano": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            }
+            "organizers_gpt-4.1-nano": {}
         },
         "proper": {
             "BIT": {
@@ -195,10 +183,7 @@
                 "consistency_frequent": 0.8628843995510662,
                 "consistency_predefined": 0.5944900872074785
             },
-            "EuroLLM-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "EuroLLM-ft": {},
             "LC-2": {
                 "bleu4": 36.01876045984217,
                 "chrf2++": 61.04966310418004,
@@ -223,10 +208,7 @@
                 "consistency_frequent": 0.8576892962543188,
                 "consistency_predefined": 0.5066217382811269
             },
-            "MarianMT-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "MarianMT-ft": {},
             "MeGuMa": {
                 "bleu4": 41.64781863995082,
                 "chrf2++": 67.72941250806254,
@@ -235,10 +217,7 @@
                 "consistency_frequent": 0.885791774244689,
                 "consistency_predefined": 0.727744392547024
             },
-            "Systran_generic_ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "Systran_generic_ft": {},
             "TiUTermV0": {
                 "bleu4": 36.10938128738361,
                 "chrf2++": 60.96506827921231,
@@ -353,10 +332,7 @@
                 "consistency_frequent": 0.8451068985822348,
                 "consistency_predefined": 0.30789188062894957
             },
-            "EuroLLM-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "EuroLLM-ft": {},
             "LC-2": {
                 "bleu4": 34.171848950767256,
                 "chrf2++": 59.53901371864176,
@@ -381,10 +357,7 @@
                 "consistency_frequent": 0.8314423189423191,
                 "consistency_predefined": 0.30021845438512107
             },
-            "MarianMT-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "MarianMT-ft": {},
             "MeGuMa": {
                 "bleu4": 35.447907970892885,
                 "chrf2++": 64.21449055899066,
@@ -393,10 +366,7 @@
                 "consistency_frequent": 0.8465722273757988,
                 "consistency_predefined": 0.3485972360972361
             },
-            "Systran_generic_ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "Systran_generic_ft": {},
             "TiUTermV0": {
                 "bleu4": 34.27587084298113,
                 "chrf2++": 59.12115930480829,
@@ -461,10 +431,7 @@
                 "consistency_frequent": 0.8591104973457914,
                 "consistency_predefined": 0.32004858517734047
             },
-            "organizers_gpt-4.1-nano": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            }
+            "organizers_gpt-4.1-nano": {}
         }
     },
     "es": {
@@ -629,10 +596,7 @@
                 "consistency_frequent": 0.8791115893766306,
                 "consistency_predefined": 0.40614598572016397
             },
-            "organizers_gpt-4.1-nano": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            }
+            "organizers_gpt-4.1-nano": {}
         },
         "proper": {
             "BIT": {
@@ -965,10 +929,7 @@
                 "consistency_frequent": 0.8774350664351884,
                 "consistency_predefined": 0.410987627292027
             },
-            "organizers_gpt-4.1-nano": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            }
+            "organizers_gpt-4.1-nano": {}
         }
     },
     "ru": {
@@ -1013,10 +974,7 @@
                 "consistency_frequent": 0.880352684144819,
                 "consistency_predefined": 0.31117724867724866
             },
-            "EuroLLM-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "EuroLLM-ft": {},
             "LC-2": {
                 "bleu4": 22.59025511532473,
                 "chrf2++": 49.94344172391508,
@@ -1041,10 +999,7 @@
                 "consistency_frequent": 0.8455373671626647,
                 "consistency_predefined": 0.24462283534864177
             },
-            "MarianMT-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "MarianMT-ft": {},
             "MeGuMa": {
                 "bleu4": 24.342146827747264,
                 "chrf2++": 52.09626220255903,
@@ -1053,10 +1008,7 @@
                 "consistency_frequent": 0.8785373926106754,
                 "consistency_predefined": 0.3050806315433975
             },
-            "Systran_generic_ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "Systran_generic_ft": {},
             "TiUTermV0": {
                 "bleu4": 28.701585462690467,
                 "chrf2++": 54.579826133602495,
@@ -1121,10 +1073,7 @@
                 "consistency_frequent": 0.8997799514283032,
                 "consistency_predefined": 0.2923703660405788
             },
-            "organizers_gpt-4.1-nano": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            }
+            "organizers_gpt-4.1-nano": {}
         },
         "proper": {
             "BIT": {
@@ -1167,10 +1116,7 @@
                 "consistency_frequent": 0.8996896337678459,
                 "consistency_predefined": 0.7671649029982364
             },
-            "EuroLLM-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "EuroLLM-ft": {},
             "LC-2": {
                 "bleu4": 27.73012901636402,
                 "chrf2++": 53.65390327949324,
@@ -1195,10 +1141,7 @@
                 "consistency_frequent": 0.8695814679148012,
                 "consistency_predefined": 0.5219276473374834
             },
-            "MarianMT-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "MarianMT-ft": {},
             "MeGuMa": {
                 "bleu4": 32.76621369997171,
                 "chrf2++": 61.90895063645444,
@@ -1207,10 +1150,7 @@
                 "consistency_frequent": 0.9020173805090006,
                 "consistency_predefined": 0.82547817604898
             },
-            "Systran_generic_ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "Systran_generic_ft": {},
             "TiUTermV0": {
                 "bleu4": 34.0780187321645,
                 "chrf2++": 58.261360542592776,
@@ -1325,10 +1265,7 @@
                 "consistency_frequent": 0.8754966814781754,
                 "consistency_predefined": 0.3190094219505984
             },
-            "EuroLLM-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "EuroLLM-ft": {},
             "LC-2": {
                 "bleu4": 27.6063538296784,
                 "chrf2++": 54.94566566354601,
@@ -1353,10 +1290,7 @@
                 "consistency_frequent": 0.8721840813217342,
                 "consistency_predefined": 0.23844026836048113
             },
-            "MarianMT-ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "MarianMT-ft": {},
             "MeGuMa": {
                 "bleu4": 30.24867241168663,
                 "chrf2++": 59.04885725394248,
@@ -1365,10 +1299,7 @@
                 "consistency_frequent": 0.8812488853219191,
                 "consistency_predefined": 0.311847158218126
             },
-            "Systran_generic_ft": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            },
+            "Systran_generic_ft": {},
             "TiUTermV0": {
                 "bleu4": 30.491840510243645,
                 "chrf2++": 55.756167477561924,
@@ -1433,10 +1364,7 @@
                 "consistency_frequent": 0.8850751151856124,
                 "consistency_predefined": 0.2903201373789609
             },
-            "organizers_gpt-4.1-nano": {
-                "consistency_frequent": -1,
-                "consistency_predefined": -1
-            }
+            "organizers_gpt-4.1-nano": {}
         }
     }
 }
