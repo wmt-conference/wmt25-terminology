@@ -35,7 +35,7 @@ data = [
     for sys in [
         sys
         for sys, val in data["de"]["proper"].items()
-        if val != {} and "chrf2++" in data["de"]["proper"]
+        if val != {} and all("chrf2++" in data[lang][t][sys] for lang in LANGS for t in ["proper", "noterm", "random"])
     ]
 ]
 data = [

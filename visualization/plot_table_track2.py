@@ -31,7 +31,7 @@ with open("ranking/metric_track2/track2_score_dict.json", "r") as f:
     data = json.load(f)
 
 systems = list(set(list(data["enzh"]["proper"].keys()) + list(data["enzh"]["noterm"].keys()) + list(data["enzh"]["random"].keys())))
-systems = [sys for sys in systems if "chrf2++" in data["zhen"]["proper"][sys]]
+# systems = [sys for sys in systems if "chrf2++" in data["zhen"]["proper"][sys]]
 
 # compute zscores of variables for system ranking
 data_agg = collections.defaultdict(list)
@@ -61,7 +61,7 @@ for lang, lang_v in data.items():
 for lang in LANGS:
     for task in ["proper", "noterm", "random"]:
         for sys in data[lang][task]:
-            if data[lang][task][sys] == {}:
+            if data[lang][task][sys] == {} or len(data[lang][task][sys]) <= 2:
                 data[lang][task][sys]["chrf2++"] = -1
                 data[lang][task][sys]["proper_term_success_rate"] = -1
                 data[lang][task][sys]["consistency_frequent"] = -1

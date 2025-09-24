@@ -34,7 +34,8 @@ data = [
     for sys in [
         sys
         for sys, val in data["de"]["proper"].items()
-        if val != {} and "chrf2++" in data["de"]["proper"][sys]
+        if val != {}
+        # and "chrf2++" in data["de"]["proper"][sys]
     ]
 ]
 data = [
@@ -129,10 +130,11 @@ data = [
     for sys in [
         sys
         for sys, val in data["de"]["proper"].items()
-        if val != {} and all([
-            "chrf2++" in data[lang]["proper"][sys]
-            for lang in LANGS
-        ])
+        if val != {}
+        # and all([
+        #     "chrf2++" in data[lang]["proper"][sys]
+        #     for lang in LANGS
+        # ])
     ]
 ]
 data = [
