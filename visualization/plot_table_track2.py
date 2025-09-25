@@ -97,7 +97,7 @@ with open("generated/track2.tex", "w") as f:
         r"\begin{tabular}{l  cvv cvv cvv |c cvv cvv |c cvv}",
         r"\toprule",
         r"& \multicolumn{3}{c}{\bf Proper, ChrF} & \multicolumn{3}{c}{\bf Proper, Acc.} & \multicolumn{3}{c|}{\bf Proper, Cons.} &",
-        r"& \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Cons.} &",
+        r"& \multicolumn{3}{c}{\bf Random, ChrF} & \multicolumn{3}{c|}{\bf Random, Acc.} &",
         r"& \multicolumn{3}{c}{\bf NoTerm, ChrF} \\",
         r"\bf System  ",
         r"& \bf Avg & \bf EnZh & \bf ZhEn   & \bf Avg & \bf EnZh & \bf ZhEn  & \bf Avg & \bf EnZh & \bf ZhEn  &",
