@@ -3,12 +3,15 @@
 This repository accompanies the WMT25 Terminology Shared Task.
 
 ## License
-All materials in this repository are licensed under the CC BY-NC 4.0 [license](LICENSE.md).
+All materials in this repository are licensed under the CC BY-NC 4.0 [license](LICENSE.txt).
+
+## Report
+_This chapter is being updated..._ (drum roll sound please)
 
 ## Data
 
-- the submitted system outputs are to be found in [ranking/submissions](ranking/submissions) folder
-- the reference translations are to be found in [ranking/references](ranking/references) folder
+- the test sets (incl. source, reference, and terminology constraints) are placed in [ranking/references](ranking/references)
+- the submitted system outputs are placed in [ranking/submissions](ranking/submissions)
 
 ## Evaluation
 
