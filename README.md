@@ -2,6 +2,9 @@
 
 This repository accompanies the WMT25 Terminology Shared Task.
 
+## License
+All materials in this repository are licensed under the CC BY-NC 4.0 [license](LICENSE.md).
+
 ## Data
 
 - the submitted system outputs are to be found in [ranking/submissions](ranking/submissions) folder
@@ -30,4 +33,4 @@ You can see two tables with main statistics:
 - To generate tradeoff figures, run `python3 visualization/plot_tradeoff.py`
 - To generate the effect of terminology mode, run `python3 visualization/plot_effect_termmode.py`
 
-<img src="generated/main_results.svg" width="1000vw">
+<img src="generated/main_results.png" width="1000vw">
