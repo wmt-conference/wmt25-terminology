@@ -1,0 +1,106 @@
+You are a professional English-Spanish translator, teaching the students the course on technical translation. You are checking a student's  translation of a sentence that contains a technical term. You are given an English term (it can be a word or an expression), a source English sentence containing this term (it may be cased differently or contain additional punctuation), and a student's Spanish translation. You need to find how the student has translated the term in question in Spanish, and return only that term.
+
+    Important: do not change the translated term anyhow, copy it straight from the sentence! 
+
+    When completing the task, follow the examples below:
+
+English sentence: The Create Vendor:
+        English term: vendor
+        Spanish translation: Aparece Crear acreedor:
+        Translated term: acreedor
+
+English sentence: Please note also that the default setting for new hierarchies is to use them in compatible set groups.If you do not wish to do so, you must deselect this option.
+        English term: set
+        Spanish translation: Tenga también en cuenta que la opción estándar para nuevas jerarquías debe utilizarse en grupos de conjuntos compatibles.Si no desea hacerlo, debe anular la selección de esta opción.
+        Translated term: conjuntos
+
+English sentence: Data Warehouse Authorisation Scenario
+        English term: data warehouse
+        Spanish translation: Escenario de autorización de Data Warehouse
+        Translated term: Data Warehouse
+
+English sentence: If you want to assign a different resource or distribute the number of required hours differently, open the request details and select a resource from the Suitable Resources tab.
+        English term: tab
+        Spanish translation: Si desea asignar otro recurso o distribuir el número de horas necesarias de forma distinta, abra los detalles de la solicitud y seleccione un recurso de la pestaña Recursos adecuados.
+        Translated term: pestaña
+
+English sentence: Based on the reference data you create here, you can copy a simulation plan to create multiple simulations with the same reference plan to compare them in the Process pMRP Simulations app.
+        English term: process
+        Spanish translation: En base a los datos de referencia que cree aquí, puede copiar un plan de simulación para crear múltiples simulaciones con el mismo plan de referencia para compararlos en la aplicación Procesar simulaciones pMRP.
+        Translated term: Procesar
+
+English sentence: Clearing Item Completed
+        English term: clearing item
+        Spanish translation: Partida de compensación completada
+        Translated term: Partida de compensación
+
+English sentence: Configure Record Types
+        English term: type
+        Spanish translation: Configurar tipos de registro
+        Translated term: tipos
+
+English sentence: To save the new work center in the order operation, you must schedule and dispatch the operation first.
+        English term: save
+        Spanish translation: Para guardar el nuevo puesto de trabajo en la operación de orden, debe programar y planificar la operación.
+        Translated term: guardar
+
+English sentence: A reprocessing rule can have bank statement items be posted either in one step or in two steps.
+        English term: processing
+        Spanish translation: Una regla de reprocesamiento puede contabilizar posiciones de extracto de cuenta en un paso o en dos pasos.
+        Translated term: reprocesamiento
+
+English sentence: Adds a selected settlement date to a scheduling worklist.
+        English term: worklist
+        Spanish translation: Añade una fecha de liquidación seleccionada a una lista de trabajo de programación.
+        Translated term: lista de trabajo
+
+English sentence: The following replication modes are available:
+        English term: replication
+        Spanish translation: Dispone de los modos de replicación siguientes:
+        Translated term: replicación
+
+English sentence: Text Modules for DPP Requirements
+        English term: requirement
+        Spanish translation: Módulos de texto para requisitos de DPP
+        Translated term: requisitos
+
+English sentence: Select the relevant source type
+        English term: source
+        Spanish translation: Seleccione el tipo de origen relevante
+        Translated term: origen
+
+English sentence: (Posting Adjustments for Accounting)
+        English term: accounting
+        Spanish translation: (Ajustes de contabilización para contabilidad)
+        Translated term: contabilidad
+
+English sentence: The Current Inventory is calculated as follows:
+        English term: inventory
+        Spanish translation: El stock actual se calcula de la siguiente manera:
+        Translated term: stock
+
+English sentence: The following standard sharing rules are available:
+        English term: sharing
+        Spanish translation: Están disponibles las siguientes reglas de compartimiento estándar:
+        Translated term: compartimiento
+
+English sentence: MDM Business Partner
+        English term: partner
+        Spanish translation: Socio comercial MDM
+        Translated term: Socio
+
+English sentence: Fulfillment Site ID
+        English term: site
+        Spanish translation: ID de centro de cumplimiento
+        Translated term: centro
+
+English sentence: Different partners participate at each stage.
+        English term: stage
+        Spanish translation: En cada fase intervienen socios diferentes.
+        Translated term: fase
+
+English sentence: To use this feature, you can select the required legal document from the list view, choose the Generate File button in the menu and select either Generate Word File or Generate PDF File.
+        English term: button
+        Spanish translation: Para utilizar esta función, puede seleccionar el documento legal necesario de la vista de lista, hacer clic en el pulsador Generar archivo en el menú y seleccionar Generar archivo Word o Generar archivo PDF.
+        Translated term: pulsador
+

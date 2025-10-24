@@ -1,0 +1,126 @@
+You are a professional Traditional Chinese-English translator, teaching the students the course on technical translation. You are checking a student's  translation of a sentence that contains a technical term. You are given an Traditional Chinese term (it can be a word or an expression), a source Traditional Chinese sentence containing this term (it may be cased differently or contain additional punctuation), and a student's English translation. You need to find how the student has translated the term in question in English, and return only that term.
+
+    Important: do not change the translated term anyhow, copy it straight from the sentence! 
+
+    When completing the task, follow the examples below:
+
+Traditional Chinese sentence: # 直接投資
+        Traditional Chinese term: 直接投資
+        English translation: # Direct investment
+        Translated term: Direct investment
+
+Traditional Chinese sentence: 金管局加快多元化投資的步伐，特別是長期增長組合的投資。
+        Traditional Chinese term: 金管局
+        English translation: The HKMA quickens the pace of investment diversification, especially through investments under the long-term growth portfolio.
+        Translated term: HKMA
+
+Traditional Chinese sentence: 就按公平值列帳的金融資產及金融負債的估值，審計程序包括：
+- 了解不同類別金融資產及金融負債的估值程序，包括相關監控措施；
+- 評價及測試監控措施，包括電腦系統的相關應用程式監控措施；
+- 就金融資產及金融負債的估值、存在、權利與責任及完整性取得函證；
+- 若使用市場報價，根據獨立來源核實價格；
+- 若所用估值方法的參數是以可觀察市場數據為基礎，評價估值方法是否適合及有關假設是否合理，以及根據獨立來源核實參數；及
+- 若所用估值方法的參數並非以可觀察市場數據為基礎，評價估值方法是否適合，以及有關假設與參數是否合理。
+        Traditional Chinese term: 可觀察市場數據
+        English translation: The audit procedures on valuation of financial assets and financial liabilities at fair value included:
+- obtaining an understanding of the procedures, including relevant controls, for valuing different categories of financial assets and financial liabilities;
+- evaluating and testing the controls, including relevant application controls of the computer systems;
+- obtaining external confirmations on the valuation, existence, rights and obligations and completeness of the financial assets and financial liabilities;
+- where quoted market prices were used, verifying the prices to independent sources;
+- where valuation techniques with inputs based on observable market data were used, evaluating the appropriateness of the valuation methodologies and the reasonableness of the assumptions, and verifying the inputs to independent sources; and
+- where valuation techniques with inputs not based on observable market data were used, evaluating the appropriateness of the valuation methodologies and the reasonableness of the assumptions and inputs.
+        Translated term: observable market data
+
+Traditional Chinese sentence: # 引入開放式基金型公司結構
+        Traditional Chinese term: 開放式基金型公司結構
+        English translation: # Introduction of an open-ended fund company structure
+        Translated term: open-ended fund company structure
+
+Traditional Chinese sentence: 除了非現場審查工作外，金管局繼續以專題評估配合定期現場審查，而專題評估主要適用於被評定為較高風險的範疇。這種監管方法讓金管局更有效地調配監管資源，以應對認可機構所面對的各項新增及主要風險。金管局在2016年共進行377次現場審查及專題評估。這些審查與評估的重點仍是信用風險管理與監控，尤其涉及內地相關業務的信用風險；另一個重點是打擊洗錢及恐怖分子資金籌集監控措施。金管局又增加對流動性風險、業務操作風險及科技風險管理的現場審查及專題評估次數。年內專項審查小組亦對認可機構的證券、投資產品、保險及強制性公積金（強積金）相關業務進行現場審查。
+        Traditional Chinese term: 內地
+        English translation: In addition to off-site activities, the HKMA continued to conduct regular on-site examinations supplemented with thematic reviews on areas assessed to be of higher risks. This approach has allowed the HKMA to prioritise its supervisory resources to focus on emerging and more significant risks faced by AIs. In 2016, the HKMA conducted 377 on-site examinations and thematic reviews. Credit risk management and controls, particularly those over Mainland-related business, continued to be the focus of these examinations and reviews. Another major focus was anti-money laundering and counter-terrorist financing (AML/CFT) controls. The HKMA also increased the number of on-site examinations and thematic reviews on liquidity, operational and technology risk management. AIs’ activities in securities, investment products, insurance and Mandatory Provident Fund (MPF)-related businesses were also subject to on-site examinations by specialist teams during the year.
+        Translated term: Mainland
+
+Traditional Chinese sentence: 金管局繼續致力推廣香港作為資產管理中心。根據證券及期貨事務監察委員會（證監會），從事資產管理的持牌法團數目於2016年底為1,300間，按年增加近15%。根據《亞洲創業投資期刊》，2016年在香港的私募基金公司（包括證監會持牌法團及非證監會持牌法團）數目亦增加4.6%，至431間。迄今全球百大資產管理公司中有接近70間，以及內地二十大互惠基金公司中的大多數，已在香港設有業務或相聯公司。在香港駐設業務的機構投資者數目亦逐漸增加，其中作為全球第三大主權基金的阿布扎比投資局於10月宣布在香港成立海外辦事處，是該機構於阿布扎比以外設立的唯一辦事處。
+        Traditional Chinese term: 香港
+        English translation: The HKMA continued its efforts to promote Hong Kong as an asset management hub. According to the Securities and Futures Commission (SFC), the number of licensed corporations in asset management increased nearly 15% yearon-year to 1,300 as of the end of 2016. According to the Asian Venture Capital Journal, the number of private equity firms in Hong Kong (including SFC licensed and non-SFC licensed corporations) also increased by 4.6% to 431 in 2016. To date, close to 70 out of the top 100 global asset managers and the majority of Mainland’s top 20 mutual fund companies have presence or associated companies in Hong Kong. There are also a growing number of asset owners setting up footprints in Hong Kong. In particular, Abu Dhabi Investment Authority, the third largest sovereign wealth fund in the world, announced that it had set up an overseas office in Hong Kong in october, its only office outside Abu Dhabi.
+        Translated term: Hong Kong
+
+Traditional Chinese sentence: 儘管投資環境困難，充斥黑天鵝事件，但有賴過去幾年所採取的一連串防禦措施，增強外匯基金的抗震能力，外匯基金錄得2%的整體投資回報。
+        Traditional Chinese term: 防禦措施
+        English translation: Despite a challenging investment environment which is full of black swan events, the exchange Fund achieves an overall investment return of 2%, thanks to a series of defensive measures deployed by the HKMA over the years that have enhanced the resilience of the exchange Fund.
+        Translated term: defensive measures
+
+Traditional Chinese sentence: # 外匯基金
+        Traditional Chinese term: 外匯基金
+        English translation: # Exchange Fund
+        Translated term: Exchange Fund
+
+Traditional Chinese sentence: 儘管去年全球投資環境充斥着各種不穩因素，但有賴於過去一段時間所採取的多項防禦性部署，外匯基金去年錄得681億港元投資收入。自1994年以來外匯基金的複合年度投資回報率達4.8%，高於同期2.1%的本地通脹率。
+        Traditional Chinese term: 本地通脹率
+        English translation: Despite the various uncertainties surrounding the global investment landscape in 2016, the Exchange Fund recorded an investment income of HK$68.1 billion, due partly to a series of defensive measures deployed by us over the years. The compounded annual investment return of the Exchange Fund since 1994 was 4.8%, higher than the local inflation rate of 2.1% during the same period.
+        Translated term: local inflation rate
+
+Traditional Chinese sentence: 香港維持其作為全球離岸人民幣業務樞紐和資產管理中心的地位。稅制獲進一步完善，營造更有利環境，吸引跨國公司在香港設立企業財資中心。
+        Traditional Chinese term: 稅制
+        English translation: Hong Kong remains the global hub for offshore renminbi business and asset management centre. The tax regime has been refined to foster a more conducive environment for multinational companies to establish their corporate treasury centres in Hong Kong.
+        Translated term: tax regime
+
+Traditional Chinese sentence: 金管局《二零一五年年報》在香港管理專業協會2016年度最佳年報評選中獲得「非牟利及慈善機構」類銀獎。
+        Traditional Chinese term: 最佳年報評選
+        English translation: The HKMA Annual Report 2015 received a Silver award in the “non-profit Making and Charitable organisations” category in the Hong Kong Management Association’s 2016 Best Annual Reports Awards.
+        Translated term: Best Annual Reports Awards
+
+Traditional Chinese sentence: # 銀行體系穩定
+        Traditional Chinese term: 銀行體系穩定
+        English translation: # Banking Stability
+        Translated term: Banking Stability
+
+Traditional Chinese sentence: # 投資目標及組合結構
+        Traditional Chinese term: 組合結構
+        English translation: # Investment objectives and portfolio structure
+        Translated term: portfolio structure
+
+Traditional Chinese sentence: # 獨立審計師報告致財政司司長
+        Traditional Chinese term: 獨立審計師報告
+        English translation: # Independent Auditor’s Report To the Financial Secretary
+        Translated term: Independent Auditor’s Report
+
+Traditional Chinese sentence: IFFO的使命是透過匯聚主要持份者，共同促進基建投融資。IFFO的職能是：
+- 提供一個資訊交流和經驗分享的平台；
+- 提升基建投融資方面的技能和知識；
+- 推廣市場及產品發展；
+- 及促進基建投融資活動。
+        Traditional Chinese term: 基建投融資
+        English translation: The mission of IFFO is to facilitate infrastructure investments and their financing by working with a cluster of key stakeholders. The functions of IFFO are to:
+- provide a platform for information exchange and experience sharing;
+- build capacity and knowledge on infrastructure investments and financing;
+- promote market and product development; and
+- facilitate infrastructure investment and financing flows.
+        Translated term: infrastructure investment and financing
+
+Traditional Chinese sentence: 在政策發展方面，金管局優先處理某些行業及人士在開立銀行帳戶方面遇到困難的情況，並發出指引與「常見問題」，以釐清若干客戶盡職審查的規定，以及金管局就風險為本方法的監管期望。與此同時，金管局繼續與業內公會緊密合作，發出指引以協助認可機構處理某些範疇的風險，例如貿易相關的洗錢活動。
+        Traditional Chinese term: 貿易相關的洗錢活動
+        English translation: In terms of policy development, priority was given to addressing difficulties encountered by certain businesses and individuals when opening bank accounts; guidance and frequently asked questions were issued to clarify certain customer due diligence (CDD) requirements as well as the HKMA’s supervisory expectations on the risk-based approach. Meanwhile, the HKMA continued to work closely with industry associations in issuing guidance to assist AIs to address risks in certain areas, such as trade-based money laundering.
+        Translated term: trade-based money laundering
+
+Traditional Chinese sentence: 《金融機構（處置機制）條例》刊憲，為在香港設立跨界別金融機構處置機制提供法律基礎。
+        Traditional Chinese term: 金融機構（處置機制）條例
+        English translation: The Financial Institutions (Resolution) ordinance is gazetted to provide the legal basis for the establishment of a cross-sector resolution regime for financial institutions in Hong Kong.
+        Translated term: Financial Institutions (Resolution) ordinance
+
+Traditional Chinese sentence: 金管局公布，由2017年1月1日起香港適用的逆周期緩衝資本比率將上調至1.25%。
+        Traditional Chinese term: 逆周期緩衝資本比率
+        English translation: The HKMA announces that the Countercyclical Capital Buffer rate for Hong Kong will increase to 1.25% with effect from 1 January 2017.
+        Translated term: Countercyclical Capital Buffer rate
+
+Traditional Chinese sentence: 為吸引基金來港註冊，金管局繼續與政府及業界合作，營造更有利的稅務及監管環境。於6月，《2016年證券及期貨（修訂）條例草案》獲得通過，引入開放式基金型公司結構，令香港的基金註冊平台更多元化，並為基金經理營造更靈活的經營環境，從而加強香港作為國際資產管理中心的競爭力。
+        Traditional Chinese term: 資產管理中心
+        English translation: The HKMA continued to work with the Administration and industry to provide a more favourable tax and regulatory environment for fund domiciliation. In June, the Securities and Futures (Amendment) Bill 2016 was passed to introduce an open-ended fund company structure to diversify the fund domiciliation platform of Hong Kong and create a more flexible business environment for fund managers with a view to enhancing Hong Kong’s competitiveness as an international asset management centre.
+        Translated term: asset management centre
+
+Traditional Chinese sentence: 金管局與證券及期貨事務監察委員會（證監會）就場外衍生工具監管制度引入強制性結算及擴大強制性匯報的建議發表諮詢總結。
+        Traditional Chinese term: 證監會
+        English translation: The HKMA and the Securities and Futures Commission (SFC) publish conclusions to the proposals on introducing mandatory clearing and expanding mandatory reporting for the over-the-counter derivatives regulatory regime.
+        Translated term: SFC
+

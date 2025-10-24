@@ -1,0 +1,113 @@
+You are a professional English-Traditional Chinese translator, teaching the students the course on technical translation. You are checking a student's  translation of a sentence that contains a technical term. You are given an English term (it can be a word or an expression), a source English sentence containing this term (it may be cased differently or contain additional punctuation), and a student's Traditional Chinese translation. You need to find how the student has translated the term in question in Traditional Chinese, and return only that term.
+
+    Important: do not change the translated term anyhow, copy it straight from the sentence! 
+
+    When completing the task, follow the examples below:
+
+English sentence: # International Financial Centre
+        English term: financial centre
+        Traditional Chinese translation: # 香港的國際金融中心地位
+        Translated term: 金融中心
+
+English sentence: # Economic and Financial Environment
+        English term: economic and financial environment
+        Traditional Chinese translation: # 經濟及金融環境
+        Translated term: 經濟及金融環境
+
+English sentence: An investment in a subsidiary is consolidated into the Group financial statements from the date that control commences until the date that control ceases.
+        English term: financial statement
+        Traditional Chinese translation: 於附屬公司的投資由控制權開始生效當日起直至控制權終止期間納入集團綜合財務報表中。
+        Translated term: 財務報表
+
+English sentence: # Linked Exchange Rate System
+        English term: exchange rate
+        Traditional Chinese translation: # 聯繫匯率制度
+        Translated term: 匯率
+
+English sentence: The HKMA and SFC jointly launch a consultation on introducing the first phase of mandatory clearing and the second phase of mandatory reporting under the new over-the-counter derivatives regulatory regime.
+        English term: SFC
+        Traditional Chinese translation: 金管局與證監會就新設的場外衍生工具監管制度引入首階段的強制性結算及第二階段的強制性匯報聯合發表諮詢文件。
+        Translated term: 證監會
+
+English sentence: The third Hong Kong-Australia RMB Trade and Investment Dialogue, facilitated by the HKMA, Australian Treasury and the Reserve Bank of Australia, is held in Sydney, Australia.
+        English term: Sydney
+        Traditional Chinese translation: 金管局、澳洲財政部及澳洲儲備銀行聯合籌辦的第三次香港與澳洲人民幣貿易與投資對話在澳洲悉尼舉行。
+        Translated term: 悉尼
+
+English sentence: # Exchange Fund – Notes to the Financial Statements
+        English term: exchange fund
+        Traditional Chinese translation: # 外匯基金 — 財務報表附註
+        Translated term: 外匯基金
+
+English sentence: # CEPA
+        English term: CEPA
+        Traditional Chinese translation: # 內地與香港關於建立更緊密經貿關係的安排
+        Translated term: 內地與香港關於建立更緊密經貿關係的安排
+
+English sentence: # Direct investment
+        English term: direct investment
+        Traditional Chinese translation: # 直接投資
+        Translated term: 直接投資
+
+English sentence: The annual return of the Fund from 1994 to 2015 is set out in Chart 1. Table 2 shows the 2015 investment return and the average investment returns of the Fund over a number of different time horizons. The average return was 1.2% over the past three years, 1.8% over the past five years, 3.3% over the past 10 years and 5.0% since 1994. Table 3 shows the currency mix of the Fund's assets on 31 December 2015.
+        English term: investment return
+        Traditional Chinese translation: 圖1列明外匯基金由1994至2015年的年度回報率。表2 顯示外匯基金在2015 年的投資回報率及不同年期的平均投資回報率。外匯基金在過去3年的平均回報率為1.2%、過去5 年為1.8%、過去10 年為3.3%，以及由 1994 年起為 5.0%。表 3 列載外匯基金資產於2015 年12 月31 日的貨幣比重。
+        Translated term: 投資回報率
+
+English sentence: # Risk management and compliance
+        English term: risk management and compliance
+        Traditional Chinese translation: # 風險管理及監察
+        Translated term: 風險管理及監察
+
+English sentence: # Organisational changes
+        English term: organisational change
+        Traditional Chinese translation: # 組織架構變動
+        Translated term: 組織架構變動
+
+English sentence: stepping up the monitoring and analysis of developments in the onshore renminbi market and in the CNH market with a view to supporting the orderly operation of Hong Kong’s offshore renminbi market.
+        English term: offshore renminbi market
+        Traditional Chinese translation: 加強監察及分析人民幣在岸與離岸市場的發展，從而支持香港離岸人民幣市場的有序運作。
+        Translated term: 離岸人民幣市場
+
+English sentence: The HKMA focused its supervisory efforts on authorized institutions risk governance, including credit and liquidity risk management systems, anti-money laundering and counter-terrorist financing controls, and selling practices for investment and insurance products. With the build-up of systemic risks, the HKMA announced a 0.625% jurisdictional Countercyclical Capital Buffer for Hong Kong from 1 January 2016 (and 1.25% from 1 January 2017). Five authorized institutions were designated as Domestic Systemically Important Banks which will be subject to a Higher Loss Absorbency capital buffer. Significant progress was made on reforms for recovery and resolution with the introduction of the Financial Institutions (Resolution) Bill into the Legislative Council. The HKMA also stepped up its work with the banking industry on enhancing access to basic banking services, consumer education, and the skills and knowledge development of bank directors and financial practitioners.
+        English term: financial practitioner
+        Traditional Chinese translation: 金管局在2015年的監管重點是認可機構的風險管治，包括信用及流動性風險管理系統、打擊洗錢及恐怖分子資金籌集活動管控措施，以及投資及保險產品銷售手法。鑑於系統性風險增加，金管局宣布由2016 年1 月1 日起，香港適用的逆周期緩衝資本 為 0.625%（2017 年 1 月 1 日 起 為 1.25%）。 年 內5 間認可機構被指定為具本地系統重要性銀行，將須要遵守較高吸收虧損能力緩衝資本要求。此外，年內香港在恢復及處置機制的改革方面取得重大進展，《金融機構（處置機制）條例草案》已提交立法會。金管局亦加強與銀行業界合作，促進基本銀行服務的提供、消費者教育，以及銀行董事及金融業從業員的專業技能及知識培訓。
+        Translated term: 金融業從業員
+
+English sentence: # Audit Commission 
+# The Government of the Hong Kong Special Administrative Region
+        English term: audit commission
+        Traditional Chinese translation: # 審計署
+# 香港特別行政區政府審毐計毐署
+        Translated term: 審計署
+
+English sentence: promoting capacity building in the banking sector through the development of a director empowerment programme for independent non-executive directors of banks to further improve the governance of banks and collaboration with the industry to promote enhanced competency frameworks for banking practitioners engaged in core areas of banking operations;
+        English term: director empowerment programme
+        Traditional Chinese translation: 促進銀行業提升水平，包括透過制定銀行獨立非執行董事專業能力計劃進一步加強銀行管治，並與業界合作推動從事銀行核心範疇業務的從業員的優化專業架構；
+        Translated term: 銀行獨立非執行董事專業能力計劃
+
+English sentence: # Interest rate trends
+        English term: interest rate
+        Traditional Chinese translation: # 利率走勢
+        Translated term: 利率
+
+English sentence: Chart 7 HIBOR fixings, composite rate and best lending rate (BLR)
+Notes:
+1. HiBoR fixings refer to the Hong Kong Dollar interest Settlement Rates released by the Hong Kong Association of Banks and are monthly averages.
+        English term: HIBOR
+        Traditional Chinese translation: 圖7 香港銀行同業拆息、綜合利率及最優惠貸款利率
+註：
+1. 香港銀行同業拆息指香港銀行公會所公布的港元利息結算
+利率，為每月平均數。
+        Translated term: 香港銀行同業拆息
+
+English sentence: # Corporate Functions
+        English term: corporate functions
+        Traditional Chinese translation: # 機構職能
+        Translated term: 機構職能
+
+English sentence: The Exchange Fund’s primary objective, as laid down in the Exchange Fund Ordinance, is to affect, either directly or indirectly, the exchange value of the currency of Hong Kong. The Fund may also be used to maintain the stability and integrity of Hong Kong’s monetary and financial systems to help maintain Hong Kong as an international financial centre. The Exchange Fund is under the control of the Financial Secretary and may be invested in any securities or other assets he considers appropriate, after consulting the Exchange Fund Advisory Committee (EFAC).
+        English term: monetary and financial system
+        Traditional Chinese translation: 根據《外匯基金條例》，外匯基金的首要目的是直接或間接影響港元匯價，亦可運用於保持香港貨幣及金融體系穩定健全，藉此保持香港作為國際金融中心的地位。外匯基金由財政司司長掌有控制權，並投資於其經諮詢外匯基金諮詢委員會後認為合適的證券或其他資產。
+        Translated term: 貨幣及金融體系
+

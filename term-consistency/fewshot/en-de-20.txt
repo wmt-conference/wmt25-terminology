@@ -1,0 +1,106 @@
+You are a professional English-German translator, teaching the students the course on technical translation. You are checking a student's  translation of a sentence that contains a technical term. You are given an English term (it can be a word or an expression), a source English sentence containing this term (it may be cased differently or contain additional punctuation), and a student's German translation. You need to find how the student has translated the term in question in German, and return only that term.
+
+    Important: do not change the translated term anyhow, copy it straight from the sentence! 
+
+    When completing the task, follow the examples below:
+
+English sentence: Cohorts Custom Fields
+        English term: cohort
+        German translation: Lerngruppen: Benutzerdefinierte Felder
+        Translated term: Lerngruppen
+
+English sentence: The position is displayed.
+        English term: position
+        German translation: Der Bestand wird angezeigt.
+        Translated term: Bestand
+
+English sentence: Sent to Interface
+        English term: interface
+        German translation: An Schnittstelle gesendet
+        Translated term: Schnittstelle
+
+English sentence: Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.
+        English term: line of business
+        German translation: Bei Spaces handelt es sich um Umgebungen, die Datenmodelle, Verbindungen und Rechen- und Speicherressourcen für einen bestimmten Geschäftsbereich oder einen spezifischen Anwendungsfall zusammenführen.
+        Translated term: Geschäftsbereich
+
+English sentence: Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.
+        English term: storage
+        German translation: Bei Spaces handelt es sich um Umgebungen, die Datenmodelle, Verbindungen und Rechen- und Speicherressourcen für einen bestimmten Geschäftsbereich oder einen spezifischen Anwendungsfall zusammenführen.
+        Translated term: Speicherressourcen
+
+English sentence: You can select an existing input parameter or create a new one.
+        English term: create
+        German translation: Sie können einen vorhandenen Eingabeparameter auswählen oder einen neuen erstellen.
+        Translated term: erstellen
+
+English sentence: [if Enable Compound Triggers = false] Triggers Record Primary Keys Only
+        English term: trigger
+        German translation: [wenn Zusammengesetzte Auslöser aktivieren = falsch] Löst nur Primärschlüssel für Datensätze aus
+        Translated term: Auslöser
+
+English sentence: Relationships to other legal transactions
+        English term: relationship
+        German translation: Verknüpfungen mit anderen Rechtsvorgängen
+        Translated term: Verknüpfungen
+
+English sentence: Sensitive personal data
+        English term: personal data
+        German translation: Sensible personenbezogenen Daten
+        Translated term: personenbezogenen Daten
+
+English sentence: Certificate audit results.
+        English term: audit
+        German translation: Ergebnisse des Zertifikataudits.
+        Translated term: Zertifikataudits
+
+English sentence: Product feature is
+        English term: feature
+        German translation: Das Produktmerkmal ist
+        Translated term: Produktmerkmal
+
+English sentence: About Installation and Update
+        English term: update
+        German translation: Installation und Aktualisierung
+        Translated term: Aktualisierung
+
+English sentence: On choosing the Explode BOM button, the Selection Criteria for BOM Explosion dialog box appears.
+        English term: selection
+        German translation: Wenn Sie die Drucktaste Stückliste auflösen wählen, gelangen Sie auf das Dialogfenster Selektionskriterien für Stücklistenauflösung.
+        Translated term: Selektionskriterien
+
+English sentence: Select one of the tiles or items:
+        English term: item
+        German translation: Wählen Sie eine der folgenden Kacheln oder Elemente aus:
+        Translated term: Elemente
+
+English sentence: Executing the Job:
+        English term: job
+        German translation: Ausführen des Auftrags:
+        Translated term: Auftrags
+
+English sentence: Assign data collectors to purposes.
+        English term: data collector
+        German translation: Ordnen Sie den Zwecken Datensammler zu.
+        Translated term: Datensammler
+
+English sentence: Available capacity for work center
+        English term: available capacity
+        German translation: Verfügbare Kapazität für den Arbeitsplatz
+        Translated term: Verfügbare Kapazität
+
+English sentence: Your role determines what you can do with a schedule.
+        English term: schedule
+        German translation: Ihre Rolle legt fest, was Sie mit einem Terminplan tun können.
+        Translated term: Terminplan
+
+English sentence: As a data provider, you decide on the pricing model for a data products: a data product can be either free of charge or require the purchase of a license at a certain cost.
+        English term: data provider
+        German translation: Als Datenprovider legen Sie das Preismodell für ein Datenprodukt fest: Ein Datenprodukt kann entweder kostenlos sein oder den Kauf einer Lizenz zu einem bestimmten Preis erfordern.
+        Translated term: Datenprovider
+
+English sentence: The data product is still available in the provider's data product list.
+        English term: provider
+        German translation: Das Datenprodukt ist weiterhin in der Datenproduktliste des Providers verfügbar.
+        Translated term: Providers
+
