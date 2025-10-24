@@ -15,6 +15,7 @@ Here you can find the metric for the term consistency evaluation and its results
     * scripts:
       * [`script_track1.py`](script_track1.py): run the following command: `python3 -m script_track1.py -s {source_lang} -t {target_lang} -m {terminology_mode}`
       * [`script_track2.py`](script_track2.py): run the following command: `python3 -m script_track2.py -s {source_lang} -t {target_lang} -m {terminology_mode}`
+    * auxiliary files: [`fewshot`](fewshot) - 20-shot prompts for ChatGPT-based term alignment
   * files for track 2 should be firstly tailored to the track1 format. The necessary codes are below:
     * main module: [`docpreprocessor.py`](docpreprocessor.py)
     * notebook with running the code: [`track2-sent-alignment.ipynb`](track2-sent-alignment.ipynb)

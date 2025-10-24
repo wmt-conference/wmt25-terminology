@@ -166,7 +166,8 @@ class TermBasedMetric():
         Current implementation is tailored for the WMT25 format (for languages in question, LLMs+post-filtering worked best),
         alternatives (like fast-align or awesome-align) are not implemented.
 
-        IMPORTANT: the LLM method requires the few-shot prompt file specified by 'lang_src-lang_tgt-20.txt', otherwise raises IOError!
+        IMPORTANT: the LLM method requires the few-shot prompt file specified by 'lang_src-lang_tgt-20.txt' in 'fewshot' folder,
+                   otherwise raises IOError!
 
         :param test: bool  (default True), takes only last 50 rows from the bitext DataFrame for alignment.
 
@@ -182,6 +183,7 @@ class TermBasedMetric():
 
 
         if self.aligner == 'llm':
+            # TODO: generalize the fewshot path
             with open(f'fewshot/{self.lang_src}-{self.lang_tgt}-20.txt', 'r', encoding='utf-8') as f:
                 fewshots_prompt = f.read()
             self.bitext_df['alg_terms'], self.bitext_df['over_aligned'] = zip(*self.bitext_df.apply(lambda row: self._llm_align_one_segment(row.src_raw, row.src_terms, row.mt_raw, fewshots_prompt, row.terms), axis=1))
