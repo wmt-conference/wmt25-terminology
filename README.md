@@ -6,7 +6,7 @@ This repository accompanies the WMT25 Terminology Shared Task.
 All materials in this repository are licensed under the CC BY-NC 4.0 [license](LICENSE.txt).
 
 ## Report
-_This chapter is being updated..._ (drum roll sound please)
+You can find the whole description of the data, systems, metrics and results [here](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.30.pdf)!
 
 ## Data
 
@@ -15,7 +15,9 @@ _This chapter is being updated..._ (drum roll sound please)
 
 ## Evaluation
 
-_This chapter is being updated..._
+- the codes for metrics can be found in:
+  - [ranking/metric_track1](ranking/metric_track1) and [ranking/metric_track2](ranking/metric_track2) folders (main evaluation: general quality X term success rate)
+  - [term-consistency](term-consistency) folder (for terminology consistency metric)
 
 The table shows results for **three modes of terminology**: `Proper`, `Random` and `NoTerm` for proper, random terms or no terms at all.
 
