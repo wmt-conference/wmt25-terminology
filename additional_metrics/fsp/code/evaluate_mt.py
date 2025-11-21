@@ -369,8 +369,8 @@ def main():
                        help='Number of sentences per segment')
     parser.add_argument('--model', default='gpt-4o', 
                        help='Model to use (OpenAI: gpt-4o, gpt-4, etc. | Cohere: command-a-03-2025, etc.)')
-    parser.add_argument('--base-url', default='https://api.qingyuntop.top/v1',
-                       help='OpenAI API base URL (default: https://api.qingyuntop.top/v1, ignored for Cohere models)')
+    parser.add_argument('--base-url', default='https://api.openai.com/v1',
+                       help='OpenAI API base URL (default: https://api.openai.com/v1, ignored for Cohere models)')
     parser.add_argument('--template-path', default='templates/fsp_judge_v1.jinja',
                        help='Path to judge template')
     parser.add_argument('--temperature', type=float, default=0.0,
