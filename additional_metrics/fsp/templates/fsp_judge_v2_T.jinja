@@ -1,0 +1,97 @@
+You are an annotator for the quality of machine translation. Your task is to identify errors and assess the quality of the translation using MQM. Based on the source text (in <source></source> tags) and the machine translation (surrounded by <translation></translation> tags), identify error types in the translation and classify them.
+
+The categories of errors are:
+- accuracy (addition, mistranslation, omission, untranslated text, wrong language)
+- fluency (character encoding, grammar, inconsistency, punctuation, register, spelling)
+- style (awkward phrasing)
+- terminology (see subcategories below)
+- other
+
+Each error, including omissions or untranslated content, is classified as one of three categories:
+- Critical: Errors that make the text incomprehensible or misleading.
+- Major: Errors that disrupt flow or distort meaning, but the text is still understandable.
+- Minor: Errors that do not affect comprehension but are grammatically, stylistically, or formally incorrect.
+
+The source text must be fully covered, and any omissions should be annotated as errors.
+If the error is an omission (missing translation), set "error_span": "" and describe the missing content in "explanation".
+Only include spans with errors; exclude correct text.
+
+You will be given a full document and its translations. Only score the sentence in <target_segment></target_segment>, but use the rest of the document for context. Consistency issues may be flagged per segment, even if similar issues are repeated in other segments.
+
+Terminology use (if <terminology> is provided; it will be a dictionary and may be empty `{}`):
+- Treat <terminology> as a useful reference, not an absolute rule. Prefer its entries when appropriate, but do not penalize natural, domain-correct alternatives.
+- Ignore very minor variations such as capitalization, plural/singular, or the presence/absence of articles (“a,” “the”) unless they clearly change the meaning and/or cause translation errors.
+- If an entry in <terminology> seems implausible or clearly incorrect in context, do not enforce it.
+- Terminology error subcategories:
+  • terminology_mismatch: a correct entry exists in <terminology> for the context, but the translation uses a meaningfully different wording that diverges from the provided or established term.
+  • terminology_omitted: a source term with a required translation is left untranslated.
+
+
+Please respond in JSON following this schema:
+{
+  "type": "object",
+  "properties": {
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "error_span": {
+            "type": "string",
+            "description": "The portion of the translation containing the error. If the error is an omission, use an empty string."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "A brief explanation of the error and its impact; reference document context and/or <terminology> only if necessary."
+          },
+          "error_category": {
+            "type": "string",
+            "enum": ["accuracy", "fluency", "style", "terminology", "other"],
+            "description": "The main category of the error."
+          },
+          "error_type": {
+            "type": "string",
+            "description": "The specific type of error (e.g., omission, mistranslation, punctuation, terminology_mismatch, terminology_omitted)."
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["critical", "major", "minor"],
+            "description": "Critical: incomprehensible or misleading. Major: distorts meaning but understandable. Minor: does not affect comprehension but is incorrect."
+          }
+        },
+        "required": ["error_span", "explanation", "error_category", "error_type", "severity"]
+      }
+    },
+    "quality_score": {
+      "type": "integer",
+      "description": "Overall quality score of the translation for the target segment. Use any integer between 0 and 100. Guidance: 0 = No meaning preserved, nearly all information is lost. 33 = Some meaning preserved but significant parts are missing or garbled; hard to follow. 66 = Most meaning preserved, with only minor grammar/fluency issues; understandable overall. 100 = Perfect meaning and grammar, fluent and natural."
+    }
+  },
+  "required": ["errors", "quality_score"]
+}
+
+Please score the following input:
+<input>
+<source_language>
+{{ src_lang }}
+</source_language>
+<source>
+{{ src }}
+</source>
+<target_language>
+{{ tgt_lang }}
+</target_language>
+<translation>
+{{ output_seq }}
+</translation>
+<target_segment>
+{{ target_segment }}
+</target_segment>
+<terminology>
+{{ terminology_dict }}
+</terminology>
+</input>
+
+Output requirements:
+- Respond with valid JSON only (no text before or after the JSON).
+- Produce strings as plain text without Markdown formatting.
