@@ -1,9 +1,10 @@
-# FSP: Focus Sentence Prompting for MT Evaluation
+# FSP: Focus Sentence Prompting for document-level MT Evaluation
 
 FSP (Focus Sentence Prompting) is an LLM-as-a-Judge system for evaluating machine translation using the MQM framework. It uses large language models to perform segment-level MQM evaluation while preserving full document context, enabling more accurate long-form translation assessment.
 
 FSP is based on the technique introduced in the paper ["Same evaluation, more tokens: On the effect of input length for machine translation evaluation using Large Language Models"](https://arxiv.org/pdf/2505.01761).
 
+> 💡 FSP is a general-purpose document-level MT evaluation metric. Beyond the terminology-focused document-level tasks we evaluate in this work, it is broadly applicable to general document-level MT evaluation. Feel free to use it for your document-level evaluation tasks! 🚀
 
 ## Installation
 
