@@ -1,0 +1,1 @@
+Track 2 submission data is available at [LINK](https://github.com/wmt-conference/wmt25-terminology/tree/main/ranking/submissions/track2). To test FSP, you can copy the data from there to this location.
